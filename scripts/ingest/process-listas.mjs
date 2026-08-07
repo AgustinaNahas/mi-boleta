@@ -1,0 +1,606 @@
+#!/usr/bin/env node
+/**
+ * Genera processed de listas/electos (piloto CABA + Buenos Aires).
+ * Generales 2023 + 2025 desde Excel CNE.
+ */
+import fs from "node:fs";
+import path from "node:path";
+import XLSX from "xlsx";
+import {
+  nameKeyFromParts,
+  normalizeName,
+  processedDir,
+  rawDir,
+  slugify,
+  writeCsv,
+  writeJson,
+} from "./lib.mjs";
+
+const PILOT_DISTRICTS = new Set(["CABA", "Buenos Aires"]);
+
+const ELECTION_SPECS = [
+  {
+    id: "diputados-2023",
+    year: "2023",
+    type: "general",
+    cargo: "diputados",
+    date: "2023-10-22",
+    label: "Diputados nacionales · Generales 2023",
+    xlsx: "candidaturas-2023.xlsx",
+    mandatoYear: "2023",
+  },
+  {
+    id: "diputados-2025",
+    year: "2025",
+    type: "general",
+    cargo: "diputados",
+    date: "2025-10-26",
+    label: "Diputados nacionales · Generales 2025",
+    xlsx: "candidaturas-2025.xlsx",
+    mandatoYear: "2025",
+  },
+];
+
+function districtCanonical(value) {
+  const n = normalizeName(value);
+  if (!n) return "";
+  if (
+    n.includes("capital federal") ||
+    n.includes("ciudad de buenos aires") ||
+    n.includes("ciudad autonoma de buenos aires") ||
+    n === "caba"
+  ) {
+    return "CABA";
+  }
+  if (n === "buenos aires" || n.includes("provincia de buenos aires")) {
+    return "Buenos Aires";
+  }
+  return String(value).trim();
+}
+
+function allianceDisplay(ap) {
+  return String(ap ?? "")
+    .replace(/^ALIANZA\s+/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function parseHcdnComposition() {
+  const csvPath = path.join(rawDir, "hcdn", "composicion-actual.csv");
+  if (!fs.existsSync(csvPath)) return [];
+  const text = fs.readFileSync(csvPath, "utf8");
+  const lines = text.trim().split(/\r?\n/);
+  const headers = splitCsvLine(lines[0]).map((h) =>
+    h.replaceAll('"', "").trim().toUpperCase(),
+  );
+  return lines.slice(1).map((line) => {
+    const cols = splitCsvLine(line).map((c) => c.replaceAll('"', "").trim());
+    const row = {};
+    headers.forEach((h, i) => {
+      row[h] = cols[i] ?? "";
+    });
+    return row;
+  });
+}
+
+function splitCsvLine(line) {
+  const out = [];
+  let cur = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      if (inQuotes && line[i + 1] === '"') {
+        cur += '"';
+        i++;
+      } else inQuotes = !inQuotes;
+    } else if (ch === "," && !inQuotes) {
+      out.push(cur);
+      cur = "";
+    } else cur += ch;
+  }
+  out.push(cur);
+  return out;
+}
+
+function loadLegislators() {
+  const p = path.join(processedDir, "legislators.csv");
+  if (!fs.existsSync(p)) return [];
+  const text = fs.readFileSync(p, "utf8");
+  const lines = text.trim().split(/\r?\n/);
+  const headers = lines[0].split(",");
+  return lines.slice(1).map((line) => {
+    const cols = splitCsvLine(line);
+    const row = {};
+    headers.forEach((h, i) => {
+      row[h] = (cols[i] ?? "").replaceAll('"', "");
+    });
+    return row;
+  });
+}
+
+function nameTokens(value) {
+  return normalizeName(value)
+    .replace(/["“”']/g, " ")
+    .split(" ")
+    .filter((t) => t && t !== "de" && t !== "del" && t !== "la" && t !== "los");
+}
+
+function scoreNameOverlap(electoNombre, candNombres) {
+  const e = nameTokens(electoNombre);
+  const c = new Set(nameTokens(candNombres));
+  if (!e.length || !c.size) return 0;
+  let hit = 0;
+  for (const t of e) {
+    if (c.has(t)) hit += 1;
+    else if ([...c].some((x) => x.startsWith(t) || t.startsWith(x))) hit += 0.5;
+  }
+  return hit / e.length;
+}
+
+function matchElectoToCandidate(electo, candidatesInDistrict) {
+  const electoKeys = new Set([
+    nameKeyFromParts(electo.apellido, electo.nombre),
+    normalizeName(`${electo.nombre} ${electo.apellido}`),
+  ]);
+
+  const scored = [];
+  for (const c of candidatesInDistrict) {
+    const candKeys = new Set([
+      nameKeyFromParts(c.apellido, c.nombres),
+      normalizeName(c.candidatura),
+      normalizeName(`${c.nombres} ${c.apellido}`),
+      nameKeyFromParts(
+        String(c.nombre).split(",")[0] ?? "",
+        String(c.nombre).split(",").slice(1).join(","),
+      ),
+    ]);
+    let best = 0;
+    for (const ek of electoKeys) {
+      for (const ck of candKeys) {
+        if (!ek || !ck) continue;
+        if (ek === ck) best = Math.max(best, 1);
+        else best = Math.max(best, scoreNameOverlap(ek, ck));
+      }
+    }
+    if (normalizeName(c.apellido) === normalizeName(electo.apellido)) {
+      best = Math.max(best, scoreNameOverlap(electo.nombre, c.nombres));
+      best = Math.max(best, scoreNameOverlap(electo.nombre, c.candidatura));
+    }
+    if (best > 0) scored.push({ c, score: best });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  if (!scored.length) return { confidence: "none", candidate: null };
+  if (scored[0].score >= 0.99) {
+    return { confidence: "exact", candidate: scored[0].c };
+  }
+  if (
+    scored[0].score >= 0.6 &&
+    (scored.length === 1 || scored[0].score - (scored[1]?.score ?? 0) >= 0.15)
+  ) {
+    return { confidence: "fuzzy", candidate: scored[0].c };
+  }
+  return {
+    confidence: "none",
+    candidate: null,
+    candidates: scored.slice(0, 3).map((s) => ({
+      id: s.c.id,
+      nombre: s.c.nombre,
+      score: s.score,
+    })),
+  };
+}
+
+function formatCandidatura(candidatura) {
+  const parts = String(candidatura).trim().split(/\s+/).filter(Boolean);
+  if (parts.length < 2) return candidatura.trim();
+  const apellido = parts[parts.length - 1];
+  const nombres = parts.slice(0, -1).join(" ");
+  return `${apellido}, ${nombres}`;
+}
+
+function rowGet(row, ...names) {
+  for (const name of names) {
+    if (row[name] != null && String(row[name]).trim() !== "") return row[name];
+  }
+  // trailing-space / case variants
+  const keys = Object.keys(row);
+  for (const name of names) {
+    const found = keys.find(
+      (k) => normalizeName(k) === normalizeName(name),
+    );
+    if (found && String(row[found]).trim() !== "") return row[found];
+  }
+  return "";
+}
+
+function loadCneGenerales(xlsxName) {
+  const xlsxPath = path.join(rawDir, "cne", xlsxName);
+  if (!fs.existsSync(xlsxPath)) {
+    console.warn(`  skip: falta ${xlsxPath}`);
+    return [];
+  }
+  const wb = XLSX.readFile(xlsxPath);
+  const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], {
+    defval: "",
+  });
+  return rows.filter((r) => {
+    const dist = districtCanonical(rowGet(r, "Distrito"));
+    const eleccion = String(rowGet(r, "Elección", "Eleccion"));
+    const estado = String(rowGet(r, "Estado"));
+    const cargo = String(rowGet(r, "Cargo"));
+    const sub = String(rowGet(r, "Subcategoria Cargo"));
+    const isGeneral = /GENERAL/i.test(eleccion);
+    const isDip = /DIPUTAD/i.test(cargo);
+    const isTitular = /titular/i.test(sub);
+    const estadoOk = !estado || /APROBADA/i.test(estado);
+    return (
+      PILOT_DISTRICTS.has(dist) &&
+      isGeneral &&
+      isDip &&
+      isTitular &&
+      estadoOk
+    );
+  });
+}
+
+function toIsoDate(dmy) {
+  const m = String(dmy ?? "").match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+  if (!m) return "";
+  return `${m[3]}-${m[2]}-${m[1]}`;
+}
+
+function main() {
+  console.log("[ingest:process-listas] start");
+
+  const districts = [
+    { id: "CABA", name: "CABA" },
+    { id: "Buenos Aires", name: "Buenos Aires" },
+  ];
+
+  /** @type {Map<string, object>} */
+  const listsByKey = new Map();
+  const candidates = [];
+  const elections = [];
+
+  for (const spec of ELECTION_SPECS) {
+    const raw = loadCneGenerales(spec.xlsx);
+    const ready = raw.length > 0;
+    elections.push({
+      id: spec.id,
+      year: spec.year,
+      type: spec.type,
+      cargo: spec.cargo,
+      date: spec.date,
+      label: spec.label,
+      status: ready ? "ready" : "pending_source",
+      note: ready
+        ? ""
+        : `Falta data/raw/cne/${spec.xlsx}`,
+    });
+    if (!ready) {
+      console.warn(`  ${spec.id}: sin filas`);
+      continue;
+    }
+    console.log(`  ${spec.id}: ${raw.length} titulares piloto`);
+
+    for (const r of raw) {
+      const district = districtCanonical(rowGet(r, "Distrito"));
+      const alliance = allianceDisplay(rowGet(r, "AP"));
+      const listKey = `${district}|${spec.year}|${normalizeName(alliance)}`;
+      if (!listsByKey.has(listKey)) {
+        const listId =
+          `${spec.year}-${slugify(district)}-${slugify(alliance)}`.slice(
+            0,
+            120,
+          );
+        listsByKey.set(listKey, {
+          id: listId,
+          election_id: spec.id,
+          district_id: district,
+          alliance,
+          alliance_code: String(rowGet(r, "Codigo AP") ?? ""),
+          name: alliance,
+        });
+      }
+      const list = listsByKey.get(listKey);
+      const order = Number(rowGet(r, "Posicion")) || 0;
+      const candidateId = `${list.id}-${String(order).padStart(2, "0")}`;
+      const apellido = String(rowGet(r, "Apellido")).trim();
+      const nombres = String(rowGet(r, "Nombres")).trim();
+      const candidatura = String(
+        rowGet(r, "Candidatura", "Precandidatura/candidatura"),
+      ).trim();
+      const display = candidatura
+        ? formatCandidatura(candidatura)
+        : `${apellido}, ${nombres}`.replace(/\s+/g, " ").trim();
+      candidates.push({
+        id: candidateId,
+        list_id: list.id,
+        election_id: spec.id,
+        district_id: district,
+        order: String(order),
+        apellido,
+        nombres,
+        candidatura,
+        nombre: display,
+        dni: String(rowGet(r, "DNI")),
+        genero: String(rowGet(r, "Genero")),
+      });
+    }
+  }
+
+  const lists = [...listsByKey.values()].sort((a, b) =>
+    `${a.election_id}-${a.district_id}-${a.alliance}`.localeCompare(
+      `${b.election_id}-${b.district_id}-${b.alliance}`,
+      "es",
+    ),
+  );
+
+  const hcdn = parseHcdnComposition();
+  const legislators = loadLegislators();
+  const legislatorByKey = new Map();
+  for (const leg of legislators) {
+    const parts = String(leg.nombre).split(",");
+    legislatorByKey.set(
+      nameKeyFromParts(parts[0] ?? "", parts.slice(1).join(",")),
+      leg,
+    );
+  }
+
+  const candidatesByElectionDistrict = new Map();
+  for (const c of candidates) {
+    const key = `${c.election_id}|${c.district_id}`;
+    if (!candidatesByElectionDistrict.has(key)) {
+      candidatesByElectionDistrict.set(key, []);
+    }
+    candidatesByElectionDistrict.get(key).push(c);
+  }
+
+  const seats = [];
+  const review = [];
+  const matchStats = {};
+
+  for (const spec of ELECTION_SPECS) {
+    if (!elections.find((e) => e.id === spec.id && e.status === "ready")) {
+      continue;
+    }
+    const electos = hcdn
+      .filter((r) => String(r.MANDATO).includes(spec.mandatoYear))
+      .map((r) => ({
+        apellido: r.APELLIDO,
+        nombre: r.NOMBRE,
+        distrito: districtCanonical(r.DISTRITO),
+        mandato: r.MANDATO,
+        inicio: r.FECHA_DE_INICIO,
+        bloque: r.BLOQUE,
+      }))
+      .filter((e) => PILOT_DISTRICTS.has(e.distrito));
+
+    let matched = 0;
+    for (const e of electos) {
+      const pool =
+        candidatesByElectionDistrict.get(`${spec.id}|${e.distrito}`) ?? [];
+      const match = matchElectoToCandidate(e, pool);
+      const legKey = nameKeyFromParts(e.apellido, e.nombre);
+      let legislator = legislatorByKey.get(legKey);
+      if (!legislator && match.candidate) {
+        legislator = legislatorByKey.get(
+          nameKeyFromParts(match.candidate.apellido, match.candidate.nombres),
+        );
+      }
+      if (!legislator) {
+        const ape = normalizeName(e.apellido);
+        const hits = legislators.filter(
+          (l) =>
+            districtCanonical(l.distrito) === e.distrito &&
+            normalizeName(String(l.nombre).split(",")[0]) === ape,
+        );
+        if (hits.length === 1) legislator = hits[0];
+      }
+
+      if (match.candidate && match.confidence !== "none") {
+        matched += 1;
+        seats.push({
+          candidate_id: match.candidate.id,
+          list_id: match.candidate.list_id,
+          election_id: spec.id,
+          district_id: e.distrito,
+          legislator_id: legislator?.id ?? "",
+          match_confidence: match.confidence,
+          mandato: e.mandato,
+          mandato_inicio: toIsoDate(e.inicio),
+          bloque_hcdn: e.bloque,
+          electo_nombre: `${e.apellido}, ${e.nombre}`,
+        });
+        if (!legislator) {
+          review.push({
+            type: "electo_sin_legislator_id",
+            district: e.distrito,
+            electo: `${e.apellido}, ${e.nombre}`,
+            candidate_id: match.candidate.id,
+            candidate: match.candidate.nombre,
+            confidence: match.confidence,
+            mandato: e.mandato,
+            note: `${spec.id}: matcheó boleta pero no legislators.csv`,
+          });
+        }
+      } else {
+        review.push({
+          type: "electo_sin_candidato",
+          district: e.distrito,
+          electo: `${e.apellido}, ${e.nombre}`,
+          bloque: e.bloque,
+          mandato: e.mandato,
+          candidates_considered: JSON.stringify(match.candidates ?? []),
+          note: `${spec.id}: revisar aliases / nombre en boleta`,
+        });
+      }
+    }
+    matchStats[spec.id] = {
+      electos: electos.length,
+      matched,
+      rate:
+        electos.length === 0
+          ? null
+          : Number((matched / electos.length).toFixed(3)),
+    };
+  }
+
+  const aliasesPath = path.join(processedDir, "aliases.csv");
+  let aliases = [];
+  if (fs.existsSync(aliasesPath)) {
+    const text = fs.readFileSync(aliasesPath, "utf8").trim();
+    if (text) {
+      const lines = text.split(/\r?\n/);
+      const headers = lines[0].split(",");
+      aliases = lines.slice(1).map((line) => {
+        const cols = splitCsvLine(line);
+        const row = {};
+        headers.forEach((h, i) => {
+          row[h] = (cols[i] ?? "").replaceAll('"', "");
+        });
+        return row;
+      });
+    }
+  }
+  if (!aliases.length) {
+    aliases = [
+      {
+        source_name: "",
+        target_legislator_id: "",
+        district: "",
+        note: "Completar filas para mismatches; ver match_review.csv",
+      },
+    ];
+  }
+
+  writeCsv(
+    path.join(processedDir, "elections.csv"),
+    ["id", "year", "type", "cargo", "date", "label", "status", "note"],
+    elections,
+  );
+  writeCsv(path.join(processedDir, "districts.csv"), ["id", "name"], districts);
+  writeCsv(
+    path.join(processedDir, "lists.csv"),
+    [
+      "id",
+      "election_id",
+      "district_id",
+      "alliance",
+      "alliance_code",
+      "name",
+    ],
+    lists,
+  );
+  writeCsv(
+    path.join(processedDir, "candidates.csv"),
+    [
+      "id",
+      "list_id",
+      "election_id",
+      "district_id",
+      "order",
+      "apellido",
+      "nombres",
+      "candidatura",
+      "nombre",
+      "dni",
+      "genero",
+    ],
+    candidates,
+  );
+  writeCsv(
+    path.join(processedDir, "seats.csv"),
+    [
+      "candidate_id",
+      "list_id",
+      "election_id",
+      "district_id",
+      "legislator_id",
+      "match_confidence",
+      "mandato",
+      "mandato_inicio",
+      "bloque_hcdn",
+      "electo_nombre",
+    ],
+    seats,
+  );
+  writeCsv(
+    path.join(processedDir, "aliases.csv"),
+    ["source_name", "target_legislator_id", "district", "note"],
+    aliases,
+  );
+  writeCsv(
+    path.join(processedDir, "match_review.csv"),
+    [
+      "type",
+      "district",
+      "electo",
+      "bloque",
+      "mandato",
+      "candidate_id",
+      "candidate",
+      "confidence",
+      "candidates_considered",
+      "note",
+    ],
+    review.map((r) => ({
+      bloque: "",
+      mandato: "",
+      candidate_id: "",
+      candidate: "",
+      confidence: "",
+      candidates_considered: "",
+      ...r,
+    })),
+  );
+
+  writeCsv(
+    path.join(processedDir, "candidates_with_seats.csv"),
+    [
+      "id",
+      "list_id",
+      "election_id",
+      "district_id",
+      "order",
+      "nombre",
+      "elected",
+      "legislator_id",
+      "match_confidence",
+      "mandato_inicio",
+    ],
+    candidates.map((c) => {
+      const seat = seats.find((s) => s.candidate_id === c.id);
+      return {
+        id: c.id,
+        list_id: c.list_id,
+        election_id: c.election_id,
+        district_id: c.district_id,
+        order: c.order,
+        nombre: c.nombre,
+        elected: seat ? "true" : "false",
+        legislator_id: seat?.legislator_id ?? "",
+        match_confidence: seat?.match_confidence ?? "",
+        mandato_inicio: seat?.mandato_inicio ?? "",
+      };
+    }),
+  );
+
+  const summary = {
+    processedAt: new Date().toISOString(),
+    elections: elections.map((e) => ({
+      id: e.id,
+      status: e.status,
+      ...(matchStats[e.id] ?? {}),
+    })),
+    lists: lists.length,
+    candidates: candidates.length,
+    seatsMatched: seats.length,
+    reviewRows: review.length,
+  };
+  writeJson(path.join(processedDir, "listas_ingest_summary.json"), summary);
+  console.log("[ingest:process-listas]", JSON.stringify(summary, null, 2));
+}
+
+main();

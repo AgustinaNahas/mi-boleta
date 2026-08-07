@@ -1,0 +1,5 @@
+node_modules
+.next
+out
+data/raw
+package-lock.json

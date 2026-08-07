@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ley-bases-sancion-2024",
+    "title": "Ley Bases (sanción definitiva)",
+    "summary": "Diputados aceptó las modificaciones del Senado al proyecto de Ley de Bases y Puntos de Partida para la Libertad de los Argentinos, y le dio sanción definitiva.",
+    "date": "2024-06-28",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5272",
+    "actaId": "5272",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "paquete-fiscal-sancion-2024",
+    "title": "Paquete fiscal (sanción)",
+    "summary": "Se aceptaron las modificaciones del Senado al proyecto de Medidas Fiscales Paliativas y Relevantes, con sanción definitiva del paquete.",
+    "date": "2024-06-28",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5276",
+    "actaId": "5276",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "ganancias-insistencia-2024",
+    "title": "Impuesto a las Ganancias (insistencia)",
+    "summary": "Votación particular para insistir en la redacción del Título V (Impuesto a las Ganancias) del paquete fiscal, frente a cambios del Senado.",
+    "date": "2024-06-28",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5274",
+    "actaId": "5274",
+    "period": "142",
+    "voteType": "particular"
+  },
+  {
+    "id": "ficha-limpia-2025",
+    "title": "Ficha Limpia (media sanción)",
+    "summary": "Media sanción del proyecto de Ficha Limpia, que busca restringir candidaturas de personas con condenas penales firmes por ciertos delitos.",
+    "date": "2025-02-12",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5585",
+    "actaId": "5585",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "financiamiento-universitario-2024",
+    "title": "Financiamiento universitario (2024)",
+    "summary": "Media sanción del proyecto de financiamiento de universidades nacionales (dictamen de minoría 2, votación en general).",
+    "date": "2024-08-15",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5306",
+    "actaId": "5306",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "veto-universitario-2024",
+    "title": "Veto al financiamiento universitario (2024)",
+    "summary": "Tratamiento del veto presidencial a la ley de financiamiento universitario. La oposición no alcanzó los dos tercios para insistir.",
+    "date": "2024-10-09",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5400",
+    "actaId": "5400",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "financiamiento-universitario-2025",
+    "title": "Financiamiento universitario (2025)",
+    "summary": "Media sanción de la ley de financiamiento de la educación universitaria y recomposición del salario docente (votación en general).",
+    "date": "2025-08-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5702",
+    "actaId": "5702",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "garrahan-emergencia-2025",
+    "title": "Emergencia pediátrica / Garrahan (2025)",
+    "summary": "Media sanción del proyecto que declara la emergencia sanitaria de la salud pediátrica y de las residencias nacionales en salud.",
+    "date": "2025-08-07",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5706",
+    "actaId": "5706",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "veto-garrahan-2025",
+    "title": "Insistencia Ley Garrahan (veto)",
+    "summary": "Diputados insistió con la Ley 27.796 (emergencia pediátrica / Garrahan) rechazando el veto presidencial.",
+    "date": "2025-09-17",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5762",
+    "actaId": "5762",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "jubilaciones-incremento-2025",
+    "title": "Incremento de emergencia a jubilaciones",
+    "summary": "Media sanción del proyecto de incremento excepcional y de emergencia para jubilaciones y pensiones abonadas por la ANSES (votación en general).",
+    "date": "2025-06-04",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5655",
+    "actaId": "5655",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "moratoria-previsional-2025",
+    "title": "Moratoria previsional (prórroga)",
+    "summary": "Media sanción sobre el plan de pago de deuda previsional y normas vinculadas a jubilados y pensionados (votación en general y particular).",
+    "date": "2025-06-04",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5660",
+    "actaId": "5660",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "emergencia-discapacidad-2025",
+    "title": "Emergencia en discapacidad",
+    "summary": "Media sanción del proyecto que declara la emergencia en discapacidad en todo el territorio nacional (votación en general).",
+    "date": "2025-06-04",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5667",
+    "actaId": "5667",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "regimen-dnu-2025",
+    "title": "Régimen de DNUs (Ley 26.122)",
+    "summary": "Votación en general sobre la modificación del régimen legal de los decretos de necesidad y urgencia, delegación legislativa y promulgación parcial.",
+    "date": "2025-10-08",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5774",
+    "actaId": "5774",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "ludopatia-2024",
+    "title": "Prevención de ludopatía y apuestas en línea",
+    "summary": "Votación en general del proyecto de prevención de ludopatía y regulación de juegos de azar y apuestas en línea.",
+    "date": "2024-11-27",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5484",
+    "actaId": "5484",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "presupuesto-2026",
+    "title": "Presupuesto 2026 (votación en general)",
+    "summary": "Votación en general del Presupuesto General de la Administración Nacional para el ejercicio 2026.",
+    "date": "2025-12-18",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5822",
+    "actaId": "5822",
+    "period": "143",
+    "voteType": "general"
+  }
+]

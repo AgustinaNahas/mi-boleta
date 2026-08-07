@@ -1,0 +1,43 @@
+{
+  "name": "mi-boleta",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:pages": "NEXT_PUBLIC_BASE_PATH=/mi-boleta next build",
+    "start": "next start",
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "ingest": "node scripts/ingest/index.mjs",
+    "ingest:download": "node scripts/ingest/download.mjs",
+    "ingest:process": "node scripts/ingest/process.mjs",
+    "ingest:download-listas": "node scripts/ingest/download-listas.mjs",
+    "ingest:process-listas": "node scripts/ingest/process-listas.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.30.0",
+    "next": "16.3.0",
+    "next-themes": "^0.4.6",
+    "papaparse": "^5.5.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

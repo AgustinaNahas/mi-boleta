@@ -1,0 +1,935 @@
+id,list_id,election_id,district_id,order,apellido,nombres,candidatura,nombre,dni,genero
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-01,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,1,DEL CORRO,PATRICIO,PATRICIO DEL CORRO,"CORRO, PATRICIO DEL",30306197,M
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-02,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,2,DE MENDIETA,MARIA DE LAS MERCEDES,MARIA DE LAS MERCEDES DE MENDIETA,"MENDIETA, MARIA DE LAS MERCEDES DE",32737299,F
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-03,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,3,ALMEIDA,PABLO FERNANDO,PABLO FERNANDO ALMEIDA,"ALMEIDA, PABLO FERNANDO",23377078,M
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-04,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,4,SULLE,MARIA LUISA,MARIA LUISA SULLE,"SULLE, MARIA LUISA",13492284,F
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-05,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,5,BRAT,MARTIN,MARTIN BRAT,"BRAT, MARTIN",29371398,M
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-06,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,6,CHAVES,MARIA AGUSTINA,MARIA AGUSTINA CHAVES,"CHAVES, MARIA AGUSTINA",29432056,F
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-07,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,7,CANTERO,JEREMIAS ADRIAN,JEREMIAS ADRIAN CANTERO,"CANTERO, JEREMIAS ADRIAN",34930085,M
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-08,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,8,MARRONE,LAURA ENDA,LAURA ENDA MARRONE,"MARRONE, LAURA ENDA",10545232,F
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-09,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,9,SARTORE,PABLO DANIEL CARLOS,PABLO DANIEL CARLOS SARTORE,"SARTORE, PABLO DANIEL CARLOS",12472502,M
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-10,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,10,CABRERA,JULIANA,JULIANA CABRERA,"CABRERA, JULIANA",32850058,F
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-11,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,11,MONTENEGRO,PABLO HERNAN,PABLO HERNAN MONTENEGRO,"MONTENEGRO, PABLO HERNAN",29249802,M
+2023-caba-frente-de-izquierda-y-de-trabajadores-unidad-12,2023-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,CABA,12,ACEVEDO,BARBARA IVONNE,BARBARA IVONNE ACEVEDO,"ACEVEDO, BARBARA IVONNE",29076646,F
+2023-buenos-aires-juntos-por-el-cambio-01,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,1,RITONDO,CRISTIAN ADRIÁN,CRISTIAN ADRIÁN RITONDO,"RITONDO, CRISTIAN ADRIÁN",17856203,M
+2023-buenos-aires-juntos-por-el-cambio-02,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,2,BANFI,KARINA VERONICA,KARINA VERONICA BANFI,"BANFI, KARINA VERONICA",22507446,F
+2023-buenos-aires-juntos-por-el-cambio-03,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,3,PICHETTO,MIGUEL ANGEL,MIGUEL ANGEL PICHETTO,"PICHETTO, MIGUEL ANGEL",8482440,M
+2023-buenos-aires-juntos-por-el-cambio-04,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,4,LOSPENNATO,SILVIA GABRIELA,SILVIA GABRIELA LOSPENNATO,"LOSPENNATO, SILVIA GABRIELA",26119155,F
+2023-buenos-aires-juntos-por-el-cambio-05,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,5,MASSOT,NICOLÁS MARÍA,NICOLÁS MARÍA MASSOT,"MASSOT, NICOLÁS MARÍA",31089595,M
+2023-buenos-aires-juntos-por-el-cambio-06,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,6,VASQUEZ,PATRICIA MARIA,PATRICIA MARIA VASQUEZ,"VASQUEZ, PATRICIA MARIA",12046648,F
+2023-buenos-aires-juntos-por-el-cambio-07,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,7,JULIANO,PABLO ADRIAN,PABLO ADRIAN JULIANO,"JULIANO, PABLO ADRIAN",33799758,M
+2023-buenos-aires-juntos-por-el-cambio-08,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,8,FRADE,MONICA EDITH,MONICA EDITH FRADE,"FRADE, MONICA EDITH",12759682,F
+2023-buenos-aires-juntos-por-el-cambio-09,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,9,YEZA,MARTIN IVAN,MARTIN IVAN YEZA,"YEZA, MARTIN IVAN",31977811,M
+2023-buenos-aires-juntos-por-el-cambio-10,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,10,PETROVICH,MARÍA LORENA,MARÍA LORENA PETROVICH,"PETROVICH, MARÍA LORENA",27601732,F
+2023-buenos-aires-juntos-por-el-cambio-11,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,11,SUAREZ,FEDERICO LUIS,FEDERICO LUIS SUAREZ,"SUAREZ, FEDERICO LUIS",26572614,M
+2023-buenos-aires-juntos-por-el-cambio-12,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,12,STILMAN,MARIANA,MARIANA STILMAN,"STILMAN, MARIANA",24913611,F
+2023-buenos-aires-juntos-por-el-cambio-13,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,13,SALVADOR,SEBASTIAN NICOLAS,SEBASTIAN NICOLAS SALVADOR,"SALVADOR, SEBASTIAN NICOLAS",26205487,M
+2023-buenos-aires-juntos-por-el-cambio-14,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,14,BECCAR VARELA,FELICITAS,FELICITAS BECCAR VARELA,"VARELA, FELICITAS BECCAR",25540591,F
+2023-buenos-aires-juntos-por-el-cambio-15,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,15,GIRI,EMILIANO,EMILIANO GIRI,"GIRI, EMILIANO",23971316,M
+2023-buenos-aires-juntos-por-el-cambio-16,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,16,CORONEL,IVANA ANDREA,IVANA ANDREA CORONEL,"CORONEL, IVANA ANDREA",32924372,F
+2023-buenos-aires-juntos-por-el-cambio-17,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,17,ASSEFF,ALBERTO EMILIO,ALBERTO EMILIO ASSEFF,"ASSEFF, ALBERTO EMILIO",4394932,M
+2023-buenos-aires-juntos-por-el-cambio-18,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,18,JOURY,MARIA DE LAS MERCEDES,MARIA DE LAS MERCEDES JOURY,"JOURY, MARIA DE LAS MERCEDES",29577824,F
+2023-buenos-aires-juntos-por-el-cambio-19,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,19,GARCIA,MARCELO OMAR,MARCELO OMAR GARCIA,"GARCIA, MARCELO OMAR",21970065,M
+2023-buenos-aires-juntos-por-el-cambio-20,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,20,QUINTERO CHASMAN,JULIETA ELISABET,JULIETA ELISABET QUINTERO CHASMAN,"CHASMAN, JULIETA ELISABET QUINTERO",36215210,F
+2023-buenos-aires-juntos-por-el-cambio-21,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,21,TORELLO,PABLO,PABLO TORELLO,"TORELLO, PABLO",12946934,M
+2023-buenos-aires-juntos-por-el-cambio-22,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,22,PARIS,SANDRA SILVINA,SANDRA SILVINA PARIS,"PARIS, SANDRA SILVINA",17136175,F
+2023-buenos-aires-juntos-por-el-cambio-23,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,23,VAN TOOREN,EVERT IGNACIO,EVERT IGNACIO VAN TOOREN,"TOOREN, EVERT IGNACIO VAN",27807243,M
+2023-buenos-aires-juntos-por-el-cambio-24,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,24,DEVITA,GRACIELA NORMA,GRACIELA NORMA DEVITA,"DEVITA, GRACIELA NORMA",10692992,F
+2023-buenos-aires-juntos-por-el-cambio-25,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,25,STODDART,RICARDO JOSE,RICARDO JOSE STODDART,"STODDART, RICARDO JOSE",20778348,M
+2023-buenos-aires-juntos-por-el-cambio-26,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,26,FELICES,MONICA ESTHER,MONICA ESTHER FELICES,"FELICES, MONICA ESTHER",13763391,F
+2023-buenos-aires-juntos-por-el-cambio-27,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,27,COHEN,DAVID AXEL,DAVID AXEL COHEN,"COHEN, DAVID AXEL",28030466,M
+2023-buenos-aires-juntos-por-el-cambio-28,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,28,PUCHETA,MYRIAM JOSEFINA DE LA MERCED,MYRIAM JOSEFINA DE LA MERCED PUCHETA,"PUCHETA, MYRIAM JOSEFINA DE LA MERCED",22226114,F
+2023-buenos-aires-juntos-por-el-cambio-29,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,29,PELUSO,GONZALO MARTIN,GONZALO MARTIN PELUSO,"PELUSO, GONZALO MARTIN",23820201,M
+2023-buenos-aires-juntos-por-el-cambio-30,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,30,PEREZ,MARIA FLORENCIA,MARIA FLORENCIA PEREZ,"PEREZ, MARIA FLORENCIA",38069805,F
+2023-buenos-aires-juntos-por-el-cambio-31,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,31,ARCE,HERNAN ARIEL,HERNAN ARIEL ARCE,"ARCE, HERNAN ARIEL",29535989,M
+2023-buenos-aires-juntos-por-el-cambio-32,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,32,BUSILACHI CRAPAROTTA,MARIA FLORENCIA,MARIA FLORENCIA BUSILACHI CRAPAROTTA,"CRAPAROTTA, MARIA FLORENCIA BUSILACHI",34480188,F
+2023-buenos-aires-juntos-por-el-cambio-33,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,33,JUAREZ,JUAN CARLOS,JUAN CARLOS JUAREZ,"JUAREZ, JUAN CARLOS",14882088,M
+2023-buenos-aires-juntos-por-el-cambio-34,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,34,ZALLIO,MARIA FLORENCIA,MARIA FLORENCIA ZALLIO,"ZALLIO, MARIA FLORENCIA",25675788,F
+2023-buenos-aires-juntos-por-el-cambio-35,2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,35,VILLAMAYOR,DIEGO GASTON,DIEGO GASTON VILLAMAYOR,"VILLAMAYOR, DIEGO GASTON",26951034,M
+2023-buenos-aires-union-por-la-patria-01,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,1,KIRCHNER,MÁXIMO CARLOS,MÁXIMO CARLOS KIRCHNER,"KIRCHNER, MÁXIMO CARLOS",25869310,M
+2023-buenos-aires-union-por-la-patria-02,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,2,TOLOSA PAZ,VICTORIA,VICTORIA TOLOSA PAZ,"PAZ, VICTORIA TOLOSA",23485066,F
+2023-buenos-aires-union-por-la-patria-03,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,3,MANRIQUE,MARIO ROBERTO,MARIO ROBERTO MANRIQUE,"MANRIQUE, MARIO ROBERTO",14675706,M
+2023-buenos-aires-union-por-la-patria-04,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,4,MOREAU,CECILIA,CECILIA MOREAU,"MOREAU, CECILIA",25615152,F
+2023-buenos-aires-union-por-la-patria-05,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,5,CAFIERO,SANTIAGO ANDRES,SANTIAGO ANDRES CAFIERO,"CAFIERO, SANTIAGO ANDRES",27375404,M
+2023-buenos-aires-union-por-la-patria-06,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,6,VOLNOVICH,LUANA,LUANA VOLNOVICH,"VOLNOVICH, LUANA",18887355,F
+2023-buenos-aires-union-por-la-patria-07,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,7,TAILHADE,LUIS RODOLFO,LUIS RODOLFO TAILHADE,"TAILHADE, LUIS RODOLFO",21386299,M
+2023-buenos-aires-union-por-la-patria-08,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,8,ZARACHO,NATALIA BEATRIZ,NATALIA BEATRIZ ZARACHO,"ZARACHO, NATALIA BEATRIZ",35461328,F
+2023-buenos-aires-union-por-la-patria-09,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,9,CASTAGNETO,CARLOS DANIEL,CARLOS DANIEL CASTAGNETO,"CASTAGNETO, CARLOS DANIEL",13942516,M
+2023-buenos-aires-union-por-la-patria-10,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,10,MONZON,ROXANA ELIZABETH,ROXANA ELIZABETH MONZON,"MONZON, ROXANA ELIZABETH",23919128,F
+2023-buenos-aires-union-por-la-patria-11,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,11,MOLLE,MATIAS,MATIAS MOLLE,"MOLLE, MATIAS",25348547,M
+2023-buenos-aires-union-por-la-patria-12,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,12,POTENZA,LUCIANA,LUCIANA POTENZA,"POTENZA, LUCIANA",38319356,F
+2023-buenos-aires-union-por-la-patria-13,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,13,GUTIERREZ,CARLOS RAMIRO,CARLOS RAMIRO GUTIERREZ,"GUTIERREZ, CARLOS RAMIRO",17888287,M
+2023-buenos-aires-union-por-la-patria-14,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,14,STRADA RODRIGUEZ,JULIA,JULIA STRADA RODRIGUEZ,"RODRIGUEZ, JULIA STRADA",34408403,F
+2023-buenos-aires-union-por-la-patria-15,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,15,MARINO,JUAN,JUAN MARINO,"MARINO, JUAN",33886824,M
+2023-buenos-aires-union-por-la-patria-16,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,16,SELVA,SABRINA,SABRINA SELVA,"SELVA, SABRINA",32686747,F
+2023-buenos-aires-union-por-la-patria-17,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,17,ALDERETE,JUAN CARLOS,JUAN CARLOS ALDERETE,"ALDERETE, JUAN CARLOS",10539167,M
+2023-buenos-aires-union-por-la-patria-18,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,18,REIGADA,MARIA,MARIA REIGADA,"REIGADA, MARIA",12273607,F
+2023-buenos-aires-union-por-la-patria-19,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,19,DEPETRI,EDGARDO FERNANDO,EDGARDO FERNANDO DEPETRI,"DEPETRI, EDGARDO FERNANDO",13861886,M
+2023-buenos-aires-union-por-la-patria-20,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,20,MIÑO,RAMONA FERNANDA,RAMONA FERNANDA MIÑO,"MIÑO, RAMONA FERNANDA",24100107,F
+2023-buenos-aires-union-por-la-patria-21,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,21,APARICIO,SANTIAGO FRANCISCO ANDRES,SANTIAGO FRANCISCO ANDRES APARICIO,"APARICIO, SANTIAGO FRANCISCO ANDRES",26243483,M
+2023-buenos-aires-union-por-la-patria-22,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,22,MEANA,MARIA EUGENIA,MARIA EUGENIA MEANA,"MEANA, MARIA EUGENIA",25582837,F
+2023-buenos-aires-union-por-la-patria-23,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,23,RIVAS,JORGE,JORGE RIVAS,"RIVAS, JORGE",14860010,M
+2023-buenos-aires-union-por-la-patria-24,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,24,SOUTO,NATALIA MARCELA,NATALIA MARCELA SOUTO,"SOUTO, NATALIA MARCELA",24516358,F
+2023-buenos-aires-union-por-la-patria-25,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,25,AYALA,PABLO LUIS ARIEL,PABLO LUIS ARIEL AYALA,"AYALA, PABLO LUIS ARIEL",24493232,M
+2023-buenos-aires-union-por-la-patria-26,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,26,BENAVENTE,BRENDA BETANIA,BRENDA BETANIA BENAVENTE,"BENAVENTE, BRENDA BETANIA",35867394,F
+2023-buenos-aires-union-por-la-patria-27,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,27,BEIBE,NAHUEL,NAHUEL BEIBE,"BEIBE, NAHUEL",25999752,M
+2023-buenos-aires-union-por-la-patria-28,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,28,SANTORO,MARINA LAURA,MARINA LAURA SANTORO,"SANTORO, MARINA LAURA",26753564,F
+2023-buenos-aires-union-por-la-patria-29,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,29,NIETO,JULIO CESAR,JULIO CESAR NIETO,"NIETO, JULIO CESAR",16794531,M
+2023-buenos-aires-union-por-la-patria-30,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,30,RODRIGUEZ GOLISANO,ALDANA GISELLE,ALDANA GISELLE RODRIGUEZ GOLISANO,"GOLISANO, ALDANA GISELLE RODRIGUEZ",34508959,F
+2023-buenos-aires-union-por-la-patria-31,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,31,ABARCA,WALTER JOSE,WALTER JOSE ABARCA,"ABARCA, WALTER JOSE",23164658,M
+2023-buenos-aires-union-por-la-patria-32,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,32,SOIZA,CECILIA ESTHER,CECILIA ESTHER SOIZA,"SOIZA, CECILIA ESTHER",25066179,F
+2023-buenos-aires-union-por-la-patria-33,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,33,JOHANSEN,EDUARDO,EDUARDO JOHANSEN,"JOHANSEN, EDUARDO",14171502,M
+2023-buenos-aires-union-por-la-patria-34,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,34,BREARD,MARIELA ELISABET,MARIELA ELISABET BREARD,"BREARD, MARIELA ELISABET",32899527,F
+2023-buenos-aires-union-por-la-patria-35,2023-buenos-aires-union-por-la-patria,diputados-2023,Buenos Aires,35,FERREYRA,OSCAR ALBERTO,OSCAR ALBERTO FERREYRA,"FERREYRA, OSCAR ALBERTO",22411247,M
+2023-buenos-aires-la-libertad-avanza-01,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,1,BENEGAS LYNCH,ALBERTO TIBURCIO,ALBERTO TIBURCIO BENEGAS LYNCH,"LYNCH, ALBERTO TIBURCIO BENEGAS",18621347,M
+2023-buenos-aires-la-libertad-avanza-02,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,2,PAGANO,MARCELA MARINA,MARCELA MARINA PAGANO,"PAGANO, MARCELA MARINA",31928162,F
+2023-buenos-aires-la-libertad-avanza-03,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,3,MONTENEGRO,GUILLERMO MAXIMILIANO,GUILLERMO MAXIMILIANO MONTENEGRO,"MONTENEGRO, GUILLERMO MAXIMILIANO",24584682,M
+2023-buenos-aires-la-libertad-avanza-04,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,4,MACYSZYN,MARIA LORENA,MARIA LORENA MACYSZYN,"MACYSZYN, MARIA LORENA",26766063,F
+2023-buenos-aires-la-libertad-avanza-05,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,5,ANSALONI,PABLO MIGUEL,PABLO MIGUEL ANSALONI,"ANSALONI, PABLO MIGUEL",22077679,M
+2023-buenos-aires-la-libertad-avanza-06,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,6,SANTILLAN JUAREZ BRAHIM,CARLA JULIANA,CARLA JULIANA SANTILLAN JUAREZ BRAHIM,"BRAHIM, CARLA JULIANA SANTILLAN JUAREZ",27379622,F
+2023-buenos-aires-la-libertad-avanza-07,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,7,FALCONE,EDUARDO GABRIEL,EDUARDO GABRIEL FALCONE,"FALCONE, EDUARDO GABRIEL",14813490,M
+2023-buenos-aires-la-libertad-avanza-08,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,8,BOLUKALO LEMOINE,LILIA ADELA,LILIA ADELA BOLUKALO LEMOINE,"LEMOINE, LILIA ADELA BOLUKALO",28298526,F
+2023-buenos-aires-la-libertad-avanza-09,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,9,SANTURIO RODRIGUEZ,SANTIAGO JAVIER,SANTIAGO JAVIER SANTURIO RODRIGUEZ,"RODRIGUEZ, SANTIAGO JAVIER SANTURIO",33434066,M
+2023-buenos-aires-la-libertad-avanza-10,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,10,PALAVECINO,LOURDES ANAHI,LOURDES ANAHI PALAVECINO,"PALAVECINO, LOURDES ANAHI",33306888,F
+2023-buenos-aires-la-libertad-avanza-11,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,11,SPAGNUOLO,DIEGO ORLANDO,DIEGO ORLANDO SPAGNUOLO,"SPAGNUOLO, DIEGO ORLANDO",23298764,M
+2023-buenos-aires-la-libertad-avanza-12,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,12,LONGO,JOHANNA SABRINA,JOHANNA SABRINA LONGO,"LONGO, JOHANNA SABRINA",29696607,F
+2023-buenos-aires-la-libertad-avanza-13,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,13,GIGANTE,EZEQUIEL OSCAR,EZEQUIEL OSCAR GIGANTE,"GIGANTE, EZEQUIEL OSCAR",30651929,M
+2023-buenos-aires-la-libertad-avanza-14,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,14,AGUIRRE,MARCELA VIVIANA,MARCELA VIVIANA AGUIRRE,"AGUIRRE, MARCELA VIVIANA",27319056,F
+2023-buenos-aires-la-libertad-avanza-15,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,15,MACLOUGHLIN,GUILLERMO HERIBERTO,GUILLERMO HERIBERTO MACLOUGHLIN,"MACLOUGHLIN, GUILLERMO HERIBERTO",12945585,M
+2023-buenos-aires-la-libertad-avanza-16,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,16,ACUÑA,NOELIA SOLEDAD,NOELIA SOLEDAD ACUÑA,"ACUÑA, NOELIA SOLEDAD",28235306,F
+2023-buenos-aires-la-libertad-avanza-17,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,17,GONZALEZ,AMALIO ALBERTO,AMALIO ALBERTO GONZALEZ,"GONZALEZ, AMALIO ALBERTO",17405714,M
+2023-buenos-aires-la-libertad-avanza-18,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,18,LIAS,YANINA BELEN,YANINA BELEN LIAS,"LIAS, YANINA BELEN",35063141,F
+2023-buenos-aires-la-libertad-avanza-19,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,19,AUGUSTO,MARTIN LUIS,MARTIN LUIS AUGUSTO,"AUGUSTO, MARTIN LUIS",26165708,M
+2023-buenos-aires-la-libertad-avanza-20,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,20,AYESA,MARCELA ALEJANDRA,MARCELA ALEJANDRA AYESA,"AYESA, MARCELA ALEJANDRA",16966654,F
+2023-buenos-aires-la-libertad-avanza-21,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,21,VIEYRA,NÉSTOR ARIEL,NÉSTOR ARIEL VIEYRA,"VIEYRA, NÉSTOR ARIEL",18198868,M
+2023-buenos-aires-la-libertad-avanza-22,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,22,HERRERA,VERONICA,VERONICA HERRERA,"HERRERA, VERONICA",20012024,F
+2023-buenos-aires-la-libertad-avanza-23,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,23,PISTAGNESI,SILVIO OMAR,SILVIO OMAR PISTAGNESI,"PISTAGNESI, SILVIO OMAR",14745633,M
+2023-buenos-aires-la-libertad-avanza-24,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,24,WAIS,MARIA CRISTINA,MARIA CRISTINA WAIS,"WAIS, MARIA CRISTINA",16600664,F
+2023-buenos-aires-la-libertad-avanza-25,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,25,URRUTIPI,RUBEN ALFREDO,RUBEN ALFREDO URRUTIPI,"URRUTIPI, RUBEN ALFREDO",16678622,M
+2023-buenos-aires-la-libertad-avanza-26,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,26,DEL CURTO,YESICA ROXANA,YESICA ROXANA DEL CURTO,"CURTO, YESICA ROXANA DEL",32485715,F
+2023-buenos-aires-la-libertad-avanza-27,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,27,BRUNETTI,MIGUEL ANGEL,MIGUEL ANGEL BRUNETTI,"BRUNETTI, MIGUEL ANGEL",13685626,M
+2023-buenos-aires-la-libertad-avanza-28,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,28,BONARDI,ALEJANDRA BEATRIZ,ALEJANDRA BEATRIZ BONARDI,"BONARDI, ALEJANDRA BEATRIZ",18235487,F
+2023-buenos-aires-la-libertad-avanza-29,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,29,AYRES,CARLOS ALBERTO,CARLOS ALBERTO AYRES,"AYRES, CARLOS ALBERTO",23599156,M
+2023-buenos-aires-la-libertad-avanza-30,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,30,BUDIÑO,MARIA DE LOS ANGELES,MARIA DE LOS ANGELES BUDIÑO,"BUDIÑO, MARIA DE LOS ANGELES",31936365,F
+2023-buenos-aires-la-libertad-avanza-31,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,31,RAMIREZ,JUAN MANUEL,JUAN MANUEL RAMIREZ,"RAMIREZ, JUAN MANUEL",37008294,M
+2023-buenos-aires-la-libertad-avanza-32,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,32,WIDE,MIRTA NARZI,MIRTA NARZI WIDE,"WIDE, MIRTA NARZI",16100396,F
+2023-buenos-aires-la-libertad-avanza-33,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,33,LARES,HUGO FERNANDO,HUGO FERNANDO LARES,"LARES, HUGO FERNANDO",23438718,M
+2023-buenos-aires-la-libertad-avanza-34,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,34,VIGO,LAURA,LAURA VIGO,"VIGO, LAURA",23549302,F
+2023-buenos-aires-la-libertad-avanza-35,2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,35,ROLON,OSVALDO DANIEL,OSVALDO DANIEL ROLON,"ROLON, OSVALDO DANIEL",26951317,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-01,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,1,CASTILLO,CHRISTIAN CARLOS HERNAN,CHRISTIAN CARLOS HERNAN CASTILLO,"CASTILLO, CHRISTIAN CARLOS HERNAN",18287453,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-02,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,2,SCHLOTTHAUER,MONICA LETICIA,MONICA LETICIA SCHLOTTHAUER,"SCHLOTTHAUER, MONICA LETICIA",16535017,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-03,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,3,PITROLA,NESTOR ANTONIO,NESTOR PITROLA,"PITROLA, NESTOR",10445883,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-04,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,4,BLANCH FLOWER,MARIA BELEN,MARIA BELEN BLANCH FLOWER,"FLOWER, MARIA BELEN BLANCH",35232214,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-05,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,5,GIORDANO,JUAN CARLOS,JUAN CARLOS GIORDANO,"GIORDANO, JUAN CARLOS",14907638,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-06,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,6,LANZETTE,ANDREA BERNARDA,ANDREA LANZETTE,"LANZETTE, ANDREA",22923330,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-07,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,7,SACARELO,FERNANDO OSCAR,FERNANDO SACARELO,"SACARELO, FERNANDO",12581102,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-08,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,8,DE LA ROSA,GABRIELA VICTORIA SOLEDAD,GABRIELA  DE LA ROSA,"ROSA, GABRIELA DE LA",34873646,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-09,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,9,MEDINA,JORGE GABRIEL,JORGE GABRIEL MEDINA,"MEDINA, JORGE GABRIEL",35983733,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-10,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,10,RIVERO,AGUSTINA BELEN,AGUSTINA BELEN RIVERO,"RIVERO, AGUSTINA BELEN",41166561,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-11,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,11,MARTINEZ,DIEGO GASTON,DIEGO GASTON MARTINEZ,"MARTINEZ, DIEGO GASTON",30394086,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-12,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,12,AGUILERA,NATALIA JORGELINA,NATALIA JORGELINA AGUILERA,"AGUILERA, NATALIA JORGELINA",29829963,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-13,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,13,MANSILLA,JESUS EDUARDO,EDUARDO MANSILLA,"MANSILLA, EDUARDO",29365187,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-14,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,14,LOPEZ,MARIA FERNANDA,MARIA FERNANDA LOPEZ,"LOPEZ, MARIA FERNANDA",25056678,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-15,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,15,SUCHER,LUIS MARIANO,LUIS MARIANO SUCHER,"SUCHER, LUIS MARIANO",26666328,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-16,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,16,LEZANA,NORMA INES,NORMA LEZANA,"LEZANA, NORMA",16044483,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-17,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,17,AVENDAÑO,HECTOR FABIAN,HECTOR FABIAN AVENDAÑO,"AVENDAÑO, HECTOR FABIAN",22190152,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-18,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,18,REGUITO,ANA BETINA,ANA BETINA REGUITO,"REGUITO, ANA BETINA",29300807,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-19,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,19,OTTOBONI,VICTOR OCTAVIO,VICTOR OCTAVIO OTTOBONI,"OTTOBONI, VICTOR OCTAVIO",24714550,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-20,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,20,CABRERA SANCHEZ,DAIANA SOLANGE,DAIANA CABRERA,"CABRERA, DAIANA",36330318,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-21,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,21,LUACES,MARIO ERNESTO,MARIO ERNESTO LUACES,"LUACES, MARIO ERNESTO",30993467,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-22,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,22,MORENO,GRACIELA RAQUEL,GRACIELA RAQUEL MORENO,"MORENO, GRACIELA RAQUEL",22294783,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-23,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,23,MIGUEZ,DIEGO OSCAR,DIEGO OSCAR MIGUEZ,"MIGUEZ, DIEGO OSCAR",23864609,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-24,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,24,LUZARDO,MAGALI,MAGALI LUZARDO,"LUZARDO, MAGALI",40930583,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-25,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,25,BEICA,JUAN CARLOS,JUAN CARLOS BEICA,"BEICA, JUAN CARLOS",11815061,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-26,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,26,MORALES,ISABEL CRISTINA,ISABEL MORALES,"MORALES, ISABEL",27527138,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-27,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,27,ESPEJO,EDUARDO FABIAN,EDUARDO FABIAN ESPEJO,"ESPEJO, EDUARDO FABIAN",17569154,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-28,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,28,RODRIGUEZ,MARIA FLORENCIA,MARIA FLORENCIA RODRIGUEZ,"RODRIGUEZ, MARIA FLORENCIA",31347652,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-29,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,29,GONZALEZ,MARCELO DANIEL,MARCELO DANIEL GONZALEZ,"GONZALEZ, MARCELO DANIEL",16874072,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-30,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,30,GARCIA BARCELO,MALENA JOEL,MALENA GARCIA BARCELO,"BARCELO, MALENA GARCIA",41473034,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-31,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,31,GODOY,JORGE SEBASTIAN,JORGE SEBASTIAN GODOY,"GODOY, JORGE SEBASTIAN",26464602,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-32,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,32,ALESSANDRELLI,NADIA GISELLE,NADIA GISELLE ALESSANDRELLI,"ALESSANDRELLI, NADIA GISELLE",35273616,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-33,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,33,TOMASELLO,MATIAS GABRIEL,MATIAS TOMASELLO,"TOMASELLO, MATIAS",28144386,M
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-34,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,34,ROBLES,ROCIO JIMENA,ROCIO JIMENA ROBLES,"ROBLES, ROCIO JIMENA",35419949,F
+2023-buenos-aires-frente-de-izquierda-y-de-trabajadores-35,2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,35,PILARCHE,FACUNDO MARTIN,FACUNDO MARTIN PILARCHE,"PILARCHE, FACUNDO MARTIN",29501010,M
+2023-caba-la-libertad-avanza-01,2023-caba-la-libertad-avanza,diputados-2023,CABA,1,MONDINO,DIANA ELENA,DIANA ELENA MONDINO,"MONDINO, DIANA ELENA",12810434,F
+2023-caba-la-libertad-avanza-02,2023-caba-la-libertad-avanza,diputados-2023,CABA,2,ZAGO,OSCAR ROBERTO,OSCAR ROBERTO ZAGO,"ZAGO, OSCAR ROBERTO",16583800,M
+2023-caba-la-libertad-avanza-03,2023-caba-la-libertad-avanza,diputados-2023,CABA,3,PETTOVELLO,SANDRA VIVIANA,SANDRA VIVIANA PETTOVELLO,"PETTOVELLO, SANDRA VIVIANA",20186033,F
+2023-caba-la-libertad-avanza-04,2023-caba-la-libertad-avanza,diputados-2023,CABA,4,GOLDESTEIN,JULIO DANIEL,JULIO DANIEL GOLDESTEIN,"GOLDESTEIN, JULIO DANIEL",20922389,M
+2023-caba-la-libertad-avanza-05,2023-caba-la-libertad-avanza,diputados-2023,CABA,5,FERREYRA,ALIDA MONICA,ALIDA MONICA FERREYRA,"FERREYRA, ALIDA MONICA",26235119,F
+2023-caba-la-libertad-avanza-06,2023-caba-la-libertad-avanza,diputados-2023,CABA,6,RUBINI,HECTOR JUAN,HECTOR JUAN RUBINI,"RUBINI, HECTOR JUAN",17607142,M
+2023-caba-la-libertad-avanza-07,2023-caba-la-libertad-avanza,diputados-2023,CABA,7,GAMBETTA,MARIA LUZ,MARIA LUZ GAMBETTA,"GAMBETTA, MARIA LUZ",24293147,F
+2023-caba-la-libertad-avanza-08,2023-caba-la-libertad-avanza,diputados-2023,CABA,8,ORIA,SANTIAGO LUIS,SANTIAGO LUIS ORIA,"ORIA, SANTIAGO LUIS",31916989,M
+2023-caba-la-libertad-avanza-09,2023-caba-la-libertad-avanza,diputados-2023,CABA,9,RODRIGUEZ,MACARENA JIMENA,MACARENA JIMENA RODRIGUEZ,"RODRIGUEZ, MACARENA JIMENA",37681758,F
+2023-caba-la-libertad-avanza-10,2023-caba-la-libertad-avanza,diputados-2023,CABA,10,LEONE,ANDRES MARCELO,ANDRES MARCELO LEONE,"LEONE, ANDRES MARCELO",21731867,M
+2023-caba-la-libertad-avanza-11,2023-caba-la-libertad-avanza,diputados-2023,CABA,11,BOSOER,SUSANA BEATRIZ,SUSANA BEATRIZ BOSOER,"BOSOER, SUSANA BEATRIZ",5691083,F
+2023-caba-la-libertad-avanza-12,2023-caba-la-libertad-avanza,diputados-2023,CABA,12,GAMMARIELLO,ALFREDO,ALFREDO GAMMARIELLO,"GAMMARIELLO, ALFREDO",38169393,M
+2023-caba-juntos-por-el-cambio-01,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,1,GUERRA MALDONADO,MAXIMILIANO GUIDO,MAXIMILIANO GUIDO GUERRA MALDONADO,"MALDONADO, MAXIMILIANO GUIDO GUERRA",18420843,M
+2023-caba-juntos-por-el-cambio-02,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,2,FERNANDEZ MOLERO,DAIANA,DAIANA FERNANDEZ MOLERO,"MOLERO, DAIANA FERNANDEZ",31917114,F
+2023-caba-juntos-por-el-cambio-03,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,3,FERRARO,MAXIMILIANO CARLOS FRANCISCO,MAXIMILIANO CARLOS FRANCISCO FERRARO,"FERRARO, MAXIMILIANO CARLOS FRANCISCO",25044243,M
+2023-caba-juntos-por-el-cambio-04,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,4,GIUDICI,SILVANA MYRIAM,SILVANA MYRIAM GIUDICI,"GIUDICI, SILVANA MYRIAM",14540890,F
+2023-caba-juntos-por-el-cambio-05,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,5,ARABIA,DAMIAN EDUARDO,DAMIAN EDUARDO ARABIA,"ARABIA, DAMIAN EDUARDO",35731815,M
+2023-caba-juntos-por-el-cambio-06,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,6,COLETTA,MARIELA GISELLE,MARIELA GISELLE COLETTA,"COLETTA, MARIELA GISELLE",34512539,F
+2023-caba-juntos-por-el-cambio-07,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,7,GONZALEZ,ALVARO GUSTAVO,ALVARO GUSTAVO GONZALEZ,"GONZALEZ, ALVARO GUSTAVO",12696650,M
+2023-caba-juntos-por-el-cambio-08,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,8,REZINOVSKY,DINA ESTHER,DINA ESTHER REZINOVSKY,"REZINOVSKY, DINA ESTHER",32865847,F
+2023-caba-juntos-por-el-cambio-09,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,9,WOLF,ESTEBAN GABRIEL,ESTEBAN GABRIEL WOLF,"WOLF, ESTEBAN GABRIEL",23248459,M
+2023-caba-juntos-por-el-cambio-10,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,10,ESTEBARENA,CAROLINA,CAROLINA ESTEBARENA,"ESTEBARENA, CAROLINA",23124890,F
+2023-caba-juntos-por-el-cambio-11,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,11,MOSCARIELLO,OSCAR ARMANDO,OSCAR ARMANDO MOSCARIELLO,"MOSCARIELLO, OSCAR ARMANDO",10578261,M
+2023-caba-juntos-por-el-cambio-12,2023-caba-juntos-por-el-cambio,diputados-2023,CABA,12,FERNANDEZ,GABRIELA INES,GABRIELA INES FERNANDEZ,"FERNANDEZ, GABRIELA INES",29752673,F
+2023-caba-union-por-la-patria-01,2023-caba-union-por-la-patria,diputados-2023,CABA,1,PENACCA,PAULA ANDREA,PAULA ANDREA PENACCA,"PENACCA, PAULA ANDREA",28860599,F
+2023-caba-union-por-la-patria-02,2023-caba-union-por-la-patria,diputados-2023,CABA,2,VALDES,EDUARDO FELIX,EDUARDO FELIX VALDES,"VALDES, EDUARDO FELIX",11640899,M
+2023-caba-union-por-la-patria-03,2023-caba-union-por-la-patria,diputados-2023,CABA,3,POKOIK GARCIA,LORENA IRIS,LORENA IRIS POKOIK GARCIA,"GARCIA, LORENA IRIS POKOIK",23205010,F
+2023-caba-union-por-la-patria-04,2023-caba-union-por-la-patria,diputados-2023,CABA,4,HAGMAN,ITAI,ITAI HAGMAN,"HAGMAN, ITAI",19010320,M
+2023-caba-union-por-la-patria-05,2023-caba-union-por-la-patria,diputados-2023,CABA,5,AURELLIO,GILDA AMALIA,GILDA AMALIA AURELLIO,"AURELLIO, GILDA AMALIA",21873725,F
+2023-caba-union-por-la-patria-06,2023-caba-union-por-la-patria,diputados-2023,CABA,6,ANDRADE,JAVIER,JAVIER ANDRADE,"ANDRADE, JAVIER",20572683,M
+2023-caba-union-por-la-patria-07,2023-caba-union-por-la-patria,diputados-2023,CABA,7,MACHADO,DOMINGA ISABEL,DOMINGA ISABEL MACHADO,"MACHADO, DOMINGA ISABEL",6137305,F
+2023-caba-union-por-la-patria-08,2023-caba-union-por-la-patria,diputados-2023,CABA,8,MORRESI,CLAUDIO ALBERTO,CLAUDIO ALBERTO MORRESI,"MORRESI, CLAUDIO ALBERTO",14872455,M
+2023-caba-union-por-la-patria-09,2023-caba-union-por-la-patria,diputados-2023,CABA,9,SALAMA,CYNTHIA VERONICA,CYNTHIA VERONICA SALAMA,"SALAMA, CYNTHIA VERONICA",23669423,F
+2023-caba-union-por-la-patria-10,2023-caba-union-por-la-patria,diputados-2023,CABA,10,BIELSA,LAUREANO,LAUREANO BIELSA,"BIELSA, LAUREANO",36785607,M
+2023-caba-union-por-la-patria-11,2023-caba-union-por-la-patria,diputados-2023,CABA,11,BISUTTI,DELIA BEATRIZ,DELIA BEATRIZ BISUTTI,"BISUTTI, DELIA BEATRIZ",5631771,F
+2023-caba-union-por-la-patria-12,2023-caba-union-por-la-patria,diputados-2023,CABA,12,GRACI Y SUSINI,ESTANISLAO,ESTANISLAO GRACI Y SUSINI,"SUSINI, ESTANISLAO GRACI Y",21484749,M
+2025-buenos-aires-la-libertad-avanza-01,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,1,SANTILLI,DIEGO CÉSAR,DIEGO CéSAR SANTILLI,"SANTILLI, DIEGO CéSAR",17735449,M
+2025-buenos-aires-la-libertad-avanza-02,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,2,VAZQUEZ,KARINA CELIA,KAREN REICHARDT,"REICHARDT, KAREN",20831412,F
+2025-buenos-aires-la-libertad-avanza-03,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,3,PAREJA,SEBASTIAN MIGUEL,SEBASTIAN MIGUEL PAREJA,"PAREJA, SEBASTIAN MIGUEL",24963016,M
+2025-buenos-aires-la-libertad-avanza-04,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,4,HUMENUK,GLADYS NOEMI,GLADYS NOEMI HUMENUK,"HUMENUK, GLADYS NOEMI",23138577,F
+2025-buenos-aires-la-libertad-avanza-05,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,5,CARRANCIO,ALEJANDRO ANGEL,ALEJANDRO ANGEL CARRANCIO,"CARRANCIO, ALEJANDRO ANGEL",25385640,M
+2025-buenos-aires-la-libertad-avanza-06,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,6,LONGO,JOHANNA SABRINA,JOHANNA SABRINA LONGO,"LONGO, JOHANNA SABRINA",29696607,F
+2025-buenos-aires-la-libertad-avanza-07,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,7,FINOCCHIARO,ALEJANDRO OSCAR,ALEJANDRO OSCAR FINOCCHIARO,"FINOCCHIARO, ALEJANDRO OSCAR",18453675,M
+2025-buenos-aires-la-libertad-avanza-08,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,8,NIVEYRO,MIRIAM DEL CARMEN,MIRIAM DEL CARMEN NIVEYRO,"NIVEYRO, MIRIAM DEL CARMEN",20001251,F
+2025-buenos-aires-la-libertad-avanza-09,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,9,FIGLIUOLO,SERGIO DANIEL,"SERGIO ""TRONCO"" FIGLIUOLO","FIGLIUOLO, SERGIO ""TRONCO""",25359681,M
+2025-buenos-aires-la-libertad-avanza-10,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,10,CASTELNUOVO,GISELLE,GISELLE CASTELNUOVO,"CASTELNUOVO, GISELLE",27767071,F
+2025-buenos-aires-la-libertad-avanza-11,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,11,GARCIA,ALVARO,ALVARO GARCIA,"GARCIA, ALVARO",27087818,M
+2025-buenos-aires-la-libertad-avanza-12,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,12,DE SENSI,MARIA FLORENCIA,MARIA FLORENCIA DE SENSI,"SENSI, MARIA FLORENCIA DE",33294889,F
+2025-buenos-aires-la-libertad-avanza-13,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,13,OJEDA,JOAQUIN PATRICIO,JOAQUIN PATRICIO OJEDA,"OJEDA, JOAQUIN PATRICIO",35892693,M
+2025-buenos-aires-la-libertad-avanza-14,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,14,GONZALEZ ESTEVARENA,MARIA LUISA,MARIA LUISA GONZALEZ ESTEVARENA,"ESTEVARENA, MARIA LUISA GONZALEZ",12799523,F
+2025-buenos-aires-la-libertad-avanza-15,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,15,URIEN,HERNAN,HERNAN URIEN,"URIEN, HERNAN",34155625,M
+2025-buenos-aires-la-libertad-avanza-16,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,16,VERA,ANDREA FERNANDA,ANDREA FERNANDA VERA,"VERA, ANDREA FERNANDA",38629917,F
+2025-buenos-aires-la-libertad-avanza-17,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,17,SANCHEZ WRBA,JAVIER,JAVIER SANCHEZ WRBA,"WRBA, JAVIER SANCHEZ",30463933,M
+2025-buenos-aires-la-libertad-avanza-18,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,18,TAMAGNO,ANA VALERIA,ANA VALERIA TAMAGNO,"TAMAGNO, ANA VALERIA",30533695,F
+2025-buenos-aires-la-libertad-avanza-19,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,19,TORRES,RUBEN DARIO,RUBEN DARIO TORRES,"TORRES, RUBEN DARIO",25545499,M
+2025-buenos-aires-la-libertad-avanza-20,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,20,LEON ESPINOSA,MARTINA DANIELA,MARTINA DANIELA LEON ESPINOSA,"ESPINOSA, MARTINA DANIELA LEON",42837692,F
+2025-buenos-aires-la-libertad-avanza-21,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,21,SAAVEDRA,MARIO OSMAR,MARIO OSMAR SAAVEDRA,"SAAVEDRA, MARIO OSMAR",14784074,M
+2025-buenos-aires-la-libertad-avanza-22,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,22,LERIN,BARBARA PATRICIA,BARBARA PATRICIA LERIN,"LERIN, BARBARA PATRICIA",25429714,F
+2025-buenos-aires-la-libertad-avanza-23,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,23,FERREYRA,HUGO ALBERTO,HUGO ALBERTO FERREYRA,"FERREYRA, HUGO ALBERTO",10676353,M
+2025-buenos-aires-la-libertad-avanza-24,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,24,CONTE,SUSANA GABRIELA,SUSANA GABRIELA CONTE,"CONTE, SUSANA GABRIELA",20635632,F
+2025-buenos-aires-la-libertad-avanza-25,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,25,SALABERREN,IGNACIO ROBERTO,IGNACIO ROBERTO SALABERREN,"SALABERREN, IGNACIO ROBERTO",35112419,M
+2025-buenos-aires-la-libertad-avanza-26,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,26,CAVALLINI,ROXANA ELIZABET MIRNA,ROXANA ELIZABET MIRNA CAVALLINI,"CAVALLINI, ROXANA ELIZABET MIRNA",20923093,F
+2025-buenos-aires-la-libertad-avanza-27,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,27,CREUS,EDUARDO HUGO,EDUARDO HUGO CREUS,"CREUS, EDUARDO HUGO",24166343,M
+2025-buenos-aires-la-libertad-avanza-28,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,28,WIDE,MIRTA NARZI,MIRTA NARZI WIDE,"WIDE, MIRTA NARZI",16100396,F
+2025-buenos-aires-la-libertad-avanza-29,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,29,SELEM,DAMIAN ANDRES,DAMIAN ANDRES SELEM,"SELEM, DAMIAN ANDRES",26879996,M
+2025-buenos-aires-la-libertad-avanza-30,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,30,GARCIA,KARINA GABRIELA,KARINA GABRIELA GARCIA,"GARCIA, KARINA GABRIELA",23867913,F
+2025-buenos-aires-la-libertad-avanza-31,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,31,GREEN,LUIS ENRIQUE,LUIS ENRIQUE GREEN,"GREEN, LUIS ENRIQUE",8571604,M
+2025-buenos-aires-la-libertad-avanza-32,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,32,CANEGALLO,PAULA BEATRIZ,PAULA BEATRIZ CANEGALLO,"CANEGALLO, PAULA BEATRIZ",23506457,F
+2025-buenos-aires-la-libertad-avanza-33,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,33,IMPERATORI,MAURICIO,MAURICIO IMPERATORI,"IMPERATORI, MAURICIO",18147766,M
+2025-buenos-aires-la-libertad-avanza-34,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,34,BELEN,MARIA ALEJANDRA,MARIA ALEJANDRA BELEN,"BELEN, MARIA ALEJANDRA",17523575,F
+2025-buenos-aires-la-libertad-avanza-35,2025-buenos-aires-la-libertad-avanza,diputados-2025,Buenos Aires,35,DI FABIO,ENZO NICOLÁS,ENZO NICOLÁS DI FABIO,"FABIO, ENZO NICOLÁS DI",34068283,M
+2025-buenos-aires-nuevos-aires-01,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,1,CRISTIANI,SIXTO,SIXTO CRISTIANI,"CRISTIANI, SIXTO",40376355,M
+2025-buenos-aires-nuevos-aires-02,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,2,ACHILLI,CATALINA,CATALINA ACHILLI,"ACHILLI, CATALINA",36361246,F
+2025-buenos-aires-nuevos-aires-03,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,3,NIEVAS OFFIDANI,LEANDRO DAMIAN,LEANDRO DAMIAN NIEVAS OFFIDANI,"OFFIDANI, LEANDRO DAMIAN NIEVAS",34377910,M
+2025-buenos-aires-nuevos-aires-04,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,4,ALFONSO,MILAGROS AYELÉN,MILAGROS AYELÉN ALFONSO,"ALFONSO, MILAGROS AYELÉN",38795075,F
+2025-buenos-aires-nuevos-aires-05,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,5,RUIZ,CRISTIAN ALEJANDRO,CRISTIAN ALEJANDRO RUIZ,"RUIZ, CRISTIAN ALEJANDRO",38291230,M
+2025-buenos-aires-nuevos-aires-06,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,6,DIAZ,ROMINA ELIZABETH,ROMINA ELIZABETH DIAZ,"DIAZ, ROMINA ELIZABETH",31717647,F
+2025-buenos-aires-nuevos-aires-07,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,7,CUERVO,TOMAS JOAQUIN,TOMAS JOAQUIN CUERVO,"CUERVO, TOMAS JOAQUIN",37844937,M
+2025-buenos-aires-nuevos-aires-08,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,8,SOBRÉ,ROSANA CECILIA,ROSANA CECILIA SOBRÉ,"SOBRÉ, ROSANA CECILIA",42829546,F
+2025-buenos-aires-nuevos-aires-09,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,9,QUILLOTAY,CRISTIAN FABIAN,CRISTIAN FABIAN QUILLOTAY,"QUILLOTAY, CRISTIAN FABIAN",36512977,M
+2025-buenos-aires-nuevos-aires-10,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,10,GOMEZ,NEREA SILVINA,NEREA SILVINA GOMEZ,"GOMEZ, NEREA SILVINA",38702126,F
+2025-buenos-aires-nuevos-aires-11,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,11,ARANZABE,TIAGO,TIAGO ARANZABE,"ARANZABE, TIAGO",38958871,M
+2025-buenos-aires-nuevos-aires-12,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,12,REPETTO,ANDREA ALEJANDRA,ANDREA ALEJANDRA REPETTO,"REPETTO, ANDREA ALEJANDRA",26689421,F
+2025-buenos-aires-nuevos-aires-13,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,13,TORRE,ALEJANDRO MARTIN,ALEJANDRO MARTIN TORRE,"TORRE, ALEJANDRO MARTIN",26326814,M
+2025-buenos-aires-nuevos-aires-14,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,14,GOMEZ,ALDANA BELEN,ALDANA BELEN GOMEZ,"GOMEZ, ALDANA BELEN",36065194,F
+2025-buenos-aires-nuevos-aires-15,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,15,RAMOS,RAUL EDUARDO,RAUL EDUARDO RAMOS,"RAMOS, RAUL EDUARDO",47483231,M
+2025-buenos-aires-nuevos-aires-16,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,16,MULLER,NATALIA ANTONIA,NATALIA ANTONIA MULLER,"MULLER, NATALIA ANTONIA",23995252,F
+2025-buenos-aires-nuevos-aires-17,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,17,ACOSTA,EMILIANO DANIEL,EMILIANO DANIEL ACOSTA,"ACOSTA, EMILIANO DANIEL",29979867,M
+2025-buenos-aires-nuevos-aires-18,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,18,ARREDONDO,TAMARA ANABELA,TAMARA ANABELA ARREDONDO,"ARREDONDO, TAMARA ANABELA",35074103,F
+2025-buenos-aires-nuevos-aires-19,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,19,BRIZUELA,ROBERTO MARIANO,ROBERTO MARIANO BRIZUELA,"BRIZUELA, ROBERTO MARIANO",36750860,M
+2025-buenos-aires-nuevos-aires-20,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,20,VALLEJO,ANAHI ANABEL,ANAHI ANABEL VALLEJO,"VALLEJO, ANAHI ANABEL",38041065,F
+2025-buenos-aires-nuevos-aires-21,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,21,GARCIA RUIZ,AGUSTIN LAUTARO,AGUSTIN LAUTARO GARCIA RUIZ,"RUIZ, AGUSTIN LAUTARO GARCIA",41433226,M
+2025-buenos-aires-nuevos-aires-22,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,22,MENDEZ,MARIELA VERONICA,MARIELA VERONICA MENDEZ,"MENDEZ, MARIELA VERONICA",25887402,F
+2025-buenos-aires-nuevos-aires-23,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,23,LONGARINI,PATRICIO,PATRICIO LONGARINI,"LONGARINI, PATRICIO",41677475,M
+2025-buenos-aires-nuevos-aires-24,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,24,DI PALMA,MICAELA JAZMIN,MICAELA JAZMIN DI PALMA,"PALMA, MICAELA JAZMIN DI",41691708,F
+2025-buenos-aires-nuevos-aires-25,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,25,GONZALEZ,MAURICIO ESTEBAN,MAURICIO ESTEBAN GONZALEZ,"GONZALEZ, MAURICIO ESTEBAN",34927863,M
+2025-buenos-aires-nuevos-aires-26,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,26,SEJAS,MARCELA ELIZABETH,MARCELA ELIZABETH SEJAS,"SEJAS, MARCELA ELIZABETH",30160778,F
+2025-buenos-aires-nuevos-aires-27,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,27,CARRIZO,GUILLERMO DARIO,GUILLERMO DARIO CARRIZO,"CARRIZO, GUILLERMO DARIO",21624483,M
+2025-buenos-aires-nuevos-aires-28,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,28,LOPEZ,MARIA JIMENA,MARIA JIMENA LOPEZ,"LOPEZ, MARIA JIMENA",34575987,F
+2025-buenos-aires-nuevos-aires-29,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,29,LOFF FONSECA,CRISTIAN MARIO,CRISTIAN MARIO LOFF FONSECA,"FONSECA, CRISTIAN MARIO LOFF",25878142,M
+2025-buenos-aires-nuevos-aires-30,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,30,OFFIDANI,ANA MARIA,ANA MARIA OFFIDANI,"OFFIDANI, ANA MARIA",17511581,F
+2025-buenos-aires-nuevos-aires-31,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,31,PEREZ,RAMON RAFAEL,RAMON RAFAEL PEREZ,"PEREZ, RAMON RAFAEL",26273653,M
+2025-buenos-aires-nuevos-aires-32,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,32,MECONCELLI,MARIELA ALEJANDRA,MARIELA ALEJANDRA MECONCELLI,"MECONCELLI, MARIELA ALEJANDRA",26706190,F
+2025-buenos-aires-nuevos-aires-33,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,33,GOMEZ,NICOLAS AGUSTIN,NICOLAS AGUSTIN GOMEZ,"GOMEZ, NICOLAS AGUSTIN",40239696,M
+2025-buenos-aires-nuevos-aires-34,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,34,GOMEZ,ROSANA GABRIELA,ROSANA GABRIELA GOMEZ,"GOMEZ, ROSANA GABRIELA",27090473,F
+2025-buenos-aires-nuevos-aires-35,2025-buenos-aires-nuevos-aires,diputados-2025,Buenos Aires,35,ARAUJO ALVAREZ,GONZALO ADRIAN,GONZALO ADRIAN ARAUJO ALVAREZ,"ALVAREZ, GONZALO ADRIAN ARAUJO",18222862,M
+2025-buenos-aires-potencia-01,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,1,TALERICO,MARIA EUGENIA,MARIA EUGENIA TALERICO,"TALERICO, MARIA EUGENIA",22077632,F
+2025-buenos-aires-potencia-02,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,2,ALPERT,RICARDO INTI,RICARDO INTI ALPERT,"ALPERT, RICARDO INTI",21055445,M
+2025-buenos-aires-potencia-03,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,3,DE HAGEN,MARIA SOFIA,MARIA SOFIA DE HAGEN,"HAGEN, MARIA SOFIA DE",37007046,F
+2025-buenos-aires-potencia-04,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,4,MASCETTI,FERNANDO PABLO,FERNANDO PABLO MASCETTI,"MASCETTI, FERNANDO PABLO",20331882,M
+2025-buenos-aires-potencia-05,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,5,ACUÑA,FLAVIA NOELIA,FLAVIA NOELIA ACUÑA,"ACUÑA, FLAVIA NOELIA",34712547,F
+2025-buenos-aires-potencia-06,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,6,ECHEVERRIA,MIGUEL ANGEL,MIGUEL ANGEL ECHEVERRIA,"ECHEVERRIA, MIGUEL ANGEL",12205542,M
+2025-buenos-aires-potencia-07,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,7,GIGENA,EVA BEATRIZ,EVA BEATRIZ GIGENA,"GIGENA, EVA BEATRIZ",10963337,F
+2025-buenos-aires-potencia-08,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,8,STODDART,RICARDO JOSE,RICARDO JOSE STODDART,"STODDART, RICARDO JOSE",20778348,M
+2025-buenos-aires-potencia-09,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,9,FRANCINI,AMALIA,AMALIA FRANCINI,"FRANCINI, AMALIA",25806678,F
+2025-buenos-aires-potencia-10,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,10,ALVAREZ,CARLOS MANUEL,CARLOS MANUEL ALVAREZ,"ALVAREZ, CARLOS MANUEL",13017456,M
+2025-buenos-aires-potencia-11,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,11,HERNANDEZ,MARIA GABRIELA,MARIA GABRIELA HERNANDEZ,"HERNANDEZ, MARIA GABRIELA",17286723,F
+2025-buenos-aires-potencia-12,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,12,CEVASCO,ANIBAL ANSELMO,ANIBAL ANSELMO CEVASCO,"CEVASCO, ANIBAL ANSELMO",17480816,M
+2025-buenos-aires-potencia-13,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,13,RUMI GONZALEZ,CECILIA VIRGINIA,CECILIA VIRGINIA RUMI GONZALEZ,"GONZALEZ, CECILIA VIRGINIA RUMI",23942050,F
+2025-buenos-aires-potencia-14,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,14,GARCIA,MARCELO FABIAN,MARCELO FABIAN GARCIA,"GARCIA, MARCELO FABIAN",17109678,M
+2025-buenos-aires-potencia-15,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,15,SCHIAVI,ARIANA MAGALI,ARIANA MAGALI SCHIAVI,"SCHIAVI, ARIANA MAGALI",37673370,F
+2025-buenos-aires-potencia-16,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,16,BERISSO,JORGE LUIS,JORGE LUIS BERISSO,"BERISSO, JORGE LUIS",8333124,M
+2025-buenos-aires-potencia-17,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,17,VILLATA,MARIA EUGENIA,MARIA EUGENIA VILLATA,"VILLATA, MARIA EUGENIA",23789816,F
+2025-buenos-aires-potencia-18,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,18,BARTOLETTI,ALEJANDRO,ALEJANDRO BARTOLETTI,"BARTOLETTI, ALEJANDRO",21567060,M
+2025-buenos-aires-potencia-19,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,19,CHUI,MARCELA ESTELA,MARCELA ESTELA CHUI,"CHUI, MARCELA ESTELA",17547241,F
+2025-buenos-aires-potencia-20,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,20,PALMIOTTI,LUIS ENRIQUE,LUIS ENRIQUE PALMIOTTI,"PALMIOTTI, LUIS ENRIQUE",14331605,M
+2025-buenos-aires-potencia-21,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,21,PASSERINI,MARIA ANDREA,MARIA ANDREA PASSERINI,"PASSERINI, MARIA ANDREA",20574728,F
+2025-buenos-aires-potencia-22,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,22,CUMPLIDO,HECTOR JUAN,HECTOR JUAN CUMPLIDO,"CUMPLIDO, HECTOR JUAN",10460779,M
+2025-buenos-aires-potencia-23,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,23,PISERA,SUSANA GRACIELA,SUSANA GRACIELA PISERA,"PISERA, SUSANA GRACIELA",11816107,F
+2025-buenos-aires-potencia-24,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,24,VIGNEAU,PEDRO MANUEL,PEDRO MANUEL VIGNEAU,"VIGNEAU, PEDRO MANUEL",20618661,M
+2025-buenos-aires-potencia-25,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,25,GANDINI,DELIA NATALIA,DELIA NATALIA GANDINI,"GANDINI, DELIA NATALIA",23587301,F
+2025-buenos-aires-potencia-26,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,26,CABALLERO MATTOCIO,FEDERICO,FEDERICO CABALLERO MATTOCIO,"MATTOCIO, FEDERICO CABALLERO",40809588,M
+2025-buenos-aires-potencia-27,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,27,FUENTES WEBER,MARIANA,MARIANA FUENTES WEBER,"WEBER, MARIANA FUENTES",39959691,F
+2025-buenos-aires-potencia-28,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,28,VENCHIARUTTI,CLAUDIO JESÚS,CLAUDIO JESÚS VENCHIARUTTI,"VENCHIARUTTI, CLAUDIO JESÚS",31695681,M
+2025-buenos-aires-potencia-29,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,29,ANOLL,GABRIELA,GABRIELA ANOLL,"ANOLL, GABRIELA",22599192,F
+2025-buenos-aires-potencia-30,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,30,BULACIO,ALEJANDRO JOSE,ALEJANDRO JOSE BULACIO,"BULACIO, ALEJANDRO JOSE",16226036,M
+2025-buenos-aires-potencia-31,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,31,DIAZ,STELLA MARIS,STELLA MARIS DIAZ,"DIAZ, STELLA MARIS",13935232,F
+2025-buenos-aires-potencia-32,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,32,PONCE,OSCAR DANIEL,OSCAR DANIEL PONCE,"PONCE, OSCAR DANIEL",10401969,M
+2025-buenos-aires-potencia-33,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,33,GOROSITO,LORENA PAOLA,LORENA PAOLA GOROSITO,"GOROSITO, LORENA PAOLA",23965403,F
+2025-buenos-aires-potencia-34,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,34,CHOBADINDEGUI,JESUS ISMAEL,JESUS ISMAEL CHOBADINDEGUI,"CHOBADINDEGUI, JESUS ISMAEL",26683407,M
+2025-buenos-aires-potencia-35,2025-buenos-aires-potencia,diputados-2025,Buenos Aires,35,CARBONE,LAURA ADELINA,LAURA ADELINA CARBONE,"CARBONE, LAURA ADELINA",16145544,F
+2025-buenos-aires-provincias-unidas-01,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,1,RANDAZZO,ANIBAL FLORENCIO,FLORENCIO RANDAZZO,"RANDAZZO, FLORENCIO",16807083,M
+2025-buenos-aires-provincias-unidas-02,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,2,STOLBIZER,MARGARITA ROSA,MARGARITA ROSA STOLBIZER,"STOLBIZER, MARGARITA ROSA",11566048,F
+2025-buenos-aires-provincias-unidas-03,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,3,MONZÓ,EMILIO,EMILIO MONZÓ,"MONZÓ, EMILIO",17454905,M
+2025-buenos-aires-provincias-unidas-04,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,4,TAVELA,DANYA VERONICA,DANYA VERONICA TAVELA,"TAVELA, DANYA VERONICA",25785884,F
+2025-buenos-aires-provincias-unidas-05,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,5,LAZZERETTI,ALFREDO REMO,LAZZERETTI ALFREDO REMO,"REMO, LAZZERETTI ALFREDO",14929572,M
+2025-buenos-aires-provincias-unidas-06,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,6,ALMENTA,ANDREA CAROLA,ANDREA CAROLA ALMENTA,"ALMENTA, ANDREA CAROLA",23997408,F
+2025-buenos-aires-provincias-unidas-07,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,7,CAFFARO,OSVALDO RAUL,OSVALDO RAUL CAFFARO,"CAFFARO, OSVALDO RAUL",14166283,M
+2025-buenos-aires-provincias-unidas-08,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,8,LAURIA,JOSEFINA,JOSEFINA LAURIA,"LAURIA, JOSEFINA",37031740,F
+2025-buenos-aires-provincias-unidas-09,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,9,PASQUALIN,JULIO ENRIQUE,JULIO ENRIQUE PASQUALIN,"PASQUALIN, JULIO ENRIQUE",20642887,M
+2025-buenos-aires-provincias-unidas-10,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,10,GREEN ASTEAZARÁN,MARIA SILVINA,MARIA SILVINA GREEN ASTEAZARÁN,"ASTEAZARÁN, MARIA SILVINA GREEN",35793390,F
+2025-buenos-aires-provincias-unidas-11,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,11,BUIL,SERGIO OMAR,BUIL SERGIO OMAR,"OMAR, BUIL SERGIO",17374431,M
+2025-buenos-aires-provincias-unidas-12,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,12,DZIAKOWSKI,NATALIA LORENA,NATALIA LORENA DZIAKOWSKI,"DZIAKOWSKI, NATALIA LORENA",27195526,F
+2025-buenos-aires-provincias-unidas-13,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,13,DUNOGENT,JULIO DANIEL,JULIO DANIEL DUNOGENT,"DUNOGENT, JULIO DANIEL",11615954,M
+2025-buenos-aires-provincias-unidas-14,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,14,REGO,GRACIELA NORA,GRACIELA NORA REGO,"REGO, GRACIELA NORA",11297594,F
+2025-buenos-aires-provincias-unidas-15,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,15,ALVA,OSCAR HECTOR,OSCAR HECTOR ALVA,"ALVA, OSCAR HECTOR",20537108,M
+2025-buenos-aires-provincias-unidas-16,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,16,ZAMORA,VERONICA GABRIELA,VERONICA GABRIELA ZAMORA,"ZAMORA, VERONICA GABRIELA",28725597,F
+2025-buenos-aires-provincias-unidas-17,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,17,RIPAMONTI,JUAN PABLO,RIPAMONTI JUAN PABLO,"PABLO, RIPAMONTI JUAN",27856005,M
+2025-buenos-aires-provincias-unidas-18,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,18,LOPEZ,JORGELINA SOLEDAD,JORGELINA SOLEDAD LOPEZ,"LOPEZ, JORGELINA SOLEDAD",29782693,F
+2025-buenos-aires-provincias-unidas-19,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,19,GIANELLA,CARLOS DANIEL,CARLOS DANIEL GIANELLA,"GIANELLA, CARLOS DANIEL",22858712,M
+2025-buenos-aires-provincias-unidas-20,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,20,LOPEZ,MARIANELA,MARIANELA LOPEZ,"LOPEZ, MARIANELA",24742002,F
+2025-buenos-aires-provincias-unidas-21,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,21,FRAGA,MARCELO DANIEL,MARCELO DANIEL FRAGA,"FRAGA, MARCELO DANIEL",21141077,M
+2025-buenos-aires-provincias-unidas-22,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,22,MENDAÑO,STELLA MARIS,STELLA MARIS MENDAÑO,"MENDAÑO, STELLA MARIS",14849352,F
+2025-buenos-aires-provincias-unidas-23,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,23,CHOFFI,RICARDO FABIAN,RICARDO FABIAN CHOFFI,"CHOFFI, RICARDO FABIAN",20472849,M
+2025-buenos-aires-provincias-unidas-24,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,24,RODRIGUEZ,MARIA LUJAN,MARIA LUJAN RODRIGUEZ,"RODRIGUEZ, MARIA LUJAN",23457106,F
+2025-buenos-aires-provincias-unidas-25,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,25,CARCIOFI,SERGIO FABIO,SERGIO FABIO CARCIOFI,"CARCIOFI, SERGIO FABIO",20864695,M
+2025-buenos-aires-provincias-unidas-26,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,26,BERGER,SILVANA RAQUEL,SILVANA RAQUEL BERGER,"BERGER, SILVANA RAQUEL",23531388,F
+2025-buenos-aires-provincias-unidas-27,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,27,DUHALDE,JOSE MARIA,JOSE MARIA DUHALDE,"DUHALDE, JOSE MARIA",26990464,M
+2025-buenos-aires-provincias-unidas-28,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,28,VILLALBA,GLADIS BEATRIZ,GLADIS BEATRIZ VILLALBA,"VILLALBA, GLADIS BEATRIZ",16800135,F
+2025-buenos-aires-provincias-unidas-29,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,29,VELAZCO,JOSE ENRIQUE,JOSE ENRIQUE VELAZCO,"VELAZCO, JOSE ENRIQUE",22258567,M
+2025-buenos-aires-provincias-unidas-30,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,30,NARDI,MARIA FABIANA,MARIA FABIANA NARDI,"NARDI, MARIA FABIANA",20499027,F
+2025-buenos-aires-provincias-unidas-31,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,31,COLLI,JUAN GUSTAVO,COLLI JUAN GUSTAVO,"GUSTAVO, COLLI JUAN",22284050,M
+2025-buenos-aires-provincias-unidas-32,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,32,LOYOLA,MARCELA PATRICIA,MARCELA PATRICIA LOYOLA,"LOYOLA, MARCELA PATRICIA",14482905,F
+2025-buenos-aires-provincias-unidas-33,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,33,CAPOLUPO,HERNAN JOSE MIGUEL,HERNAN JOSE MIGUEL CAPOLUPO,"CAPOLUPO, HERNAN JOSE MIGUEL",27609676,M
+2025-buenos-aires-provincias-unidas-34,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,34,MUNIZ,MARIA DEL PILAR,MARIA DEL PILAR MUNIZ,"MUNIZ, MARIA DEL PILAR",13208552,F
+2025-buenos-aires-provincias-unidas-35,2025-buenos-aires-provincias-unidas,diputados-2025,Buenos Aires,35,CIERI,ALEJANDRO AGUSTIN,ALEJANDRO AGUSTIN CIERI,"CIERI, ALEJANDRO AGUSTIN",39485652,M
+2025-buenos-aires-union-federal-01,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,1,GRAY,FERNANDO,FERNANDO GRAY,"GRAY, FERNANDO",21750585,M
+2025-buenos-aires-union-federal-02,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,2,GUAZZARONI,MARIA LAURA,MARIA LAURA GUAZZARONI,"GUAZZARONI, MARIA LAURA",22950940,F
+2025-buenos-aires-union-federal-03,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,3,MARTELLI,FEDERICO,FEDERICO MARTELLI,"MARTELLI, FEDERICO",27236038,M
+2025-buenos-aires-union-federal-04,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,4,PEREZ,ANALIA ELISABET,ANALIA ELISABET PEREZ,"PEREZ, ANALIA ELISABET",18200667,F
+2025-buenos-aires-union-federal-05,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,5,SUAREZ ERDAIRE,ADOLFO MAXIMILIANO,ADOLFO MAXIMILIANO SUAREZ ERDAIRE,"ERDAIRE, ADOLFO MAXIMILIANO SUAREZ",28673417,M
+2025-buenos-aires-union-federal-06,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,6,BIROULET,CARINA MABEL,CARINA MABEL BIROULET,"BIROULET, CARINA MABEL",23155997,F
+2025-buenos-aires-union-federal-07,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,7,GARCIA,ANGEL ALBERTO,ANGEL ALBERTO GARCIA,"GARCIA, ANGEL ALBERTO",4629415,M
+2025-buenos-aires-union-federal-08,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,8,OLIVA,GISELA ELIZABET,GISELA ELIZABET OLIVA,"OLIVA, GISELA ELIZABET",26616673,F
+2025-buenos-aires-union-federal-09,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,9,FERNANDINO,MARIANO,MARIANO FERNANDINO,"FERNANDINO, MARIANO",25476535,M
+2025-buenos-aires-union-federal-10,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,10,TORTOSA,ROSANA,ROSANA TORTOSA,"TORTOSA, ROSANA",14160874,F
+2025-buenos-aires-union-federal-11,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,11,LOPEZ,ALEJANDRO LUIS,"ALEJANDRO LUIS ""OVEJA"" LOPEZ","LOPEZ, ALEJANDRO LUIS ""OVEJA""",12825480,M
+2025-buenos-aires-union-federal-12,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,12,CASAS,MARIA ISABEL,MARIA ISABEL CASAS,"CASAS, MARIA ISABEL",11695596,F
+2025-buenos-aires-union-federal-13,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,13,MENGIA,GUIDO IGNACIO,GUIDO IGNACIO MENGIA,"MENGIA, GUIDO IGNACIO",23125360,M
+2025-buenos-aires-union-federal-14,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,14,ROJAS,ROMINA SOLEDAD,ROMINA SOLEDAD ROJAS,"ROJAS, ROMINA SOLEDAD",29055193,F
+2025-buenos-aires-union-federal-15,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,15,GARCIA,ERNESTO FABIAN,ERNESTO FABIAN GARCIA,"GARCIA, ERNESTO FABIAN",16253747,M
+2025-buenos-aires-union-federal-16,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,16,BLANCO,EMILCE BEATRIZ,EMILCE BEATRIZ BLANCO,"BLANCO, EMILCE BEATRIZ",22002779,F
+2025-buenos-aires-union-federal-17,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,17,DAVILA,HUGO MARCELO,HUGO MARCELO DAVILA,"DAVILA, HUGO MARCELO",16682744,M
+2025-buenos-aires-union-federal-18,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,18,BARRIOS,IRIS NOEMI,IRIS NOEMI BARRIOS,"BARRIOS, IRIS NOEMI",22481524,F
+2025-buenos-aires-union-federal-19,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,19,RAFFAELLINO,JAVIER DAMIAN,JAVIER DAMIAN RAFFAELLINO,"RAFFAELLINO, JAVIER DAMIAN",22460548,M
+2025-buenos-aires-union-federal-20,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,20,LUDUEÑA,MARCELA FABIANA,MARCELA FABIANA LUDUEÑA,"LUDUEÑA, MARCELA FABIANA",18628745,F
+2025-buenos-aires-union-federal-21,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,21,CANO,LUIS ROBERTO,LUIS ROBERTO CANO,"CANO, LUIS ROBERTO",17705757,M
+2025-buenos-aires-union-federal-22,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,22,PIANTANIDA,ANDREA SILVIA,ANDREA SILVIA PIANTANIDA,"PIANTANIDA, ANDREA SILVIA",17663774,F
+2025-buenos-aires-union-federal-23,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,23,MONTES,ARIEL GUSTAVO,ARIEL GUSTAVO MONTES,"MONTES, ARIEL GUSTAVO",31679514,M
+2025-buenos-aires-union-federal-24,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,24,ALSINA,SABRINA NATALIA,SABRINA NATALIA ALSINA,"ALSINA, SABRINA NATALIA",26660152,F
+2025-buenos-aires-union-federal-25,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,25,ETCHEGOYHEN,PABLO SEBASTIAN,PABLO SEBASTIAN ETCHEGOYHEN,"ETCHEGOYHEN, PABLO SEBASTIAN",30654390,M
+2025-buenos-aires-union-federal-26,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,26,KOCH,MIRTA AZUCENA,MIRTA AZUCENA KOCH,"KOCH, MIRTA AZUCENA",13397129,F
+2025-buenos-aires-union-federal-27,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,27,SANCHEZ,MANUEL HECTOR,MANUEL HECTOR SANCHEZ,"SANCHEZ, MANUEL HECTOR",22706235,M
+2025-buenos-aires-union-federal-28,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,28,BARRAZA,RAMONA CRUZ,RAMONA CRUZ BARRAZA,"BARRAZA, RAMONA CRUZ",21051241,F
+2025-buenos-aires-union-federal-29,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,29,FERNANDEZ ARAUJO,FACUNDO MARTIN,FACUNDO MARTIN FERNANDEZ ARAUJO,"ARAUJO, FACUNDO MARTIN FERNANDEZ",24190635,M
+2025-buenos-aires-union-federal-30,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,30,CRISTALDO,BLANCA SOLEDAD,BLANCA SOLEDAD CRISTALDO,"CRISTALDO, BLANCA SOLEDAD",18208480,F
+2025-buenos-aires-union-federal-31,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,31,TRUCCO,IGNACIO,IGNACIO TRUCCO,"TRUCCO, IGNACIO",28464816,M
+2025-buenos-aires-union-federal-32,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,32,SORIA,SABRINA AYELEN,SABRINA AYELEN SORIA,"SORIA, SABRINA AYELEN",34249337,F
+2025-buenos-aires-union-federal-33,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,33,FAVALE,WALTER ADRIAN,WALTER ADRIAN FAVALE,"FAVALE, WALTER ADRIAN",18425248,M
+2025-buenos-aires-union-federal-34,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,34,FERNANDEZ,SILVANA PATRICIA,SILVANA PATRICIA FERNANDEZ,"FERNANDEZ, SILVANA PATRICIA",24226311,F
+2025-buenos-aires-union-federal-35,2025-buenos-aires-union-federal,diputados-2025,Buenos Aires,35,VALDES,HUMBERTO JORGE,HUMBERTO JORGE VALDES,"VALDES, HUMBERTO JORGE",12319267,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-01,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,1,DEL CAÑO,NICOLAS,NICOLAS DEL CAÑO,"CAÑO, NICOLAS DEL",27921771,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-02,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,2,DEL PLÁ,ROMINA,ROMINA DEL PLÁ,"PLÁ, ROMINA DEL",22668056,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-03,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,3,GIORDANO,JUAN CARLOS,JUAN CARLOS GIORDANO,"GIORDANO, JUAN CARLOS",14907638,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-04,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,4,SCHLOTTHAUER,MONICA LETICIA,MONICA SCHLOTTHAUER,"SCHLOTTHAUER, MONICA",16535017,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-05,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,5,BODART,HUGO ALEJANDRO,ALEJANDRO BODART,"BODART, ALEJANDRO",16507098,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-06,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,6,PAREDES LANDMAN,ANA IRENE,ANA PAREDES LANDMAN,"LANDMAN, ANA PAREDES",38466795,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-07,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,7,PITROLA,NESTOR ANTONIO,NESTOR PITROLA,"PITROLA, NESTOR",10445883,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-08,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,8,GONZALEZ SELIGRA,NATHALIA INES,NATHALIA INES GONZALEZ SELIGRA,"SELIGRA, NATHALIA INES GONZALEZ",18845956,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-09,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,9,AYALA,EDUARDO,EDUARDO AYALA,"AYALA, EDUARDO",21587888,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-10,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,10,SIMIONI,LUANA,LUANA SIMIONI,"SIMIONI, LUANA",24590676,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-11,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,11,RODRIGUEZ,SEBASTIáN MANUEL,SEBASTIáN RODRIGUEZ,"RODRIGUEZ, SEBASTIáN",25432395,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-12,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,12,MATUSEVICIUS,JORGELINA,JORGELINA MATUSEVICIUS,"MATUSEVICIUS, JORGELINA",24497464,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-13,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,13,NOVO FOTI,FEDERICO FRANCISCO,FEDERICO NOVO FOTI,"FOTI, FEDERICO NOVO",29364884,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-14,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,14,LEZANA,NORMA INES,NORMA LEZANA,"LEZANA, NORMA",16044483,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-15,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,15,SOMER,ARIEL MARCELO,ARIEL MARCELO SOMER,"SOMER, ARIEL MARCELO",26195992,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-16,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,16,BARRIOS,AGUSTINA BELÉN,AGUSTINA BELÉN BARRIOS,"BARRIOS, AGUSTINA BELÉN",40308413,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-17,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,17,PACAGNINI,GUILLERMO ENRIQUE,GUILLERMO PACAGNINI,"PACAGNINI, GUILLERMO",11386123,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-18,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,18,CABRERA SANCHEZ,DAIANA SOLANGE,DAIANA CABRERA,"CABRERA, DAIANA",36330318,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-19,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,19,CUENCA,LUCAS HERNAN,LUCAS HERNAN CUENCA,"CUENCA, LUCAS HERNAN",41484839,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-20,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,20,CALDERON,GRACIELA BEATRIZ,GRACIELA CALDERON,"CALDERON, GRACIELA",16126117,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-21,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,21,ROMERO,JUAN EMILIANO,JUAN ROMERO,"ROMERO, JUAN",27312876,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-22,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,22,LEGUIZAMON,KAREN FLORENCIA,KAREN FLORENCIA LEGUIZAMON,"LEGUIZAMON, KAREN FLORENCIA",38127758,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-23,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,23,SEBRIANO,JOSE ALEJANDRO,JOSE  SEBRIANO,"SEBRIANO, JOSE",24379917,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-24,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,24,LANZETTE,ANDREA BERNARDA,ANDREA LANZETTE,"LANZETTE, ANDREA",22923330,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-25,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,25,RAPANELLI,FRANCO,FRANCO RAPANELLI,"RAPANELLI, FRANCO",32609929,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-26,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,26,CORREA LOUZAO,EMILCE ALEJANDRA,EMILCE CORREA LOUZAO,"LOUZAO, EMILCE CORREA",35760761,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-27,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,27,MORA,CLAUDIO MANUEL,CLAUDIO MANUEL MORA,"MORA, CLAUDIO MANUEL",21496875,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-28,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,28,BIAGGIO,NORA IRIS,NORA BIAGGIO,"BIAGGIO, NORA",10407128,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-29,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,29,SUCHER,LUIS MARIANO,LUIS MARIANO SUCHER,"SUCHER, LUIS MARIANO",26666328,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-30,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,30,MENDEZ,MONICA SILVIA,MONICA MENDEZ,"MENDEZ, MONICA",14121345,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-31,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,31,VALDUEZA SEGRETI,RICARDO JAVIER,RICARDO JAVIER VALDUEZA SEGRETI,"SEGRETI, RICARDO JAVIER VALDUEZA",23958221,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-32,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,32,AKERFELD,PAULA YAMILA,PAULA YAMILA AKERFELD,"AKERFELD, PAULA YAMILA",35094044,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-33,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,33,LOPEZ,OSVALDO OMAR,OMAR LOPEZ,"LOPEZ, OMAR",14260354,M
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-34,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,34,ESPASA,NATALIA MARISA,NATALIA ESPASA,"ESPASA, NATALIA",31075199,F
+2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad-35,2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,35,CORRADI,LUCIANO,LUCIANO CORRADI,"CORRADI, LUCIANO",31342358,M
+2025-buenos-aires-frente-patriota-federal-01,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,1,SAMID,ALBERTO,ALBERTO SAMID,"SAMID, ALBERTO",7794340,M
+2025-buenos-aires-frente-patriota-federal-02,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,2,DIP,MARIA CRISTINA,MARIA CRISTINA DIP,"DIP, MARIA CRISTINA",13554011,F
+2025-buenos-aires-frente-patriota-federal-03,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,3,BIONDINI,ALEJANDRO CARLOS,ALEJANDRO BIONDINI,"BIONDINI, ALEJANDRO",12081380,M
+2025-buenos-aires-frente-patriota-federal-04,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,4,SCARAFIA,MARISA CECILIA,MARISA CECILIA SCARAFIA,"SCARAFIA, MARISA CECILIA",17397088,F
+2025-buenos-aires-frente-patriota-federal-05,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,5,IODKO,MARTÍN ADÁN,MARTÍN ADÁN IODKO,"IODKO, MARTÍN ADÁN",22337596,M
+2025-buenos-aires-frente-patriota-federal-06,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,6,OTT,ELIANA SOLANGE,ELIANA SOLANGE OTT,"OTT, ELIANA SOLANGE",33017250,F
+2025-buenos-aires-frente-patriota-federal-07,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,7,CARLOMAGNO,DIEGO ARIEL,DIEGO ARIEL CARLOMAGNO,"CARLOMAGNO, DIEGO ARIEL",30038941,M
+2025-buenos-aires-frente-patriota-federal-08,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,8,GARCIA,SANDRA MARCELA,SANDRA MARCELA GARCIA,"GARCIA, SANDRA MARCELA",20893985,F
+2025-buenos-aires-frente-patriota-federal-09,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,9,BELLINI,VALENTINO,VALENTINO BELLINI,"BELLINI, VALENTINO",31424100,M
+2025-buenos-aires-frente-patriota-federal-10,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,10,KAYSER,YOLANDA BEATRIZ,YOLANDA BEATRIZ KAYSER,"KAYSER, YOLANDA BEATRIZ",22933039,F
+2025-buenos-aires-frente-patriota-federal-11,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,11,GARCIA,CLAUDIO HERNAN,CLAUDIO HERNAN GARCIA,"GARCIA, CLAUDIO HERNAN",18171225,M
+2025-buenos-aires-frente-patriota-federal-12,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,12,ETCHEVERRY,YANET DAIANA,YANET DAIANA ETCHEVERRY,"ETCHEVERRY, YANET DAIANA",30439648,F
+2025-buenos-aires-frente-patriota-federal-13,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,13,FRESCA,AMERICO ANTONIO,ANTONIO FRESCA,"FRESCA, ANTONIO",11601331,M
+2025-buenos-aires-frente-patriota-federal-14,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,14,MOLLO,MARIANA PAULA PATRICIA,MARIANA PAULA PATRICIA MOLLO,"MOLLO, MARIANA PAULA PATRICIA",22707016,F
+2025-buenos-aires-frente-patriota-federal-15,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,15,BUSTAMANTE,SEBASTIAN JORGE SALVADOR,SEBASTIAN JORGE SALVADOR BUSTAMANTE,"BUSTAMANTE, SEBASTIAN JORGE SALVADOR",29847147,M
+2025-buenos-aires-frente-patriota-federal-16,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,16,FERREYRA,MARIA LAURA,MARIA LAURA FERREYRA,"FERREYRA, MARIA LAURA",21909591,F
+2025-buenos-aires-frente-patriota-federal-17,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,17,RODRIGUEZ,HECTOR ISMAEL,HECTOR ISMAEL RODRIGUEZ,"RODRIGUEZ, HECTOR ISMAEL",14530639,M
+2025-buenos-aires-frente-patriota-federal-18,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,18,BOSTJANCIC,SILVIA IRENE,SILVIA IRENE BOSTJANCIC,"BOSTJANCIC, SILVIA IRENE",22190033,F
+2025-buenos-aires-frente-patriota-federal-19,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,19,MANNARINO,ESTEBAN OSCAR,ESTEBAN OSCAR MANNARINO,"MANNARINO, ESTEBAN OSCAR",25467452,M
+2025-buenos-aires-frente-patriota-federal-20,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,20,CLAVIJO,SILVIA RAQUEL,SILVIA RAQUEL CLAVIJO,"CLAVIJO, SILVIA RAQUEL",24976013,F
+2025-buenos-aires-frente-patriota-federal-21,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,21,SPINOSA CASTAÑO,ROBERTO GABRIEL,ROBERTO GABRIEL SPINOSA CASTAÑO,"CASTAÑO, ROBERTO GABRIEL SPINOSA",22448984,M
+2025-buenos-aires-frente-patriota-federal-22,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,22,GARCIA,MARCELA ANA,MARCELA ANA GARCIA,"GARCIA, MARCELA ANA",16755030,F
+2025-buenos-aires-frente-patriota-federal-23,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,23,CETROLA,ALBERTO ENRIQUE,ALBERTO ENRIQUE CETROLA,"CETROLA, ALBERTO ENRIQUE",13364308,M
+2025-buenos-aires-frente-patriota-federal-24,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,24,AGUILERA,RAQUEL ALEJANDRA,RAQUEL ALEJANDRA AGUILERA,"AGUILERA, RAQUEL ALEJANDRA",24978456,F
+2025-buenos-aires-frente-patriota-federal-25,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,25,GUTIERREZ,SEBASTIAN GABRIEL,SEBASTIAN GABRIEL GUTIERREZ,"GUTIERREZ, SEBASTIAN GABRIEL",29578149,M
+2025-buenos-aires-frente-patriota-federal-26,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,26,CASTILLO,NANCY ELIZABETH,NANCY ELIZABETH CASTILLO,"CASTILLO, NANCY ELIZABETH",18340211,F
+2025-buenos-aires-frente-patriota-federal-27,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,27,JULIAN,MIGUEL OMAR,MIGUEL OMAR JULIAN,"JULIAN, MIGUEL OMAR",8272818,M
+2025-buenos-aires-frente-patriota-federal-28,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,28,QUIROZ,ALICIA BEATRIZ,ALICIA BEATRIZ QUIROZ,"QUIROZ, ALICIA BEATRIZ",5570398,F
+2025-buenos-aires-frente-patriota-federal-29,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,29,RISS,ROLANDO MARTIN,MARTIN RISS,"RISS, MARTIN",31652880,M
+2025-buenos-aires-frente-patriota-federal-30,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,30,SALTO,ERICA RAQUEL,ERICA RAQUEL SALTO,"SALTO, ERICA RAQUEL",26523515,F
+2025-buenos-aires-frente-patriota-federal-31,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,31,ROSITO,JUAN CARLOS,JUAN CARLOS ROSITO,"ROSITO, JUAN CARLOS",12784427,M
+2025-buenos-aires-frente-patriota-federal-32,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,32,COLICINO,YESICA ANDREA,YESICA ANDREA COLICINO,"COLICINO, YESICA ANDREA",34115233,F
+2025-buenos-aires-frente-patriota-federal-33,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,33,OROS,ENRIQUE MARCELO ARIEL,ENRIQUE MARCELO ARIEL OROS,"OROS, ENRIQUE MARCELO ARIEL",18460424,M
+2025-buenos-aires-frente-patriota-federal-34,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,34,PEREZ,MONICA ISABEL,MONICA ISABEL PEREZ,"PEREZ, MONICA ISABEL",17380300,F
+2025-buenos-aires-frente-patriota-federal-35,2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,35,ARIAS,JORGE EDUARDO,JORGE EDUARDO ARIAS,"ARIAS, JORGE EDUARDO",23108193,M
+2025-buenos-aires-fuerza-patria-01,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,1,TAIANA,JORGE ENRIQUE,JORGE ENRIQUE TAIANA,"TAIANA, JORGE ENRIQUE",8362673,M
+2025-buenos-aires-fuerza-patria-02,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,2,LOPEZ,MARIA JIMENA,MARIA JIMENA LOPEZ,"LOPEZ, MARIA JIMENA",27708356,F
+2025-buenos-aires-fuerza-patria-03,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,3,GRABOIS,JUAN,JUAN GRABOIS,"GRABOIS, JUAN",30334765,M
+2025-buenos-aires-fuerza-patria-04,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,4,SILEY,VANESA RAQUEL,VANESA RAQUEL SILEY,"SILEY, VANESA RAQUEL",31114069,F
+2025-buenos-aires-fuerza-patria-05,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,5,PALAZZO,SERGIO OMAR,SERGIO OMAR PALAZZO,"PALAZZO, SERGIO OMAR",16011600,M
+2025-buenos-aires-fuerza-patria-06,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,6,GARCIA,MARIA TERESA,MARIA TERESA GARCIA,"GARCIA, MARIA TERESA",12285771,F
+2025-buenos-aires-fuerza-patria-07,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,7,PIETRAGALLA CORTI,HORACIO,HORACIO PIETRAGALLA CORTI,"CORTI, HORACIO PIETRAGALLA",26019195,M
+2025-buenos-aires-fuerza-patria-08,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,8,PROPATO,AGUSTINA LUCRECIA,AGUSTINA LUCRECIA PROPATO,"PROPATO, AGUSTINA LUCRECIA",29549554,F
+2025-buenos-aires-fuerza-patria-09,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,9,MOYANO,HUGO ANTONIO,HUGO ANTONIO MOYANO,"MOYANO, HUGO ANTONIO",30506329,M
+2025-buenos-aires-fuerza-patria-10,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,10,DIAZ,FERNANDA,FERNANDA DIAZ,"DIAZ, FERNANDA",34991029,F
+2025-buenos-aires-fuerza-patria-11,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,11,GALMARINI,SEBASTIAN,SEBASTIAN GALMARINI,"GALMARINI, SEBASTIAN",26650832,M
+2025-buenos-aires-fuerza-patria-12,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,12,MIÑO,RAMONA FERNANDA,RAMONA FERNANDA MIÑO,"MIÑO, RAMONA FERNANDA",24100107,F
+2025-buenos-aires-fuerza-patria-13,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,13,YASKY,HUGO RUBEN,HUGO RUBEN YASKY,"YASKY, HUGO RUBEN",8207069,M
+2025-buenos-aires-fuerza-patria-14,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,14,SALZMANN,MARINA DOROTEA,MARINA DOROTEA SALZMANN,"SALZMANN, MARINA DOROTEA",35253862,F
+2025-buenos-aires-fuerza-patria-15,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,15,TROTTA,NICOLAS ALFREDO,NICOLAS ALFREDO TROTTA,"TROTTA, NICOLAS ALFREDO",24957716,M
+2025-buenos-aires-fuerza-patria-16,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,16,VELAZQUEZ,MARIA ELENA,MARIA ELENA VELAZQUEZ,"VELAZQUEZ, MARIA ELENA",20477570,F
+2025-buenos-aires-fuerza-patria-17,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,17,CALDERARO,LUIS ALBERTO,LUIS ALBERTO CALDERARO,"CALDERARO, LUIS ALBERTO",24444864,M
+2025-buenos-aires-fuerza-patria-18,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,18,RODRIGUEZ GOLISANO,ALDANA GISELLE,ALDANA GISELLE RODRIGUEZ GOLISANO,"GOLISANO, ALDANA GISELLE RODRIGUEZ",34508959,F
+2025-buenos-aires-fuerza-patria-19,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,19,CATALANO,DANIEL ADOLFO,"DANIEL ""TANO"" CATALANO","CATALANO, DANIEL ""TANO""",23819100,M
+2025-buenos-aires-fuerza-patria-20,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,20,BERNAZZA,CLAUDIA ALICIA,CLAUDIA ALICIA BERNAZZA,"BERNAZZA, CLAUDIA ALICIA",13581904,F
+2025-buenos-aires-fuerza-patria-21,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,21,RIVAS,JORGE,JORGE RIVAS,"RIVAS, JORGE",14860010,M
+2025-buenos-aires-fuerza-patria-22,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,22,DI BASTIANO,ROCIO,ROCIO DI BASTIANO,"BASTIANO, ROCIO DI",35399630,F
+2025-buenos-aires-fuerza-patria-23,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,23,DE ISASI,OSCAR GERARDO,"OSCAR ""COLO"" DE ISASI","ISASI, OSCAR ""COLO"" DE",16026406,M
+2025-buenos-aires-fuerza-patria-24,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,24,SARAVIA,SILVIA,SILVIA SARAVIA,"SARAVIA, SILVIA",21954429,F
+2025-buenos-aires-fuerza-patria-25,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,25,RAIMUNDI,CARLOS ALBERTO,CARLOS ALBERTO RAIMUNDI,"RAIMUNDI, CARLOS ALBERTO",12964517,M
+2025-buenos-aires-fuerza-patria-26,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,26,QUINTEROS,MACARENA,MACARENA QUINTEROS,"QUINTEROS, MACARENA",38843346,F
+2025-buenos-aires-fuerza-patria-27,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,27,ORTEGA,CARLOS ALBERTO,CARLOS ALBERTO ORTEGA,"ORTEGA, CARLOS ALBERTO",16597873,M
+2025-buenos-aires-fuerza-patria-28,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,28,RUSCONI,MACARENA AYELEN,MACARENA AYELEN RUSCONI,"RUSCONI, MACARENA AYELEN",38230769,F
+2025-buenos-aires-fuerza-patria-29,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,29,DE MARZIANI,FEDERICO ALDO,FEDERICO ALDO DE MARZIANI,"MARZIANI, FEDERICO ALDO DE",26601582,M
+2025-buenos-aires-fuerza-patria-30,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,30,MORENO,MARIA CRISTINA,MARIA CRISTINA MORENO,"MORENO, MARIA CRISTINA",6282391,F
+2025-buenos-aires-fuerza-patria-31,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,31,LEINENN,ARISTIDES BERNABE,ARISTIDES BERNABE LEINENN,"LEINENN, ARISTIDES BERNABE",25828195,M
+2025-buenos-aires-fuerza-patria-32,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,32,DEFELIPE,FLORENCIA,FLORENCIA DEFELIPE,"DEFELIPE, FLORENCIA",34704312,F
+2025-buenos-aires-fuerza-patria-33,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,33,BEROLDO,SEBASTIAN JAVIER,SEBASTIAN JAVIER BEROLDO,"BEROLDO, SEBASTIAN JAVIER",24870940,M
+2025-buenos-aires-fuerza-patria-34,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,34,FERRARI,JULIETA,JULIETA FERRARI,"FERRARI, JULIETA",28528140,F
+2025-buenos-aires-fuerza-patria-35,2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,35,RODRIGUEZ,ALEJANDRO ESTEBAN,ALEJANDRO ESTEBAN RODRIGUEZ,"RODRIGUEZ, ALEJANDRO ESTEBAN",17672563,M
+2025-buenos-aires-liber-ar-01,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,1,TOKUMOTO EYLER,MARIA FERNANDA,MARIA FERNANDA TOKUMOTO EYLER,"EYLER, MARIA FERNANDA TOKUMOTO",14482559,F
+2025-buenos-aires-liber-ar-02,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,2,MOLLARD,LEONARDO FABIAN,LEONARDO FABIAN MOLLARD,"MOLLARD, LEONARDO FABIAN",21773933,M
+2025-buenos-aires-liber-ar-03,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,3,PAZ,MONICA GRACIELA,MONICA GRACIELA PAZ,"PAZ, MONICA GRACIELA",17783758,F
+2025-buenos-aires-liber-ar-04,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,4,BOVERO,FERNANDO ESTEBAN,FERNANDO ESTEBAN BOVERO,"BOVERO, FERNANDO ESTEBAN",21024502,M
+2025-buenos-aires-liber-ar-05,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,5,LEDESMA,MARIANA ELIZABETH,MARIANA ELIZABETH LEDESMA,"LEDESMA, MARIANA ELIZABETH",38840093,F
+2025-buenos-aires-liber-ar-06,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,6,MARTINEZ,NESTOR ABEL,NESTOR ABEL MARTINEZ,"MARTINEZ, NESTOR ABEL",27707587,M
+2025-buenos-aires-liber-ar-07,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,7,VERA,CONSTANZA BELEN,CONSTANZA BELEN VERA,"VERA, CONSTANZA BELEN",42592734,F
+2025-buenos-aires-liber-ar-08,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,8,SIR,MAURO,MAURO SIR,"SIR, MAURO",28728853,M
+2025-buenos-aires-liber-ar-09,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,9,GULIOTTO,CARMEN GRACIELA,CARMEN GRACIELA GULIOTTO,"GULIOTTO, CARMEN GRACIELA",13501134,F
+2025-buenos-aires-liber-ar-10,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,10,LASTRA,JUAN ALBERTO,JUAN ALBERTO LASTRA,"LASTRA, JUAN ALBERTO",20036786,M
+2025-buenos-aires-liber-ar-11,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,11,FAVA,MARIA FERNANDA,MARIA FERNANDA FAVA,"FAVA, MARIA FERNANDA",21445145,F
+2025-buenos-aires-liber-ar-12,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,12,BELANDO,RICARDO CESAR,RICARDO CESAR BELANDO,"BELANDO, RICARDO CESAR",16890646,M
+2025-buenos-aires-liber-ar-13,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,13,BELTRAMINI,ALDANA JULIETA,ALDANA JULIETA BELTRAMINI,"BELTRAMINI, ALDANA JULIETA",32845746,F
+2025-buenos-aires-liber-ar-14,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,14,BASCONCELLO,MARIO MARTÍN,MARIO MARTÍN BASCONCELLO,"BASCONCELLO, MARIO MARTÍN",22228392,M
+2025-buenos-aires-liber-ar-15,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,15,DECOUD,OLGA ELIZABETH,OLGA ELIZABETH DECOUD,"DECOUD, OLGA ELIZABETH",23149585,F
+2025-buenos-aires-liber-ar-16,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,16,GONNET,HECTOR ARIEL,HECTOR ARIEL GONNET,"GONNET, HECTOR ARIEL",22072155,M
+2025-buenos-aires-liber-ar-17,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,17,BIOCCA,CECILIA SOLEDAD,CECILIA SOLEDAD BIOCCA,"BIOCCA, CECILIA SOLEDAD",35611921,F
+2025-buenos-aires-liber-ar-18,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,18,RUIZ,FELIX DANIEL,FELIX DANIEL RUIZ,"RUIZ, FELIX DANIEL",20775957,M
+2025-buenos-aires-liber-ar-19,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,19,SCEBBA,GABRIELA VERONICA,GABRIELA VERONICA SCEBBA,"SCEBBA, GABRIELA VERONICA",21908116,F
+2025-buenos-aires-liber-ar-20,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,20,MILLER,MAXIMILIANO NICOLAS,MAXIMILIANO NICOLAS MILLER,"MILLER, MAXIMILIANO NICOLAS",38624542,M
+2025-buenos-aires-liber-ar-21,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,21,BASILOTTA LANDINI,CAMILA BELEN,CAMILA BELEN BASILOTTA LANDINI,"LANDINI, CAMILA BELEN BASILOTTA",38613117,F
+2025-buenos-aires-liber-ar-22,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,22,GAGNA,SERGIO OMAR,SERGIO OMAR GAGNA,"GAGNA, SERGIO OMAR",13430954,M
+2025-buenos-aires-liber-ar-23,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,23,DELLI SANTI,MARIA VICTORIA,MARIA VICTORIA DELLI SANTI,"SANTI, MARIA VICTORIA DELLI",18337642,F
+2025-buenos-aires-liber-ar-24,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,24,RIENZI,DANIEL,DANIEL RIENZI,"RIENZI, DANIEL",8268233,M
+2025-buenos-aires-liber-ar-25,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,25,ACHARDI,ANDREA ALEJANDRA,ANDREA ALEJANDRA ACHARDI,"ACHARDI, ANDREA ALEJANDRA",22907755,F
+2025-buenos-aires-liber-ar-26,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,26,NALDI,MARIO,MARIO NALDI,"NALDI, MARIO",16967649,M
+2025-buenos-aires-liber-ar-27,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,27,ONTIVEROS,CANDELA LUCIA,CANDELA LUCIA ONTIVEROS,"ONTIVEROS, CANDELA LUCIA",45898242,F
+2025-buenos-aires-liber-ar-28,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,28,BARROS,MARCELO IVAN,MARCELO IVAN BARROS,"BARROS, MARCELO IVAN",22823022,M
+2025-buenos-aires-liber-ar-29,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,29,ZEQUEIRO,AURELIA SUSANA,AURELIA SUSANA ZEQUEIRO,"ZEQUEIRO, AURELIA SUSANA",14153564,F
+2025-buenos-aires-liber-ar-30,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,30,AQUINO,MARIO FERNANDO,MARIO FERNANDO AQUINO,"AQUINO, MARIO FERNANDO",13572498,M
+2025-buenos-aires-liber-ar-31,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,31,NARVAEZ,MIRNA VERONICA,MIRNA VERONICA NARVAEZ,"NARVAEZ, MIRNA VERONICA",29453727,F
+2025-buenos-aires-liber-ar-32,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,32,CASTRO,GUSTAVO JAVIER,GUSTAVO JAVIER CASTRO,"CASTRO, GUSTAVO JAVIER",21921892,M
+2025-buenos-aires-liber-ar-33,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,33,HERNANDEZ,CARMEN INES,CARMEN INES HERNANDEZ,"HERNANDEZ, CARMEN INES",14167641,F
+2025-buenos-aires-liber-ar-34,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,34,MANGANO,SALVADOR,SALVADOR MANGANO,"MANGANO, SALVADOR",10394482,M
+2025-buenos-aires-liber-ar-35,2025-buenos-aires-liber-ar,diputados-2025,Buenos Aires,35,GAMALER RODRIGUEZ,STELLA MARIS,STELLA MARIS GAMALER RODRIGUEZ,"RODRIGUEZ, STELLA MARIS GAMALER",5161469,F
+2025-buenos-aires-movimiento-avanzada-socialista-01,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,1,CASTAÑEIRA,MANUELA,MANUELA CASTAÑEIRA,"CASTAÑEIRA, MANUELA",31232722,F
+2025-buenos-aires-movimiento-avanzada-socialista-02,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,2,RAMAT,JUAN CRUZ,JUAN CRUZ RAMAT,"RAMAT, JUAN CRUZ",30917232,M
+2025-buenos-aires-movimiento-avanzada-socialista-03,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,3,ALVAREZ,MARIA PAZ,MARIA PAZ ALVAREZ,"ALVAREZ, MARIA PAZ",39584238,F
+2025-buenos-aires-movimiento-avanzada-socialista-04,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,4,CORREA,LUCAS MATIAS,LUCAS MATIAS CORREA,"CORREA, LUCAS MATIAS",30595401,M
+2025-buenos-aires-movimiento-avanzada-socialista-05,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,5,YAPURA,SOLEDAD VICTORIA,SOLEDAD VICTORIA YAPURA,"YAPURA, SOLEDAD VICTORIA",30652250,F
+2025-buenos-aires-movimiento-avanzada-socialista-06,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,6,PASCUAN,MARCOS JAVIER,MARCOS JAVIER PASCUAN,"PASCUAN, MARCOS JAVIER",30451215,M
+2025-buenos-aires-movimiento-avanzada-socialista-07,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,7,ABAL,PAULA GABRIELA,PAULA GABRIELA ABAL,"ABAL, PAULA GABRIELA",34818770,F
+2025-buenos-aires-movimiento-avanzada-socialista-08,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,8,HIDALGO ROBLES,LEANDRO,LEANDRO HIDALGO ROBLES,"ROBLES, LEANDRO HIDALGO",29919282,M
+2025-buenos-aires-movimiento-avanzada-socialista-09,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,9,COLODRO,KARINA VANESA,KARINA VANESA COLODRO,"COLODRO, KARINA VANESA",29468861,F
+2025-buenos-aires-movimiento-avanzada-socialista-10,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,10,AYALA,JORGE LUIS,JORGE LUIS AYALA,"AYALA, JORGE LUIS",22422846,M
+2025-buenos-aires-movimiento-avanzada-socialista-11,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,11,ROBLES,GRACIELA LUISA,GRACIELA LUISA ROBLES,"ROBLES, GRACIELA LUISA",6732581,F
+2025-buenos-aires-movimiento-avanzada-socialista-12,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,12,DIAZ,FACUNDO ARIEL,FACUNDO ARIEL DIAZ,"DIAZ, FACUNDO ARIEL",38146942,M
+2025-buenos-aires-movimiento-avanzada-socialista-13,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,13,DOPAZO,ANDREA SUSANA,ANDREA SUSANA DOPAZO,"DOPAZO, ANDREA SUSANA",18354285,F
+2025-buenos-aires-movimiento-avanzada-socialista-14,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,14,MANINI,RAMIRO ANDRES,RAMIRO ANDRES MANINI,"MANINI, RAMIRO ANDRES",38010094,M
+2025-buenos-aires-movimiento-avanzada-socialista-15,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,15,FAGANELLO,NATALIA CELESTE,NATALIA CELESTE FAGANELLO,"FAGANELLO, NATALIA CELESTE",29522094,F
+2025-buenos-aires-movimiento-avanzada-socialista-16,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,16,RAGGIO,FACUNDO ESTEBAN,FACUNDO ESTEBAN RAGGIO,"RAGGIO, FACUNDO ESTEBAN",34873652,M
+2025-buenos-aires-movimiento-avanzada-socialista-17,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,17,GOMEZ,LAURA DANIELA,LAURA DANIELA GOMEZ,"GOMEZ, LAURA DANIELA",36168001,F
+2025-buenos-aires-movimiento-avanzada-socialista-18,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,18,ALMADA,EMILIO ALBERTO,EMILIO ALBERTO ALMADA,"ALMADA, EMILIO ALBERTO",12653422,M
+2025-buenos-aires-movimiento-avanzada-socialista-19,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,19,NUÑEZ,KAREN GISELE,KAREN GISELE NUÑEZ,"NUÑEZ, KAREN GISELE",38678123,F
+2025-buenos-aires-movimiento-avanzada-socialista-20,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,20,CAVIEDES,BENJAMIN ARGENTINO,BENJAMIN ARGENTINO CAVIEDES,"CAVIEDES, BENJAMIN ARGENTINO",13304067,M
+2025-buenos-aires-movimiento-avanzada-socialista-21,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,21,VECCHIO,EMMA SOFÍA,EMMA SOFÍA VECCHIO,"VECCHIO, EMMA SOFÍA",40378761,F
+2025-buenos-aires-movimiento-avanzada-socialista-22,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,22,WASSERMANN,MAXIMILIANO,MAXIMILIANO WASSERMANN,"WASSERMANN, MAXIMILIANO",30680123,M
+2025-buenos-aires-movimiento-avanzada-socialista-23,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,23,CAMARA,LUCIA MACARENA,LUCIA MACARENA CAMARA,"CAMARA, LUCIA MACARENA",36043967,F
+2025-buenos-aires-movimiento-avanzada-socialista-24,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,24,MARTINEZ,"SERGIO ""MANTECA""","SERGIO ""MANTECA"" MARTINEZ","MARTINEZ, SERGIO ""MANTECA""",29504048,M
+2025-buenos-aires-movimiento-avanzada-socialista-25,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,25,ROJAS,PAULA SOLEDAD,PAULA SOLEDAD ROJAS,"ROJAS, PAULA SOLEDAD",34999250,F
+2025-buenos-aires-movimiento-avanzada-socialista-26,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,26,MUGUETA,MIGUEL ANGEL,MIGUEL ANGEL MUGUETA,"MUGUETA, MIGUEL ANGEL",13617362,M
+2025-buenos-aires-movimiento-avanzada-socialista-27,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,27,MAC DERMOTT,EVELYN,EVELYN MAC DERMOTT,"DERMOTT, EVELYN MAC",34532918,F
+2025-buenos-aires-movimiento-avanzada-socialista-28,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,28,MARTINEZ,EDUARDO PASTOR,EDUARDO PASTOR MARTINEZ,"MARTINEZ, EDUARDO PASTOR",8490771,M
+2025-buenos-aires-movimiento-avanzada-socialista-29,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,29,GONZALEZ,FLORENCIA BEATRIZ,FLORENCIA BEATRIZ GONZALEZ,"GONZALEZ, FLORENCIA BEATRIZ",38444688,F
+2025-buenos-aires-movimiento-avanzada-socialista-30,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,30,LASA MATTEUCCI,JAIME MANUEL,JAIME MANUEL LASA MATTEUCCI,"MATTEUCCI, JAIME MANUEL LASA",37398589,M
+2025-buenos-aires-movimiento-avanzada-socialista-31,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,31,BENITEZ,FLORENCIA BELEN,FLORENCIA BELEN BENITEZ,"BENITEZ, FLORENCIA BELEN",39829887,F
+2025-buenos-aires-movimiento-avanzada-socialista-32,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,32,JUAREZ,GUSTAVO MARCELO,GUSTAVO MARCELO JUAREZ,"JUAREZ, GUSTAVO MARCELO",23054606,M
+2025-buenos-aires-movimiento-avanzada-socialista-33,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,33,CARNEIRO,SOFIA DEL CARMEN,SOFIA DEL CARMEN CARNEIRO,"CARNEIRO, SOFIA DEL CARMEN",35271125,F
+2025-buenos-aires-movimiento-avanzada-socialista-34,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,34,SCHMALE,ALEJANDRO MARCELO,ALEJANDRO MARCELO SCHMALE,"SCHMALE, ALEJANDRO MARCELO",24428494,M
+2025-buenos-aires-movimiento-avanzada-socialista-35,2025-buenos-aires-movimiento-avanzada-socialista,diputados-2025,Buenos Aires,35,NUÑEZ,ANDREA SOLANGE,ANDREA SOLANGE NUÑEZ,"NUÑEZ, ANDREA SOLANGE",35985792,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-01,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,1,ALFONSIN,RICARDO LUIS,RICARDO LUIS ALFONSIN,"ALFONSIN, RICARDO LUIS",10096491,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-02,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,2,CASSESE,MARINA,MARINA CASSESE,"CASSESE, MARINA",13236552,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-03,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,3,LOPEZ,GUSTAVO FERNANDO,GUSTAVO FERNANDO LOPEZ,"LOPEZ, GUSTAVO FERNANDO",12924559,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-04,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,4,SBURLATTI,MARIA CELINA,CELINA SBURLATTI,"SBURLATTI, CELINA",18530391,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-05,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,5,MALTEMPO,HUGO ADOLFO,HUGO ADOLFO MALTEMPO,"MALTEMPO, HUGO ADOLFO",18280507,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-06,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,6,LARCAMON,JULIA,JULIA LARCAMON,"LARCAMON, JULIA",26474769,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-07,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,7,CANAY,MANUEL MARTIN,MANUEL MARTIN CANAY,"CANAY, MANUEL MARTIN",30425092,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-08,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,8,ZELI,CARINA ESTER,CARINA ESTER ZELI,"ZELI, CARINA ESTER",26688848,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-09,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,9,FABRIS,JOSE LUIS,JOSE LUIS FABRIS,"FABRIS, JOSE LUIS",10650392,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-10,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,10,ISLAS,MARIANELA,MARIANELA ISLAS,"ISLAS, MARIANELA",31779394,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-11,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,11,HERNANDEZ,SANTIAGO LUIS,SANTIAGO LUIS HERNANDEZ,"HERNANDEZ, SANTIAGO LUIS",23927773,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-12,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,12,ADORNO,GABRIELA ALEJANDRA,GABRIELA ALEJANDRA ADORNO,"ADORNO, GABRIELA ALEJANDRA",22060165,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-13,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,13,KOHL,GERMAN,GERMAN ¨FLACO¨ KOHL,"KOHL, GERMAN ¨FLACO¨",25012362,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-14,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,14,SEQUEIRA,MONICA BEATRIZ,MONICA BEATRIZ SEQUEIRA,"SEQUEIRA, MONICA BEATRIZ",21558122,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-15,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,15,GRECO,CHRISTIAN CARLOS,CHRISTIAN CARLOS GRECO,"GRECO, CHRISTIAN CARLOS",23256651,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-16,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,16,MATEO,VERONICA BEATRIZ,VERONICA BEATRIZ MATEO,"MATEO, VERONICA BEATRIZ",26271709,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-17,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,17,PERUSSICH,FABIO GABRIEL,FABIO GABRIEL PERUSSICH,"PERUSSICH, FABIO GABRIEL",18398749,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-18,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,18,FERNANDEZ ZENA,SILVIA BEATRIZ,SILVIA BEATRIZ FERNANDEZ ZENA,"ZENA, SILVIA BEATRIZ FERNANDEZ",18461817,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-19,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,19,FOSTER,PABLO CRISTIAN,PABLO CRISTIAN FOSTER,"FOSTER, PABLO CRISTIAN",14494140,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-20,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,20,FORTI,VIVIANA HAYDEE,VIVIANA HAYDEE FORTI,"FORTI, VIVIANA HAYDEE",28808187,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-21,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,21,DESERTI,DANIEL HORACIO,DANIEL HORACIO DESERTI,"DESERTI, DANIEL HORACIO",14698655,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-22,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,22,GONZALEZ,EVELIN GISELA,EVELIN GISELA GONZALEZ,"GONZALEZ, EVELIN GISELA",32229596,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-23,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,23,GATTI,OSVALDO JULIO,OSVALDO JULIO GATTI,"GATTI, OSVALDO JULIO",17874941,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-24,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,24,CAMPOS,MARTA MELODI,MARTA MELODI CAMPOS,"CAMPOS, MARTA MELODI",31553550,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-25,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,25,CORONA,ANTONIO HERNAN,ANTONIO HERNAN ¨MARITO¨CORONA,"¨MARITO¨CORONA, ANTONIO HERNAN",20322546,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-26,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,26,PERGOLA,LAURA ANDREA,LAURA ANDREA PERGOLA,"PERGOLA, LAURA ANDREA",20008907,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-27,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,27,BOGADO,EDUARDO ADRIAN,EDUARDO ADRIAN BOGADO,"BOGADO, EDUARDO ADRIAN",17022792,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-28,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,28,RASHID,LEILA,LEILA RASHID,"RASHID, LEILA",34175002,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-29,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,29,FLORES,WALTER OSCAR,WALTER OSCAR FLORES,"FLORES, WALTER OSCAR",41263330,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-30,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,30,MATTEA,GISELA NOEMI,GISELA NOEMI MATTEA,"MATTEA, GISELA NOEMI",27946489,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-31,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,31,ANTONUCHI,LEONEL ALBERTO,LEONEL ALBERTO ANTONUCHI,"ANTONUCHI, LEONEL ALBERTO",21673288,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-32,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,32,BARZOLA,IRENE ELISA,IRENE ELISA BARZOLA,"BARZOLA, IRENE ELISA",13573611,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-33,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,33,GARCIA,GUILLERMO ANDRES,GUILLERMO ANDRES GARCIA,"GARCIA, GUILLERMO ANDRES",25012428,M
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-34,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,34,FERNANDEZ VIZCAY,FERNANDA MARCELA,FERNANDA MARCELA FERNANDEZ VIZCAY,"VIZCAY, FERNANDA MARCELA FERNANDEZ",23289176,F
+2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur-35,2025-buenos-aires-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Buenos Aires,35,SUAREZ,RODOLFO DAMIAN,RODOLFO DAMIAN ¨RODO¨SUAREZ,"¨RODO¨SUAREZ, RODOLFO DAMIAN",13064281,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-01,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,1,LOPEZ,JUAN MANUEL,JUAN MANUEL LOPEZ,"LOPEZ, JUAN MANUEL",30502146,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-02,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,2,LLENDERROZAS,ELSA ESTHER,ELSA ESTHER LLENDERROZAS,"LLENDERROZAS, ELSA ESTHER",17819979,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-03,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,3,HOURCADE,LISANDRO FABIAN,LISANDRO FABIAN HOURCADE,"HOURCADE, LISANDRO FABIAN",26796889,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-04,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,4,ETCHECOIN MORO,MARICEL,MARICEL ETCHECOIN MORO,"MORO, MARICEL ETCHECOIN",27441715,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-05,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,5,YOFE,MATÍAS,MATÍAS YOFE,"YOFE, MATÍAS",35323574,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-06,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,6,PORRO,NADIA GRACIELA,NADIA GRACIELA PORRO,"PORRO, NADIA GRACIELA",30526841,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-07,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,7,BOUVIER,ROMAN LUJAN,ROMAN LUJAN BOUVIER,"BOUVIER, ROMAN LUJAN",31798096,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-08,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,8,BORREGO,MARIA VICTORIA,MARIA VICTORIA BORREGO,"BORREGO, MARIA VICTORIA",20465097,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-09,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,9,FLORES,"HECTOR ""TOTY""","HECTOR ""TOTY"" FLORES","FLORES, HECTOR ""TOTY""",10920674,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-10,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,10,ANDRADA,GRACIELA NORMA,GRACIELA NORMA ANDRADA,"ANDRADA, GRACIELA NORMA",20066791,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-11,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,11,ZUBIAURRE,PABLO ANTONIO,PABLO ANTONIO ZUBIAURRE,"ZUBIAURRE, PABLO ANTONIO",16414754,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-12,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,12,ZAPATA,NILDA GABRIELA,NILDA GABRIELA ZAPATA,"ZAPATA, NILDA GABRIELA",16725247,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-13,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,13,FERNANDEZ,JOSE MARIA,JOSE MARIA FERNANDEZ,"FERNANDEZ, JOSE MARIA",16411843,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-14,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,14,BILBAO,ANAHI SILVINA,ANAHI SILVINA BILBAO,"BILBAO, ANAHI SILVINA",16862799,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-15,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,15,JORDAN,EDUARDO,EDUARDO JORDAN,"JORDAN, EDUARDO",16597998,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-16,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,16,MALASPINA,PATRICIA ALEJANDRA,PATRICIA ALEJANDRA MALASPINA,"MALASPINA, PATRICIA ALEJANDRA",28298722,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-17,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,17,TRIGO,FERNANDO DANIEL,FERNANDO DANIEL TRIGO,"TRIGO, FERNANDO DANIEL",31146129,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-18,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,18,VAZQUEZ,SILVIA BEATRIZ,SILVIA BEATRIZ VAZQUEZ,"VAZQUEZ, SILVIA BEATRIZ",12349750,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-19,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,19,CAPPELLETTI,OSCAR DANIEL,OSCAR DANIEL CAPPELLETTI,"CAPPELLETTI, OSCAR DANIEL",14912549,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-20,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,20,FUENTES,GIANA LIA,GIANA LIA FUENTES,"FUENTES, GIANA LIA",24650180,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-21,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,21,TREJO,SAUL ALBERTO,SAUL ALBERTO TREJO,"TREJO, SAUL ALBERTO",16344426,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-22,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,22,CARACOCHE,MARIANA,MARIANA CARACOCHE,"CARACOCHE, MARIANA",22260756,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-23,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,23,YALET,PATRICIO ESTEBAN,PATRICIO ESTEBAN YALET,"YALET, PATRICIO ESTEBAN",36318904,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-24,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,24,CACERES,MARIA BELEN,MARIA BELEN CACERES,"CACERES, MARIA BELEN",30293734,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-25,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,25,MERCADÉ,SANTIAGO JOSÉ,SANTIAGO JOSÉ MERCADÉ,"MERCADÉ, SANTIAGO JOSÉ",34400650,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-26,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,26,NOCETTI,LOURDES,LOURDES NOCETTI,"NOCETTI, LOURDES",41097674,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-27,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,27,VILLAFRANCA,HAROLDO OSCAR ALFREDO,HAROLDO OSCAR ALFREDO VILLAFRANCA,"VILLAFRANCA, HAROLDO OSCAR ALFREDO",17691402,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-28,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,28,NUÑEZ,BERTA OFELIA,BERTA OFELIA NUÑEZ,"NUÑEZ, BERTA OFELIA",10263188,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-29,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,29,AGÜERO LORENZO,LUCAS MATIAS,LUCAS MATIAS AGÜERO LORENZO,"LORENZO, LUCAS MATIAS AGÜERO",30888152,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-30,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,30,LANDONI,MIRIAM ETHEL,MIRIAM ETHEL LANDONI,"LANDONI, MIRIAM ETHEL",14401552,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-31,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,31,CANULLAN,HORACIO JAVIER,HORACIO JAVIER CANULLAN,"CANULLAN, HORACIO JAVIER",22758924,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-32,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,32,JUNCO,CONCEPCION ESTER,CONCEPCION ESTER JUNCO,"JUNCO, CONCEPCION ESTER",16060607,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-33,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,33,BOSSI,MARTIN,MARTIN BOSSI,"BOSSI, MARTIN",25385117,M
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-34,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,34,RODRIGUEZ,SILVIA DIANA,SILVIA DIANA RODRIGUEZ,"RODRIGUEZ, SILVIA DIANA",11908641,F
+2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari-35,2025-buenos-aires-partido-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Buenos Aires,35,LANDABURU,FERNANDO GABRIEL,FERNANDO GABRIEL LANDABURU,"LANDABURU, FERNANDO GABRIEL",14922748,M
+2025-buenos-aires-partido-nuevo-buenos-aires-01,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,1,CÚNEO,"SANTIAGO ""DOGO""","SANTIAGO ""DOGO"" CÚNEO","CÚNEO, SANTIAGO ""DOGO""",21841089,M
+2025-buenos-aires-partido-nuevo-buenos-aires-02,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,2,ORDOÑEZ,MARA YANINA,MARA YANINA ORDOÑEZ,"ORDOÑEZ, MARA YANINA",28253093,F
+2025-buenos-aires-partido-nuevo-buenos-aires-03,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,3,BIAGGIONI,RAUL GERMAN,RAUL GERMAN BIAGGIONI,"BIAGGIONI, RAUL GERMAN",14487863,M
+2025-buenos-aires-partido-nuevo-buenos-aires-04,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,4,CALIGIURI,NYDIA XIMENA,NYDIA XIMENA CALIGIURI,"CALIGIURI, NYDIA XIMENA",27089248,F
+2025-buenos-aires-partido-nuevo-buenos-aires-05,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,5,GARCES,RAMON,GARCES RAMON,"RAMON, GARCES",16379032,M
+2025-buenos-aires-partido-nuevo-buenos-aires-06,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,6,MINNICELLI,ALESSANDRA,ALESSANDRA MINNICELLI,"MINNICELLI, ALESSANDRA",16029508,F
+2025-buenos-aires-partido-nuevo-buenos-aires-07,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,7,SALBUCHI,ADRIAN RICARDO,ADRIAN RICARDO SALBUCHI,"SALBUCHI, ADRIAN RICARDO",10369848,M
+2025-buenos-aires-partido-nuevo-buenos-aires-08,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,8,BARBE,OFELIA AIDA,OFELIA AIDA BARBE,"BARBE, OFELIA AIDA",6633362,F
+2025-buenos-aires-partido-nuevo-buenos-aires-09,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,9,MOREYRA,DAVID ANDRES,MOREYRA DAVID ANDRES,"ANDRES, MOREYRA DAVID",35854552,M
+2025-buenos-aires-partido-nuevo-buenos-aires-10,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,10,ROJAS,SUSANA ELENA,SUSANA ELENA ROJAS,"ROJAS, SUSANA ELENA",17291162,F
+2025-buenos-aires-partido-nuevo-buenos-aires-11,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,11,ORELLANO,CLAUDIO CESAR,CLAUDIO CESAR ORELLANO,"ORELLANO, CLAUDIO CESAR",14315161,M
+2025-buenos-aires-partido-nuevo-buenos-aires-12,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,12,BIRO ALEMÁN,VILMA JOSEPHINE,VILMA JOSEPHINE BIRO ALEMÁN,"ALEMÁN, VILMA JOSEPHINE BIRO",35997893,F
+2025-buenos-aires-partido-nuevo-buenos-aires-13,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,13,BURGOS,HORACIO ELADIO,HORACIO ELADIO BURGOS,"BURGOS, HORACIO ELADIO",13479192,M
+2025-buenos-aires-partido-nuevo-buenos-aires-14,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,14,ANSELMINO,DÉBORA RAQUEL,DÉBORA RAQUEL ANSELMINO,"ANSELMINO, DÉBORA RAQUEL",24835451,F
+2025-buenos-aires-partido-nuevo-buenos-aires-15,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,15,CABELLO,ALEJANDRO ROGELIO,ALEJANDRO ROGELIO CABELLO,"CABELLO, ALEJANDRO ROGELIO",21994097,M
+2025-buenos-aires-partido-nuevo-buenos-aires-16,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,16,ICK,SANDRA PATRICIA,SANDRA PATRICIA ICK,"ICK, SANDRA PATRICIA",16745798,F
+2025-buenos-aires-partido-nuevo-buenos-aires-17,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,17,MARTOS,LUCIANO CARMELO,LUCIANO CARMELO MARTOS,"MARTOS, LUCIANO CARMELO",10748638,M
+2025-buenos-aires-partido-nuevo-buenos-aires-18,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,18,ALBORNOZ,SOLEDAD CATALINA,SOLEDAD CATALINA ALBORNOZ,"ALBORNOZ, SOLEDAD CATALINA",34561357,F
+2025-buenos-aires-partido-nuevo-buenos-aires-19,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,19,MARTIN,DANIEL,DANIEL MARTIN,"MARTIN, DANIEL",13552265,M
+2025-buenos-aires-partido-nuevo-buenos-aires-20,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,20,PACENTI,MARIA JOSE DEOLINDA,MARIA JOSE DEOLINDA PACENTI,"PACENTI, MARIA JOSE DEOLINDA",25644031,F
+2025-buenos-aires-partido-nuevo-buenos-aires-21,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,21,LOPEZ PODESTA,SEBASTIAN EVERARDO,LOPEZ PODESTA SEBASTIAN EVERARDO,"EVERARDO, LOPEZ PODESTA SEBASTIAN",22487672,M
+2025-buenos-aires-partido-nuevo-buenos-aires-22,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,22,DIAZ,VERONICA ANALIA,VERONICA ANALIA DIAZ,"DIAZ, VERONICA ANALIA",29665431,F
+2025-buenos-aires-partido-nuevo-buenos-aires-23,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,23,RODRIGUEZ,RAMON VICTOR,RODRIGUEZ RAMON VICTOR,"VICTOR, RODRIGUEZ RAMON",13826503,M
+2025-buenos-aires-partido-nuevo-buenos-aires-24,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,24,VELAZQUEZ,LAURA SOLEDAD,LAURA SOLEDAD VELAZQUEZ,"VELAZQUEZ, LAURA SOLEDAD",28996053,F
+2025-buenos-aires-partido-nuevo-buenos-aires-25,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,25,PREZIOSO,NELSON RAUL,NELSON RAUL PREZIOSO,"PREZIOSO, NELSON RAUL",16012547,M
+2025-buenos-aires-partido-nuevo-buenos-aires-26,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,26,IRIBAS,MARIA VIRGINIA,MARIA VIRGINIA IRIBAS,"IRIBAS, MARIA VIRGINIA",12949502,F
+2025-buenos-aires-partido-nuevo-buenos-aires-27,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,27,ICK PACENTI,JOEL,JOEL ICK PACENTI,"PACENTI, JOEL ICK",37014524,M
+2025-buenos-aires-partido-nuevo-buenos-aires-28,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,28,ESPINOZA LAMPERT,CECILIA ELINA,CECILIA ELINA ESPINOZA LAMPERT,"LAMPERT, CECILIA ELINA ESPINOZA",24434431,F
+2025-buenos-aires-partido-nuevo-buenos-aires-29,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,29,SMITH,ROBERTO OSVALDO,ROBERTO OSVALDO SMITH,"SMITH, ROBERTO OSVALDO",10859628,M
+2025-buenos-aires-partido-nuevo-buenos-aires-30,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,30,PACENTI,CHIARA,CHIARA PACENTI,"PACENTI, CHIARA",38524509,F
+2025-buenos-aires-partido-nuevo-buenos-aires-31,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,31,ANSELMINO,PABLO RICARDO,PABLO RICARDO ANSELMINO,"ANSELMINO, PABLO RICARDO",20646071,M
+2025-buenos-aires-partido-nuevo-buenos-aires-32,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,32,MARTI,CECILIA MARIANA,CECILIA MARIANA MARTI,"MARTI, CECILIA MARIANA",31455167,F
+2025-buenos-aires-partido-nuevo-buenos-aires-33,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,33,FRACHETTI,GASTON ALEJANDRO,GASTON ALEJANDRO FRACHETTI,"FRACHETTI, GASTON ALEJANDRO",24576391,M
+2025-buenos-aires-partido-nuevo-buenos-aires-34,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,34,ALTAMURA,SILVIA MARGARITA,SILVIA MARGARITA ALTAMURA,"ALTAMURA, SILVIA MARGARITA",10463361,F
+2025-buenos-aires-partido-nuevo-buenos-aires-35,2025-buenos-aires-partido-nuevo-buenos-aires,diputados-2025,Buenos Aires,35,ESCOBAR,DANIEL GERARDO,DANIEL GERARDO ESCOBAR,"ESCOBAR, DANIEL GERARDO",17755158,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-01,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,1,BURLANDO,FERNANDO ANDRES,FERNANDO BURLANDO,"BURLANDO, FERNANDO",17291397,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-02,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,2,MARTIN,FABIANA GABRIELA,FABIANA GABRIELA MARTIN,"MARTIN, FABIANA GABRIELA",21552165,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-03,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,3,AMENDOLA,FABIAN RAUL,FABIAN RAUL AMENDOLA,"AMENDOLA, FABIAN RAUL",17992613,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-04,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,4,PETROFF,SILVIA FABIANA,SILVIA FABIANA PETROFF,"PETROFF, SILVIA FABIANA",23300122,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-05,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,5,BAÑOS,JAVIER IGNACIO,JAVIER IGNACIO BAÑOS,"BAÑOS, JAVIER IGNACIO",23771916,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-06,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,6,SOSA,VANESA JUDITH,VANESA JUDITH SOSA,"SOSA, VANESA JUDITH",28347243,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-07,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,7,GIULIANI,CARLOS ALBERTO,CARLOS ALBERTO GIULIANI,"GIULIANI, CARLOS ALBERTO",13573492,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-08,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,8,PAGANO,MARIA LORENA,MARIA LORENA PAGANO,"PAGANO, MARIA LORENA",29764613,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-09,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,9,LEGUIZAMON PEÑA,ADOLFO MARTIN,ADOLFO MARTIN LEGUIZAMON PEÑA,"PEÑA, ADOLFO MARTIN LEGUIZAMON",13798711,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-10,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,10,ARRAYGADA,CARINA ALEJANDRA,CARINA ALEJANDRA ARRAYGADA,"ARRAYGADA, CARINA ALEJANDRA",22393673,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-11,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,11,FRANCONE,GERMAN RODRIGO,GERMAN RODRIGO FRANCONE,"FRANCONE, GERMAN RODRIGO",25248790,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-12,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,12,RODRIGUEZ,ALEJANDRA LEONOR,ALEJANDRA LEONOR RODRIGUEZ,"RODRIGUEZ, ALEJANDRA LEONOR",26549428,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-13,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,13,SLPIZER,SEBASTIAN LAUTARO FEDERICO,SEBASTIAN LAUTARO FEDERICO SLPIZER,"SLPIZER, SEBASTIAN LAUTARO FEDERICO",27314784,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-14,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,14,LAZO,ROSA DEL VALLE,ROSA DEL VALLE LAZO,"LAZO, ROSA DEL VALLE",24145978,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-15,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,15,PAPASIDERO RICCO,CLAUDIO ALEJANDRO,CLAUDIO ALEJANDRO PAPASIDERO RICCO,"RICCO, CLAUDIO ALEJANDRO PAPASIDERO",32037188,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-16,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,16,AYALA,GLORIA VERONICA,GLORIA VERONICA AYALA,"AYALA, GLORIA VERONICA",21624296,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-17,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,17,LECTOUR,VICTOR HUGO,VICTOR HUGO LECTOUR,"LECTOUR, VICTOR HUGO",25084728,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-18,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,18,ONZARI FRAU,CAROLINA VERONICA,CAROLINA VERONICA ONZARI FRAU,"FRAU, CAROLINA VERONICA ONZARI",22589228,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-19,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,19,ROBLES,NERIO ALFREDO,NERIO ALFREDO ROBLES,"ROBLES, NERIO ALFREDO",16203744,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-20,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,20,QUINTANA,CELIA ISABEL,CELIA ISABEL QUINTANA,"QUINTANA, CELIA ISABEL",18075190,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-21,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,21,BALBUENA,GABRIEL DARIO,GABRIEL DARIO BALBUENA,"BALBUENA, GABRIEL DARIO",26725067,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-22,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,22,BERRITTELLA,NATALIA,NATALIA BERRITTELLA,"BERRITTELLA, NATALIA",31781622,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-23,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,23,CORZO,ADRIAN FLAVIO,ADRIAN FLAVIO CORZO,"CORZO, ADRIAN FLAVIO",24463143,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-24,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,24,RAMIREZ,NORMA BEATRIZ,NORMA BEATRIZ RAMIREZ,"RAMIREZ, NORMA BEATRIZ",17365873,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-25,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,25,SERUSI,ADRIAN DANIEL,ADRIAN DANIEL SERUSI,"SERUSI, ADRIAN DANIEL",21438616,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-26,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,26,SAUCEDO,GRISELDA HAYDEE,GRISELDA HAYDEE SAUCEDO,"SAUCEDO, GRISELDA HAYDEE",22057312,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-27,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,27,MAGNO,JONATAN OSCAR,JONATAN OSCAR MAGNO,"MAGNO, JONATAN OSCAR",33452377,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-28,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,28,VELOSO,VIVIANA ANDREA,VIVIANA ANDREA VELOSO,"VELOSO, VIVIANA ANDREA",17142753,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-29,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,29,GONZALEZ,PABLO ARIEL,PABLO ARIEL GONZALEZ,"GONZALEZ, PABLO ARIEL",28569889,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-30,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,30,FELLET,GABRIELA FERNANDA,GABRIELA FERNANDA FELLET,"FELLET, GABRIELA FERNANDA",24756494,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-31,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,31,TREJO,EDUARDO ERNESTO,EDUARDO ERNESTO TREJO,"TREJO, EDUARDO ERNESTO",33741930,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-32,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,32,PORTA,GABRIELA ALEJANDRA,GABRIELA ALEJANDRA PORTA,"PORTA, GABRIELA ALEJANDRA",30712590,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-33,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,33,LANZINI,SERGIO LUIS,SERGIO LUIS LANZINI,"LANZINI, SERGIO LUIS",14096236,M
+2025-buenos-aires-propuesta-federal-para-el-cambio-34,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,34,ROMERO,ELENA LIDIA,ELENA LIDIA ROMERO,"ROMERO, ELENA LIDIA",11776284,F
+2025-buenos-aires-propuesta-federal-para-el-cambio-35,2025-buenos-aires-propuesta-federal-para-el-cambio,diputados-2025,Buenos Aires,35,ARRAYGADA,EZEQUIEL OMAR,EZEQUIEL OMAR ARRAYGADA,"ARRAYGADA, EZEQUIEL OMAR",35860530,M
+2025-buenos-aires-union-liberal-01,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,1,CACHANOSKY,ROBERTO HORACIO,ROBERTO HORACIO CACHANOSKY,"CACHANOSKY, ROBERTO HORACIO",11815972,M
+2025-buenos-aires-union-liberal-02,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,2,ROMARIZ,GRISELDA MIRIAN,GRISELDA MIRIAN ROMARIZ,"ROMARIZ, GRISELDA MIRIAN",12453717,F
+2025-buenos-aires-union-liberal-03,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,3,BONTEMPO,HUGO EDUARDO,HUGO EDUARDO BONTEMPO,"BONTEMPO, HUGO EDUARDO",10278214,M
+2025-buenos-aires-union-liberal-04,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,4,HELTNER,PATRICIA MARCELA,PATRICIA MARCELA HELTNER,"HELTNER, PATRICIA MARCELA",20825620,F
+2025-buenos-aires-union-liberal-05,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,5,MANSILLA,ALEJANDRO RAUL,ALEJANDRO RAUL MANSILLA,"MANSILLA, ALEJANDRO RAUL",26110848,M
+2025-buenos-aires-union-liberal-06,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,6,MARTIN,EVANGELINA NOEMI,EVANGELINA NOEMI MARTIN,"MARTIN, EVANGELINA NOEMI",24699781,F
+2025-buenos-aires-union-liberal-07,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,7,SORACI,FRANCISCO ANTONIO,FRANCISCO ANTONIO SORACI,"SORACI, FRANCISCO ANTONIO",17304984,M
+2025-buenos-aires-union-liberal-08,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,8,LEGUIZAMON,MONICA ALEJANDRA,MONICA ALEJANDRA LEGUIZAMON,"LEGUIZAMON, MONICA ALEJANDRA",23158121,F
+2025-buenos-aires-union-liberal-09,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,9,PANEBIANCO,LEONARDO MAXIMILIANO,LEONARDO MAXIMILIANO PANEBIANCO,"PANEBIANCO, LEONARDO MAXIMILIANO",24393005,M
+2025-buenos-aires-union-liberal-10,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,10,SPINOLA TORRES,VANESSA MARIEL,VANESSA MARIEL SPINOLA TORRES,"TORRES, VANESSA MARIEL SPINOLA",37241083,F
+2025-buenos-aires-union-liberal-11,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,11,LEON,CRISTIAN SEBASTIAN,CRISTIAN SEBASTIAN LEON,"LEON, CRISTIAN SEBASTIAN",27261396,M
+2025-buenos-aires-union-liberal-12,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,12,TROTTA,ROMINA VICTORIA,ROMINA VICTORIA TROTTA,"TROTTA, ROMINA VICTORIA",27229003,F
+2025-buenos-aires-union-liberal-13,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,13,PALACIOS,RAMON ARGENTINO,RAMON ARGENTINO PALACIOS,"PALACIOS, RAMON ARGENTINO",17279960,M
+2025-buenos-aires-union-liberal-14,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,14,GIANGRANDE,BIANCA,BIANCA GIANGRANDE,"GIANGRANDE, BIANCA",41670610,F
+2025-buenos-aires-union-liberal-15,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,15,SICARDI DE ESTRADA,FRANCISCO,FRANCISCO SICARDI DE ESTRADA,"ESTRADA, FRANCISCO SICARDI DE",21072239,M
+2025-buenos-aires-union-liberal-16,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,16,ESPINOSA,CLARA LORENA,CLARA LORENA ESPINOSA,"ESPINOSA, CLARA LORENA",28286224,F
+2025-buenos-aires-union-liberal-17,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,17,CENTURION,JORGE,JORGE CENTURION,"CENTURION, JORGE",24106378,M
+2025-buenos-aires-union-liberal-18,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,18,MONTENEGRO VERA,MARIA LAURA,MARIA LAURA MONTENEGRO VERA,"VERA, MARIA LAURA MONTENEGRO",28369702,F
+2025-buenos-aires-union-liberal-19,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,19,DIAZ,GUSTAVO ADOLFO,GUSTAVO ADOLFO DIAZ,"DIAZ, GUSTAVO ADOLFO",20412344,M
+2025-buenos-aires-union-liberal-20,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,20,SPITTELER,ERIKA ROMINA,ERIKA ROMINA SPITTELER,"SPITTELER, ERIKA ROMINA",34343788,F
+2025-buenos-aires-union-liberal-21,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,21,CAROLA,MARCELO DANIEL,MARCELO DANIEL CAROLA,"CAROLA, MARCELO DANIEL",21862629,M
+2025-buenos-aires-union-liberal-22,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,22,MARCELINO,DORA ELIZABETH,DORA ELIZABETH MARCELINO,"MARCELINO, DORA ELIZABETH",27559925,F
+2025-buenos-aires-union-liberal-23,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,23,GIMENEZ,CLAUDIO DANIEL,CLAUDIO DANIEL GIMENEZ,"GIMENEZ, CLAUDIO DANIEL",30910531,M
+2025-buenos-aires-union-liberal-24,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,24,FERNANDEZ,MONICA PATRICIA,MONICA PATRICIA FERNANDEZ,"FERNANDEZ, MONICA PATRICIA",21796176,F
+2025-buenos-aires-union-liberal-25,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,25,SANTILLAN,HORACIO ALEJANDRO,HORACIO ALEJANDRO SANTILLAN,"SANTILLAN, HORACIO ALEJANDRO",24578282,M
+2025-buenos-aires-union-liberal-26,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,26,MARIOTTI,NATALIA LAURA,NATALIA LAURA MARIOTTI,"MARIOTTI, NATALIA LAURA",27845781,F
+2025-buenos-aires-union-liberal-27,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,27,CASAL,ROBERTO GUILLERMO,ROBERTO GUILLERMO CASAL,"CASAL, ROBERTO GUILLERMO",14900142,M
+2025-buenos-aires-union-liberal-28,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,28,CASAL,ALICIA LIDIA,ALICIA LIDIA CASAL,"CASAL, ALICIA LIDIA",17889354,F
+2025-buenos-aires-union-liberal-29,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,29,HARENDORF,CARLOS DANIEL,CARLOS DANIEL HARENDORF,"HARENDORF, CARLOS DANIEL",10893959,M
+2025-buenos-aires-union-liberal-30,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,30,RIVERO MEDINA,ALICIA MAGDALENA,ALICIA MAGDALENA RIVERO MEDINA,"MEDINA, ALICIA MAGDALENA RIVERO",10843190,F
+2025-buenos-aires-union-liberal-31,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,31,FERRARIO,MATIAS,MATIAS FERRARIO,"FERRARIO, MATIAS",39335834,M
+2025-buenos-aires-union-liberal-32,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,32,MARGA,ROXANA LAURA,ROXANA LAURA MARGA,"MARGA, ROXANA LAURA",20891199,F
+2025-buenos-aires-union-liberal-33,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,33,BUSTAMANTE,JOSE FERNANDO,JOSE FERNANDO BUSTAMANTE,"BUSTAMANTE, JOSE FERNANDO",23008835,M
+2025-buenos-aires-union-liberal-34,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,34,MRACA,MARISA LORENA,MARISA LORENA MRACA,"MRACA, MARISA LORENA",25084533,F
+2025-buenos-aires-union-liberal-35,2025-buenos-aires-union-liberal,diputados-2025,Buenos Aires,35,VILAS BUSTOS,SEBASTIAN MANUEL,SEBASTIAN MANUEL VILAS BUSTOS,"BUSTOS, SEBASTIAN MANUEL VILAS",21919478,M
+2025-caba-ciudadanos-unidos-01,2025-caba-ciudadanos-unidos,diputados-2025,CABA,1,LOUSTEAU,MARTIN,MARTIN LOUSTEAU,"LOUSTEAU, MARTIN",21954012,M
+2025-caba-ciudadanos-unidos-02,2025-caba-ciudadanos-unidos,diputados-2025,CABA,2,FERNANDEZ DE PICCOLI,PIERA AGOSTINA,PIERA AGOSTINA FERNANDEZ DE PICCOLI,"PICCOLI, PIERA AGOSTINA FERNANDEZ DE",40503615,F
+2025-caba-ciudadanos-unidos-03,2025-caba-ciudadanos-unidos,diputados-2025,CABA,3,MARANGONI,GUSTAVO MARCELO,GUSTAVO MARCELO MARANGONI,"MARANGONI, GUSTAVO MARCELO",17454205,M
+2025-caba-ciudadanos-unidos-04,2025-caba-ciudadanos-unidos,diputados-2025,CABA,4,BARRETO,JESSICA SOLEDAD,JESSICA SOLEDAD BARRETO,"BARRETO, JESSICA SOLEDAD",36600102,F
+2025-caba-ciudadanos-unidos-05,2025-caba-ciudadanos-unidos,diputados-2025,CABA,5,CORTINA,ROBERT VINCENT,ROBERT VINCENT CORTINA,"CORTINA, ROBERT VINCENT",18670276,M
+2025-caba-ciudadanos-unidos-06,2025-caba-ciudadanos-unidos,diputados-2025,CABA,6,MARTINEZ,MARIA DOLORES,MARIA DOLORES MARTINEZ,"MARTINEZ, MARIA DOLORES",26754327,F
+2025-caba-ciudadanos-unidos-07,2025-caba-ciudadanos-unidos,diputados-2025,CABA,7,ALFONSIN,JUAN,JUAN ALFONSIN,"ALFONSIN, JUAN",37013035,M
+2025-caba-ciudadanos-unidos-08,2025-caba-ciudadanos-unidos,diputados-2025,CABA,8,NAZARYAN,NVARD,NVARD NAZARYAN,"NAZARYAN, NVARD",19065025,F
+2025-caba-ciudadanos-unidos-09,2025-caba-ciudadanos-unidos,diputados-2025,CABA,9,MOLA,GUSTAVO ALEJANDRO,GUSTAVO ALEJANDRO MOLA,"MOLA, GUSTAVO ALEJANDRO",17650840,M
+2025-caba-ciudadanos-unidos-10,2025-caba-ciudadanos-unidos,diputados-2025,CABA,10,CASERES,PATRICIA ALEJANDRA,PATRICIA ALEJANDRA CASERES,"CASERES, PATRICIA ALEJANDRA",23454777,F
+2025-caba-ciudadanos-unidos-11,2025-caba-ciudadanos-unidos,diputados-2025,CABA,11,CARZOGLIO,AUGUSTO ALEJANDRO,AUGUSTO ALEJANDRO CARZOGLIO,"CARZOGLIO, AUGUSTO ALEJANDRO",31763120,M
+2025-caba-ciudadanos-unidos-12,2025-caba-ciudadanos-unidos,diputados-2025,CABA,12,STUCHLIK,SILVIA ALEJANDRA,SILVIA ALEJANDRA STUCHLIK,"STUCHLIK, SILVIA ALEJANDRA",14431267,F
+2025-caba-ciudadanos-unidos-13,2025-caba-ciudadanos-unidos,diputados-2025,CABA,13,FERNANDEZ SARRAF,RAMIRO,RAMIRO FERNANDEZ SARRAF,"SARRAF, RAMIRO FERNANDEZ",35122613,M
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-01,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,1,BREGMAN,MYRIAM TERESA,MYRIAM TERESA BREGMAN,"BREGMAN, MYRIAM TERESA",22600553,F
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-02,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,2,SOLANO,GABRIEL ESTEBAN,GABRIEL ESTEBAN SOLANO,"SOLANO, GABRIEL ESTEBAN",23992930,M
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-03,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,3,DE MENDIETA,MARIA DE LAS MERCEDES,MARIA DE LAS MERCEDES DE MENDIETA,"MENDIETA, MARIA DE LAS MERCEDES DE",32737299,F
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-04,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,4,DEL CORRO,PATRICIO,PATRICIO DEL CORRO,"CORRO, PATRICIO DEL",30306197,M
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-05,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,5,FIERRO,MARIA CELESTE,MARIA CELESTE FIERRO,"FIERRO, MARIA CELESTE",31404657,F
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-06,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,6,ROSA,MARIANO SEBASTIAN,MARIANO SEBASTIAN ROSA,"ROSA, MARIANO SEBASTIAN",26871476,M
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-07,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,7,BIASI,VANINA NATALIA,VANINA NATALIA BIASI,"BIASI, VANINA NATALIA",23521493,F
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-08,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,8,ALMEIDA,PABLO FERNANDO,PABLO FERNANDO ALMEIDA,"ALMEIDA, PABLO FERNANDO",23377078,M
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-09,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,9,OLIVERIO,LOURDES,LOURDES OLIVERIO,"OLIVERIO, LOURDES",42932918,F
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-10,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,10,PUY,FEDERICO RAUL,FEDERICO RAUL PUY,"PUY, FEDERICO RAUL",30592659,M
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-11,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,11,RODRIGUEZ,MARIA CARLA,MARIA CARLA RODRIGUEZ,"RODRIGUEZ, MARIA CARLA",20537179,F
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-12,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,12,SAAVEDRA,DIEGO RUBEN,DIEGO RUBEN SAAVEDRA,"SAAVEDRA, DIEGO RUBEN",27392358,M
+2025-caba-frente-de-izquierda-y-de-trabajadores-unidad-13,2025-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,CABA,13,CELOTTO,ILEANA AMANDA ELENA LIDIA,ILEANA AMANDA ELENA LIDIA CELOTTO,"CELOTTO, ILEANA AMANDA ELENA LIDIA",12558911,F
+2025-caba-frente-patriota-federal-01,2025-caba-frente-patriota-federal,diputados-2025,CABA,1,BIONDINI,ALEJANDRO CESAR,ALEJANDRO CESAR BIONDINI,"BIONDINI, ALEJANDRO CESAR",30082672,M
+2025-caba-frente-patriota-federal-02,2025-caba-frente-patriota-federal,diputados-2025,CABA,2,LOZADA,CINTIA LORENA,CINTIA LORENA LOZADA,"LOZADA, CINTIA LORENA",29422578,F
+2025-caba-frente-patriota-federal-03,2025-caba-frente-patriota-federal,diputados-2025,CABA,3,ROSAS,FEDERICO PATRICIO,FEDERICO PATRICIO ROSAS,"ROSAS, FEDERICO PATRICIO",35227713,M
+2025-caba-frente-patriota-federal-04,2025-caba-frente-patriota-federal,diputados-2025,CABA,4,MANSILLA CORIA,SABRINA SOLEDAD,SABRINA SOLEDAD MANSILLA CORIA,"CORIA, SABRINA SOLEDAD MANSILLA",35272447,F
+2025-caba-frente-patriota-federal-05,2025-caba-frente-patriota-federal,diputados-2025,CABA,5,ZELENEÑKI,DANIEL ALEJANDRO,DANIEL ALEJANDRO ZELENEÑKI,"ZELENEÑKI, DANIEL ALEJANDRO",20270236,M
+2025-caba-frente-patriota-federal-06,2025-caba-frente-patriota-federal,diputados-2025,CABA,6,AUCE,GLADYS FABIANA,GLADYS FABIANA AUCE,"AUCE, GLADYS FABIANA",28421417,F
+2025-caba-frente-patriota-federal-07,2025-caba-frente-patriota-federal,diputados-2025,CABA,7,JAIME,HECTOR DANIEL,HECTOR DANIEL JAIME,"JAIME, HECTOR DANIEL",16225866,M
+2025-caba-frente-patriota-federal-08,2025-caba-frente-patriota-federal,diputados-2025,CABA,8,JAVORCIC,SILVIA CRISTINA,SILVIA CRISTINA JAVORCIC,"JAVORCIC, SILVIA CRISTINA",14767017,F
+2025-caba-frente-patriota-federal-09,2025-caba-frente-patriota-federal,diputados-2025,CABA,9,PADULA,LEANDRO NICOLAS,LEANDRO NICOLAS PADULA,"PADULA, LEANDRO NICOLAS",31283612,M
+2025-caba-frente-patriota-federal-10,2025-caba-frente-patriota-federal,diputados-2025,CABA,10,BARCIA DUFOUR,LORENA GRETEL,LORENA GRETEL BARCIA DUFOUR,"DUFOUR, LORENA GRETEL BARCIA",25705794,F
+2025-caba-frente-patriota-federal-11,2025-caba-frente-patriota-federal,diputados-2025,CABA,11,RECAREY,DIEGO ALEJANDRO FLORENCIO,DIEGO ALEJANDRO FLORENCIO RECAREY,"RECAREY, DIEGO ALEJANDRO FLORENCIO",26405302,M
+2025-caba-frente-patriota-federal-12,2025-caba-frente-patriota-federal,diputados-2025,CABA,12,CARDOZO,ANALIA VERONICA,ANALIA VERONICA CARDOZO,"CARDOZO, ANALIA VERONICA",29873405,F
+2025-caba-frente-patriota-federal-13,2025-caba-frente-patriota-federal,diputados-2025,CABA,13,BLANCO,NICOLAS OMAR,NICOLAS OMAR BLANCO,"BLANCO, NICOLAS OMAR",28800984,M
+2025-caba-fuerza-patria-01,2025-caba-fuerza-patria,diputados-2025,CABA,1,HAGMAN,ITAI,ITAI HAGMAN,"HAGMAN, ITAI",19010320,M
+2025-caba-fuerza-patria-02,2025-caba-fuerza-patria,diputados-2025,CABA,2,KISMER,RAQUEL CECILIA,RAQUEL CECILIA KISMER,"KISMER, RAQUEL CECILIA",10400346,F
+2025-caba-fuerza-patria-03,2025-caba-fuerza-patria,diputados-2025,CABA,3,ROBERTO,SANTIAGO LUIS,SANTIAGO LUIS ROBERTO,"ROBERTO, SANTIAGO LUIS",22813077,M
+2025-caba-fuerza-patria-04,2025-caba-fuerza-patria,diputados-2025,CABA,4,CÁMPORA,LUCIA,LUCIA CÁMPORA,"CÁMPORA, LUCIA",35727632,F
+2025-caba-fuerza-patria-05,2025-caba-fuerza-patria,diputados-2025,CABA,5,GIACOMINI,ERNESTO ANDRES,ERNESTO ANDRES GIACOMINI,"GIACOMINI, ERNESTO ANDRES",31065596,M
+2025-caba-fuerza-patria-06,2025-caba-fuerza-patria,diputados-2025,CABA,6,BRAWER,MARA,MARA BRAWER,"BRAWER, MARA",14958057,F
+2025-caba-fuerza-patria-07,2025-caba-fuerza-patria,diputados-2025,CABA,7,TUFARO,JUAN JOSE,JUAN JOSE TUFARO,"TUFARO, JUAN JOSE",16766862,M
+2025-caba-fuerza-patria-08,2025-caba-fuerza-patria,diputados-2025,CABA,8,SALVO,NATALIA BELEN,NATALIA BELEN SALVO,"SALVO, NATALIA BELEN",26965472,F
+2025-caba-fuerza-patria-09,2025-caba-fuerza-patria,diputados-2025,CABA,9,MENDELOVICH,GUSTAVO DAMIAN,GUSTAVO DAMIAN MENDELOVICH,"MENDELOVICH, GUSTAVO DAMIAN",20831181,M
+2025-caba-fuerza-patria-10,2025-caba-fuerza-patria,diputados-2025,CABA,10,CANCELA,LUCIA,LUCIA CANCELA,"CANCELA, LUCIA",40747000,F
+2025-caba-fuerza-patria-11,2025-caba-fuerza-patria,diputados-2025,CABA,11,MAURO,JUAN MANUEL,JUAN MANUEL MAURO,"MAURO, JUAN MANUEL",29595082,M
+2025-caba-fuerza-patria-12,2025-caba-fuerza-patria,diputados-2025,CABA,12,AGUDIN,AGOSTINA,AGOSTINA AGUDIN,"AGUDIN, AGOSTINA",38432737,F
+2025-caba-fuerza-patria-13,2025-caba-fuerza-patria,diputados-2025,CABA,13,SICILIANO,DANIEL ROBERTO,DANIEL ROBERTO SICILIANO,"SICILIANO, DANIEL ROBERTO",11734924,M
+2025-caba-gen-01,2025-caba-gen,diputados-2025,CABA,1,ABREVAYA,SERGIO FERNANDO,SERGIO FERNANDO ABREVAYA,"ABREVAYA, SERGIO FERNANDO",16823729,M
+2025-caba-gen-02,2025-caba-gen,diputados-2025,CABA,2,DIROLLI,VIVIANA ANDREA,VIVIANA ANDREA DIROLLI,"DIROLLI, VIVIANA ANDREA",22069711,F
+2025-caba-gen-03,2025-caba-gen,diputados-2025,CABA,3,BORGNA,MARTIN SANTIAGO,MARTIN SANTIAGO BORGNA,"BORGNA, MARTIN SANTIAGO",22276636,M
+2025-caba-gen-04,2025-caba-gen,diputados-2025,CABA,4,BIGLIONE,MIRNA MARCELA,MIRNA MARCELA BIGLIONE,"BIGLIONE, MIRNA MARCELA",17819084,F
+2025-caba-gen-05,2025-caba-gen,diputados-2025,CABA,5,GRIL,FERNANDO,FERNANDO GRIL,"GRIL, FERNANDO",27049964,M
+2025-caba-gen-06,2025-caba-gen,diputados-2025,CABA,6,GONZALEZ DE LA VEGA,IVANA GISELLE,IVANA GISELLE GONZALEZ DE LA VEGA,"VEGA, IVANA GISELLE GONZALEZ DE LA",28465681,F
+2025-caba-gen-07,2025-caba-gen,diputados-2025,CABA,7,INSUA,MARCELO EUGENIO,MARCELO EUGENIO INSUA,"INSUA, MARCELO EUGENIO",18338072,M
+2025-caba-gen-08,2025-caba-gen,diputados-2025,CABA,8,ETCHEGARAY,ANA LIA,ANA LIA ETCHEGARAY,"ETCHEGARAY, ANA LIA",10964706,F
+2025-caba-gen-09,2025-caba-gen,diputados-2025,CABA,9,CORNAGLIA,EMILIO,EMILIO CORNAGLIA,"CORNAGLIA, EMILIO",32338342,M
+2025-caba-gen-10,2025-caba-gen,diputados-2025,CABA,10,FERNANDEZ ROA,MANUELA VICTORIA,MANUELA VICTORIA FERNANDEZ ROA,"ROA, MANUELA VICTORIA FERNANDEZ",38710450,F
+2025-caba-gen-11,2025-caba-gen,diputados-2025,CABA,11,HEMSANI,SERGIO DANIEL,SERGIO DANIEL HEMSANI,"HEMSANI, SERGIO DANIEL",16454109,M
+2025-caba-gen-12,2025-caba-gen,diputados-2025,CABA,12,TAKARA,SOL CAROLA,SOL CAROLA TAKARA,"TAKARA, SOL CAROLA",42722460,F
+2025-caba-gen-13,2025-caba-gen,diputados-2025,CABA,13,BERTANI,FERNANDO NESTOR,FERNANDO NESTOR BERTANI,"BERTANI, FERNANDO NESTOR",16101280,M
+2025-caba-hagamos-futuro-01,2025-caba-hagamos-futuro,diputados-2025,CABA,1,REYES,HERNAN LEANDRO,HERNAN LEANDRO REYES,"REYES, HERNAN LEANDRO",29246863,M
+2025-caba-hagamos-futuro-02,2025-caba-hagamos-futuro,diputados-2025,CABA,2,FERRERO,MARIA CECILIA,MARIA CECILIA FERRERO,"FERRERO, MARIA CECILIA",24907182,F
+2025-caba-hagamos-futuro-03,2025-caba-hagamos-futuro,diputados-2025,CABA,3,GIORNO,JORGE ALBERTO,JORGE ALBERTO GIORNO,"GIORNO, JORGE ALBERTO",11534843,M
+2025-caba-hagamos-futuro-04,2025-caba-hagamos-futuro,diputados-2025,CABA,4,PACE,MARÍA SILVIA,MARÍA SILVIA PACE,"PACE, MARÍA SILVIA",21930700,F
+2025-caba-hagamos-futuro-05,2025-caba-hagamos-futuro,diputados-2025,CABA,5,DEL GAISO,JUAN FACUNDO,JUAN FACUNDO DEL GAISO,"GAISO, JUAN FACUNDO DEL",23780152,M
+2025-caba-hagamos-futuro-06,2025-caba-hagamos-futuro,diputados-2025,CABA,6,SQUETINO,VANINA,VANINA SQUETINO,"SQUETINO, VANINA",29692324,F
+2025-caba-hagamos-futuro-07,2025-caba-hagamos-futuro,diputados-2025,CABA,7,ROSATI DIAZ,JUAN FRANCISCO,JUAN FRANCISCO ROSATI DIAZ,"DIAZ, JUAN FRANCISCO ROSATI",40808711,M
+2025-caba-hagamos-futuro-08,2025-caba-hagamos-futuro,diputados-2025,CABA,8,AULITA,SOLEDAD GISELA,SOLEDAD GISELA AULITA,"AULITA, SOLEDAD GISELA",32659026,F
+2025-caba-hagamos-futuro-09,2025-caba-hagamos-futuro,diputados-2025,CABA,9,GONZALEZ BALCARCE,ANDRÉS,ANDRÉS GONZALEZ BALCARCE,"BALCARCE, ANDRÉS GONZALEZ",16303257,M
+2025-caba-hagamos-futuro-10,2025-caba-hagamos-futuro,diputados-2025,CABA,10,MARKARIAN,FLORENCIA ANY,FLORENCIA ANY MARKARIAN,"MARKARIAN, FLORENCIA ANY",36754897,F
+2025-caba-hagamos-futuro-11,2025-caba-hagamos-futuro,diputados-2025,CABA,11,FALCON,DIEGO NORBERTO,DIEGO NORBERTO FALCON,"FALCON, DIEGO NORBERTO",18576809,M
+2025-caba-hagamos-futuro-12,2025-caba-hagamos-futuro,diputados-2025,CABA,12,MACHIN,MONICA LILIANA,MONICA LILIANA MACHIN,"MACHIN, MONICA LILIANA",13038368,F
+2025-caba-hagamos-futuro-13,2025-caba-hagamos-futuro,diputados-2025,CABA,13,HUERGO,DELFIN MANUEL,DELFIN MANUEL HUERGO,"HUERGO, DELFIN MANUEL",34454885,M
+2025-caba-instrumento-electoral-por-la-unidad-popular-01,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,1,LOZANO,CLAUDIO RAUL,CLAUDIO RAUL LOZANO,"LOZANO, CLAUDIO RAUL",12780491,M
+2025-caba-instrumento-electoral-por-la-unidad-popular-02,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,2,KOUTSOVITIS,MARIA EVA,MARIA EVA KOUTSOVITIS,"KOUTSOVITIS, MARIA EVA",24773917,F
+2025-caba-instrumento-electoral-por-la-unidad-popular-03,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,3,BALDIVIEZO,JONATAN EMANUEL,JONATAN EMANUEL BALDIVIEZO,"BALDIVIEZO, JONATAN EMANUEL",30150327,M
+2025-caba-instrumento-electoral-por-la-unidad-popular-04,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,4,BRUGO MARCO,NINA ISABEL,NINA ISABEL BRUGO MARCO,"MARCO, NINA ISABEL BRUGO",4788651,F
+2025-caba-instrumento-electoral-por-la-unidad-popular-05,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,5,BERGEL,PABLO,PABLO BERGEL,"BERGEL, PABLO",4549845,M
+2025-caba-instrumento-electoral-por-la-unidad-popular-06,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,6,GODOY ARROYO,MYRIAM LEONOR,MYRIAM LEONOR GODOY ARROYO,"ARROYO, MYRIAM LEONOR GODOY",14195386,F
+2025-caba-instrumento-electoral-por-la-unidad-popular-07,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,7,PARRA,SERGIO DANIEL,SERGIO DANIEL PARRA,"PARRA, SERGIO DANIEL",25287870,M
+2025-caba-instrumento-electoral-por-la-unidad-popular-08,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,8,SALINAS,MAGDALENA SOLEDAD,MAGDALENA SOLEDAD SALINAS,"SALINAS, MAGDALENA SOLEDAD",26653186,F
+2025-caba-instrumento-electoral-por-la-unidad-popular-09,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,9,PENA,JOSE MARIA,JOSE MARIA PENA,"PENA, JOSE MARIA",24922717,M
+2025-caba-instrumento-electoral-por-la-unidad-popular-10,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,10,ZIRULNIKOFF,MAGALÍ,MAGALÍ ZIRULNIKOFF,"ZIRULNIKOFF, MAGALÍ",28644290,F
+2025-caba-instrumento-electoral-por-la-unidad-popular-11,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,11,SCALLY,CARLOS EDUARDO,CARLOS EDUARDO SCALLY,"SCALLY, CARLOS EDUARDO",14868231,M
+2025-caba-instrumento-electoral-por-la-unidad-popular-12,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,12,POZZUTO,SOLEDAD,SOLEDAD POZZUTO,"POZZUTO, SOLEDAD",30349441,F
+2025-caba-instrumento-electoral-por-la-unidad-popular-13,2025-caba-instrumento-electoral-por-la-unidad-popular,diputados-2025,CABA,13,DIAZ,RAUL HUMBERTO,RAUL HUMBERTO DIAZ,"DIAZ, RAUL HUMBERTO",21474766,M
+2025-caba-integrar-01,2025-caba-integrar,diputados-2025,CABA,1,GARCIA,CLAUDIO OMAR,CLAUDIO OMAR GARCIA,"GARCIA, CLAUDIO OMAR",16497390,M
+2025-caba-integrar-02,2025-caba-integrar,diputados-2025,CABA,2,BALESTRA,GRACIELA CLAUDIA,GRACIELA CLAUDIA BALESTRA,"BALESTRA, GRACIELA CLAUDIA",16677694,F
+2025-caba-integrar-03,2025-caba-integrar,diputados-2025,CABA,3,AMOROSO,VICTOR DANIEL,VICTOR DANIEL AMOROSO,"AMOROSO, VICTOR DANIEL",16677394,M
+2025-caba-integrar-04,2025-caba-integrar,diputados-2025,CABA,4,PRIETO,NILDA ESTER,NILDA ESTER PRIETO,"PRIETO, NILDA ESTER",4603140,F
+2025-caba-integrar-05,2025-caba-integrar,diputados-2025,CABA,5,MASSUD,GUSTAVO OSMAN,GUSTAVO OSMAN MASSUD,"MASSUD, GUSTAVO OSMAN",16353147,M
+2025-caba-integrar-06,2025-caba-integrar,diputados-2025,CABA,6,DELLACASA,FLORENCIA LARA,FLORENCIA LARA DELLACASA,"DELLACASA, FLORENCIA LARA",36873062,F
+2025-caba-integrar-07,2025-caba-integrar,diputados-2025,CABA,7,BORREGO,GERMAN ANDRES,GERMAN ANDRES BORREGO,"BORREGO, GERMAN ANDRES",22517637,M
+2025-caba-integrar-08,2025-caba-integrar,diputados-2025,CABA,8,BECERRA,ANA CLARA,ANA CLARA BECERRA,"BECERRA, ANA CLARA",30603349,F
+2025-caba-integrar-09,2025-caba-integrar,diputados-2025,CABA,9,NATERO,CRISTIAN URIEL,CRISTIAN URIEL NATERO,"NATERO, CRISTIAN URIEL",25567271,M
+2025-caba-integrar-10,2025-caba-integrar,diputados-2025,CABA,10,MERLO,ADRIANA EDITH,ADRIANA EDITH MERLO,"MERLO, ADRIANA EDITH",13808984,F
+2025-caba-integrar-11,2025-caba-integrar,diputados-2025,CABA,11,MONTALDO,CARLOS GUILLERMO,CARLOS GUILLERMO MONTALDO,"MONTALDO, CARLOS GUILLERMO",16130880,M
+2025-caba-integrar-12,2025-caba-integrar,diputados-2025,CABA,12,SALAZAR,ALDANA PAOLA,ALDANA PAOLA SALAZAR,"SALAZAR, ALDANA PAOLA",34949409,F
+2025-caba-integrar-13,2025-caba-integrar,diputados-2025,CABA,13,GIOTTI,ADRIAN MARCOS,ADRIAN MARCOS GIOTTI,"GIOTTI, ADRIAN MARCOS",17867964,M
+2025-caba-la-izquierda-en-la-ciudad-01,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,1,WINOKUR,FEDERICO,FEDERICO WINOKUR,"WINOKUR, FEDERICO",36946539,M
+2025-caba-la-izquierda-en-la-ciudad-02,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,2,AZRIEL ALONSO,VIOLETA,VIOLETA AZRIEL ALONSO,"ALONSO, VIOLETA AZRIEL",40834998,F
+2025-caba-la-izquierda-en-la-ciudad-03,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,3,BRITO,MATÍAS EMILIANO,MATÍAS EMILIANO BRITO,"BRITO, MATÍAS EMILIANO",34814779,M
+2025-caba-la-izquierda-en-la-ciudad-04,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,4,RUEDA KRAMER,MARIANA,MARIANA RUEDA KRAMER,"KRAMER, MARIANA RUEDA",39064339,F
+2025-caba-la-izquierda-en-la-ciudad-05,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,5,LEIVA,ENRIQUE ALEJANDRO,ENRIQUE ALEJANDRO LEIVA,"LEIVA, ENRIQUE ALEJANDRO",28629538,M
+2025-caba-la-izquierda-en-la-ciudad-06,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,6,HAEBERER,NATACHA,NATACHA HAEBERER,"HAEBERER, NATACHA",34079316,F
+2025-caba-la-izquierda-en-la-ciudad-07,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,7,AZRIEL,ROBERTO DAVID,ROBERTO DAVID AZRIEL,"AZRIEL, ROBERTO DAVID",14375972,M
+2025-caba-la-izquierda-en-la-ciudad-08,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,8,WALDMAN,LUCIA,LUCIA WALDMAN,"WALDMAN, LUCIA",39774745,F
+2025-caba-la-izquierda-en-la-ciudad-09,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,9,PARRA,ROQUE DARIO,ROQUE DARIO PARRA,"PARRA, ROQUE DARIO",21348212,M
+2025-caba-la-izquierda-en-la-ciudad-10,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,10,ATTADIA,SOL,SOL ATTADIA,"ATTADIA, SOL",36594611,F
+2025-caba-la-izquierda-en-la-ciudad-11,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,11,LUCIANO,JULIAN NAHUEL,JULIAN NAHUEL LUCIANO,"LUCIANO, JULIAN NAHUEL",38709243,M
+2025-caba-la-izquierda-en-la-ciudad-12,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,12,ARGUELLO,LEILA SOLEDAD,LEILA SOLEDAD ARGUELLO,"ARGUELLO, LEILA SOLEDAD",34117730,F
+2025-caba-la-izquierda-en-la-ciudad-13,2025-caba-la-izquierda-en-la-ciudad,diputados-2025,CABA,13,PARDO CALDERON,JUAN PABLO,JUAN PABLO PARDO CALDERON,"CALDERON, JUAN PABLO PARDO",38029145,M
+2025-caba-la-libertad-avanza-01,2025-caba-la-libertad-avanza,diputados-2025,CABA,1,FARGOSI,ALEJANDRO EDUARDO,ALEJANDRO EDUARDO FARGOSI,"FARGOSI, ALEJANDRO EDUARDO",11371750,M
+2025-caba-la-libertad-avanza-02,2025-caba-la-libertad-avanza,diputados-2025,CABA,2,HOLZMAN,PATRICIA NOEMI,PATRICIA NOEMI HOLZMAN,"HOLZMAN, PATRICIA NOEMI",17605003,F
+2025-caba-la-libertad-avanza-03,2025-caba-la-libertad-avanza,diputados-2025,CABA,3,EMMA,NICOLAS MARIO,NICOLAS MARIO EMMA,"EMMA, NICOLAS MARIO",29151501,M
+2025-caba-la-libertad-avanza-04,2025-caba-la-libertad-avanza,diputados-2025,CABA,4,AJMECHET,SABRINA CARLOTA,SABRINA CARLOTA AJMECHET,"AJMECHET, SABRINA CARLOTA",29042389,F
+2025-caba-la-libertad-avanza-05,2025-caba-la-libertad-avanza,diputados-2025,CABA,5,DE ANDREIS,FERNANDO,FERNANDO DE ANDREIS,"ANDREIS, FERNANDO DE",24977546,M
+2025-caba-la-libertad-avanza-06,2025-caba-la-libertad-avanza,diputados-2025,CABA,6,GIAMPIERI,ANTONELA,ANTONELA GIAMPIERI,"GIAMPIERI, ANTONELA",33951652,F
+2025-caba-la-libertad-avanza-07,2025-caba-la-libertad-avanza,diputados-2025,CABA,7,LEONE,ANDRES MARCELO,ANDRES MARCELO LEONE,"LEONE, ANDRES MARCELO",21731867,M
+2025-caba-la-libertad-avanza-08,2025-caba-la-libertad-avanza,diputados-2025,CABA,8,RODRIGUES TRIMARCHI,VALERIA PATRICIA,VALERIA PATRICIA RODRIGUES TRIMARCHI,"TRIMARCHI, VALERIA PATRICIA RODRIGUES",22200578,F
+2025-caba-la-libertad-avanza-09,2025-caba-la-libertad-avanza,diputados-2025,CABA,9,PEDROSA,FERNANDO HECTOR,FERNANDO HECTOR PEDROSA,"PEDROSA, FERNANDO HECTOR",20405368,M
+2025-caba-la-libertad-avanza-10,2025-caba-la-libertad-avanza,diputados-2025,CABA,10,ARAUJO,MARIA FERNANDA,MARIA FERNANDA ARAUJO,"ARAUJO, MARIA FERNANDA",23103498,F
+2025-caba-la-libertad-avanza-11,2025-caba-la-libertad-avanza,diputados-2025,CABA,11,SAPONARO,LAUTARO DIEGO,LAUTARO DIEGO SAPONARO,"SAPONARO, LAUTARO DIEGO",40644242,M
+2025-caba-la-libertad-avanza-12,2025-caba-la-libertad-avanza,diputados-2025,CABA,12,LINIK,PALOMA DANIELA,PALOMA DANIELA LINIK,"LINIK, PALOMA DANIELA",41400349,F
+2025-caba-la-libertad-avanza-13,2025-caba-la-libertad-avanza,diputados-2025,CABA,13,BENSUSAN,JUAN MANUEL,JUAN MANUEL BENSUSAN,"BENSUSAN, JUAN MANUEL",29799654,M
+2025-caba-movimiento-de-jubilados-y-juventud-01,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,1,KATZ,GABRIEL ALEJANDRO,GABRIEL ALEJANDRO KATZ,"KATZ, GABRIEL ALEJANDRO",14069683,M
+2025-caba-movimiento-de-jubilados-y-juventud-02,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,2,MAFFIA,DIANA HELENA,DIANA HELENA MAFFIA,"MAFFIA, DIANA HELENA",11026922,F
+2025-caba-movimiento-de-jubilados-y-juventud-03,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,3,PURICELLI YAÑEZ,GABRIEL,GABRIEL PURICELLI YAÑEZ,"YAÑEZ, GABRIEL PURICELLI",18011028,M
+2025-caba-movimiento-de-jubilados-y-juventud-04,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,4,RACHID,MARIA DE LA CRUZ,MARIA DE LA CRUZ RACHID,"RACHID, MARIA DE LA CRUZ",23724862,F
+2025-caba-movimiento-de-jubilados-y-juventud-05,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,5,NUÑEZ,PEDRO FERNANDO,PEDRO FERNANDO NUÑEZ,"NUÑEZ, PEDRO FERNANDO",24313856,M
+2025-caba-movimiento-de-jubilados-y-juventud-06,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,6,LLOBET,VALERIA SILVANA,VALERIA SILVANA LLOBET,"LLOBET, VALERIA SILVANA",21757338,F
+2025-caba-movimiento-de-jubilados-y-juventud-07,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,7,HELIEN,ADRIAN OMAR,ADRIAN OMAR HELIEN,"HELIEN, ADRIAN OMAR",11842630,M
+2025-caba-movimiento-de-jubilados-y-juventud-08,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,8,ODETTI,VALERIA KARINA,VALERIA KARINA ODETTI,"ODETTI, VALERIA KARINA",22992110,F
+2025-caba-movimiento-de-jubilados-y-juventud-09,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,9,D ANGELO,JULIAN LEONARDO,JULIAN LEONARDO D ANGELO,"ANGELO, JULIAN LEONARDO D",23992290,M
+2025-caba-movimiento-de-jubilados-y-juventud-10,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,10,WORTMAN,ANA ELISA,ANA ELISA WORTMAN,"WORTMAN, ANA ELISA",13296112,F
+2025-caba-movimiento-de-jubilados-y-juventud-11,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,11,GRAÑA,JUAN MARTIN,JUAN MARTIN GRAÑA,"GRAÑA, JUAN MARTIN",30448022,M
+2025-caba-movimiento-de-jubilados-y-juventud-12,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,12,SANCHEZ PUCH,SILVIA INES,SILVIA INES SANCHEZ PUCH,"PUCH, SILVIA INES SANCHEZ",18801821,F
+2025-caba-movimiento-de-jubilados-y-juventud-13,2025-caba-movimiento-de-jubilados-y-juventud,diputados-2025,CABA,13,SUAREZ,FERNANDO MANUEL,FERNANDO MANUEL SUAREZ,"SUAREZ, FERNANDO MANUEL",33102499,M
+2025-caba-movimiento-plural-01,2025-caba-movimiento-plural,diputados-2025,CABA,1,PERETTA,MARCELO DANIEL,MARCELO DANIEL PERETTA,"PERETTA, MARCELO DANIEL",18174111,M
+2025-caba-movimiento-plural-02,2025-caba-movimiento-plural,diputados-2025,CABA,2,CASTIÑEIRA ARCE,JIMENA,JIMENA CASTIÑEIRA ARCE,"ARCE, JIMENA CASTIÑEIRA",26894130,F
+2025-caba-movimiento-plural-03,2025-caba-movimiento-plural,diputados-2025,CABA,3,PORCEL DE PERALTA,JORGE SEGUNDO,JORGE SEGUNDO PORCEL DE PERALTA,"PERALTA, JORGE SEGUNDO PORCEL DE",22100163,M
+2025-caba-movimiento-plural-04,2025-caba-movimiento-plural,diputados-2025,CABA,4,NIETO,ELSA AURORA,ELSA AURORA NIETO,"NIETO, ELSA AURORA",18279674,F
+2025-caba-movimiento-plural-05,2025-caba-movimiento-plural,diputados-2025,CABA,5,FERRI,JORGE ROSARIO,JORGE ROSARIO FERRI,"FERRI, JORGE ROSARIO",16126001,M
+2025-caba-movimiento-plural-06,2025-caba-movimiento-plural,diputados-2025,CABA,6,CONTRERAS GOMEZ,CECILIA MARIA MARGARITA,CECILIA MARIA MARGARITA CONTRERAS GOMEZ,"GOMEZ, CECILIA MARIA MARGARITA CONTRERAS",23913021,F
+2025-caba-movimiento-plural-07,2025-caba-movimiento-plural,diputados-2025,CABA,7,LUDUEÑA,DIEGO HERNAN,DIEGO HERNAN LUDUEÑA,"LUDUEÑA, DIEGO HERNAN",37066889,M
+2025-caba-movimiento-plural-08,2025-caba-movimiento-plural,diputados-2025,CABA,8,STARKER,MALVINA LILIANA,MALVINA LILIANA STARKER,"STARKER, MALVINA LILIANA",11774807,F
+2025-caba-movimiento-plural-09,2025-caba-movimiento-plural,diputados-2025,CABA,9,GARCIA,JOSÉ MANUEL,JOSÉ MANUEL GARCIA,"GARCIA, JOSÉ MANUEL",11182234,M
+2025-caba-movimiento-plural-10,2025-caba-movimiento-plural,diputados-2025,CABA,10,OBREGON,GABRIELA ALICIA,GABRIELA ALICIA OBREGON,"OBREGON, GABRIELA ALICIA",20350113,F
+2025-caba-movimiento-plural-11,2025-caba-movimiento-plural,diputados-2025,CABA,11,MARTINEZ,ELIODORO,ELIODORO MARTINEZ,"MARTINEZ, ELIODORO",12332914,M
+2025-caba-movimiento-plural-12,2025-caba-movimiento-plural,diputados-2025,CABA,12,BONZO,MARIA CECILIA ANALIA,MARIA CECILIA ANALIA BONZO,"BONZO, MARIA CECILIA ANALIA",20270754,F
+2025-caba-movimiento-plural-13,2025-caba-movimiento-plural,diputados-2025,CABA,13,PALLOTTO,SERGIO DANIEL,SERGIO DANIEL PALLOTTO,"PALLOTTO, SERGIO DANIEL",22545336,M
+2025-caba-partido-comunista-01,2025-caba-partido-comunista,diputados-2025,CABA,1,BIANCO,ANTONELLA,ANTONELLA BIANCO,"BIANCO, ANTONELLA",34270038,F
+2025-caba-partido-comunista-02,2025-caba-partido-comunista,diputados-2025,CABA,2,CAMPORA,IGNACIO,IGNACIO CAMPORA,"CAMPORA, IGNACIO",32654102,M
+2025-caba-partido-comunista-03,2025-caba-partido-comunista,diputados-2025,CABA,3,IBARRA,CRISTINA ADRIANA,CRISTINA ADRIANA IBARRA,"IBARRA, CRISTINA ADRIANA",12612691,F
+2025-caba-partido-comunista-04,2025-caba-partido-comunista,diputados-2025,CABA,4,CARBONE,ROCCO,ROCCO CARBONE,"CARBONE, ROCCO",19007607,M
+2025-caba-partido-comunista-05,2025-caba-partido-comunista,diputados-2025,CABA,5,LEON,MARIA LUISA,MARIA LUISA LEON,"LEON, MARIA LUISA",10361648,F
+2025-caba-partido-comunista-06,2025-caba-partido-comunista,diputados-2025,CABA,6,SANTOS,MANUEL,MANUEL SANTOS,"SANTOS, MANUEL",26049141,M
+2025-caba-partido-comunista-07,2025-caba-partido-comunista,diputados-2025,CABA,7,MINGHETTI,LAURA NATALIA,LAURA NATALIA MINGHETTI,"MINGHETTI, LAURA NATALIA",22653513,F
+2025-caba-partido-comunista-08,2025-caba-partido-comunista,diputados-2025,CABA,8,CAROU,RAUL,RAUL CAROU,"CAROU, RAUL",4133611,M
+2025-caba-partido-comunista-09,2025-caba-partido-comunista,diputados-2025,CABA,9,ABRAHAAN HOM,ZAIRA,ZAIRA ABRAHAAN HOM,"HOM, ZAIRA ABRAHAAN",31988711,F
+2025-caba-partido-comunista-10,2025-caba-partido-comunista,diputados-2025,CABA,10,RODRIGUEZ,MARCELO FABIAN,MARCELO FABIAN RODRIGUEZ,"RODRIGUEZ, MARCELO FABIAN",17327005,M
+2025-caba-partido-comunista-11,2025-caba-partido-comunista,diputados-2025,CABA,11,MONTENEGRO,HEBE AILEN,HEBE AILEN MONTENEGRO,"MONTENEGRO, HEBE AILEN",38625696,F
+2025-caba-partido-comunista-12,2025-caba-partido-comunista,diputados-2025,CABA,12,PRUSAK,DARDO NORBERTO,DARDO NORBERTO PRUSAK,"PRUSAK, DARDO NORBERTO",11534718,M
+2025-caba-partido-comunista-13,2025-caba-partido-comunista,diputados-2025,CABA,13,FERNANDEZ,MARIA DOLORES,MARIA DOLORES FERNANDEZ,"FERNANDEZ, MARIA DOLORES",11638747,F
+2025-caba-partido-federal-01,2025-caba-partido-federal,diputados-2025,CABA,1,LIPOVETZKY,DANIEL ANDRES,DANIEL ANDRES LIPOVETZKY,"LIPOVETZKY, DANIEL ANDRES",18393541,M
+2025-caba-partido-federal-02,2025-caba-partido-federal,diputados-2025,CABA,2,FIGUEROA,ISABEL ANGELA,ISABEL ANGELA FIGUEROA,"FIGUEROA, ISABEL ANGELA",17199479,F
+2025-caba-partido-federal-03,2025-caba-partido-federal,diputados-2025,CABA,3,MANGIONE,FRANCO ARIEL,FRANCO ARIEL MANGIONE,"MANGIONE, FRANCO ARIEL",39461270,M
+2025-caba-partido-federal-04,2025-caba-partido-federal,diputados-2025,CABA,4,AZPELICUETA,MAYRA AYELEN,MAYRA AYELEN AZPELICUETA,"AZPELICUETA, MAYRA AYELEN",42340232,F
+2025-caba-partido-federal-05,2025-caba-partido-federal,diputados-2025,CABA,5,HOERTH ALCONADA,TOMAS RAUL,TOMAS RAUL HOERTH ALCONADA,"ALCONADA, TOMAS RAUL HOERTH",41664768,M
+2025-caba-partido-federal-06,2025-caba-partido-federal,diputados-2025,CABA,6,ROMBOLA,ANTONELLA LUDMILA,ANTONELLA LUDMILA ROMBOLA,"ROMBOLA, ANTONELLA LUDMILA",38305052,F
+2025-caba-partido-federal-07,2025-caba-partido-federal,diputados-2025,CABA,7,PEREYRA,GONZALO FERNANDO,GONZALO FERNANDO PEREYRA,"PEREYRA, GONZALO FERNANDO",24170319,M
+2025-caba-partido-federal-08,2025-caba-partido-federal,diputados-2025,CABA,8,CENTOLA,CLAUDIA ALEJANDRA,CLAUDIA ALEJANDRA CENTOLA,"CENTOLA, CLAUDIA ALEJANDRA",17453847,F
+2025-caba-partido-federal-09,2025-caba-partido-federal,diputados-2025,CABA,9,NOVILE,TOMAS EZEQUIEL,TOMAS EZEQUIEL NOVILE,"NOVILE, TOMAS EZEQUIEL",41557172,M
+2025-caba-partido-federal-10,2025-caba-partido-federal,diputados-2025,CABA,10,CARRIO,ALEJANDRA MARIELA,ALEJANDRA MARIELA CARRIO,"CARRIO, ALEJANDRA MARIELA",27218148,F
+2025-caba-partido-federal-11,2025-caba-partido-federal,diputados-2025,CABA,11,LORENZETTI,HECTOR BENJAMIN,HECTOR BENJAMIN LORENZETTI,"LORENZETTI, HECTOR BENJAMIN",33828035,M
+2025-caba-partido-federal-12,2025-caba-partido-federal,diputados-2025,CABA,12,SZMULEWICZ,MARIELA GISELLE,MARIELA GISELLE SZMULEWICZ,"SZMULEWICZ, MARIELA GISELLE",30467894,F
+2025-caba-partido-federal-13,2025-caba-partido-federal,diputados-2025,CABA,13,MIELNICZUK,HERNAN DARIO,HERNAN DARIO MIELNICZUK,"MIELNICZUK, HERNAN DARIO",39584807,M
+2025-caba-partido-socialista-autentico-01,2025-caba-partido-socialista-autentico,diputados-2025,CABA,1,MAZZITELLI,MARIO FRANCISCO,MARIO FRANCISCO MAZZITELLI,"MAZZITELLI, MARIO FRANCISCO",12666947,M
+2025-caba-partido-socialista-autentico-02,2025-caba-partido-socialista-autentico,diputados-2025,CABA,2,ARMAS ASMAD,FLOR DEL ROCIO,FLOR DEL ROCIO ARMAS ASMAD,"ASMAD, FLOR DEL ROCIO ARMAS",18842365,F
+2025-caba-partido-socialista-autentico-03,2025-caba-partido-socialista-autentico,diputados-2025,CABA,3,RODRIGUEZ,ARIEL ARNALDO,ARIEL ARNALDO RODRIGUEZ,"RODRIGUEZ, ARIEL ARNALDO",25359034,M
+2025-caba-partido-socialista-autentico-04,2025-caba-partido-socialista-autentico,diputados-2025,CABA,4,LANCIONI,MARIA LUCILA GUADALUPE,MARIA LUCILA GUADALUPE LANCIONI,"LANCIONI, MARIA LUCILA GUADALUPE",28695954,F
+2025-caba-partido-socialista-autentico-05,2025-caba-partido-socialista-autentico,diputados-2025,CABA,5,MUSCATELLO,FACUNDO TOMAS,FACUNDO TOMAS MUSCATELLO,"MUSCATELLO, FACUNDO TOMAS",42951054,M
+2025-caba-partido-socialista-autentico-06,2025-caba-partido-socialista-autentico,diputados-2025,CABA,6,FIGUEROA,MARIA CRISTINA,MARIA CRISTINA FIGUEROA,"FIGUEROA, MARIA CRISTINA",14460714,F
+2025-caba-partido-socialista-autentico-07,2025-caba-partido-socialista-autentico,diputados-2025,CABA,7,SIERRA ESTRADA,LUIS OSCAR,LUIS OSCAR SIERRA ESTRADA,"ESTRADA, LUIS OSCAR SIERRA",18872390,M
+2025-caba-partido-socialista-autentico-08,2025-caba-partido-socialista-autentico,diputados-2025,CABA,8,CARABAJAL,MERCEDES CAROLINA,MERCEDES CAROLINA CARABAJAL,"CARABAJAL, MERCEDES CAROLINA",28479603,F
+2025-caba-partido-socialista-autentico-09,2025-caba-partido-socialista-autentico,diputados-2025,CABA,9,QUINTANA,CARLOS ALBERTO,CARLOS ALBERTO QUINTANA,"QUINTANA, CARLOS ALBERTO",22611071,M
+2025-caba-partido-socialista-autentico-10,2025-caba-partido-socialista-autentico,diputados-2025,CABA,10,ORTEGA ALFARO,PATRICIA,PATRICIA ORTEGA ALFARO,"ALFARO, PATRICIA ORTEGA",24030594,F
+2025-caba-partido-socialista-autentico-11,2025-caba-partido-socialista-autentico,diputados-2025,CABA,11,LUGONES,JORGE DANIEL,JORGE DANIEL LUGONES,"LUGONES, JORGE DANIEL",21821208,M
+2025-caba-partido-socialista-autentico-12,2025-caba-partido-socialista-autentico,diputados-2025,CABA,12,MERELE,MARIA FLORENCIA,MARIA FLORENCIA MERELE,"MERELE, MARIA FLORENCIA",25288242,F
+2025-caba-partido-socialista-autentico-13,2025-caba-partido-socialista-autentico,diputados-2025,CABA,13,TONARELLI,FEDERICO,FEDERICO TONARELLI,"TONARELLI, FEDERICO",18353125,M
+2025-caba-potencia-01,2025-caba-potencia,diputados-2025,CABA,1,LOPEZ MURPHY,RICARDO HIPÓLITO,RICARDO HIPÓLITO LOPEZ MURPHY,"MURPHY, RICARDO HIPÓLITO LOPEZ",8575622,M
+2025-caba-potencia-02,2025-caba-potencia,diputados-2025,CABA,2,FAIT,BERNARDA,BERNARDA FAIT,"FAIT, BERNARDA",31739242,F
+2025-caba-potencia-03,2025-caba-potencia,diputados-2025,CABA,3,SAHORES,LEOPOLDO FRANCISCO,LEOPOLDO FRANCISCO SAHORES,"SAHORES, LEOPOLDO FRANCISCO",22053898,M
+2025-caba-potencia-04,2025-caba-potencia,diputados-2025,CABA,4,COSPITO,ISABEL ELVIRA,ISABEL ELVIRA COSPITO,"COSPITO, ISABEL ELVIRA",5949314,F
+2025-caba-potencia-05,2025-caba-potencia,diputados-2025,CABA,5,RODRIGUEZ,CARLOS ALFREDO,CARLOS ALFREDO RODRIGUEZ,"RODRIGUEZ, CARLOS ALFREDO",7599654,M
+2025-caba-potencia-06,2025-caba-potencia,diputados-2025,CABA,6,DELL'AQUILA SMITH,BIANCA,BIANCA DELL'AQUILA SMITH,"SMITH, BIANCA DELL'AQUILA",42878651,F
+2025-caba-potencia-07,2025-caba-potencia,diputados-2025,CABA,7,CHAMLI,MIGUEL ANGEL,MIGUEL ANGEL CHAMLI,"CHAMLI, MIGUEL ANGEL",23251074,M
+2025-caba-potencia-08,2025-caba-potencia,diputados-2025,CABA,8,JARMOLIUK VIDENKINA,VALERIA VICTORIA,VALERIA VICTORIA JARMOLIUK VIDENKINA,"VIDENKINA, VALERIA VICTORIA JARMOLIUK",39171615,F
+2025-caba-potencia-09,2025-caba-potencia,diputados-2025,CABA,9,CASTILLO,LUIS ARIEL,LUIS ARIEL CASTILLO,"CASTILLO, LUIS ARIEL",14021254,M
+2025-caba-potencia-10,2025-caba-potencia,diputados-2025,CABA,10,DAVAGNINO,MARIA ROSA,MARIA ROSA DAVAGNINO,"DAVAGNINO, MARIA ROSA",10795519,F
+2025-caba-potencia-11,2025-caba-potencia,diputados-2025,CABA,11,LACOUR,MIGUEL ANGEL,MIGUEL ANGEL LACOUR,"LACOUR, MIGUEL ANGEL",4145414,M
+2025-caba-potencia-12,2025-caba-potencia,diputados-2025,CABA,12,LEDO,SOLANGE ALDANA,SOLANGE ALDANA LEDO,"LEDO, SOLANGE ALDANA",29300583,F
+2025-caba-potencia-13,2025-caba-potencia,diputados-2025,CABA,13,TOLISANO,JONATHAN ARIEL,JONATHAN ARIEL TOLISANO,"TOLISANO, JONATHAN ARIEL",39909818,M
+2025-caba-union-del-centro-democratico-01,2025-caba-union-del-centro-democratico,diputados-2025,CABA,1,PORTAS DALMAU,MARCELO EDUARDO,MARCELO EDUARDO PORTAS DALMAU,"DALMAU, MARCELO EDUARDO PORTAS",16054899,M
+2025-caba-union-del-centro-democratico-02,2025-caba-union-del-centro-democratico,diputados-2025,CABA,2,BARRERA,MARÍA LAURA,MARÍA LAURA BARRERA,"BARRERA, MARÍA LAURA",35270191,F
+2025-caba-union-del-centro-democratico-03,2025-caba-union-del-centro-democratico,diputados-2025,CABA,3,LATRONICO,FABRICIO LEANDRO,FABRICIO LEANDRO LATRONICO,"LATRONICO, FABRICIO LEANDRO",31337838,M
+2025-caba-union-del-centro-democratico-04,2025-caba-union-del-centro-democratico,diputados-2025,CABA,4,SARACENI,DIANA IRIS,DIANA IRIS SARACENI,"SARACENI, DIANA IRIS",14884322,F
+2025-caba-union-del-centro-democratico-05,2025-caba-union-del-centro-democratico,diputados-2025,CABA,5,RAMELLA,MARIANO,MARIANO RAMELLA,"RAMELLA, MARIANO",18560153,M
+2025-caba-union-del-centro-democratico-06,2025-caba-union-del-centro-democratico,diputados-2025,CABA,6,AMERI,VANESA CECILIA,VANESA CECILIA AMERI,"AMERI, VANESA CECILIA",22695065,F
+2025-caba-union-del-centro-democratico-07,2025-caba-union-del-centro-democratico,diputados-2025,CABA,7,JEANNERET,JOAQUIN,JOAQUIN JEANNERET,"JEANNERET, JOAQUIN",34462781,M
+2025-caba-union-del-centro-democratico-08,2025-caba-union-del-centro-democratico,diputados-2025,CABA,8,ROLDAN,NORMA BEATRIZ,NORMA BEATRIZ ROLDAN,"ROLDAN, NORMA BEATRIZ",17140112,F
+2025-caba-union-del-centro-democratico-09,2025-caba-union-del-centro-democratico,diputados-2025,CABA,9,PUSINERI,PEDRO PABLO,PEDRO PABLO PUSINERI,"PUSINERI, PEDRO PABLO",16893567,M
+2025-caba-union-del-centro-democratico-10,2025-caba-union-del-centro-democratico,diputados-2025,CABA,10,BLANCK MENDOZA,MARIA FLORA,MARIA FLORA BLANCK MENDOZA,"MENDOZA, MARIA FLORA BLANCK",33004344,F
+2025-caba-union-del-centro-democratico-11,2025-caba-union-del-centro-democratico,diputados-2025,CABA,11,GANDULFO,FACUNDO AUGUSTO,FACUNDO AUGUSTO GANDULFO,"GANDULFO, FACUNDO AUGUSTO",37823188,M
+2025-caba-union-del-centro-democratico-12,2025-caba-union-del-centro-democratico,diputados-2025,CABA,12,ACKERLEY,MARIA ISABEL,MARIA ISABEL ACKERLEY,"ACKERLEY, MARIA ISABEL",18106775,F
+2025-caba-union-del-centro-democratico-13,2025-caba-union-del-centro-democratico,diputados-2025,CABA,13,RUFFO,MARCELO ALEJANDRO,MARCELO ALEJANDRO RUFFO,"RUFFO, MARCELO ALEJANDRO",22081318,M

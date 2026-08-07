@@ -1,0 +1,23 @@
+{
+  "processedAt": "2026-08-07T17:33:20.768Z",
+  "elections": [
+    {
+      "id": "diputados-2023",
+      "status": "ready",
+      "electos": 47,
+      "matched": 47,
+      "rate": 1
+    },
+    {
+      "id": "diputados-2025",
+      "status": "ready",
+      "electos": 48,
+      "matched": 47,
+      "rate": 0.979
+    }
+  ],
+  "lists": 40,
+  "candidates": 934,
+  "seatsMatched": 94,
+  "reviewRows": 1
+}
