@@ -26,7 +26,7 @@ export function LawTooltip({ summary, children, className = "" }: Props) {
     <span className={`group/law relative inline-block max-w-full ${className}`}>
       <span
         tabIndex={0}
-        className="cursor-help rounded-sm underline decoration-dotted decoration-celeste-deep/50 underline-offset-[3px] outline-none focus-visible:ring-2 focus-visible:ring-celeste"
+        className="cursor-pointer rounded-sm underline decoration-dotted decoration-celeste-deep/50 underline-offset-[3px] outline-none focus-visible:ring-2 focus-visible:ring-celeste"
       >
         {children}
       </span>
