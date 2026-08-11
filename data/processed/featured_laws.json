@@ -1,8 +1,188 @@
 [
   {
+    "id": "paquetes-od-varios-2020",
+    "title": "Paquete de proyectos (OD varias)",
+    "summary": "Votación conjunta de varios proyectos de ley (órdenes del día 90, 98, 99, 100, 208, 230, 231 y 232).",
+    "date": "2020-11-11",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4031",
+    "actaId": "4031",
+    "period": "138",
+    "voteType": "general"
+  },
+  {
+    "id": "grooming-2020",
+    "title": "Programa nacional contra el grooming",
+    "summary": "Aprobación del Programa Nacional de concientización del grooming o ciberacoso contra niñas, niños y adolescentes.",
+    "date": "2020-11-12",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4040",
+    "actaId": "4040",
+    "period": "138",
+    "voteType": "general"
+  },
+  {
+    "id": "acuerdo-qatar-2020",
+    "title": "Acuerdo Argentina–Qatar",
+    "summary": "Aprobación del acuerdo entre el gobierno argentino y el Estado de Qatar.",
+    "date": "2020-12-29",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4080",
+    "actaId": "4080",
+    "period": "138",
+    "voteType": "general"
+  },
+  {
+    "id": "sostenibilidad-deuda-2021",
+    "title": "Fortalecimiento de la sostenibilidad de la deuda pública",
+    "summary": "Artículo 1° de la ley de fortalecimiento de la sostenibilidad de la deuda pública.",
+    "date": "2021-02-11",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4085",
+    "actaId": "4085",
+    "period": "138",
+    "voteType": "particular"
+  },
+  {
+    "id": "industria-automotriz-2022",
+    "title": "Régimen de promoción automotriz-autopartista",
+    "summary": "Régimen de promoción de la industria automotriz-autopartista y su cadena de valor.",
+    "date": "2022-07-05",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4551",
+    "actaId": "4551",
+    "period": "140",
+    "voteType": "general"
+  },
+  {
+    "id": "cuidados-paliativos-2022",
+    "title": "Cuidados paliativos",
+    "summary": "Acceso de pacientes a prestaciones integrales sobre cuidados paliativos.",
+    "date": "2022-07-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4556",
+    "actaId": "4556",
+    "period": "140",
+    "voteType": "general"
+  },
+  {
+    "id": "impuestos-prorroga-2022",
+    "title": "Prórroga de impuestos nacionales",
+    "summary": "Modificación de la Ley 27.432 de impuestos nacionales: prórroga (art. 1).",
+    "date": "2022-09-16",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4589",
+    "actaId": "4589",
+    "period": "140",
+    "voteType": "particular"
+  },
+  {
+    "id": "presupuesto-2023-sancion-2022",
+    "title": "Presupuesto 2023",
+    "summary": "Presupuesto general correspondiente al año 2023 (artículo puntual del debate).",
+    "date": "2022-10-26",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4617",
+    "actaId": "4617",
+    "period": "140",
+    "voteType": "particular"
+  },
+  {
+    "id": "deudores-alimentarios-2022",
+    "title": "Registro de deudores alimentarios",
+    "summary": "Registro Nacional de Deudores/as Alimentarios/as Morosos/as (ReNDAM).",
+    "date": "2022-11-09",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4644",
+    "actaId": "4644",
+    "period": "140",
+    "voteType": "general"
+  },
+  {
+    "id": "fondo-multilateral-2022",
+    "title": "Fondo Multilateral de Inversiones",
+    "summary": "Adhesión de la República Argentina al Fondo Multilateral de Inversiones.",
+    "date": "2022-11-10",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4649",
+    "actaId": "4649",
+    "period": "140",
+    "voteType": "general"
+  },
+  {
+    "id": "violencia-genero-deporte-2022",
+    "title": "Protocolo de violencia de género en el deporte",
+    "summary": "Protocolo de violencia de género y/o discriminación en el deporte.",
+    "date": "2022-11-10",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4659",
+    "actaId": "4659",
+    "period": "140",
+    "voteType": "general"
+  },
+  {
+    "id": "deuda-previsional-2023",
+    "title": "Plan de pago de deuda previsional",
+    "summary": "Plan de pago de deuda previsional.",
+    "date": "2023-02-28",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4735",
+    "actaId": "4735",
+    "period": "140",
+    "voteType": "general"
+  },
+  {
+    "id": "justicia-penal-santa-fe-2023",
+    "title": "Justicia penal federal de Santa Fe",
+    "summary": "Sistema de Justicia Penal Federal de Santa Fe.",
+    "date": "2023-03-28",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4752",
+    "actaId": "4752",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "titulos-mercosur-2023",
+    "title": "Reconocimiento de títulos en el Mercosur",
+    "summary": "Reconocimiento de títulos de grado de educación superior en el Mercosur.",
+    "date": "2023-04-19",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4776",
+    "actaId": "4776",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "derogacion-11317-2023",
+    "title": "Derogación Ley 11.317 / Decreto 2.699",
+    "summary": "Derogación de la Ley 11.317 y el Decreto 2.699.",
+    "date": "2023-07-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4828",
+    "actaId": "4828",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "universidad-rio-tercero-2023",
+    "title": "Universidad Nacional de Río Tercero",
+    "summary": "Creación de la Universidad Nacional de Río Tercero.",
+    "date": "2023-09-20",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4843",
+    "actaId": "4843",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "od-721-2023",
+    "title": "Orden del día 721 (cierre 2023)",
+    "summary": "Votación en general y particular del orden del día 721 (sesión de diciembre 2023).",
+    "date": "2023-12-07",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/4897",
+    "actaId": "4897",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "ley-bases-gral-feb-2024",
+    "title": "Ley Bases (votación en general, feb)",
+    "summary": "Primera votación en general del proyecto de Ley de Bases y Puntos de Partida para la Libertad de los Argentinos.",
+    "date": "2024-02-02",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5101",
+    "actaId": "5101",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
     "id": "ley-bases-sancion-2024",
     "title": "Ley Bases (sanción definitiva)",
-    "summary": "Diputados aceptó las modificaciones del Senado al proyecto de Ley de Bases y Puntos de Partida para la Libertad de los Argentinos, y le dio sanción definitiva.",
+    "summary": "Diputados aceptó las modificaciones del Senado al proyecto de Ley de Bases y le dio sanción definitiva.",
     "date": "2024-06-28",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5272",
     "actaId": "5272",
@@ -12,7 +192,7 @@
   {
     "id": "paquete-fiscal-sancion-2024",
     "title": "Paquete fiscal (sanción)",
-    "summary": "Se aceptaron las modificaciones del Senado al proyecto de Medidas Fiscales Paliativas y Relevantes, con sanción definitiva del paquete.",
+    "summary": "Sanción definitiva del paquete de Medidas Fiscales Paliativas y Relevantes.",
     "date": "2024-06-28",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5276",
     "actaId": "5276",
@@ -22,7 +202,7 @@
   {
     "id": "ganancias-insistencia-2024",
     "title": "Impuesto a las Ganancias (insistencia)",
-    "summary": "Votación particular para insistir en la redacción del Título V (Impuesto a las Ganancias) del paquete fiscal, frente a cambios del Senado.",
+    "summary": "Insistencia en la redacción del Título V (Ganancias) del paquete fiscal.",
     "date": "2024-06-28",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5274",
     "actaId": "5274",
@@ -30,19 +210,9 @@
     "voteType": "particular"
   },
   {
-    "id": "ficha-limpia-2025",
-    "title": "Ficha Limpia (media sanción)",
-    "summary": "Media sanción del proyecto de Ficha Limpia, que busca restringir candidaturas de personas con condenas penales firmes por ciertos delitos.",
-    "date": "2025-02-12",
-    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5585",
-    "actaId": "5585",
-    "period": "142",
-    "voteType": "general"
-  },
-  {
     "id": "financiamiento-universitario-2024",
     "title": "Financiamiento universitario (2024)",
-    "summary": "Media sanción del proyecto de financiamiento de universidades nacionales (dictamen de minoría 2, votación en general).",
+    "summary": "Media sanción del financiamiento de universidades nacionales.",
     "date": "2024-08-15",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5306",
     "actaId": "5306",
@@ -52,7 +222,7 @@
   {
     "id": "veto-universitario-2024",
     "title": "Veto al financiamiento universitario (2024)",
-    "summary": "Tratamiento del veto presidencial a la ley de financiamiento universitario. La oposición no alcanzó los dos tercios para insistir.",
+    "summary": "Tratamiento del veto presidencial a la ley de financiamiento universitario.",
     "date": "2024-10-09",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5400",
     "actaId": "5400",
@@ -60,9 +230,99 @@
     "voteType": "general"
   },
   {
+    "id": "ludopatia-2024",
+    "title": "Prevención de ludopatía y apuestas en línea",
+    "summary": "Proyecto de prevención de la ludopatía y regulación de apuestas en línea.",
+    "date": "2024-11-27",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5484",
+    "actaId": "5484",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "ley-bases-t1-cap1-2024",
+    "title": "Ley Bases — Título I Cap. I",
+    "summary": "Votación particular del Título I, Capítulo I, del proyecto de Ley Bases.",
+    "date": "2024-02-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5105",
+    "actaId": "5105",
+    "period": "141",
+    "voteType": "particular"
+  },
+  {
+    "id": "reforma-estado-2024",
+    "title": "Reforma del Estado / emergencias (Bases)",
+    "summary": "Capítulos de reforma del Estado y emergencias en el debate de Ley Bases.",
+    "date": "2024-02-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5113",
+    "actaId": "5113",
+    "period": "141",
+    "voteType": "particular"
+  },
+  {
+    "id": "privatizaciones-bases-2024",
+    "title": "Privatizaciones (debate Bases)",
+    "summary": "Artículos sobre privatizaciones en el debate de Ley Bases.",
+    "date": "2024-02-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5116",
+    "actaId": "5116",
+    "period": "141",
+    "voteType": "particular"
+  },
+  {
+    "id": "movilidad-jubilatoria-2024",
+    "title": "Movilidad jubilatoria / haberes",
+    "summary": "O.D. 65 - LEY 24.241, DE SISTEMA INTEGRADO DE JUBILACIONES Y PENSIONES. MODIFICACION. DICTAMEN DE MAYORIA. VOT. EN GRAL.",
+    "date": "2024-06-05",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5260",
+    "actaId": "5260",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "ficha-limpia-2025",
+    "title": "Ficha Limpia (media sanción)",
+    "summary": "Media sanción del proyecto de Ficha Limpia.",
+    "date": "2025-02-13",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5585",
+    "actaId": "5585",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "jubilaciones-incremento-2025",
+    "title": "Incremento de emergencia a jubilaciones",
+    "summary": "Incremento excepcional y de emergencia para jubilaciones y pensiones.",
+    "date": "2025-06-05",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5655",
+    "actaId": "5655",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "moratoria-previsional-2025",
+    "title": "Moratoria previsional (prórroga)",
+    "summary": "Prórroga de la moratoria previsional.",
+    "date": "2025-06-05",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5660",
+    "actaId": "5660",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "emergencia-discapacidad-2025",
+    "title": "Emergencia en discapacidad",
+    "summary": "Declaración de emergencia en discapacidad en todo el territorio nacional.",
+    "date": "2025-06-05",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5667",
+    "actaId": "5667",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
     "id": "financiamiento-universitario-2025",
     "title": "Financiamiento universitario (2025)",
-    "summary": "Media sanción de la ley de financiamiento de la educación universitaria y recomposición del salario docente (votación en general).",
+    "summary": "Media sanción de financiamiento universitario y recomposición salarial docente.",
     "date": "2025-08-06",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5702",
     "actaId": "5702",
@@ -71,8 +331,8 @@
   },
   {
     "id": "garrahan-emergencia-2025",
-    "title": "Emergencia pediátrica / Garrahan (2025)",
-    "summary": "Media sanción del proyecto que declara la emergencia sanitaria de la salud pediátrica y de las residencias nacionales en salud.",
+    "title": "Emergencia pediátrica / Garrahan",
+    "summary": "Emergencia sanitaria de la salud pediátrica y residencias nacionales.",
     "date": "2025-08-07",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5706",
     "actaId": "5706",
@@ -82,7 +342,7 @@
   {
     "id": "veto-garrahan-2025",
     "title": "Insistencia Ley Garrahan (veto)",
-    "summary": "Diputados insistió con la Ley 27.796 (emergencia pediátrica / Garrahan) rechazando el veto presidencial.",
+    "summary": "Tratamiento del veto a la ley de emergencia pediátrica / Garrahan.",
     "date": "2025-09-17",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5762",
     "actaId": "5762",
@@ -90,39 +350,9 @@
     "voteType": "general"
   },
   {
-    "id": "jubilaciones-incremento-2025",
-    "title": "Incremento de emergencia a jubilaciones",
-    "summary": "Media sanción del proyecto de incremento excepcional y de emergencia para jubilaciones y pensiones abonadas por la ANSES (votación en general).",
-    "date": "2025-06-04",
-    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5655",
-    "actaId": "5655",
-    "period": "143",
-    "voteType": "general"
-  },
-  {
-    "id": "moratoria-previsional-2025",
-    "title": "Moratoria previsional (prórroga)",
-    "summary": "Media sanción sobre el plan de pago de deuda previsional y normas vinculadas a jubilados y pensionados (votación en general y particular).",
-    "date": "2025-06-04",
-    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5660",
-    "actaId": "5660",
-    "period": "143",
-    "voteType": "general"
-  },
-  {
-    "id": "emergencia-discapacidad-2025",
-    "title": "Emergencia en discapacidad",
-    "summary": "Media sanción del proyecto que declara la emergencia en discapacidad en todo el territorio nacional (votación en general).",
-    "date": "2025-06-04",
-    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5667",
-    "actaId": "5667",
-    "period": "143",
-    "voteType": "general"
-  },
-  {
     "id": "regimen-dnu-2025",
     "title": "Régimen de DNUs (Ley 26.122)",
-    "summary": "Votación en general sobre la modificación del régimen legal de los decretos de necesidad y urgencia, delegación legislativa y promulgación parcial.",
+    "summary": "Modificaciones al régimen de decretos de necesidad y urgencia.",
     "date": "2025-10-08",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5774",
     "actaId": "5774",
@@ -130,23 +360,263 @@
     "voteType": "general"
   },
   {
-    "id": "ludopatia-2024",
-    "title": "Prevención de ludopatía y apuestas en línea",
-    "summary": "Votación en general del proyecto de prevención de ludopatía y regulación de juegos de azar y apuestas en línea.",
-    "date": "2024-11-27",
-    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5484",
-    "actaId": "5484",
-    "period": "142",
-    "voteType": "general"
-  },
-  {
     "id": "presupuesto-2026",
     "title": "Presupuesto 2026 (votación en general)",
-    "summary": "Votación en general del Presupuesto General de la Administración Nacional para el ejercicio 2026.",
+    "summary": "Votación en general del Presupuesto 2026.",
     "date": "2025-12-18",
     "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5822",
     "actaId": "5822",
     "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "juicio-ausencia-2025",
+    "title": "Juicio en ausencia",
+    "summary": "Modificaciones al Código Procesal Penal sobre juicio en ausencia.",
+    "date": "2025-02-07",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5573",
+    "actaId": "5573",
+    "period": "142",
+    "voteType": "general"
+  },
+  {
+    "id": "emergencia-bahia-blanca-2025",
+    "title": "Emergencia Bahía Blanca",
+    "summary": "Emergencia ambiental, económica y habitacional por el temporal en Bahía Blanca.",
+    "date": "2025-03-12",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5600",
+    "actaId": "5600",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "dnu-credito-2025",
+    "title": "DNU de crédito público",
+    "summary": "Tratamiento del DNU que aprueba operaciones de crédito público.",
+    "date": "2025-03-19",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5608",
+    "actaId": "5608",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2025-5691",
+    "title": "HABILITACIÓN DE TRATAMIENTO EXPEDIENTES FINANCIAMIENTO UNIVERSITARIO.",
+    "summary": "HABILITACIÓN DE TRATAMIENTO EXPEDIENTES FINANCIAMIENTO UNIVERSITARIO.",
+    "date": "2025-07-02",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5691",
+    "actaId": "5691",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2025-5738",
+    "title": "O.D. 949 - LEY 11.672, COMPLEMENTARIA PERM. DEL PRESUPUESTO. MODIFICACIÓN. DICT.",
+    "summary": "O.D. 949 - LEY 11.672, COMPLEMENTARIA PERM. DEL PRESUPUESTO. MODIFICACIÓN. DICT. DE MAYORÍA. VOT. EN GRAL.",
+    "date": "2025-08-21",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5738",
+    "actaId": "5738",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "mercosur-ue-2026",
+    "title": "Acuerdo Mercosur–Unión Europea",
+    "summary": "Acuerdo Mercosur – Unión Europea (votación en general y particular).",
+    "date": "2026-02-13",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5849",
+    "actaId": "5849",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "modernizacion-laboral-2026",
+    "title": "Modernización laboral (en general)",
+    "summary": "Ley de Modernización Laboral: votación en general del dictamen de mayoría.",
+    "date": "2026-02-20",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5853",
+    "actaId": "5853",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "modernizacion-laboral-t1-2026",
+    "title": "Modernización laboral — Título I",
+    "summary": "Votación particular del Título I de la Ley de Modernización Laboral.",
+    "date": "2026-02-20",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5855",
+    "actaId": "5855",
+    "period": "143",
+    "voteType": "particular"
+  },
+  {
+    "id": "modernizacion-laboral-t2-2026",
+    "title": "Modernización laboral — Título II",
+    "summary": "Votación particular del Título II de la Ley de Modernización Laboral.",
+    "date": "2026-02-20",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5856",
+    "actaId": "5856",
+    "period": "143",
+    "voteType": "particular"
+  },
+  {
+    "id": "modernizacion-laboral-t3-2026",
+    "title": "Modernización laboral — Título III",
+    "summary": "Votación particular del Título III de la Ley de Modernización Laboral.",
+    "date": "2026-02-20",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5857",
+    "actaId": "5857",
+    "period": "143",
+    "voteType": "particular"
+  },
+  {
+    "id": "auto-2026-5847",
+    "title": "O.D. 4 - RÉGIMEN PENAL JUVENIL. ESTABLECIMIENTO. DICT. DE MAY. VOT. EN GRAL.",
+    "summary": "O.D. 4 - RÉGIMEN PENAL JUVENIL. ESTABLECIMIENTO. DICT. DE MAY. VOT. EN GRAL.",
+    "date": "2026-02-12",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5847",
+    "actaId": "5847",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5848",
+    "title": "O.D. 4 - RÉGIMEN PENAL JUVENIL. ESTABLECIMIENTO. DICT. DE MAY. CAPÍTULO XI.",
+    "summary": "O.D. 4 - RÉGIMEN PENAL JUVENIL. ESTABLECIMIENTO. DICT. DE MAY. CAPÍTULO XI.",
+    "date": "2026-02-12",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5848",
+    "actaId": "5848",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5852",
+    "title": "MOCIÓN DE RECONSIDERACIÓN SOLICITADA POR LA DIP. MOREAU, CECILIA.",
+    "summary": "MOCIÓN DE RECONSIDERACIÓN SOLICITADA POR LA DIP. MOREAU, CECILIA.",
+    "date": "2026-02-19",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5852",
+    "actaId": "5852",
+    "period": "143",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5858",
+    "title": "O.D. 6 - LEY DE MODERNIZACIÓN LABORAL. DICT. DE MAY. TÍTULO IV.",
+    "summary": "O.D. 6 - LEY DE MODERNIZACIÓN LABORAL. DICT. DE MAY. TÍTULO IV.",
+    "date": "2026-02-20",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5858",
+    "actaId": "5858",
+    "period": "143",
+    "voteType": "particular"
+  },
+  {
+    "id": "auto-2026-5891",
+    "title": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. DEL PLÁ, ROMINA.",
+    "summary": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. DEL PLÁ, ROMINA.",
+    "date": "2026-04-08",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5891",
+    "actaId": "5891",
+    "period": "144",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5892",
+    "title": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. POKOIK, LORENA.",
+    "summary": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. POKOIK, LORENA.",
+    "date": "2026-04-08",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5892",
+    "actaId": "5892",
+    "period": "144",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5893",
+    "title": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. SILEY, VANESA RAQUEL.",
+    "summary": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. SILEY, VANESA RAQUEL.",
+    "date": "2026-04-08",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5893",
+    "actaId": "5893",
+    "period": "144",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5894",
+    "title": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR EL DIP. VALDÉS, EDUARDO FÉLIX.",
+    "summary": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR EL DIP. VALDÉS, EDUARDO FÉLIX.",
+    "date": "2026-04-08",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5894",
+    "actaId": "5894",
+    "period": "144",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5895",
+    "title": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. PENACCA, PAULA ANDREA.",
+    "summary": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR LA DIP. PENACCA, PAULA ANDREA.",
+    "date": "2026-04-08",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5895",
+    "actaId": "5895",
+    "period": "144",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2026-5896",
+    "title": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR EL DIP. FERRARO, MAXIMILIANO.",
+    "summary": "APARTAMIENTO DE REGLAMENTO SOLICITADO POR EL DIP. FERRARO, MAXIMILIANO.",
+    "date": "2026-04-08",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5896",
+    "actaId": "5896",
+    "period": "144",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2024-5100",
+    "title": "MOCIÓN DE VUELTA A COMISIÓN SOLICITADA POR EL DIP. MARTINEZ, GERMAN.",
+    "summary": "MOCIÓN DE VUELTA A COMISIÓN SOLICITADA POR EL DIP. MARTINEZ, GERMAN.",
+    "date": "2024-01-31",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5100",
+    "actaId": "5100",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2024-5106",
+    "title": "O.D. 1 - BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS. TÍTULO I,",
+    "summary": "O.D. 1 - BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS. TÍTULO I, CAP. I ART. 2.",
+    "date": "2024-02-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5106",
+    "actaId": "5106",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2024-5108",
+    "title": "O.D. 1 - BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS. TÍTULO I,",
+    "summary": "O.D. 1 - BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS. TÍTULO I, CAP. II ART. 4. INCISOS A AL G.",
+    "date": "2024-02-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5108",
+    "actaId": "5108",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2024-5109",
+    "title": "O.D. 1 - BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS. TÍTULO I,",
+    "summary": "O.D. 1 - BASES Y PUNTOS DE PARTIDA PARA LA LIBERTAD DE LOS ARGENTINOS. TÍTULO I, CAP. II ART. 4. INCISO H.",
+    "date": "2024-02-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5109",
+    "actaId": "5109",
+    "period": "141",
+    "voteType": "general"
+  },
+  {
+    "id": "auto-2025-5569",
+    "title": "MOCIÓN SOLICITADA POR LA DIP. GIUDICI, SILVANA.",
+    "summary": "MOCIÓN SOLICITADA POR LA DIP. GIUDICI, SILVANA.",
+    "date": "2025-02-06",
+    "sourceUrl": "https://votaciones.hcdn.gob.ar/pdf/acta/5569",
+    "actaId": "5569",
+    "period": "142",
     "voteType": "general"
   }
 ]

@@ -26,13 +26,13 @@ export function LawTooltip({ summary, children, className = "" }: Props) {
     <span className={`group/law relative inline-block max-w-full ${className}`}>
       <span
         tabIndex={0}
-        className="cursor-pointer rounded-sm underline decoration-dotted decoration-celeste-deep/50 underline-offset-[3px] outline-none focus-visible:ring-2 focus-visible:ring-celeste"
+        className="cursor-pointer rounded-sm underline decoration-dotted decoration-ink/40 underline-offset-[3px] outline-none focus-visible:ring-2 focus-visible:ring-ink"
       >
         {children}
       </span>
       <span
         role="tooltip"
-        className="pointer-events-none absolute bottom-[calc(100%+0.4rem)] left-0 z-50 w-max max-w-[min(18rem,calc(100vw-2rem))] rounded border border-line bg-navy px-2.5 py-2 text-left text-xs font-normal normal-case leading-snug tracking-normal text-white opacity-0 shadow-lg transition-opacity duration-150 group-hover/law:opacity-100 group-focus-within/law:opacity-100 dark:bg-paper-elevated dark:text-ink"
+        className="pointer-events-none absolute bottom-[calc(100%+0.4rem)] left-0 z-50 w-max max-w-[min(18rem,calc(100vw-2rem))] rounded border border-ink bg-ink px-2.5 py-2 text-left text-xs font-normal normal-case leading-snug tracking-normal text-white opacity-0 transition-opacity duration-150 group-hover/law:opacity-100 group-focus-within/law:opacity-100"
       >
         {tip}
       </span>

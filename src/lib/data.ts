@@ -28,6 +28,7 @@ export type Legislator = {
   nombre: string;
   distrito: string;
   source: string;
+  foto?: string;
 };
 
 export type FeaturedVote = {
@@ -36,9 +37,11 @@ export type FeaturedVote = {
   acta_id: string;
   legislador: string;
   distrito: string;
+  bloque?: string;
   voto: string;
   voto_raw: string;
   hcdn_asset_id: string;
+  foto?: string;
 };
 
 export type Election = {
@@ -72,11 +75,14 @@ export type CandidateWithSeat = {
   election_id: string;
   district_id: string;
   order: string;
+  rol?: string;
   nombre: string;
   elected: string;
   legislator_id: string;
   match_confidence: string;
   mandato_inicio: string;
+  mandato_fin?: string;
+  foto?: string;
 };
 
 export function readProcessedCsv<T extends Record<string, string>>(
@@ -134,4 +140,39 @@ export function getBallotLists(): BallotList[] {
 
 export function getCandidatesWithSeats(): CandidateWithSeat[] {
   return readProcessedCsv<CandidateWithSeat>("candidates_with_seats.csv");
+}
+
+export type ChamberSeat = {
+  legislator_id: string;
+  nombre: string;
+  distrito: string;
+  bloque: string;
+  mandato: string;
+  foto?: string;
+  chart_group?: string;
+  seat_index: number;
+  row?: number;
+  x: number;
+  y: number;
+};
+
+export type ChamberData = {
+  generatedAt?: string;
+  viewBox: string;
+  layout?: string;
+  chartGroups?: string[];
+  blockOrder?: string[];
+  lawId?: string;
+  lawDate?: string;
+  seats: ChamberSeat[];
+};
+
+export type ChamberByLaw = Record<string, ChamberData>;
+
+export function getChamberSeats(): ChamberData {
+  return readProcessedJson<ChamberData>("chamber_seats.json");
+}
+
+export function getChamberByLaw(): ChamberByLaw {
+  return readProcessedJson<ChamberByLaw>("chamber_by_law.json");
 }

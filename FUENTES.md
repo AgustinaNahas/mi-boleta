@@ -21,19 +21,23 @@ Inventario de orígenes que usa (o usará) mi-boleta. Cuando una fuente entre al
 
 | Fuente | Qué aporta | Formato | Processed / notas |
 | --- | --- | --- | --- |
-| [CNE — Candidaturas 2025 (Excel)](https://www.electoral.gob.ar/nuevo/paginas/datos/candidaturasdatos2025.php) | Listas aprobadas generales 2025 | XLSX | Piloto CABA + BA → `lists.csv`, `candidates.csv` |
-| [CNE — Precandidaturas/Candidaturas 2023 (zip→Excel)](https://www.electoral.gob.ar/nuevo/paginas/datos/precandidaturas2023.php) | PASO + Generales 2023 | ZIP/XLSX | Mismo pipeline; generales diputados piloto |
+| [CNE — Candidaturas 2025 (Excel)](https://www.electoral.gob.ar/nuevo/paginas/datos/candidaturasdatos2025.php) | Listas aprobadas generales 2025 | XLSX | Todas las provincias → `lists.csv`, `candidates.csv` |
+| [CNE — Precandidaturas/Candidaturas 2023 (zip→Excel)](https://www.electoral.gob.ar/nuevo/paginas/datos/precandidaturas2023.php) | PASO + Generales 2023 | ZIP/XLSX | Mismo pipeline; generales diputados nacionales |
+| [CNE — Candidaturas 2021 (RAR)](https://www.electoral.gob.ar/nuevo/paginas/datos/candidaturasdatos2021.php) | Generales 2021 | RAR→XLSX | Requiere `unrar` |
+| [CNE — Candidaturas 2019 (RAR)](https://www.electoral.gob.ar/nuevo/paginas/datos/candidaturasdatos.php) | Generales 2019 | RAR→XLSX | Requiere `unrar` |
+| HCDN composición (mandatos 2023–27 / 2025–29) | Quién entró (cohortes recientes) | CSV | Cruce por nombre → `seats.csv` |
+| ArgentinaDatos mandatos | Electos 2019/2021 + bloque histórico | JSON | Match listas 2019/2021; `legislator_mandates.csv` |
 | [Tribunal Electoral CABA — candidatos 2025](https://electoralcaba.gob.ar/lista-de-candidatos-2025/) | HTML de referencia | HTML | Guardado en raw; el process usa el Excel CNE |
-| HCDN composición (mandatos 2023–27 / 2025–29) | Quién entró | CSV | Cruce por nombre → `seats.csv` |
+| ArgentinaDatos `foto` en `/diputados` | URL de retrato | JSON API | Columna `foto` en `legislators.csv` / boleta / votos |
 
-**Match:** 2023 piloto 100% (47/47); 2025 ~98% (queda `Olmos, Kelly` en `match_review.csv`).
+**Match (nacional):** 2019/2021 100% contra mandatos ArgDatos; 2023 100% (130/130); 2025 100% (127/127), con titulares + suplentes CNE. Aliases en `aliases.csv`.
 
 ### Processed versionados (listas)
 
 - `elections.csv`, `districts.csv`, `lists.csv`, `candidates.csv`
 - `candidates_with_seats.csv` — boleta + flag `elected`
 - `seats.csv` — candidate ↔ legislator + `match_confidence`
-- `aliases.csv` — correcciones manuales
+- `aliases.csv` — correcciones manuales electo HCDN → `candidate_id` CNE
 - `match_review.csv` — **para revisar** (mismatches)
 
 ### Comandos
@@ -47,20 +51,29 @@ npm run ingest:process-listas
 
 ## Planificadas
 
-### Cámara Nacional Electoral — candidaturas 2023
-
-- Hace falta PDF/Excel por distrito (CABA + BA) o carga manual a `candidates.csv`.
-
 ### Dirección Nacional Electoral — resultados
 
 - Apoyo para bancas por agrupación si el cruce nombre↔lista no alcanza.
 
+### Más distritos / provincias
+
+- Hecho para listas CNE 2019–2025 (todas las provincias). Queda pulir mismatches puntuales.
+
+### Fotos de diputados
+
+- En uso: campo `foto` de ArgentinaDatos (`api.argentinadatos.com/static/diputados/...`). Cobertura parcial; placeholder si falta.
+
+### Eje espacial / hemiciclo por votaciones
+
+- Hecho: hemiciclo por ley desde el acta (`chamber_by_law.json`); documentado en `/metodologia/`.
+
 ## Matching de nombres
 
-Boleta (CNE) y HCDN no comparten IDs. Fase 2: nombre normalizado + distrito; a veces el Excel trae `Candidatura` distinta de `Apellido`/`Nombres` (se usa `Candidatura` para match). Casos sin match → `match_review.csv` sin inventar bancas.
+Boleta (CNE) y HCDN no comparten IDs. Fase 2: nombre normalizado + distrito; a veces el Excel trae `Candidatura` distinta de `Apellido`/`Nombres` (se usa `Candidatura` para match). Si el nombre político no coincide con el padrón (p. ej. Kelly Olmos vs Raquel Kismer), se carga un alias en `aliases.csv`. Casos sin match → `match_review.csv` sin inventar bancas.
 
 ## Nota temporal
 
-- Votos API: 2020–2026.
-- Listas estructuradas oficiales en pipeline: **2025** (piloto).
-- CKAN HCDN votos: histórico stale.
+- Votos API: 2020–2026 (cobertura densa desde 2024; 2020–2023 con pocas actas en ArgentinaDatos).
+- Listas estructuradas oficiales en pipeline: **2019, 2021, 2023 y 2025** (todas las provincias).
+- CKAN HCDN votos: histórico stale (no cubre 2019+ útil para el set curado).
+- Hemiciclo por ley: nómina del acta + bloque del mandato en esa fecha (`chamber_by_law.json`).

@@ -1,23 +1,37 @@
 {
-  "processedAt": "2026-08-07T17:33:20.768Z",
+  "processedAt": "2026-08-10T19:29:19.061Z",
   "elections": [
+    {
+      "id": "diputados-2019",
+      "status": "ready",
+      "electos": 154,
+      "matched": 154,
+      "rate": 1
+    },
+    {
+      "id": "diputados-2021",
+      "status": "ready",
+      "electos": 151,
+      "matched": 151,
+      "rate": 1
+    },
     {
       "id": "diputados-2023",
       "status": "ready",
-      "electos": 47,
-      "matched": 47,
+      "electos": 130,
+      "matched": 130,
       "rate": 1
     },
     {
       "id": "diputados-2025",
       "status": "ready",
-      "electos": 48,
-      "matched": 47,
-      "rate": 0.979
+      "electos": 127,
+      "matched": 127,
+      "rate": 1
     }
   ],
-  "lists": 40,
-  "candidates": 934,
-  "seatsMatched": 94,
-  "reviewRows": 1
+  "lists": 558,
+  "candidates": 5516,
+  "seatsMatched": 562,
+  "reviewRows": 0
 }

@@ -1,19 +1,11 @@
 import type { Metadata } from "next";
-import { Barlow_Condensed, Source_Sans_3 } from "next/font/google";
+import { Inter } from "next/font/google";
 import Link from "next/link";
-import { EscarapelaMark } from "@/components/escarapela-mark";
-import { ThemeProvider } from "@/components/theme-provider";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { BrandMark } from "@/components/brand-mark";
 import "./globals.css";
 
-const display = Barlow_Condensed({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["600", "700"],
-});
-
-const body = Source_Sans_3({
-  variable: "--font-body",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -25,46 +17,63 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="es"
-      suppressHydrationWarning
-      className={`${display.variable} ${body.variable} h-full antialiased`}
-    >
+    <html lang="es" className={`${inter.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans text-ink">
-        <ThemeProvider>
-          <div className="triband" aria-hidden>
-            <span />
-            <span />
-            <span />
-          </div>
-          <header className="sticky top-0 z-40 border-b border-line bg-[var(--header-bg)]/95 backdrop-blur-sm">
-            <div className="mx-auto flex w-full max-w-3xl items-center justify-between gap-3 px-4 py-3 sm:px-5">
-              <div className="flex min-w-0 items-center gap-2.5 sm:gap-4">
-                <EscarapelaMark className="h-8 w-8 shrink-0 sm:h-9 sm:w-9" />
-                <Link
-                  href="/"
-                  className="font-display text-xl font-bold uppercase tracking-wide text-navy dark:text-white"
-                >
-                  mi-boleta
-                </Link>
-                <Link
-                  href="/elegir/"
-                  className="truncate text-sm font-semibold text-ink-muted transition hover:text-celeste-deep dark:hover:text-celeste"
-                >
-                  Elegí tu lista
-                </Link>
-              </div>
-              <ThemeToggle />
+        <header className="z-40">
+          <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-3 px-5 py-5 sm:px-8">
+            <Link href="/" className="inline-flex items-center" aria-label="Inicio">
+              <BrandMark className="h-7 w-10" />
+            </Link>
+            <div className="flex items-center gap-4 sm:gap-6">
+              <Link
+                href="/metodologia/"
+                className="text-sm font-medium text-ink transition hover:opacity-60"
+              >
+                Metodología
+              </Link>
+              <Link
+                href="/#buscar-proyecto"
+                className="text-sm font-medium text-ink transition hover:opacity-60"
+              >
+                Buscar por proyecto
+              </Link>
             </div>
-          </header>
-          <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-8 sm:px-5 sm:py-12">
-            {children}
-          </main>
-          <footer className="border-t border-line py-6 text-center text-xs text-ink-muted">
-            Datos públicos · sin score ideológico · onda gráfica Bicentenario
-            2010
-          </footer>
-        </ThemeProvider>
+          </div>
+        </header>
+        <main className="mx-auto w-full max-w-5xl flex-1 px-5 pb-16 sm:px-8">
+          {children}
+        </main>
+        <footer className="bg-ink text-white">
+          <div className="mx-auto grid w-full max-w-5xl gap-8 px-5 py-10 text-xs leading-relaxed text-white/80 sm:grid-cols-2 sm:px-8">
+            <p>
+              mi-boleta es un proyecto independiente y sin fines de lucro de
+              Agustina Nahas y Azul Damadian. No tiene afiliación oficial con
+              la Cámara de Diputados de la Nación ni con ningún partido
+              político.
+            </p>
+            <p>
+              Fuentes: datos públicos de congreso.gob.ar y
+              votaciones.hcdn.gob.ar. La información se presenta “tal cual”;
+              verificá siempre en el acta oficial.{" "}
+              <Link
+                href="/metodologia/"
+                className="underline underline-offset-2 hover:text-white"
+              >
+                Metodología
+              </Link>
+              {" · "}
+              <a
+                href="https://votaciones.hcdn.gob.ar"
+                className="underline underline-offset-2 hover:text-white"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Verificar datos
+              </a>
+              .
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   );

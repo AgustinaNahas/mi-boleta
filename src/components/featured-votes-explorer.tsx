@@ -1,46 +1,62 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { FeaturedLaw, FeaturedVote } from "@/lib/data";
+import type { ChamberData, FeaturedLaw, FeaturedVote } from "@/lib/data";
 import { clampSummary } from "@/components/law-tooltip";
+import { LegislatorAvatar } from "@/components/legislator-avatar";
+import { ChamberHemicycle } from "@/components/chamber-hemicycle";
 
-function voteClass(voto: string) {
+function votePillClass(voto: string) {
   const key = voto.toLowerCase();
   if (key === "afirmativo") return "vote-pill vote-afirmativo";
   if (key === "negativo") return "vote-pill vote-negativo";
   if (key === "abstencion") return "vote-pill vote-abstencion";
-  if (key === "presidente") return "vote-pill vote-presidente";
   return "vote-pill vote-ausente";
 }
-
-const PILOT_DISTRICTS = ["Todos", "CABA", "Buenos Aires"] as const;
 
 type Props = {
   laws: FeaturedLaw[];
   votes: FeaturedVote[];
+  chamberByLaw: Record<string, ChamberData>;
 };
 
-export function FeaturedVotesExplorer({ laws, votes }: Props) {
+export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
   const sortedLaws = useMemo(
     () =>
       [...laws].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")),
     [laws],
   );
+  const districts = useMemo(() => {
+    const set = new Set<string>();
+    for (const v of votes) {
+      if (v.distrito) set.add(v.distrito);
+    }
+    return ["Todos", ...[...set].sort((a, b) => a.localeCompare(b, "es"))];
+  }, [votes]);
+
   const [lawId, setLawId] = useState(sortedLaws[0]?.id ?? "");
-  const [district, setDistrict] =
-    useState<(typeof PILOT_DISTRICTS)[number]>("Todos");
+  const [district, setDistrict] = useState("Todos");
 
   const law = sortedLaws.find((l) => l.id === lawId) ?? sortedLaws[0];
 
+  const votesForLaw = useMemo(() => {
+    if (!law) return [] as FeaturedVote[];
+    return votes.filter((v) => v.law_id === law.id);
+  }, [votes, law]);
+
+  const votesByLegislator = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const v of votesForLaw) {
+      map.set(v.legislator_id, v.voto);
+    }
+    return map;
+  }, [votesForLaw]);
+
   const filtered = useMemo(() => {
-    if (!law) return [];
-    return votes
-      .filter((v) => v.law_id === law.id)
-      .filter((v) =>
-        district === "Todos" ? true : v.distrito === district,
-      )
+    return votesForLaw
+      .filter((v) => (district === "Todos" ? true : v.distrito === district))
       .sort((a, b) => a.legislador.localeCompare(b.legislador, "es"));
-  }, [votes, law, district]);
+  }, [votesForLaw, district]);
 
   const counts = useMemo(() => {
     const acc: Record<string, number> = {};
@@ -57,14 +73,11 @@ export function FeaturedVotesExplorer({ laws, votes }: Props) {
   }
 
   return (
-    <div className="space-y-5">
-      <div className="flex flex-col gap-4">
-        <div className="w-full">
-          <label
-            htmlFor="featured-law"
-            className="mb-1.5 block text-sm font-semibold text-ink"
-          >
-            Ley destacada
+    <div className="space-y-8">
+      <div className="grid gap-3 sm:grid-cols-2">
+        <div>
+          <label htmlFor="featured-law" className="sr-only">
+            Proyecto
           </label>
           <select
             id="featured-law"
@@ -84,22 +97,17 @@ export function FeaturedVotesExplorer({ laws, votes }: Props) {
             ))}
           </select>
         </div>
-        <div className="w-full sm:max-w-[14rem]">
-          <label
-            htmlFor="featured-district"
-            className="mb-1.5 block text-sm font-semibold text-ink"
-          >
+        <div>
+          <label htmlFor="featured-district" className="sr-only">
             Distrito
           </label>
           <select
             id="featured-district"
             className="field"
             value={district}
-            onChange={(e) =>
-              setDistrict(e.target.value as (typeof PILOT_DISTRICTS)[number])
-            }
+            onChange={(e) => setDistrict(e.target.value)}
           >
-            {PILOT_DISTRICTS.map((d) => (
+            {districts.map((d) => (
               <option key={d} value={d}>
                 {d}
               </option>
@@ -108,17 +116,36 @@ export function FeaturedVotesExplorer({ laws, votes }: Props) {
         </div>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-3">
         <p className="text-sm leading-relaxed text-ink-muted">{law.summary}</p>
+        <div className="flex flex-wrap gap-2">
+          {["AFIRMATIVO", "NEGATIVO", "ABSTENCION", "AUSENTE", "PRESIDENTE"].map(
+            (key) =>
+              counts[key] ? (
+                <span key={key} className={votePillClass(key)}>
+                  {key === "AFIRMATIVO"
+                    ? "afirmativos"
+                    : key === "NEGATIVO"
+                      ? "negativos"
+                      : key === "ABSTENCION"
+                        ? "abstenciones"
+                        : key === "AUSENTE"
+                          ? "ausentes"
+                          : key.toLowerCase()}{" "}
+                  {counts[key]}
+                </span>
+              ) : null,
+          )}
+        </div>
         <p className="text-xs text-ink-muted">
-          Selección editorial · {law.voteType ?? "general"}
-          {law.actaId ? ` · acta ${law.actaId}` : ""}
+          Selección editorial — {law.voteType ?? "general"}
+          {law.actaId ? ` — acta ${law.actaId}` : ""}
           {law.sourceUrl ? (
             <>
-              {" · "}
+              {" — "}
               <a
                 href={law.sourceUrl}
-                className="font-semibold text-celeste-deep underline underline-offset-2 hover:text-navy dark:text-celeste dark:hover:text-white"
+                className="underline underline-offset-2 hover:text-ink"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -129,71 +156,58 @@ export function FeaturedVotesExplorer({ laws, votes }: Props) {
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-2">
-        {["AFIRMATIVO", "NEGATIVO", "ABSTENCION", "AUSENTE", "PRESIDENTE"].map(
-          (key) =>
-            counts[key] ? (
-              <span key={key} className={voteClass(key)}>
-                {key}: {counts[key]}
-              </span>
-            ) : null,
+      <div className="space-y-3">
+        <h3 className="text-lg font-semibold tracking-tight text-ink">
+          El recinto en esta votación
+        </h3>
+        <p className="max-w-xl text-sm leading-relaxed text-ink-muted">
+          Cada punto es un diputado o diputada que figuraba en el acta de esa
+          fecha. La posición aproxima el hemiciclo en gajos (cada bloque a la
+          izquierda o derecha en todas las filas). El color es el voto en este
+          proyecto.
+        </p>
+        {chamberByLaw[law.id] ? (
+          <ChamberHemicycle
+            chamber={chamberByLaw[law.id]}
+            votesByLegislator={votesByLegislator}
+            className="mx-auto w-full max-w-2xl"
+          />
+        ) : (
+          <p className="text-sm text-ink-muted">
+            No hay hemiciclo generado para esta ley.
+          </p>
         )}
-        <span className="vote-pill border border-line bg-transparent text-ink-muted">
-          Total: {filtered.length}
-        </span>
       </div>
 
-      {/* Mobile cards */}
-      <ul className="space-y-2 sm:hidden">
-        {filtered.map((row) => (
-          <li
-            key={`${row.legislator_id}-${row.law_id}`}
-            className="flex items-start justify-between gap-3 border-b border-line/80 py-3 last:border-0"
-          >
-            <div className="min-w-0">
-              <p className="font-medium leading-snug">{row.legislador}</p>
-              <p className="text-xs text-ink-muted">
-                {row.distrito || "—"}
-                {row.voto_raw ? ` · raw: ${row.voto_raw}` : ""}
-              </p>
-            </div>
-            <span className={`shrink-0 ${voteClass(row.voto)}`}>{row.voto}</span>
-          </li>
-        ))}
+      <ul className="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+        {filtered.map((row) => {
+          const key = row.voto.toLowerCase();
+          const dot =
+            key === "afirmativo"
+              ? "bg-afirmativo"
+              : key === "negativo"
+                ? "bg-negativo"
+                : key === "abstencion"
+                  ? "bg-abstencion"
+                  : "border border-ink bg-white";
+          return (
+            <li
+              key={`${row.legislator_id}-${row.law_id}`}
+              className="flex items-center gap-3"
+            >
+              <LegislatorAvatar
+                name={row.legislador}
+                foto={row.foto}
+                voteDotClass={dot}
+              />
+              <div className="min-w-0">
+                <p className="text-sm font-medium leading-snug">{row.legislador}</p>
+                <p className="text-xs text-ink-muted">{row.distrito || "—"}</p>
+              </div>
+            </li>
+          );
+        })}
       </ul>
-
-      {/* Desktop table */}
-      <div className="hidden overflow-hidden rounded-xl border border-line sm:block">
-        <table className="min-w-full text-left text-sm">
-          <thead className="bg-celeste-soft/40 text-ink-muted dark:bg-navy-ink/50">
-            <tr>
-              <th className="px-3 py-2.5 font-semibold">Legislador/a</th>
-              <th className="px-3 py-2.5 font-semibold">Distrito</th>
-              <th className="px-3 py-2.5 font-semibold">Voto</th>
-              <th className="px-3 py-2.5 font-semibold">Raw</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filtered.map((row) => (
-              <tr
-                key={`${row.legislator_id}-${row.law_id}`}
-                className="border-t border-line"
-              >
-                <td className="px-3 py-2.5 font-medium">{row.legislador}</td>
-                <td className="px-3 py-2.5 text-ink-muted">
-                  {row.distrito || "—"}
-                </td>
-                <td className="px-3 py-2.5">
-                  <span className={voteClass(row.voto)}>{row.voto}</span>
-                </td>
-                <td className="px-3 py-2.5 text-xs text-ink-muted">
-                  {row.voto_raw}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 }

@@ -1,4 +1,244 @@
 id,election_id,district_id,alliance,alliance_code,name
+2019-buenos-aires-consenso-federal,diputados-2019,Buenos Aires,CONSENSO FEDERAL,504,CONSENSO FEDERAL
+2019-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Buenos Aires,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD,505,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD
+2019-buenos-aires-frente-de-todos,diputados-2019,Buenos Aires,FRENTE DE TODOS,503,FRENTE DE TODOS
+2019-buenos-aires-juntos-por-el-cambio,diputados-2019,Buenos Aires,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2019-caba-autodeterminacion-y-libertad,diputados-2019,CABA,AUTODETERMINACIóN Y LIBERTAD,187,AUTODETERMINACIóN Y LIBERTAD
+2019-caba-consenso-federal,diputados-2019,CABA,CONSENSO FEDERAL,504,CONSENSO FEDERAL
+2019-caba-frente-de-izquierda-y-de-los-trabajadores-unidad,diputados-2019,CABA,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES - UNIDAD,501,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES - UNIDAD
+2019-caba-frente-de-todos,diputados-2019,CABA,FRENTE DE TODOS,502,FRENTE DE TODOS
+2019-caba-juntos-por-el-cambio,diputados-2019,CABA,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-caba-unite-por-la-libertad-y-la-dignidad,diputados-2019,CABA,UNITE POR LA LIBERTAD Y LA DIGNIDAD,179,UNITE POR LA LIBERTAD Y LA DIGNIDAD
+2019-catamarca-consenso-federal,diputados-2019,Catamarca,CONSENSO FEDERAL,504,CONSENSO FEDERAL
+2019-catamarca-frente-de-todos,diputados-2019,Catamarca,FRENTE DE TODOS,503,FRENTE DE TODOS
+2019-catamarca-juntos-por-el-cambio,diputados-2019,Catamarca,JUNTOS POR EL CAMBIO,506,JUNTOS POR EL CAMBIO
+2019-chaco-accion-chaquena,diputados-2019,Chaco,ACCION CHAQUEÑA,156,ACCION CHAQUEÑA
+2019-chaco-consenso-federal,diputados-2019,Chaco,CONSENSO FEDERAL,504,CONSENSO FEDERAL
+2019-chaco-frente-de-todos,diputados-2019,Chaco,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-chaco-juntos-por-el-cambio,diputados-2019,Chaco,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-chubut-chubut-al-frente,diputados-2019,Chubut,CHUBUT AL FRENTE,502,CHUBUT AL FRENTE
+2019-chubut-frente-de-izquierda,diputados-2019,Chubut,FRENTE DE IZQUIERDA,504,FRENTE DE IZQUIERDA
+2019-chubut-frente-de-todos,diputados-2019,Chubut,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-chubut-juntos-por-el-cambio,diputados-2019,Chubut,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-chubut-movimiento-polo-social,diputados-2019,Chubut,MOVIMIENTO POLO SOCIAL,152,MOVIMIENTO POLO SOCIAL
+2019-chubut-partido-independiente-de-chubut,diputados-2019,Chubut,PARTIDO INDEPENDIENTE DE CHUBUT,151,PARTIDO INDEPENDIENTE DE CHUBUT
+2019-cordoba-consenso-federal,diputados-2019,Córdoba,CONSENSO FEDERAL,506,CONSENSO FEDERAL
+2019-cordoba-encuentro-vecinal-cordoba,diputados-2019,Córdoba,ENCUENTRO VECINAL CORDOBA,217,ENCUENTRO VECINAL CORDOBA
+2019-cordoba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Córdoba,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-cordoba-frente-de-todos,diputados-2019,Córdoba,FRENTE DE TODOS,505,FRENTE DE TODOS
+2019-cordoba-hacemos-por-cordoba,diputados-2019,Córdoba,HACEMOS POR CORDOBA,503,HACEMOS POR CORDOBA
+2019-cordoba-juntos-por-el-cambio,diputados-2019,Córdoba,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2019-cordoba-unite-por-la-libertad-y-la-dignidad,diputados-2019,Córdoba,UNITE POR LA LIBERTAD Y LA DIGNIDAD,87,UNITE POR LA LIBERTAD Y LA DIGNIDAD
+2019-corrientes-ciudadanos-a-gobernar,diputados-2019,Corrientes,CIUDADANOS A GOBERNAR,216,CIUDADANOS A GOBERNAR
+2019-corrientes-consenso-federal,diputados-2019,Corrientes,CONSENSO FEDERAL,503,CONSENSO FEDERAL
+2019-corrientes-encuentro-por-corrientes-eco-juntos-por-el-cambio,diputados-2019,Corrientes,ENCUENTRO POR CORRIENTES - ECO + JUNTOS POR EL CAMBIO,502,ENCUENTRO POR CORRIENTES - ECO + JUNTOS POR EL CAMBIO
+2019-corrientes-frente-de-todos,diputados-2019,Corrientes,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-entre-rios-frente-de-todos,diputados-2019,Entre Ríos,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-entre-rios-juntos-por-el-cambio,diputados-2019,Entre Ríos,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2019-entre-rios-nueva-izquierda,diputados-2019,Entre Ríos,NUEVA IZQUIERDA,68,NUEVA IZQUIERDA
+2019-entre-rios-partido-socialista,diputados-2019,Entre Ríos,PARTIDO SOCIALISTA,50,PARTIDO SOCIALISTA
+2019-formosa-consenso-federal,diputados-2019,Formosa,CONSENSO FEDERAL,502,CONSENSO FEDERAL
+2019-formosa-frente-de-todos,diputados-2019,Formosa,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-formosa-juntos-por-el-cambio,diputados-2019,Formosa,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-jujuy-consenso-federal,diputados-2019,Jujuy,CONSENSO FEDERAL,503,CONSENSO FEDERAL
+2019-jujuy-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Jujuy,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-jujuy-frente-de-todos,diputados-2019,Jujuy,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-jujuy-juntos-por-el-cambio,diputados-2019,Jujuy,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2019-la-pampa-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,La Pampa,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-la-pampa-frente-de-todos,diputados-2019,La Pampa,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-la-pampa-juntos-por-el-cambio,diputados-2019,La Pampa,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2019-la-pampa-partido-socialista,diputados-2019,La Pampa,PARTIDO SOCIALISTA,50,PARTIDO SOCIALISTA
+2019-la-rioja-compromiso-federal,diputados-2019,La Rioja,COMPROMISO FEDERAL,82,COMPROMISO FEDERAL
+2019-la-rioja-frente-de-izquierda-y-trabajadores-unidad,diputados-2019,La Rioja,FRENTE DE IZQUIERDA Y TRABAJADORES - UNIDAD,501,FRENTE DE IZQUIERDA Y TRABAJADORES - UNIDAD
+2019-la-rioja-frente-de-todos,diputados-2019,La Rioja,FRENTE DE TODOS,503,FRENTE DE TODOS
+2019-la-rioja-juntos-por-la-rioja,diputados-2019,La Rioja,JUNTOS POR LA RIOJA,502,JUNTOS POR LA RIOJA
+2019-mendoza-cambia-mendoza,diputados-2019,Mendoza,CAMBIA MENDOZA,503,CAMBIA MENDOZA
+2019-mendoza-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Mendoza,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,501,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-mendoza-frente-de-todos,diputados-2019,Mendoza,FRENTE DE TODOS,502,FRENTE DE TODOS
+2019-mendoza-protectora-fuerza-politica,diputados-2019,Mendoza,PROTECTORA FUERZA POLITICA,222,PROTECTORA FUERZA POLITICA
+2019-misiones-frente-de-todos,diputados-2019,Misiones,FRENTE DE TODOS,502,FRENTE DE TODOS
+2019-misiones-frente-renovador-de-la-concordia,diputados-2019,Misiones,FRENTE RENOVADOR DE LA CONCORDIA,501,FRENTE RENOVADOR DE LA CONCORDIA
+2019-misiones-juntos-por-el-cambio,diputados-2019,Misiones,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-misiones-partido-socialista,diputados-2019,Misiones,PARTIDO SOCIALISTA,50,PARTIDO SOCIALISTA
+2019-neuquen-consenso-federal,diputados-2019,Neuquén,CONSENSO FEDERAL,504,CONSENSO FEDERAL
+2019-neuquen-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Neuquén,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-neuquen-frente-de-todos,diputados-2019,Neuquén,FRENTE DE TODOS,503,FRENTE DE TODOS
+2019-neuquen-juntos-por-el-cambio,diputados-2019,Neuquén,JUNTOS POR EL CAMBIO,501,JUNTOS POR EL CAMBIO
+2019-neuquen-movimiento-popular-neuquino,diputados-2019,Neuquén,MOVIMIENTO POPULAR NEUQUINO,151,MOVIMIENTO POPULAR NEUQUINO
+2019-rio-negro-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Río Negro,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-rio-negro-frente-de-todos,diputados-2019,Río Negro,FRENTE DE TODOS,502,FRENTE DE TODOS
+2019-rio-negro-juntos-por-el-cambio,diputados-2019,Río Negro,JUNTOS POR EL CAMBIO,501,JUNTOS POR EL CAMBIO
+2019-rio-negro-juntos-somos-rio-negro,diputados-2019,Río Negro,JUNTOS SOMOS RIO NEGRO,169,JUNTOS SOMOS RIO NEGRO
+2019-salta-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Salta,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-salta-frente-de-todos,diputados-2019,Salta,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-salta-juntos-por-el-cambio,diputados-2019,Salta,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-salta-partido-conservador-popular,diputados-2019,Salta,PARTIDO CONSERVADOR POPULAR,19,PARTIDO CONSERVADOR POPULAR
+2019-salta-union-por-salta,diputados-2019,Salta,UNIÓN POR SALTA,502,UNIÓN POR SALTA
+2019-san-juan-consenso-federal,diputados-2019,San Juan,CONSENSO FEDERAL,504,CONSENSO FEDERAL
+2019-san-juan-frente-de-todos-san-juan,diputados-2019,San Juan,FRENTE DE TODOS SAN JUAN,501,FRENTE DE TODOS SAN JUAN
+2019-san-juan-juntos-por-el-cambio,diputados-2019,San Juan,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-san-luis-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,San Luis,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,501,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-san-luis-frente-de-todos,diputados-2019,San Luis,FRENTE DE TODOS,503,FRENTE DE TODOS
+2019-san-luis-gen,diputados-2019,San Luis,GEN,69,GEN
+2019-san-luis-juntos-por-el-cambio,diputados-2019,San Luis,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2019-santa-cruz-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Santa Cruz,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD,501,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD
+2019-santa-cruz-frente-de-todos,diputados-2019,Santa Cruz,FRENTE DE TODOS,502,FRENTE DE TODOS
+2019-santa-cruz-frente-renovador-autentico,diputados-2019,Santa Cruz,FRENTE RENOVADOR AUTENTICO,86,FRENTE RENOVADOR AUTENTICO
+2019-santa-cruz-juntos-por-el-cambio,diputados-2019,Santa Cruz,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-santa-fe-consenso-federal,diputados-2019,Santa Fe,CONSENSO FEDERAL,502,CONSENSO FEDERAL
+2019-santa-fe-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Santa Fe,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD
+2019-santa-fe-frente-de-todos,diputados-2019,Santa Fe,FRENTE DE TODOS,505,FRENTE DE TODOS
+2019-santa-fe-juntos-por-el-cambio,diputados-2019,Santa Fe,JUNTOS POR EL CAMBIO,504,JUNTOS POR EL CAMBIO
+2019-santa-fe-unite-por-la-libertad-y-la-dignidad,diputados-2019,Santa Fe,UNITE POR LA LIBERTAD Y LA DIGNIDAD,87,UNITE POR LA LIBERTAD Y LA DIGNIDAD
+2019-santiago-del-estero-frente-civico-por-santiago,diputados-2019,Santiago del Estero,FRENTE CIVICO POR SANTIAGO,501,FRENTE CIVICO POR SANTIAGO
+2019-santiago-del-estero-frente-de-todos,diputados-2019,Santiago del Estero,FRENTE DE TODOS,502,FRENTE DE TODOS
+2019-santiago-del-estero-juntos-por-el-cambio,diputados-2019,Santiago del Estero,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2019-santiago-del-estero-movimiento-libres-del-sur,diputados-2019,Santiago del Estero,MOVIMIENTO LIBRES DEL SUR,40,MOVIMIENTO LIBRES DEL SUR
+2019-tierra-del-fuego-frente-de-todos,diputados-2019,Tierra del Fuego,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-tierra-del-fuego-gen,diputados-2019,Tierra del Fuego,GEN,69,GEN
+2019-tierra-del-fuego-juntos-por-el-cambio,diputados-2019,Tierra del Fuego,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2019-tierra-del-fuego-partido-obrero,diputados-2019,Tierra del Fuego,PARTIDO OBRERO,203,PARTIDO OBRERO
+2019-tierra-del-fuego-partido-social-patagonico,diputados-2019,Tierra del Fuego,PARTIDO SOCIAL PATAGóNICO,187,PARTIDO SOCIAL PATAGóNICO
+2019-tierra-del-fuego-vamos-todos-a-vivir-mejor,diputados-2019,Tierra del Fuego,VAMOS TODOS A VIVIR MEJOR,503,VAMOS TODOS A VIVIR MEJOR
+2019-tucuman-consenso-federal,diputados-2019,Tucumán,CONSENSO FEDERAL,504,CONSENSO FEDERAL
+2019-tucuman-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2019,Tucumán,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2019-tucuman-frente-de-todos,diputados-2019,Tucumán,FRENTE DE TODOS,501,FRENTE DE TODOS
+2019-tucuman-fuerza-republicana,diputados-2019,Tucumán,FUERZA REPUBLICANA,181,FUERZA REPUBLICANA
+2019-tucuman-juntos-por-el-cambio,diputados-2019,Tucumán,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2021-buenos-aires-valores,diputados-2021,Buenos Aires,+ VALORES,,+ VALORES
+2021-buenos-aires-avanza-libertad,diputados-2021,Buenos Aires,AVANZA LIBERTAD,,AVANZA LIBERTAD
+2021-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2021,Buenos Aires,FRENTE DE IZQUIERDA Y DE TRABAJADORES,,FRENTE DE IZQUIERDA Y DE TRABAJADORES
+2021-buenos-aires-frente-de-todos-pba,diputados-2021,Buenos Aires,FRENTE DE TODOS PBA,,FRENTE DE TODOS PBA
+2021-buenos-aires-frente-vamos-con-vos,diputados-2021,Buenos Aires,FRENTE VAMOS CON VOS,,FRENTE VAMOS CON VOS
+2021-buenos-aires-juntos,diputados-2021,Buenos Aires,JUNTOS,,JUNTOS
+2021-caba-autodeterminacion-y-libertad,diputados-2021,CABA,AUTODETERMINACIóN Y LIBERTAD,,AUTODETERMINACIóN Y LIBERTAD
+2021-caba-avanza-la-libertad,diputados-2021,CABA,AVANZA LA LIBERTAD,,AVANZA LA LIBERTAD
+2021-caba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,CABA,FRENTE DE IZQUIERDA Y DE TRABAJADORES- UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES- UNIDAD
+2021-caba-frente-de-todos,diputados-2021,CABA,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-caba-juntos-por-el-cambio,diputados-2021,CABA,JUNTOS POR EL CAMBIO,,JUNTOS POR EL CAMBIO
+2021-catamarca-corriente-de-pensamiento-bonaerense,diputados-2021,Catamarca,CORRIENTE DE PENSAMIENTO BONAERENSE,,CORRIENTE DE PENSAMIENTO BONAERENSE
+2021-catamarca-frente-amplio-catamarqueno,diputados-2021,Catamarca,FRENTE AMPLIO CATAMARQUEÑO,,FRENTE AMPLIO CATAMARQUEÑO
+2021-catamarca-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Catamarca,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-catamarca-frente-de-todos,diputados-2021,Catamarca,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-catamarca-juntos-por-el-cambio,diputados-2021,Catamarca,JUNTOS POR EL CAMBIO,,JUNTOS POR EL CAMBIO
+2021-chaco-chaco-cambia-juntos-por-el-cambio,diputados-2021,Chaco,CHACO CAMBIA + JUNTOS POR EL CAMBIO,,CHACO CAMBIA + JUNTOS POR EL CAMBIO
+2021-chaco-frente-de-todos,diputados-2021,Chaco,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-chaco-frente-vamos-con-vos,diputados-2021,Chaco,FRENTE VAMOS CON VOS,,FRENTE VAMOS CON VOS
+2021-chaco-partido-del-obrero,diputados-2021,Chaco,PARTIDO DEL OBRERO,,PARTIDO DEL OBRERO
+2021-chaco-partido-frente-integrador,diputados-2021,Chaco,PARTIDO FRENTE INTEGRADOR,,PARTIDO FRENTE INTEGRADOR
+2021-chubut-chubut-somos-todos,diputados-2021,Chubut,CHUBUT SOMOS TODOS,,CHUBUT SOMOS TODOS
+2021-chubut-frente-de-todos,diputados-2021,Chubut,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-chubut-frentedeizquierda,diputados-2021,Chubut,FRENTEDEIZQUIERDA,,FRENTEDEIZQUIERDA
+2021-chubut-juntos-por-el-cambio-chubut,diputados-2021,Chubut,JUNTOS POR EL CAMBIO CHUBUT,,JUNTOS POR EL CAMBIO CHUBUT
+2021-chubut-partido-independiente-del-chubut,diputados-2021,Chubut,PARTIDO INDEPENDIENTE DEL CHUBUT,,PARTIDO INDEPENDIENTE DEL CHUBUT
+2021-cordoba-encuentro-vecinal-cordoba,diputados-2021,Córdoba,ENCUENTRO VECINAL CORDOBA,,ENCUENTRO VECINAL CORDOBA
+2021-cordoba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Córdoba,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-cordoba-frente-de-todos,diputados-2021,Córdoba,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-cordoba-hacemos-por-cordoba,diputados-2021,Córdoba,HACEMOS POR CORDOBA,,HACEMOS POR CORDOBA
+2021-cordoba-juntos-por-el-cambio,diputados-2021,Córdoba,JUNTOS POR EL CAMBIO,,JUNTOS POR EL CAMBIO
+2021-cordoba-la-libertad-avanza,diputados-2021,Córdoba,LA LIBERTAD AVANZA,,LA LIBERTAD AVANZA
+2021-cordoba-union-popular-federal,diputados-2021,Córdoba,UNION POPULAR FEDERAL,,UNION POPULAR FEDERAL
+2021-corrientes-compromiso-federal,diputados-2021,Corrientes,COMPROMISO FEDERAL,,COMPROMISO FEDERAL
+2021-corrientes-eco-vamos-corrientes,diputados-2021,Corrientes,ECO + VAMOS CORRIENTES,,ECO + VAMOS CORRIENTES
+2021-corrientes-frente-de-todos,diputados-2021,Corrientes,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-corrientes-vamos-con-vos,diputados-2021,Corrientes,VAMOS CON VOS,,VAMOS CON VOS
+2021-entre-rios-frente-de-todos,diputados-2021,Entre Ríos,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-entre-rios-juntos-por-entre-rios,diputados-2021,Entre Ríos,JUNTOS POR ENTRE RIOS,,JUNTOS POR ENTRE RIOS
+2021-entre-rios-movimiento-al-socialismo,diputados-2021,Entre Ríos,MOVIMIENTO AL SOCIALISMO,,MOVIMIENTO AL SOCIALISMO
+2021-entre-rios-nueva-izquierda,diputados-2021,Entre Ríos,NUEVA IZQUIERDA,,NUEVA IZQUIERDA
+2021-entre-rios-partido-conservador-popular,diputados-2021,Entre Ríos,PARTIDO CONSERVADOR POPULAR,,PARTIDO CONSERVADOR POPULAR
+2021-entre-rios-partido-fe,diputados-2021,Entre Ríos,PARTIDO FE,,PARTIDO FE
+2021-entre-rios-partido-socialista,diputados-2021,Entre Ríos,PARTIDO SOCIALISTA,,PARTIDO SOCIALISTA
+2021-formosa-frente-de-todos,diputados-2021,Formosa,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-formosa-juntos-por-formosa-libre,diputados-2021,Formosa,JUNTOS POR FORMOSA LIBRE,,JUNTOS POR FORMOSA LIBRE
+2021-formosa-partido-principios-y-conviccion,diputados-2021,Formosa,PARTIDO PRINCIPIOS Y CONVICCION,,PARTIDO PRINCIPIOS Y CONVICCION
+2021-jujuy-cambia-jujuy,diputados-2021,Jujuy,CAMBIA JUJUY,,CAMBIA JUJUY
+2021-jujuy-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Jujuy,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-jujuy-frente-de-todos,diputados-2021,Jujuy,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-la-pampa-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,La Pampa,FRENTE DE IZQUIERDA Y DE TRABAJADORES -UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES -UNIDAD
+2021-la-pampa-frente-de-todos,diputados-2021,La Pampa,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-la-pampa-juntos-por-el-cambio,diputados-2021,La Pampa,JUNTOS POR EL CAMBIO,,JUNTOS POR EL CAMBIO
+2021-la-pampa-movimiento-al-socialismo,diputados-2021,La Pampa,MOVIMIENTO AL SOCIALISMO,,MOVIMIENTO AL SOCIALISMO
+2021-la-pampa-partido-socialista,diputados-2021,La Pampa,PARTIDO SOCIALISTA,,PARTIDO SOCIALISTA
+2021-la-rioja-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,La Rioja,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-la-rioja-frente-de-todos,diputados-2021,La Rioja,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-la-rioja-ucede-union-del-centro-democratico,diputados-2021,La Rioja,UCEDE - UNION DEL CENTRO DEMOCRATICO,,UCEDE - UNION DEL CENTRO DEMOCRATICO
+2021-la-rioja-unidos,diputados-2021,La Rioja,UNIDOS,,UNIDOS
+2021-la-rioja-vamos-la-rioja-cambia-la-rioja,diputados-2021,La Rioja,VAMOS LA RIOJA - CAMBIA LA RIOJA,,VAMOS LA RIOJA - CAMBIA LA RIOJA
+2021-mendoza-cambia-mendoza-distrito-mendoza,diputados-2021,Mendoza,CAMBIA MENDOZA - DISTRITO MENDOZA,,CAMBIA MENDOZA - DISTRITO MENDOZA
+2021-mendoza-compromiso-federal-distrito-mendoza,diputados-2021,Mendoza,COMPROMISO FEDERAL - DISTRITO MENDOZA,,COMPROMISO FEDERAL - DISTRITO MENDOZA
+2021-mendoza-frente-de-izquierda-y-de-trabajadores-unidad-distrito-mendoza,diputados-2021,Mendoza,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA
+2021-mendoza-frente-de-todos-distrito-mendoza,diputados-2021,Mendoza,FRENTE DE TODOS - DISTRITO MENDOZA,,FRENTE DE TODOS - DISTRITO MENDOZA
+2021-mendoza-partido-federal-distrito-mendoza,diputados-2021,Mendoza,PARTIDO FEDERAL - DISTRITO MENDOZA,,PARTIDO FEDERAL - DISTRITO MENDOZA
+2021-mendoza-partido-verde-distrito-mendoza,diputados-2021,Mendoza,PARTIDO VERDE - DISTRITO MENDOZA,,PARTIDO VERDE - DISTRITO MENDOZA
+2021-mendoza-vamos-mendocinos-distrito-mendoza,diputados-2021,Mendoza,VAMOS! MENDOCINOS - DISTRITO MENDOZA,,VAMOS! MENDOCINOS - DISTRITO MENDOZA
+2021-misiones-del-obrero,diputados-2021,Misiones,DEL OBRERO,,DEL OBRERO
+2021-misiones-frente-de-todos,diputados-2021,Misiones,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-misiones-frente-juntos-por-el-cambio,diputados-2021,Misiones,FRENTE JUNTOS POR EL CAMBIO,,FRENTE JUNTOS POR EL CAMBIO
+2021-misiones-frente-renovador-de-la-concordia-social,diputados-2021,Misiones,FRENTE RENOVADOR DE LA CONCORDIA SOCIAL,,FRENTE RENOVADOR DE LA CONCORDIA SOCIAL
+2021-misiones-libertad-valores-y-cambio,diputados-2021,Misiones,LIBERTAD VALORES Y CAMBIO,,LIBERTAD VALORES Y CAMBIO
+2021-neuquen-cambia-neuquen,diputados-2021,Neuquén,CAMBIA NEUQUéN,,CAMBIA NEUQUéN
+2021-neuquen-coalicion-civica-ari,diputados-2021,Neuquén,COALICION CIVICA - ARI,,COALICION CIVICA - ARI
+2021-neuquen-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Neuquén,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-neuquen-frente-de-todos,diputados-2021,Neuquén,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-neuquen-movimiento-libres-del-sur,diputados-2021,Neuquén,MOVIMIENTO LIBRES DEL SUR,,MOVIMIENTO LIBRES DEL SUR
+2021-neuquen-movimiento-popular-neuquino,diputados-2021,Neuquén,MOVIMIENTO POPULAR NEUQUINO,,MOVIMIENTO POPULAR NEUQUINO
+2021-neuquen-partido-socialista,diputados-2021,Neuquén,PARTIDO SOCIALISTA,,PARTIDO SOCIALISTA
+2021-rio-negro-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Río Negro,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-rio-negro-frente-de-todos,diputados-2021,Río Negro,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-rio-negro-juntos-por-el-cambio,diputados-2021,Río Negro,JUNTOS POR EL CAMBIO,,JUNTOS POR EL CAMBIO
+2021-rio-negro-juntos-somos-rio-negro,diputados-2021,Río Negro,JUNTOS SOMOS RIO NEGRO,,JUNTOS SOMOS RIO NEGRO
+2021-rio-negro-movimiento-al-socialismo,diputados-2021,Río Negro,MOVIMIENTO AL SOCIALISMO,,MOVIMIENTO AL SOCIALISMO
+2021-rio-negro-partido-socialista,diputados-2021,Río Negro,PARTIDO SOCIALISTA,,PARTIDO SOCIALISTA
+2021-salta-felicidad,diputados-2021,Salta,FELICIDAD,,FELICIDAD
+2021-salta-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Salta,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-salta-frente-de-todos,diputados-2021,Salta,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-salta-frente-si-prs,diputados-2021,Salta,FRENTE SI + PRS,,FRENTE SI + PRS
+2021-salta-juntos-por-el-cambio,diputados-2021,Salta,JUNTOS POR EL CAMBIO +,,JUNTOS POR EL CAMBIO +
+2021-salta-politicaobrera,diputados-2021,Salta,POLITICAOBRERA,,POLITICAOBRERA
+2021-salta-unidos-por-salta,diputados-2021,Salta,UNIDOS POR SALTA,,UNIDOS POR SALTA
+2021-san-juan-frente-consenso-ischigualasto-san-juan,diputados-2021,San Juan,FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN),,FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)
+2021-san-juan-frente-de-izquierda-y-de-trabajadores-unidad-san-juan,diputados-2021,San Juan,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN),,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)
+2021-san-juan-frente-de-todos-san-juan,diputados-2021,San Juan,FRENTE DE TODOS (SAN JUAN),,FRENTE DE TODOS (SAN JUAN)
+2021-san-juan-juntos-por-el-cambio-san-juan,diputados-2021,San Juan,JUNTOS POR EL CAMBIO (SAN JUAN),,JUNTOS POR EL CAMBIO (SAN JUAN)
+2021-san-luis-fitu-san-luis,diputados-2021,San Luis,FITU SAN LUIS,,FITU SAN LUIS
+2021-san-luis-fuerza-san-luis,diputados-2021,San Luis,FUERZA SAN LUIS,,FUERZA SAN LUIS
+2021-san-luis-todos-unidos-san-luis,diputados-2021,San Luis,TODOS UNIDOS SAN LUIS,,TODOS UNIDOS SAN LUIS
+2021-san-luis-unidos-por-san-luis,diputados-2021,San Luis,UNIDOS POR SAN LUIS,,UNIDOS POR SAN LUIS
+2021-san-luis-union-civica-radical-san-luis,diputados-2021,San Luis,UNION CIVICA RADICAL SAN LUIS,,UNION CIVICA RADICAL SAN LUIS
+2021-santa-cruz-cambia-santa-cruz,diputados-2021,Santa Cruz,CAMBIA SANTA CRUZ,,CAMBIA SANTA CRUZ
+2021-santa-cruz-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Santa Cruz,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-santa-cruz-frente-de-todos,diputados-2021,Santa Cruz,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-santa-cruz-movimiento-al-socialismo,diputados-2021,Santa Cruz,MOVIMIENTO AL SOCIALISMO,,MOVIMIENTO AL SOCIALISMO
+2021-santa-cruz-somos-energia-para-renovar-santa-cruz-ser,diputados-2021,Santa Cruz,SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER,,SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER
+2021-santa-fe-frente-amplio-progresista,diputados-2021,Santa Fe,FRENTE AMPLIO PROGRESISTA,,FRENTE AMPLIO PROGRESISTA
+2021-santa-fe-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2021,Santa Fe,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2021-santa-fe-frente-de-todos,diputados-2021,Santa Fe,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-santa-fe-juntos-por-el-cambio,diputados-2021,Santa Fe,JUNTOS POR EL CAMBIO,,JUNTOS POR EL CAMBIO
+2021-santa-fe-podemos,diputados-2021,Santa Fe,PODEMOS,,PODEMOS
+2021-santa-fe-primero-santa-fe,diputados-2021,Santa Fe,PRIMERO SANTA FE,,PRIMERO SANTA FE
+2021-santa-fe-soberania-popular-1,diputados-2021,Santa Fe,SOBERANIA POPULAR (1),,SOBERANIA POPULAR (1)
+2021-santa-fe-somos-futuro,diputados-2021,Santa Fe,SOMOS FUTURO,,SOMOS FUTURO
+2021-santa-fe-unite-por-la-libertad-y-la-dignidad,diputados-2021,Santa Fe,UNITE POR LA LIBERTAD Y LA DIGNIDAD,,UNITE POR LA LIBERTAD Y LA DIGNIDAD
+2021-santiago-del-estero-frente-civico-por-santiago,diputados-2021,Santiago del Estero,FRENTE CIVICO POR SANTIAGO,,FRENTE CIVICO POR SANTIAGO
+2021-santiago-del-estero-frente-patriotico-laborista,diputados-2021,Santiago del Estero,FRENTE PATRIOTICO LABORISTA,,FRENTE PATRIOTICO LABORISTA
+2021-santiago-del-estero-frente-renovador,diputados-2021,Santiago del Estero,FRENTE RENOVADOR,,FRENTE RENOVADOR
+2021-santiago-del-estero-juntos-por-el-cambio,diputados-2021,Santiago del Estero,JUNTOS POR EL CAMBIO,,JUNTOS POR EL CAMBIO
+2021-santiago-del-estero-movimiento-libres-del-sur,diputados-2021,Santiago del Estero,MOVIMIENTO LIBRES DEL SUR,,MOVIMIENTO LIBRES DEL SUR
+2021-santiago-del-estero-partido-por-un-santiago-obrero,diputados-2021,Santiago del Estero,PARTIDO POR UN SANTIAGO OBRERO,,PARTIDO POR UN SANTIAGO OBRERO
+2021-santiago-del-estero-unite-por-la-libertad-y-la-dignidad,diputados-2021,Santiago del Estero,UNITE POR LA LIBERTAD Y LA DIGNIDAD,,UNITE POR LA LIBERTAD Y LA DIGNIDAD
+2021-tierra-del-fuego-frente-de-todos,diputados-2021,Tierra del Fuego,FRENTE DE TODOS,,FRENTE DE TODOS
+2021-tierra-del-fuego-juntos-por-el-cambio-tierra-del-fuego,diputados-2021,Tierra del Fuego,JUNTOS POR EL CAMBIO TIERRA DEL FUEGO,,JUNTOS POR EL CAMBIO TIERRA DEL FUEGO
+2021-tierra-del-fuego-movimiento-al-socialismo,diputados-2021,Tierra del Fuego,MOVIMIENTO AL SOCIALISMO,,MOVIMIENTO AL SOCIALISMO
+2021-tierra-del-fuego-movimiento-popular-fueguino,diputados-2021,Tierra del Fuego,MOVIMIENTO POPULAR FUEGUINO,,MOVIMIENTO POPULAR FUEGUINO
+2021-tierra-del-fuego-partido-obrero,diputados-2021,Tierra del Fuego,PARTIDO OBRERO,,PARTIDO OBRERO
+2021-tierra-del-fuego-republicanos-unidos,diputados-2021,Tierra del Fuego,REPUBLICANOS UNIDOS,,REPUBLICANOS UNIDOS
+2021-tierra-del-fuego-somos-fueguinos,diputados-2021,Tierra del Fuego,SOMOS FUEGUINOS,,SOMOS FUEGUINOS
+2021-tucuman-frente-amplio-por-tucuman,diputados-2021,Tucumán,FRENTE AMPLIO POR TUCUMAN,,FRENTE AMPLIO POR TUCUMAN
+2021-tucuman-frente-de-izquierda-y-de-los-trabajadores-unidad-tuc,diputados-2021,Tucumán,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC,,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC
+2021-tucuman-frente-de-todos-tuc,diputados-2021,Tucumán,FRENTE DE TODOS (TUC),,FRENTE DE TODOS (TUC)
+2021-tucuman-fuerza-republicana-tuc,diputados-2021,Tucumán,FUERZA REPUBLICANA TUC,,FUERZA REPUBLICANA TUC
+2021-tucuman-juntos-por-el-cambio-tucuman,diputados-2021,Tucumán,JUNTOS POR EL CAMBIO TUCUMAN,,JUNTOS POR EL CAMBIO TUCUMAN
 2023-buenos-aires-frente-de-izquierda-y-de-trabajadores,diputados-2023,Buenos Aires,FRENTE DE IZQUIERDA Y DE TRABAJADORES,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES
 2023-buenos-aires-juntos-por-el-cambio,diputados-2023,Buenos Aires,JUNTOS POR EL CAMBIO,504,JUNTOS POR EL CAMBIO
 2023-buenos-aires-la-libertad-avanza,diputados-2023,Buenos Aires,LA LIBERTAD AVANZA,501,LA LIBERTAD AVANZA
@@ -7,6 +247,96 @@ id,election_id,district_id,alliance,alliance_code,name
 2023-caba-juntos-por-el-cambio,diputados-2023,CABA,JUNTOS POR EL CAMBIO,504,JUNTOS POR EL CAMBIO
 2023-caba-la-libertad-avanza,diputados-2023,CABA,LA LIBERTAD AVANZA,501,LA LIBERTAD AVANZA
 2023-caba-union-por-la-patria,diputados-2023,CABA,UNION POR LA PATRIA,503,UNION POR LA PATRIA
+2023-catamarca-juntos-por-el-cambio,diputados-2023,Catamarca,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2023-catamarca-la-libertad-avanza,diputados-2023,Catamarca,LA LIBERTAD AVANZA,135,LA LIBERTAD AVANZA
+2023-catamarca-union-por-la-patria,diputados-2023,Catamarca,UNION POR LA PATRIA,502,UNION POR LA PATRIA
+2023-chaco-juntos-por-el-cambio,diputados-2023,Chaco,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2023-chaco-la-libertad-avanza,diputados-2023,Chaco,LA LIBERTAD AVANZA,504,LA LIBERTAD AVANZA
+2023-chaco-union-por-la-patria,diputados-2023,Chaco,UNION POR LA PATRIA,501,UNION POR LA PATRIA
+2023-chubut-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,Chubut,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,506,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2023-chubut-juntos-por-el-cambio-chubut,diputados-2023,Chubut,JUNTOS POR EL CAMBIO CHUBUT,502,JUNTOS POR EL CAMBIO CHUBUT
+2023-chubut-la-libertad-avanza-chubut,diputados-2023,Chubut,LA LIBERTAD AVANZA CHUBUT,505,LA LIBERTAD AVANZA CHUBUT
+2023-chubut-union-por-la-patria,diputados-2023,Chubut,UNIÓN POR LA PATRIA,504,UNIÓN POR LA PATRIA
+2023-cordoba-frente-de-izquierda-y-de-los-trabajadores-unidad,diputados-2023,Córdoba,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES-UNIDAD,504,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES-UNIDAD
+2023-cordoba-hacemos-por-nuestro-pais,diputados-2023,Córdoba,HACEMOS POR NUESTRO PAIS,503,HACEMOS POR NUESTRO PAIS
+2023-cordoba-juntos-por-el-cambio,diputados-2023,Córdoba,JUNTOS POR EL CAMBIO,501,JUNTOS POR EL CAMBIO
+2023-cordoba-la-libertad-avanza,diputados-2023,Córdoba,LA LIBERTAD AVANZA,506,LA LIBERTAD AVANZA
+2023-cordoba-union-por-la-patria,diputados-2023,Córdoba,UNION POR LA PATRIA,502,UNION POR LA PATRIA
+2023-corrientes-encuentro-por-corrientes-eco-vamos-corrientes,diputados-2023,Corrientes,ENCUENTRO POR CORRIENTES - ECO + VAMOS CORRIENTES,503,ENCUENTRO POR CORRIENTES - ECO + VAMOS CORRIENTES
+2023-corrientes-la-libertad-avanza,diputados-2023,Corrientes,LA LIBERTAD AVANZA,501,LA LIBERTAD AVANZA
+2023-corrientes-union-por-la-patria,diputados-2023,Corrientes,UNION POR LA PATRIA,504,UNION POR LA PATRIA
+2023-entre-rios-juntos-por-entre-rios,diputados-2023,Entre Ríos,JUNTOS POR ENTRE RIOS,502,JUNTOS POR ENTRE RIOS
+2023-entre-rios-la-libertad-avanza,diputados-2023,Entre Ríos,LA LIBERTAD AVANZA,503,LA LIBERTAD AVANZA
+2023-entre-rios-mas-para-entre-rios,diputados-2023,Entre Ríos,MAS PARA ENTRE RIOS,501,MAS PARA ENTRE RIOS
+2023-formosa-juntos-por-el-cambio,diputados-2023,Formosa,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2023-formosa-la-libertad-avanza,diputados-2023,Formosa,LA LIBERTAD AVANZA,503,LA LIBERTAD AVANZA
+2023-formosa-union-por-la-patria,diputados-2023,Formosa,UNION POR LA PATRIA,501,UNION POR LA PATRIA
+2023-jujuy-cambia-jujuy,diputados-2023,Jujuy,CAMBIA JUJUY,502,CAMBIA JUJUY
+2023-jujuy-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,Jujuy,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD
+2023-jujuy-partido-renovador-federal,diputados-2023,Jujuy,PARTIDO RENOVADOR FEDERAL,79,PARTIDO RENOVADOR FEDERAL
+2023-jujuy-union-por-la-patria,diputados-2023,Jujuy,UNION POR LA PATRIA,501,UNION POR LA PATRIA
+2023-la-pampa-frente-de-izquierda-y-de-trabajadores,diputados-2023,La Pampa,FRENTE DE IZQUIERDA Y DE TRABAJADORES,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES
+2023-la-pampa-juntos-por-el-cambio,diputados-2023,La Pampa,JUNTOS POR EL CAMBIO,501,JUNTOS POR EL CAMBIO
+2023-la-pampa-union-por-la-patria,diputados-2023,La Pampa,UNION POR LA PATRIA,502,UNION POR LA PATRIA
+2023-la-rioja-democrata-cristiano,diputados-2023,La Rioja,DEMOCRATA CRISTIANO,5,DEMOCRATA CRISTIANO
+2023-la-rioja-juntos-por-el-cambio,diputados-2023,La Rioja,JUNTOS POR EL CAMBIO,503,JUNTOS POR EL CAMBIO
+2023-la-rioja-la-libertad-avanza,diputados-2023,La Rioja,LA LIBERTAD AVANZA,187,LA LIBERTAD AVANZA
+2023-la-rioja-union-por-la-patria,diputados-2023,La Rioja,UNION POR LA PATRIA,502,UNION POR LA PATRIA
+2023-mendoza-cambia-mendoza,diputados-2023,Mendoza,CAMBIA MENDOZA,503,CAMBIA MENDOZA
+2023-mendoza-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,Mendoza,FRENTE DE IZQUIERDA Y DE TRABAJADORES – UNIDAD,501,FRENTE DE IZQUIERDA Y DE TRABAJADORES – UNIDAD
+2023-mendoza-la-libertad-avanza,diputados-2023,Mendoza,LA LIBERTAD AVANZA,504,LA LIBERTAD AVANZA
+2023-mendoza-movimiento-libres-del-sur,diputados-2023,Mendoza,MOVIMIENTO LIBRES DEL SUR,40,MOVIMIENTO LIBRES DEL SUR
+2023-mendoza-union-por-la-patria,diputados-2023,Mendoza,UNION POR LA PATRIA,502,UNION POR LA PATRIA
+2023-misiones-frente-renovador-de-la-concordia-innovacion-federal-mnes,diputados-2023,Misiones,FRENTE RENOVADOR DE LA CONCORDIA-INNOVACION FEDERAL MNES,502,FRENTE RENOVADOR DE LA CONCORDIA-INNOVACION FEDERAL MNES
+2023-misiones-juntos-por-el-cambio-mnes,diputados-2023,Misiones,JUNTOS POR EL CAMBIO MNES,501,JUNTOS POR EL CAMBIO MNES
+2023-misiones-partido-agrario-y-social-mnes,diputados-2023,Misiones,PARTIDO AGRARIO Y SOCIAL MNES,184,PARTIDO AGRARIO Y SOCIAL MNES
+2023-neuquen-arriba-neuquen,diputados-2023,Neuquén,ARRIBA NEUQUEN,193,ARRIBA NEUQUEN
+2023-neuquen-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,Neuquén,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2023-neuquen-juntos-por-el-cambio,diputados-2023,Neuquén,JUNTOS POR EL CAMBIO,504,JUNTOS POR EL CAMBIO
+2023-neuquen-movimiento-popular-neuquino,diputados-2023,Neuquén,MOVIMIENTO POPULAR NEUQUINO,151,MOVIMIENTO POPULAR NEUQUINO
+2023-neuquen-union-por-la-patria,diputados-2023,Neuquén,UNIÓN POR LA PATRIA,503,UNIÓN POR LA PATRIA
+2023-rio-negro-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,Río Negro,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2023-rio-negro-juntos-por-el-cambio,diputados-2023,Río Negro,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2023-rio-negro-juntos-somos-rio-negro,diputados-2023,Río Negro,JUNTOS SOMOS RIO NEGRO,501,JUNTOS SOMOS RIO NEGRO
+2023-rio-negro-partido-fe,diputados-2023,Río Negro,PARTIDO FE,77,PARTIDO FE
+2023-rio-negro-union-por-la-patria,diputados-2023,Río Negro,UNION POR LA PATRIA,503,UNION POR LA PATRIA
+2023-salta-ahora-patria,diputados-2023,Salta,AHORA PATRIA,231,AHORA PATRIA
+2023-salta-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,Salta,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,501,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2023-salta-juntos-por-el-cambio,diputados-2023,Salta,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2023-salta-partido-autonomista,diputados-2023,Salta,PARTIDO AUTONOMISTA,36,PARTIDO AUTONOMISTA
+2023-salta-si-salta-independiente,diputados-2023,Salta,SI-SALTA INDEPENDIENTE,229,SI-SALTA INDEPENDIENTE
+2023-salta-union-por-la-patria,diputados-2023,Salta,UNION POR LA PATRIA,503,UNION POR LA PATRIA
+2023-san-juan-frente-union-por-la-patria-san-juan,diputados-2023,San Juan,FRENTE UNIÓN POR LA PATRIA - SAN JUAN,503,FRENTE UNIÓN POR LA PATRIA - SAN JUAN
+2023-san-juan-juntos-por-el-cambio,diputados-2023,San Juan,JUNTOS POR EL CAMBIO,501,JUNTOS POR EL CAMBIO
+2023-san-juan-la-libertad-avanza,diputados-2023,San Juan,LA LIBERTAD AVANZA,502,LA LIBERTAD AVANZA
+2023-san-luis-frente-de-izquierda-y-de-trabajadores-unidad-san-luis,diputados-2023,San Luis,FRENTE DE IZQUIERDA Y DE TRABAJADORES UNIDAD SAN LUIS,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES UNIDAD SAN LUIS
+2023-san-luis-juntos-por-el-cambio-san-luis,diputados-2023,San Luis,JUNTOS POR EL CAMBIO SAN LUIS,502,JUNTOS POR EL CAMBIO SAN LUIS
+2023-san-luis-la-libertad-avanza-san-luis,diputados-2023,San Luis,LA LIBERTAD AVANZA SAN LUIS,501,LA LIBERTAD AVANZA SAN LUIS
+2023-san-luis-partido-union-y-libertad-san-luis,diputados-2023,San Luis,PARTIDO UNION Y LIBERTAD SAN LUIS,177,PARTIDO UNION Y LIBERTAD SAN LUIS
+2023-san-luis-union-por-san-luis,diputados-2023,San Luis,UNION POR SAN LUIS,503,UNION POR SAN LUIS
+2023-santa-cruz-cambia-santa-cruz,diputados-2023,Santa Cruz,CAMBIA SANTA CRUZ,502,CAMBIA SANTA CRUZ
+2023-santa-cruz-frente-de-izquierda-y-de-los-trabajadores-unidad,diputados-2023,Santa Cruz,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES-UNIDAD,501,FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES-UNIDAD
+2023-santa-cruz-por-santa-cruz,diputados-2023,Santa Cruz,POR SANTA CRUZ,503,POR SANTA CRUZ
+2023-santa-cruz-union-por-la-patria,diputados-2023,Santa Cruz,UNION POR LA PATRIA,504,UNION POR LA PATRIA
+2023-santa-fe-frente-de-izquierda-y-trabajadores-unidad,diputados-2023,Santa Fe,FRENTE DE IZQUIERDA Y TRABAJADORES- UNIDAD,502,FRENTE DE IZQUIERDA Y TRABAJADORES- UNIDAD
+2023-santa-fe-juntos-por-el-cambio,diputados-2023,Santa Fe,JUNTOS POR EL CAMBIO,504,JUNTOS POR EL CAMBIO
+2023-santa-fe-la-fuerza-de-santa-fe,diputados-2023,Santa Fe,LA FUERZA DE SANTA FE,506,LA FUERZA DE SANTA FE
+2023-santa-fe-la-libertad-avanza,diputados-2023,Santa Fe,LA LIBERTAD AVANZA,501,LA LIBERTAD AVANZA
+2023-santa-fe-union-por-la-patria,diputados-2023,Santa Fe,UNION POR LA PATRIA,507,UNION POR LA PATRIA
+2023-santiago-del-estero-frente-civico-por-santiago,diputados-2023,Santiago del Estero,FRENTE CIVICO POR SANTIAGO,501,FRENTE CIVICO POR SANTIAGO
+2023-santiago-del-estero-frente-renovador,diputados-2023,Santiago del Estero,FRENTE RENOVADOR,86,FRENTE RENOVADOR
+2023-santiago-del-estero-juntos-por-el-cambio,diputados-2023,Santiago del Estero,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2023-tierra-del-fuego-frente-de-izquierda-de-trabajadores-unidad,diputados-2023,Tierra del Fuego,FRENTE DE IZQUIERDA DE TRABAJADORES - UNIDAD,504,FRENTE DE IZQUIERDA DE TRABAJADORES - UNIDAD
+2023-tierra-del-fuego-hacemos-por-nuestro-pais,diputados-2023,Tierra del Fuego,HACEMOS POR NUESTRO PAÍS,503,HACEMOS POR NUESTRO PAÍS
+2023-tierra-del-fuego-juntos-por-el-cambio-tdf,diputados-2023,Tierra del Fuego,JUNTOS POR EL CAMBIO TDF,502,JUNTOS POR EL CAMBIO TDF
+2023-tierra-del-fuego-republicanos-unidos,diputados-2023,Tierra del Fuego,REPUBLICANOS UNIDOS,212,REPUBLICANOS UNIDOS
+2023-tierra-del-fuego-somos-fueguinos,diputados-2023,Tierra del Fuego,SOMOS FUEGUINOS,167,SOMOS FUEGUINOS
+2023-tierra-del-fuego-union-por-la-patria,diputados-2023,Tierra del Fuego,UNIÓN POR LA PATRIA,501,UNIÓN POR LA PATRIA
+2023-tucuman-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2023,Tucumán,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2023-tucuman-frente-union-por-la-patria,diputados-2023,Tucumán,FRENTE UNION POR LA PATRIA,501,FRENTE UNION POR LA PATRIA
+2023-tucuman-fuerza-republicana,diputados-2023,Tucumán,FUERZA REPUBLICANA,181,FUERZA REPUBLICANA
+2023-tucuman-juntos-por-el-cambio,diputados-2023,Tucumán,JUNTOS POR EL CAMBIO,502,JUNTOS POR EL CAMBIO
+2023-tucuman-movimiento-libres-del-sur,diputados-2023,Tucumán,MOVIMIENTO LIBRES DEL SUR,40,MOVIMIENTO LIBRES DEL SUR
 2025-buenos-aires-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Buenos Aires,FRENTE DE IZQUIERDA Y DE TRABAJADORES -UNIDAD-,506,FRENTE DE IZQUIERDA Y DE TRABAJADORES -UNIDAD-
 2025-buenos-aires-frente-patriota-federal,diputados-2025,Buenos Aires,FRENTE PATRIOTA FEDERAL,95,FRENTE PATRIOTA FEDERAL
 2025-buenos-aires-fuerza-patria,diputados-2025,Buenos Aires,FUERZA PATRIA,507,FUERZA PATRIA
@@ -39,3 +369,191 @@ id,election_id,district_id,alliance,alliance_code,name
 2025-caba-partido-socialista-autentico,diputados-2025,CABA,PARTIDO SOCIALISTA AUTENTICO,184,PARTIDO SOCIALISTA AUTENTICO
 2025-caba-potencia,diputados-2025,CABA,POTENCIA,502,POTENCIA
 2025-caba-union-del-centro-democratico,diputados-2025,CABA,UNION DEL CENTRO DEMOCRATICO,20,UNION DEL CENTRO DEMOCRATICO
+2025-catamarca-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Catamarca,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD,506,FRENTE DE IZQUIERDA Y DE TRABAJADORES-UNIDAD
+2025-catamarca-frente-patriota-federal,diputados-2025,Catamarca,FRENTE PATRIOTA FEDERAL,95,FRENTE PATRIOTA FEDERAL
+2025-catamarca-fuerza-patria,diputados-2025,Catamarca,FUERZA PATRIA,501,FUERZA PATRIA
+2025-catamarca-hacemos-renacer-catamarca,diputados-2025,Catamarca,HACEMOS RENACER CATAMARCA,503,HACEMOS RENACER CATAMARCA
+2025-catamarca-la-libertad-avanza,diputados-2025,Catamarca,LA LIBERTAD AVANZA,504,LA LIBERTAD AVANZA
+2025-catamarca-movimiento-de-integracion-y-desarrollo,diputados-2025,Catamarca,MOVIMIENTO DE INTEGRACION Y DESARROLLO,1,MOVIMIENTO DE INTEGRACION Y DESARROLLO
+2025-catamarca-politica-obrera,diputados-2025,Catamarca,POLITICA OBRERA,92,POLITICA OBRERA
+2025-catamarca-primero-catamarca,diputados-2025,Catamarca,PRIMERO CATAMARCA,505,PRIMERO CATAMARCA
+2025-catamarca-somos-provincias-unidas-catamarca,diputados-2025,Catamarca,SOMOS PROVINCIAS UNIDAS - CATAMARCA,502,SOMOS PROVINCIAS UNIDAS - CATAMARCA
+2025-chaco-frente-fuerza-patria,diputados-2025,Chaco,FRENTE FUERZA PATRIA,501,FRENTE FUERZA PATRIA
+2025-chaco-frente-integrador,diputados-2025,Chaco,FRENTE INTEGRADOR,201,FRENTE INTEGRADOR
+2025-chaco-la-libertad-avanza,diputados-2025,Chaco,LA LIBERTAD AVANZA,503,LA LIBERTAD AVANZA
+2025-chaco-movimiento-politico-social-y-cultural-proyecto-sur,diputados-2025,Chaco,"MOVIMIENTO POLÍTICO, SOCIAL Y CULTURAL PROYECTO SUR",180,"MOVIMIENTO POLÍTICO, SOCIAL Y CULTURAL PROYECTO SUR"
+2025-chaco-nuevo-espacio-de-participacion-nepar,diputados-2025,Chaco,NUEVO ESPACIO DE PARTICIPACIÓN -NEPAR,193,NUEVO ESPACIO DE PARTICIPACIÓN -NEPAR
+2025-chaco-partido-del-obrero-pdo,diputados-2025,Chaco,PARTIDO DEL OBRERO (PDO),71,PARTIDO DEL OBRERO (PDO)
+2025-chaco-partido-dignidad-popular,diputados-2025,Chaco,PARTIDO DIGNIDAD POPULAR,202,PARTIDO DIGNIDAD POPULAR
+2025-chaco-partido-polo-social-movimiento-de-bases,diputados-2025,Chaco,PARTIDO POLO SOCIAL - MOVIMIENTO DE BASES,175,PARTIDO POLO SOCIAL - MOVIMIENTO DE BASES
+2025-chaco-unir,diputados-2025,Chaco,UNIR,33,UNIR
+2025-chaco-vamos-chaco,diputados-2025,Chaco,VAMOS CHACO,502,VAMOS CHACO
+2025-chubut-despierta-chubut,diputados-2025,Chubut,DESPIERTA CHUBUT,502,DESPIERTA CHUBUT
+2025-chubut-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Chubut,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-chubut-frente-unidos-podemos,diputados-2025,Chubut,FRENTE UNIDOS PODEMOS,504,FRENTE UNIDOS PODEMOS
+2025-chubut-gen,diputados-2025,Chubut,GEN,69,GEN
+2025-chubut-la-fuerza-del-trabajo-chubutense,diputados-2025,Chubut,LA FUERZA DEL TRABAJO CHUBUTENSE,501,LA FUERZA DEL TRABAJO CHUBUTENSE
+2025-chubut-la-libertad-avanza,diputados-2025,Chubut,LA LIBERTAD AVANZA,96,LA LIBERTAD AVANZA
+2025-chubut-partido-independiente-del-chubut,diputados-2025,Chubut,PARTIDO INDEPENDIENTE DEL CHUBUT,151,PARTIDO INDEPENDIENTE DEL CHUBUT
+2025-chubut-partido-libertario,diputados-2025,Chubut,PARTIDO LIBERTARIO,184,PARTIDO LIBERTARIO
+2025-cordoba-accion-para-el-cambio,diputados-2025,Córdoba,ACCION PARA EL CAMBIO,169,ACCION PARA EL CAMBIO
+2025-cordoba-ciudadanos,diputados-2025,Córdoba,CIUDADANOS,502,CIUDADANOS
+2025-cordoba-cordoba-te-quiero,diputados-2025,Córdoba,CORDOBA TE QUIERO,503,CORDOBA TE QUIERO
+2025-cordoba-defendamos-cordoba,diputados-2025,Córdoba,DEFENDAMOS CORDOBA,501,DEFENDAMOS CORDOBA
+2025-cordoba-encuentro-por-la-republica,diputados-2025,Córdoba,ENCUENTRO POR LA REPUBLICA,505,ENCUENTRO POR LA REPUBLICA
+2025-cordoba-fe,diputados-2025,Córdoba,FE,77,FE
+2025-cordoba-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Córdoba,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,508,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-cordoba-frente-federal-de-accion-solidaria,diputados-2025,Córdoba,FRENTE FEDERAL DE ACCION SOLIDARIA,216,FRENTE FEDERAL DE ACCION SOLIDARIA
+2025-cordoba-fuerza-patria,diputados-2025,Córdoba,FUERZA PATRIA,507,FUERZA PATRIA
+2025-cordoba-la-libertad-avanza,diputados-2025,Córdoba,LA LIBERTAD AVANZA,504,LA LIBERTAD AVANZA
+2025-cordoba-movimiento-avanzada-socialista,diputados-2025,Córdoba,MOVIMIENTO AVANZADA SOCIALISTA,238,MOVIMIENTO AVANZADA SOCIALISTA
+2025-cordoba-partido-democrata,diputados-2025,Córdoba,PARTIDO DEMOCRATA,85,PARTIDO DEMOCRATA
+2025-cordoba-partido-libertario,diputados-2025,Córdoba,PARTIDO LIBERTARIO,200,PARTIDO LIBERTARIO
+2025-cordoba-politica-abierta-para-la-integridad-social,diputados-2025,Córdoba,POLITICA ABIERTA PARA LA INTEGRIDAD SOCIAL,231,POLITICA ABIERTA PARA LA INTEGRIDAD SOCIAL
+2025-cordoba-pro-propuesta-republicana,diputados-2025,Córdoba,PRO PROPUESTA REPUBLICANA,64,PRO PROPUESTA REPUBLICANA
+2025-cordoba-provincias-unidas,diputados-2025,Córdoba,PROVINCIAS UNIDAS,506,PROVINCIAS UNIDAS
+2025-cordoba-union-civica-radical,diputados-2025,Córdoba,UNION CIVICA RADICAL,3,UNION CIVICA RADICAL
+2025-cordoba-union-popular-federal,diputados-2025,Córdoba,UNION POPULAR FEDERAL,23,UNION POPULAR FEDERAL
+2025-corrientes-ahora,diputados-2025,Corrientes,AHORA,225,AHORA
+2025-corrientes-corrientes-nos-une,diputados-2025,Corrientes,CORRIENTES NOS UNE,503,CORRIENTES NOS UNE
+2025-corrientes-fuerza-patria,diputados-2025,Corrientes,FUERZA PATRIA,504,FUERZA PATRIA
+2025-corrientes-la-libertad-avanza,diputados-2025,Corrientes,LA LIBERTAD AVANZA,501,LA LIBERTAD AVANZA
+2025-corrientes-vamos-corrientes,diputados-2025,Corrientes,VAMOS CORRIENTES,502,VAMOS CORRIENTES
+2025-entre-rios-ahora-503,diputados-2025,Entre Ríos,AHORA 503,503,AHORA 503
+2025-entre-rios-fuerza-entre-rios,diputados-2025,Entre Ríos,FUERZA ENTRE RIOS,501,FUERZA ENTRE RIOS
+2025-entre-rios-la-libertad-avanza,diputados-2025,Entre Ríos,LA LIBERTAD AVANZA,502,LA LIBERTAD AVANZA
+2025-entre-rios-movimiento-al-socialismo,diputados-2025,Entre Ríos,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-entre-rios-nueva-izquierda,diputados-2025,Entre Ríos,NUEVA IZQUIERDA,68,NUEVA IZQUIERDA
+2025-entre-rios-partido-socialista,diputados-2025,Entre Ríos,PARTIDO SOCIALISTA,50,PARTIDO SOCIALISTA
+2025-entre-rios-union-popular-federal,diputados-2025,Entre Ríos,UNION POPULAR FEDERAL,23,UNION POPULAR FEDERAL
+2025-formosa-frente-de-la-victoria,diputados-2025,Formosa,FRENTE DE LA VICTORIA,501,FRENTE DE LA VICTORIA
+2025-formosa-juntos-por-la-libertad-y-la-republica,diputados-2025,Formosa,JUNTOS POR LA LIBERTAD Y LA REPUBLICA,502,JUNTOS POR LA LIBERTAD Y LA REPUBLICA
+2025-formosa-la-libertad-avanza,diputados-2025,Formosa,LA LIBERTAD AVANZA,504,LA LIBERTAD AVANZA
+2025-formosa-partido-del-obrero,diputados-2025,Formosa,PARTIDO DEL OBRERO,71,PARTIDO DEL OBRERO
+2025-formosa-principios-y-conviccion,diputados-2025,Formosa,PRINCIPIOS Y CONVICCIÓN,503,PRINCIPIOS Y CONVICCIÓN
+2025-jujuy-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Jujuy,FRENTE DE IZQUIERDA Y DE TRABAJADORES – UNIDAD,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES – UNIDAD
+2025-jujuy-frente-fuerza-patria,diputados-2025,Jujuy,FRENTE FUERZA PATRIA,506,FRENTE FUERZA PATRIA
+2025-jujuy-frente-jujuy-crece,diputados-2025,Jujuy,FRENTE JUJUY CRECE,503,FRENTE JUJUY CRECE
+2025-jujuy-frente-liberal,diputados-2025,Jujuy,FRENTE LIBERAL,507,FRENTE LIBERAL
+2025-jujuy-frente-primero-jujuy-avanza,diputados-2025,Jujuy,FRENTE PRIMERO JUJUY AVANZA,501,FRENTE PRIMERO JUJUY AVANZA
+2025-jujuy-frente-transformacion-libertaria,diputados-2025,Jujuy,FRENTE TRANSFORMACIóN LIBERTARIA,505,FRENTE TRANSFORMACIóN LIBERTARIA
+2025-jujuy-la-libertad-avanza,diputados-2025,Jujuy,LA LIBERTAD AVANZA,502,LA LIBERTAD AVANZA
+2025-la-pampa-cambia-la-pampa,diputados-2025,La Pampa,CAMBIA LA PAMPA,504,CAMBIA LA PAMPA
+2025-la-pampa-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,La Pampa,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-la-pampa-frente-defendemos-la-pampa,diputados-2025,La Pampa,FRENTE DEFENDEMOS LA PAMPA,503,FRENTE DEFENDEMOS LA PAMPA
+2025-la-pampa-la-libertad-avanza,diputados-2025,La Pampa,LA LIBERTAD AVANZA,501,LA LIBERTAD AVANZA
+2025-la-pampa-movimiento-al-socialismo,diputados-2025,La Pampa,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-la-rioja-federales-defendamos-la-rioja,diputados-2025,La Rioja,FEDERALES DEFENDAMOS LA RIOJA,501,FEDERALES DEFENDAMOS LA RIOJA
+2025-la-rioja-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,La Rioja,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-la-rioja-la-libertad-avanza,diputados-2025,La Rioja,LA LIBERTAD AVANZA,96,LA LIBERTAD AVANZA
+2025-la-rioja-las-fuerzas-del-centro,diputados-2025,La Rioja,LAS FUERZAS DEL CENTRO,503,LAS FUERZAS DEL CENTRO
+2025-la-rioja-provincias-unidas,diputados-2025,La Rioja,PROVINCIAS UNIDAS,504,PROVINCIAS UNIDAS
+2025-la-rioja-republicanos-unidos,diputados-2025,La Rioja,REPUBLICANOS UNIDOS,192,REPUBLICANOS UNIDOS
+2025-la-rioja-union-civica-radical,diputados-2025,La Rioja,UNION CIVICA RADICAL,3,UNION CIVICA RADICAL
+2025-mendoza-defendamos-mendoza-provincias-unidas,diputados-2025,Mendoza,DEFENDAMOS MENDOZA - PROVINCIAS UNIDAS,503,DEFENDAMOS MENDOZA - PROVINCIAS UNIDAS
+2025-mendoza-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Mendoza,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,504,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-mendoza-frente-libertario-democrata,diputados-2025,Mendoza,FRENTE LIBERTARIO DEMÓCRATA,506,FRENTE LIBERTARIO DEMÓCRATA
+2025-mendoza-frente-verde,diputados-2025,Mendoza,FRENTE VERDE,502,FRENTE VERDE
+2025-mendoza-fuerza-justicialista-mendoza,diputados-2025,Mendoza,FUERZA JUSTICIALISTA MENDOZA,501,FUERZA JUSTICIALISTA MENDOZA
+2025-mendoza-la-libertad-avanza,diputados-2025,Mendoza,LA LIBERTAD AVANZA,505,LA LIBERTAD AVANZA
+2025-mendoza-movimiento-al-socialismo,diputados-2025,Mendoza,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-mendoza-protectora-fuerza-politica,diputados-2025,Mendoza,PROTECTORA FUERZA POLITICA,222,PROTECTORA FUERZA POLITICA
+2025-misiones-activar,diputados-2025,Misiones,ACTIVAR,186,ACTIVAR
+2025-misiones-de-la-concertacion-forja,diputados-2025,Misiones,DE LA CONCERTACION FORJA,75,DE LA CONCERTACION FORJA
+2025-misiones-frente-popular-agrario-y-social,diputados-2025,Misiones,FRENTE POPULAR AGRARIO Y SOCIAL,505,FRENTE POPULAR AGRARIO Y SOCIAL
+2025-misiones-frente-por-la-vida-y-los-valores-por-un-nuevo-octubre,diputados-2025,Misiones,"FRENTE POR LA VIDA Y LOS VALORES, POR UN NUEVO OCTUBRE",502,"FRENTE POR LA VIDA Y LOS VALORES, POR UN NUEVO OCTUBRE"
+2025-misiones-fuerza-patria,diputados-2025,Misiones,FUERZA PATRIA,504,FUERZA PATRIA
+2025-misiones-la-libertad-avanza,diputados-2025,Misiones,LA LIBERTAD AVANZA,503,LA LIBERTAD AVANZA
+2025-misiones-partido-del-obrero,diputados-2025,Misiones,PARTIDO DEL OBRERO,71,PARTIDO DEL OBRERO
+2025-misiones-partido-fe,diputados-2025,Misiones,PARTIDO FE,77,PARTIDO FE
+2025-misiones-partido-libertario,diputados-2025,Misiones,PARTIDO LIBERTARIO,189,PARTIDO LIBERTARIO
+2025-misiones-renovador-de-la-concordia-neo,diputados-2025,Misiones,RENOVADOR DE LA CONCORDIA NEO,501,RENOVADOR DE LA CONCORDIA NEO
+2025-misiones-union-civica-radical,diputados-2025,Misiones,UNION CIVICA RADICAL,3,UNION CIVICA RADICAL
+2025-neuquen-desarrollo-ciudadano,diputados-2025,Neuquén,DESARROLLO CIUDADANO,190,DESARROLLO CIUDADANO
+2025-neuquen-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Neuquén,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-neuquen-fuerza-libertaria,diputados-2025,Neuquén,FUERZA LIBERTARIA,195,FUERZA LIBERTARIA
+2025-neuquen-fuerza-patria,diputados-2025,Neuquén,FUERZA PATRIA,502,FUERZA PATRIA
+2025-neuquen-instrumento-electoral-por-la-unidad-popular,diputados-2025,Neuquén,INSTRUMENTO ELECTORAL POR LA UNIDAD POPULAR,72,INSTRUMENTO ELECTORAL POR LA UNIDAD POPULAR
+2025-neuquen-la-libertad-avanza,diputados-2025,Neuquén,LA LIBERTAD AVANZA,196,LA LIBERTAD AVANZA
+2025-neuquen-la-neuquinidad,diputados-2025,Neuquén,LA NEUQUINIDAD,501,LA NEUQUINIDAD
+2025-neuquen-mas-por-neuquen,diputados-2025,Neuquén,MAS POR NEUQUEN,197,MAS POR NEUQUEN
+2025-neuquen-movimiento-al-socialismo,diputados-2025,Neuquén,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-rio-negro-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Río Negro,FRENTE DE IZQUIERDA Y DE TRABAJADORES UNIDAD,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES UNIDAD
+2025-rio-negro-fuerza-patria,diputados-2025,Río Negro,FUERZA PATRIA,503,FUERZA PATRIA
+2025-rio-negro-juntos-defendemos-rio-negro,diputados-2025,Río Negro,JUNTOS DEFENDEMOS RIO NEGRO,501,JUNTOS DEFENDEMOS RIO NEGRO
+2025-rio-negro-la-libertad-avanza,diputados-2025,Río Negro,LA LIBERTAD AVANZA,504,LA LIBERTAD AVANZA
+2025-rio-negro-movimiento-al-socialismo,diputados-2025,Río Negro,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-rio-negro-primero-rio-negro,diputados-2025,Río Negro,PRIMERO RIO NEGRO,175,PRIMERO RIO NEGRO
+2025-rio-negro-pro-propuesta-republicana,diputados-2025,Río Negro,PRO PROPUESTA REPUBLICANA,64,PRO PROPUESTA REPUBLICANA
+2025-salta-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Salta,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-salta-fuerza-patria,diputados-2025,Salta,FUERZA PATRIA,503,FUERZA PATRIA
+2025-salta-la-libertad-avanza,diputados-2025,Salta,LA LIBERTAD AVANZA,96,LA LIBERTAD AVANZA
+2025-salta-movimiento-al-socialismo,diputados-2025,Salta,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-salta-partido-de-la-victoria,diputados-2025,Salta,PARTIDO DE LA VICTORIA,54,PARTIDO DE LA VICTORIA
+2025-salta-partido-renacer,diputados-2025,Salta,PARTIDO RENACER,240,PARTIDO RENACER
+2025-salta-politica-obrera,diputados-2025,Salta,POLITICA OBRERA,92,POLITICA OBRERA
+2025-salta-primero-los-saltenos,diputados-2025,Salta,PRIMERO LOS SALTEÑOS,501,PRIMERO LOS SALTEÑOS
+2025-salta-union-civica-radical,diputados-2025,Salta,UNION CIVICA RADICAL,3,UNION CIVICA RADICAL
+2025-san-juan-de-izquierda-y-de-trabajadores-unidad,diputados-2025,San Juan,DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,503,DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-san-juan-fuerza-san-juan,diputados-2025,San Juan,FUERZA SAN JUAN,501,FUERZA SAN JUAN
+2025-san-juan-partido-cruzada-renovadora,diputados-2025,San Juan,PARTIDO CRUZADA RENOVADORA,153,PARTIDO CRUZADA RENOVADORA
+2025-san-juan-partido-evolucion-liberal,diputados-2025,San Juan,PARTIDO EVOLUCION LIBERAL,198,PARTIDO EVOLUCION LIBERAL
+2025-san-juan-partido-hacemos,diputados-2025,San Juan,PARTIDO HACEMOS,97,PARTIDO HACEMOS
+2025-san-juan-partido-ideas-de-la-libertad,diputados-2025,San Juan,PARTIDO IDEAS DE LA LIBERTAD,194,PARTIDO IDEAS DE LA LIBERTAD
+2025-san-juan-partido-la-libertad-avanza,diputados-2025,San Juan,PARTIDO LA LIBERTAD AVANZA,96,PARTIDO LA LIBERTAD AVANZA
+2025-san-juan-partido-libertario,diputados-2025,San Juan,PARTIDO LIBERTARIO,191,PARTIDO LIBERTARIO
+2025-san-juan-por-san-juan,diputados-2025,San Juan,POR SAN JUAN,502,POR SAN JUAN
+2025-san-luis-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,San Luis,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,506,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-san-luis-frente-justicialista,diputados-2025,San Luis,FRENTE JUSTICIALISTA,504,FRENTE JUSTICIALISTA
+2025-san-luis-frente-pueblo,diputados-2025,San Luis,FRENTE PUEBLO,501,FRENTE PUEBLO
+2025-san-luis-la-libertad-avanza,diputados-2025,San Luis,LA LIBERTAD AVANZA,502,LA LIBERTAD AVANZA
+2025-san-luis-movimiento-al-socialismo,diputados-2025,San Luis,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-san-luis-provincias-unidas,diputados-2025,San Luis,PROVINCIAS UNIDAS,503,PROVINCIAS UNIDAS
+2025-santa-cruz-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Santa Cruz,COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA -ARI-,47,COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA -ARI-
+2025-santa-cruz-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Santa Cruz,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,501,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-santa-cruz-fuerza-santacrucena,diputados-2025,Santa Cruz,FUERZA SANTACRUCEñA,502,FUERZA SANTACRUCEñA
+2025-santa-cruz-la-libertad-avanza,diputados-2025,Santa Cruz,LA LIBERTAD AVANZA,96,LA LIBERTAD AVANZA
+2025-santa-cruz-movimiento-al-socialismo,diputados-2025,Santa Cruz,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-santa-cruz-por-santa-cruz,diputados-2025,Santa Cruz,POR SANTA CRUZ,503,POR SANTA CRUZ
+2025-santa-cruz-pro-propuesta-republicana,diputados-2025,Santa Cruz,PRO - PROPUESTA REPUBLICANA,64,PRO - PROPUESTA REPUBLICANA
+2025-santa-cruz-proyecto-alternativo,diputados-2025,Santa Cruz,PROYECTO ALTERNATIVO,180,PROYECTO ALTERNATIVO
+2025-santa-fe-coalicion-civica-afirmacion-para-una-republica-igualitaria-ari,diputados-2025,Santa Fe,COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA (ARI),47,COALICION CIVICA - AFIRMACION PARA UNA REPUBLICA IGUALITARIA (ARI)
+2025-santa-fe-compromiso-federal,diputados-2025,Santa Fe,COMPROMISO FEDERAL,82,COMPROMISO FEDERAL
+2025-santa-fe-defendamos-santa-fe,diputados-2025,Santa Fe,DEFENDAMOS SANTA FE,504,DEFENDAMOS SANTA FE
+2025-santa-fe-frente-amplio-por-la-soberania,diputados-2025,Santa Fe,FRENTE AMPLIO POR LA SOBERANIA,501,FRENTE AMPLIO POR LA SOBERANIA
+2025-santa-fe-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Santa Fe,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,502,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-santa-fe-fuerza-patria,diputados-2025,Santa Fe,FUERZA PATRIA,505,FUERZA PATRIA
+2025-santa-fe-igualdad-y-participacion,diputados-2025,Santa Fe,IGUALDAD Y PARTICIPACIÓN,213,IGUALDAD Y PARTICIPACIÓN
+2025-santa-fe-la-libertad-avanza,diputados-2025,Santa Fe,LA LIBERTAD AVANZA,96,LA LIBERTAD AVANZA
+2025-santa-fe-movimiento-al-socialismo,diputados-2025,Santa Fe,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-santa-fe-movimiento-independiente-renovador,diputados-2025,Santa Fe,MOVIMIENTO INDEPENDIENTE RENOVADOR,177,MOVIMIENTO INDEPENDIENTE RENOVADOR
+2025-santa-fe-nuevas-ideas,diputados-2025,Santa Fe,NUEVAS IDEAS,227,NUEVAS IDEAS
+2025-santa-fe-partido-autonomista,diputados-2025,Santa Fe,PARTIDO AUTONOMISTA,36,PARTIDO AUTONOMISTA
+2025-santa-fe-partido-fe,diputados-2025,Santa Fe,PARTIDO FE,77,PARTIDO FE
+2025-santa-fe-politica-obrera,diputados-2025,Santa Fe,POLITICA OBRERA,92,POLITICA OBRERA
+2025-santa-fe-provincias-unidas,diputados-2025,Santa Fe,PROVINCIAS UNIDAS,503,PROVINCIAS UNIDAS
+2025-santa-fe-republicanos-unidos,diputados-2025,Santa Fe,REPUBLICANOS UNIDOS,219,REPUBLICANOS UNIDOS
+2025-santiago-del-estero-despierta-santiago,diputados-2025,Santiago del Estero,DESPIERTA SANTIAGO,503,DESPIERTA SANTIAGO
+2025-santiago-del-estero-frente-civico-por-santiago,diputados-2025,Santiago del Estero,FRENTE CIVICO POR SANTIAGO,501,FRENTE CIVICO POR SANTIAGO
+2025-santiago-del-estero-frente-fuerza-patria-peronista,diputados-2025,Santiago del Estero,FRENTE FUERZA PATRIA PERONISTA,502,FRENTE FUERZA PATRIA PERONISTA
+2025-santiago-del-estero-hacemos-por-santiago,diputados-2025,Santiago del Estero,HACEMOS POR SANTIAGO,504,HACEMOS POR SANTIAGO
+2025-santiago-del-estero-la-libertad-avanza,diputados-2025,Santiago del Estero,LA LIBERTAD AVANZA,96,LA LIBERTAD AVANZA
+2025-santiago-del-estero-nueva-izquierda,diputados-2025,Santiago del Estero,NUEVA IZQUIERDA,68,NUEVA IZQUIERDA
+2025-santiago-del-estero-unite-por-la-libertad-y-la-dignidad,diputados-2025,Santiago del Estero,UNITE POR LA LIBERTAD Y LA DIGNIDAD,208,UNITE POR LA LIBERTAD Y LA DIGNIDAD
+2025-tierra-del-fuego-defendamos-tierra-del-fuego,diputados-2025,Tierra del Fuego,DEFENDAMOS TIERRA DEL FUEGO,501,DEFENDAMOS TIERRA DEL FUEGO
+2025-tierra-del-fuego-frente-de-izquierda-y-de-trabajadores-unidad,diputados-2025,Tierra del Fuego,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,505,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD
+2025-tierra-del-fuego-frente-patriota-federal,diputados-2025,Tierra del Fuego,FRENTE PATRIOTA FEDERAL,95,FRENTE PATRIOTA FEDERAL
+2025-tierra-del-fuego-fuerza-patria,diputados-2025,Tierra del Fuego,FUERZA PATRIA,503,FUERZA PATRIA
+2025-tierra-del-fuego-la-libertad-avanza,diputados-2025,Tierra del Fuego,LA LIBERTAD AVANZA,504,LA LIBERTAD AVANZA
+2025-tierra-del-fuego-movimiento-al-socialismo,diputados-2025,Tierra del Fuego,MOVIMIENTO AL SOCIALISMO,13,MOVIMIENTO AL SOCIALISMO
+2025-tierra-del-fuego-partido-frente-grande,diputados-2025,Tierra del Fuego,PARTIDO FRENTE GRANDE,41,PARTIDO FRENTE GRANDE
+2025-tierra-del-fuego-provincias-unidas,diputados-2025,Tierra del Fuego,PROVINCIAS UNIDAS,502,PROVINCIAS UNIDAS
+2025-tucuman-creo,diputados-2025,Tucumán,CREO,216,CREO
+2025-tucuman-del-trabajo-y-del-pueblo,diputados-2025,Tucumán,DEL TRABAJO Y DEL PUEBLO,74,DEL TRABAJO Y DEL PUEBLO
+2025-tucuman-frente-de-izquierda-y-de-trabajadores-unidad-fit,diputados-2025,Tucumán,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD FIT,503,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD FIT
+2025-tucuman-frente-del-pueblo-unido,diputados-2025,Tucumán,FRENTE DEL PUEBLO UNIDO,170,FRENTE DEL PUEBLO UNIDO
+2025-tucuman-frente-tucuman-primero,diputados-2025,Tucumán,FRENTE TUCUMÁN PRIMERO,501,FRENTE TUCUMÁN PRIMERO
+2025-tucuman-fuerza-republicana,diputados-2025,Tucumán,FUERZA REPUBLICANA,181,FUERZA REPUBLICANA
+2025-tucuman-la-libertad-avanza,diputados-2025,Tucumán,LA LIBERTAD AVANZA,502,LA LIBERTAD AVANZA
+2025-tucuman-partido-politica-para-la-clase-obrera,diputados-2025,Tucumán,PARTIDO POLITICA PARA LA CLASE OBRERA,222,PARTIDO POLITICA PARA LA CLASE OBRERA
+2025-tucuman-unidos-por-tucuman,diputados-2025,Tucumán,UNIDOS POR TUCUMAN,504,UNIDOS POR TUCUMAN

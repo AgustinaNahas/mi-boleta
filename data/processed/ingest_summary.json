@@ -1,7 +1,11 @@
 {
-  "processedAt": "2026-08-07T16:14:54.879Z",
-  "featuredLaws": 15,
-  "legislators": 1141,
-  "votesFeatured": 3854,
+  "processedAt": "2026-08-10T19:35:39.816Z",
+  "featuredLaws": 62,
+  "legislators": 1157,
+  "legislatorMandates": 1455,
+  "votesFeatured": 15933,
+  "chamberSeats": 257,
+  "chamberLinked": 257,
+  "chamberByLaw": 62,
   "missingActas": []
 }

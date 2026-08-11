@@ -1,92 +1,78 @@
-import Link from "next/link";
-import { EscarapelaMark } from "@/components/escarapela-mark";
+import {
+  getBallotLists,
+  getCandidatesWithSeats,
+  getChamberByLaw,
+  getDistricts,
+  getElections,
+  getFeaturedLaws,
+  getFeaturedVotes,
+} from "@/lib/data";
+import { ElegirWizard } from "@/components/elegir-wizard";
 import { FeaturedVotesExplorer } from "@/components/featured-votes-explorer";
-import { getFeaturedLaws, getFeaturedVotes } from "@/lib/data";
+import { Hemicycle } from "@/components/hemicycle";
 
 export default function HomePage() {
+  const elections = getElections();
+  const districts = getDistricts();
+  const lists = getBallotLists();
+  const candidates = getCandidatesWithSeats();
   const featuredLaws = getFeaturedLaws();
   const featuredVotes = getFeaturedVotes();
+  const chamberByLaw = getChamberByLaw();
 
   return (
-    <div className="space-y-12 sm:space-y-14">
-      <section className="flex items-center gap-6 border border-line bg-paper-elevated px-5 py-9 sm:gap-8 sm:px-8 sm:py-12">
-        <div className="min-w-0 flex-1 space-y-4">
-          <div className="flex items-center gap-3 sm:hidden">
-            <EscarapelaMark className="h-14 w-14 shrink-0" />
-            <p className="text-[0.7rem] font-bold uppercase tracking-[0.18em] text-celeste-deep dark:text-celeste">
-              Argentina · Diputados
+    <div className="space-y-20 sm:space-y-28">
+      <section className="relative pt-6 sm:pt-10">
+        <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(14rem,22rem)]">
+          <div className="min-w-0 space-y-5">
+            <h1 className="rise max-w-[14ch] text-5xl font-bold leading-[1.02] tracking-tight text-ink sm:text-6xl lg:text-7xl">
+              Qué #@%$&amp; votaron?
+            </h1>
+            <p className="rise rise-delay-1 max-w-md text-base leading-relaxed text-ink-muted sm:text-lg">
+              Elegí la lista que votaste y mirá quiénes entraron — y cómo
+              votaron las leyes que importan.
             </p>
           </div>
-          <p className="rise hidden text-[0.7rem] font-bold uppercase tracking-[0.2em] text-celeste-deep sm:block dark:text-celeste">
-            Argentina · Diputados nacionales
-          </p>
-          <h1 className="rise rise-delay-1 font-display text-5xl font-bold uppercase leading-[0.92] tracking-wide text-navy sm:text-6xl dark:text-white">
-            mi-boleta
-          </h1>
-          <p className="rise rise-delay-2 max-w-md text-base leading-relaxed text-ink-muted sm:text-lg">
-            Elegí la lista que votaste y mirá quiénes entraron — y cómo votaron
-            las leyes que importan.
-          </p>
-          <div className="rise rise-delay-3 flex flex-col gap-3 pt-1 sm:flex-row sm:items-center">
-            <Link href="/elegir/" className="btn-patria w-full sm:w-auto">
-              Elegí tu lista
-            </Link>
-            <p className="text-xs leading-relaxed text-ink-muted sm:max-w-xs">
-              Piloto CABA y Buenos Aires · 2023 y 2025 · sin rankings morales
-            </p>
+
+          <div className="rise rise-delay-1 flex flex-col items-center gap-8 lg:gap-10">
+            <Hemicycle className="hidden h-[8.25rem] w-auto max-w-full lg:block" />
+            <div className="flex flex-col items-center gap-3">
+              <a href="#elegir" className="btn-outline w-full">
+                Elegí tu lista
+              </a>
+              <p className="text-center text-xs text-ink-muted">
+                Diputados nacionales — todas las provincias — 2019 a 2025
+              </p>
+            </div>
           </div>
         </div>
-
-        <EscarapelaMark
-          className="hidden h-36 w-36 shrink-0 sm:block lg:h-44 lg:w-44"
-          aria-hidden
-        />
       </section>
 
-      <section className="space-y-4">
-        <h2 className="font-display text-3xl font-bold uppercase tracking-wide text-navy dark:text-white">
-          Cómo va a andar
-        </h2>
-        <ol className="grid border border-line sm:grid-cols-2">
-          {[
-            "Elegís distrito y elección.",
-            "Elegís la alianza / boleta.",
-            "Ves quiénes entraron de esa lista.",
-            "Ves cómo votó cada uno en las leyes destacadas.",
-          ].map((step, i) => (
-            <li
-              key={step}
-              className={`flex gap-3 bg-paper-elevated px-4 py-3.5 text-sm leading-relaxed text-ink-muted ${
-                i < 3 ? "border-b border-line" : ""
-              } ${i % 2 === 0 ? "sm:border-r sm:border-line" : ""} ${
-                i >= 2 ? "sm:border-b-0" : ""
-              }`}
-            >
-              <span className="font-display text-xl font-bold text-celeste-deep">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <span className="pt-0.5">{step}</span>
-            </li>
-          ))}
-        </ol>
-      </section>
+      <ElegirWizard
+        elections={elections}
+        districts={districts}
+        lists={lists}
+        candidates={candidates}
+        laws={featuredLaws}
+        votes={featuredVotes}
+      />
 
-      <section className="space-y-4">
-        <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
-          <h2 className="font-display text-3xl font-bold uppercase tracking-wide text-navy dark:text-white">
-            Leyes destacadas
+      <section id="buscar-proyecto" className="scroll-mt-8 space-y-6">
+        <div className="max-w-xl space-y-2">
+          <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+            Buscar por proyecto
           </h2>
-          <span className="text-xs font-bold uppercase tracking-wide text-ink-muted">
-            {featuredLaws.length} leyes · {featuredVotes.length} votos
-          </span>
+          <p className="text-sm leading-relaxed text-ink-muted sm:text-base">
+            Selección editorial de leyes destacadas. El hemiciclo muestra a
+            quienes estaban en funciones el día de la votación, coloreados por
+            el voto.
+          </p>
         </div>
-        <p className="text-sm leading-relaxed text-ink-muted">
-          Selección editorial con actas reales. Para el flujo completo de boleta,
-          andá a Elegí tu lista.
-        </p>
-        <div className="panel p-4 sm:p-5">
-          <FeaturedVotesExplorer laws={featuredLaws} votes={featuredVotes} />
-        </div>
+        <FeaturedVotesExplorer
+          laws={featuredLaws}
+          votes={featuredVotes}
+          chamberByLaw={chamberByLaw}
+        />
       </section>
     </div>
   );

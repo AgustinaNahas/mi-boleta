@@ -1,2 +1,2 @@
-source_name,target_legislator_id,district,note
-,,,Completar filas para mismatches; ver match_review.csv
+electo_name,district,election_id,candidate_id,note
+"Olmos, Kelly",CABA,diputados-2025,2025-caba-fuerza-patria-02,Kelly Olmos = Raquel Cecilia Kismer de Olmos (nombre político vs padrón CNE)

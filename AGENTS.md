@@ -15,8 +15,13 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Datos: `data/raw/` gitignored; `data/processed/` versionado.
 - Deploy: GitHub Pages → `output: "export"`. Para Pages usar `NEXT_PUBLIC_BASE_PATH=/mi-boleta`.
 - Node: preferir nvm 22 (`source ~/.nvm/nvm.sh && nvm use 22`).
-- Próxima fase: candidaturas 2023 (PDF/manual) + pulir matching; luego metodología / más distritos.
-- Producto en español; tipografías de marca se definen después.
+- Plan unificado en `README.md` (fases 0–4 originales + backlog actual).
+- Matching nacional 2019–2025; mismatches → `aliases.csv` / `match_review.csv`.
+- Fotos: columna `foto` desde ArgentinaDatos cuando existe.
+- Hemiciclo por ley desde el acta (`chamber_by_law.json`); hero decorativo.
+- Listas CNE: 2019, 2021, 2023, 2025 (`unrar` para 2019/2021).
+- Producto en español; tipografía actual del rediseño: Inter.
 - Ingest votos: `ingest:download` / `ingest:process`. Listas: `ingest:download-listas` / `ingest:process-listas`.
-- Votos recientes: ArgentinaDatos. Listas 2025: Excel CNE. Raw gitignored; processed versionado.
+- Votos recientes: ArgentinaDatos. Listas: Excel/RAR CNE (todas las provincias). Raw gitignored; processed versionado.
 - Revisar mismatches en `data/processed/match_review.csv`.
+- Metodología pública en `/metodologia/`.

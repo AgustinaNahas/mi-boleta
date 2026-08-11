@@ -74,6 +74,52 @@ export function slugify(...parts) {
   return normalizeName(parts.filter(Boolean).join(" ")).replace(/\s+/g, "-");
 }
 
+/** Mapa de variantes oficiales → nombre canónico de distrito. */
+const DISTRICT_ALIASES = new Map([
+  ["caba", "CABA"],
+  ["capital federal", "CABA"],
+  ["ciudad de buenos aires", "CABA"],
+  ["ciudad autonoma de buenos aires", "CABA"],
+  ["buenos aires", "Buenos Aires"],
+  ["provincia de buenos aires", "Buenos Aires"],
+  ["catamarca", "Catamarca"],
+  ["chaco", "Chaco"],
+  ["chubut", "Chubut"],
+  ["cordoba", "Córdoba"],
+  ["corrientes", "Corrientes"],
+  ["entre rios", "Entre Ríos"],
+  ["formosa", "Formosa"],
+  ["jujuy", "Jujuy"],
+  ["la pampa", "La Pampa"],
+  ["la rioja", "La Rioja"],
+  ["mendoza", "Mendoza"],
+  ["misiones", "Misiones"],
+  ["neuquen", "Neuquén"],
+  ["rio negro", "Río Negro"],
+  ["salta", "Salta"],
+  ["san juan", "San Juan"],
+  ["san luis", "San Luis"],
+  ["santa cruz", "Santa Cruz"],
+  ["santa fe", "Santa Fe"],
+  ["santiago del estero", "Santiago del Estero"],
+  ["s del estero", "Santiago del Estero"],
+  ["tierra del fuego", "Tierra del Fuego"],
+  ["t del fuego", "Tierra del Fuego"],
+  ["tierra del fuego antartida e islas del atlantico sur", "Tierra del Fuego"],
+  ["tucuman", "Tucumán"],
+]);
+
+export function districtCanonical(value) {
+  const n = normalizeName(value);
+  if (!n) return "";
+  if (DISTRICT_ALIASES.has(n)) return DISTRICT_ALIASES.get(n);
+  // Title-case fallback for unexpected labels
+  return String(value)
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 export function normalizeVote(raw) {
   const n = normalizeName(raw).replace(/\s+/g, "");
   if (n === "afirmativo") return "AFIRMATIVO";

@@ -13,4 +13,7 @@ npm run ingest                   # solo votos download+process
 ## Fuentes
 
 - Votos: ArgentinaDatos actas + HCDN composición (ver `FUENTES.md`).
-- Listas 2025: Excel CNE oficial. 2023: pendiente PDF/manual.
+- Listas 2019, 2021, 2023 y 2025 (todas las provincias): Excel/RAR CNE oficial (titulares + suplentes; 2019/2021 requieren `unrar`).
+- Mandatos históricos: `legislator_mandates.csv`; hemiciclo por ley: `chamber_by_law.json`.
+- Fotos: campo `foto` de ArgentinaDatos → `legislators.csv` / boleta / votos.
+- Aliases manuales electo → candidato: `data/processed/aliases.csv`.
