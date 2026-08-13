@@ -73,7 +73,30 @@ type TipState = {
   y: number;
 };
 
-/** Hemiciclo del recinto: color = voto; chips prendidos/apagados por bloque. */
+function VoteCount({
+  count,
+  label,
+  dotClass,
+}: {
+  count: number;
+  label: string;
+  dotClass: string;
+}) {
+  return (
+    <span className="group/count relative inline-flex cursor-default items-center gap-1.5">
+      {count}
+      <span className={`h-4 w-4 rounded-full ${dotClass}`} aria-hidden />
+      <span
+        role="tooltip"
+        className="pointer-events-none absolute top-[calc(100%+0.35rem)] left-1/2 z-20 -translate-x-1/2 rounded-md bg-ink px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 transition-opacity duration-150 group-hover/count:opacity-100"
+      >
+        {label}
+      </span>
+    </span>
+  );
+}
+
+/** Hemiciclo del recinto: color = voto. */
 export function ChamberHemicycle({
   chamber,
   votesByLegislator,
@@ -82,36 +105,20 @@ export function ChamberHemicycle({
   const showVotes = Boolean(votesByLegislator && votesByLegislator.size > 0);
   const [tip, setTip] = useState<TipState | null>(null);
 
-  const forces = useMemo(() => {
-    const counts = new Map<string, number>();
+  const counts = useMemo(() => {
+    const acc = { AFIRMATIVO: 0, NEGATIVO: 0, ABSTENCION: 0, AUSENTE: 0 };
+    if (!showVotes) return acc;
     for (const seat of chamber.seats) {
-      const g = seatGroup(seat);
-      counts.set(g, (counts.get(g) ?? 0) + 1);
+      const voto = (
+        votesByLegislator?.get(seat.legislator_id) ?? "AUSENTE"
+      ).toUpperCase();
+      if (voto === "AFIRMATIVO") acc.AFIRMATIVO += 1;
+      else if (voto === "NEGATIVO") acc.NEGATIVO += 1;
+      else if (voto === "ABSTENCION") acc.ABSTENCION += 1;
+      else acc.AUSENTE += 1;
     }
-    return [...counts.entries()]
-      .map(([code, count]) => ({ code, count, label: groupLabel(code) }))
-      .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, "es"));
-  }, [chamber.seats]);
-
-  // null = todos prendidos; Set = códigos apagados
-  const [offGroups, setOffGroups] = useState<Set<string>>(() => new Set());
-
-  function toggleGroup(code: string) {
-    setOffGroups((prev) => {
-      const next = new Set(prev);
-      if (next.has(code)) next.delete(code);
-      else next.add(code);
-      return next;
-    });
-  }
-
-  function setAllOn() {
-    setOffGroups(new Set());
-  }
-
-  function setAllOff() {
-    setOffGroups(new Set(forces.map((f) => f.code)));
-  }
+    return acc;
+  }, [chamber.seats, votesByLegislator, showVotes]);
 
   function updateTip(seat: ChamberSeat, e: MouseEvent<SVGGElement>) {
     const root = e.currentTarget.ownerSVGElement?.parentElement;
@@ -124,60 +131,8 @@ export function ChamberHemicycle({
     });
   }
 
-  const allOn = offGroups.size === 0;
-  const allOff = forces.length > 0 && offGroups.size === forces.length;
-
   return (
     <div className={className}>
-      <div className="mb-3 flex flex-wrap items-center justify-center gap-2">
-        <button
-          type="button"
-          className="text-xs font-medium text-ink-muted underline underline-offset-2 hover:text-ink disabled:opacity-40"
-          onClick={setAllOn}
-          disabled={allOn}
-        >
-          prender todos
-        </button>
-        <span className="text-ink-muted" aria-hidden>
-          ·
-        </span>
-        <button
-          type="button"
-          className="text-xs font-medium text-ink-muted underline underline-offset-2 hover:text-ink disabled:opacity-40"
-          onClick={setAllOff}
-          disabled={allOff}
-        >
-          apagar todos
-        </button>
-      </div>
-
-      <div className="mb-4 flex flex-wrap justify-center gap-2">
-        {forces.map((force) => {
-          const on = !offGroups.has(force.code);
-          return (
-            <button
-              key={force.code}
-              type="button"
-              className={`inline-flex items-center gap-1.5 rounded-full border-2 px-3 py-1 text-xs font-medium transition ${
-                on
-                  ? "border-ink bg-white text-ink"
-                  : "border-line-soft bg-transparent text-ink-muted opacity-45"
-              }`}
-              onClick={() => toggleGroup(force.code)}
-              aria-pressed={on}
-              title={on ? "Click para apagar" : "Click para prender"}
-            >
-              <span
-                className={`h-2 w-2 rounded-full ${on ? "bg-ink" : "border border-ink-muted bg-transparent"}`}
-                aria-hidden
-              />
-              <span>{force.label}</span>
-              <span className="tabular-nums opacity-70">{force.count}</span>
-            </button>
-          );
-        })}
-      </div>
-
       <div className="relative">
         <svg
           viewBox={chamber.viewBox}
@@ -191,8 +146,6 @@ export function ChamberHemicycle({
         >
           {chamber.seats.map((seat) => {
             const voto = votesByLegislator?.get(seat.legislator_id);
-            const group = seatGroup(seat);
-            const faded = offGroups.has(group);
             const stroke = showVotes ? voteStroke(voto) : "transparent";
             const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
             const href = seat.legislator_id
@@ -201,8 +154,6 @@ export function ChamberHemicycle({
             return (
               <g
                 key={`${seat.legislator_id}-${seat.seat_index}`}
-                opacity={faded ? 0.08 : 1}
-                className="transition-opacity duration-150"
                 onMouseEnter={(e) => updateTip(seat, e)}
                 onMouseMove={(e) => updateTip(seat, e)}
                 onMouseLeave={() => setTip(null)}
@@ -298,20 +249,27 @@ export function ChamberHemicycle({
       </div>
 
       {showVotes ? (
-        <div className="mt-3 flex flex-wrap justify-center gap-3 text-xs text-ink-muted">
-          <span className="inline-flex items-center gap-1.5">
-            <span className="h-2.5 w-2.5 rounded-full bg-afirmativo" /> afirmativo
-          </span>
-          <span className="inline-flex items-center gap-1.5">
-            <span className="h-2.5 w-2.5 rounded-full bg-negativo" /> negativo
-          </span>
-          <span className="inline-flex items-center gap-1.5">
-            <span className="h-2.5 w-2.5 rounded-full bg-abstencion" /> abstención
-          </span>
-          <span className="inline-flex items-center gap-1.5">
-            <span className="h-2.5 w-2.5 rounded-full border border-ink bg-white" />{" "}
-            ausente / sin dato
-          </span>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-6 text-base font-semibold tabular-nums text-ink">
+          <VoteCount
+            count={counts.AFIRMATIVO}
+            label="afirmativo"
+            dotClass="bg-afirmativo"
+          />
+          <VoteCount
+            count={counts.NEGATIVO}
+            label="negativo"
+            dotClass="bg-negativo"
+          />
+          <VoteCount
+            count={counts.AUSENTE}
+            label="ausente"
+            dotClass="border border-ink bg-white"
+          />
+          <VoteCount
+            count={counts.ABSTENCION}
+            label="abstención"
+            dotClass="bg-abstencion"
+          />
         </div>
       ) : null}
     </div>

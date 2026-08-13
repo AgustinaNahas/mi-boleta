@@ -48,24 +48,25 @@ function shuffleIndices(length: number, count: number): number[] {
   return indices.slice(0, Math.min(count, length));
 }
 
+/** ~95% afirmativo/negativo, ~5% ausente (no se reparte en tercios). */
 function randomTone(): ActiveTone {
-  return VOTE_TONES[Math.floor(Math.random() * VOTE_TONES.length)];
+  const r = Math.random();
+  if (r < 0.05) return "ausente";
+  return r < 0.525 ? "afirmativo" : "negativo";
 }
 
-/** Delay inicial de encendido: 0.8s–3s. */
+/** Delay inicial de encendido: ~0.96s–3.6s (20% más lento que 0.8–3s). */
 function randomIgniteDelayMs() {
-  return 800 + Math.random() * 2200;
+  return 200 + Math.random() * 2640;
 }
 
 /** Intervalo entre cambios: 2s–4s. */
 function randomTickDelayMs() {
-  return 2000 + Math.random() * 2000;
+  return Math.random() * 2000;
 }
 
-/** Cuántos puntos recolorar en cada tick: 4 o 5. */
-function randomChangeCount() {
-  return Math.random() < 0.5 ? 4 : 5;
-}
+const IGNITE_TRANSITION_MS = 840;
+const TICK_CHANGE_COUNT = 20;
 
 /** Hemiciclo decorativo con el mismo layout de bancas que el gráfico del recinto. */
 export function Hemicycle({
@@ -106,11 +107,14 @@ export function Hemicycle({
 
     const igniteTimers: number[] = [];
     let tickTimer = 0;
+    let startLoopTimer = 0;
     let cancelled = false;
+    let maxIgniteDelay = 0;
 
-    // Al cargar: cada banca elegida se prende entre 0.8s y 3s.
+    // Al cargar: cada banca elegida se prende con delay random (más lento).
     for (const index of picked) {
       const delay = randomIgniteDelayMs();
+      if (delay > maxIgniteDelay) maxIgniteDelay = delay;
       const tone = randomTone();
       igniteTimers.push(
         window.setTimeout(() => {
@@ -124,9 +128,8 @@ export function Hemicycle({
       );
     }
 
-    // Cuando terminó la oleada inicial, empezar a rotar 4/5 puntos.
-    const initialWaveMs = 3000;
-    const startLoopTimer = window.setTimeout(() => {
+    // Recién cuando terminó la oleada + transición: rotar 5 bancas cada 2–4s, infinito.
+    startLoopTimer = window.setTimeout(() => {
       if (cancelled) return;
 
       function scheduleTick() {
@@ -140,7 +143,7 @@ export function Hemicycle({
               .map((row) => row.index);
 
             const pool = lit.length > 0 ? lit : picked;
-            const changeCount = Math.min(randomChangeCount(), pool.length);
+            const changeCount = Math.min(TICK_CHANGE_COUNT, pool.length);
             const targets = shuffleIndices(pool.length, changeCount).map(
               (i) => pool[i],
             );
@@ -149,7 +152,6 @@ export function Hemicycle({
             for (const index of targets) {
               const currentTone = next[index];
               let tone = randomTone();
-              // Evitar quedarse en el mismo color si se puede.
               if (tone === currentTone) {
                 tone =
                   VOTE_TONES.find((t) => t !== currentTone) ?? randomTone();
@@ -164,7 +166,7 @@ export function Hemicycle({
       }
 
       scheduleTick();
-    }, initialWaveMs);
+    }, maxIgniteDelay + IGNITE_TRANSITION_MS);
 
     return () => {
       cancelled = true;
@@ -198,7 +200,7 @@ export function Hemicycle({
             strokeWidth={style.strokeWidth}
             style={{
               transitionProperty: "fill, stroke, stroke-width, opacity",
-              transitionDuration: active ? "700ms" : "400ms",
+              transitionDuration: active ? `${IGNITE_TRANSITION_MS}ms` : "400ms",
               transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)",
               opacity: variant === "accent" ? 0.7 : active ? 1 : 0.92,
             }}

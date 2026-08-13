@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Metodología · mi-boleta",
@@ -11,11 +10,6 @@ export default function MetodologiaPage() {
   return (
     <article className="cols gap-y-12 pt-4 sm:pt-8">
       <header className="col-span-4 space-y-4 sm:col-span-8 lg:col-span-10 lg:col-start-4">
-        <p className="text-sm text-ink-muted">
-          <Link href="/" className="underline underline-offset-2 hover:text-ink">
-            Inicio
-          </Link>
-        </p>
         <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-5xl">
           Metodología
         </h1>

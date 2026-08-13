@@ -198,6 +198,70 @@ export function getFeaturedLawById(id: string): FeaturedLaw | undefined {
   return getFeaturedLaws().find((l) => l.id === id);
 }
 
+export type LegislatorBallotContext = {
+  listName: string;
+  electionLabel: string;
+  electionYear: string;
+  distrito: string;
+};
+
+/** Lista y elección más recientes en las que figura como electo. */
+export function getLegislatorBallotContext(
+  legislatorId: string,
+): LegislatorBallotContext | null {
+  const elected = getCandidatesWithSeats()
+    .filter((c) => c.legislator_id === legislatorId && c.elected === "true")
+    .sort((a, b) =>
+      (b.mandato_inicio || "").localeCompare(a.mandato_inicio || ""),
+    );
+  const latest = elected[0];
+  if (!latest) return null;
+
+  const list = getBallotLists().find((l) => l.id === latest.list_id);
+  const election = getElections().find((e) => e.id === latest.election_id);
+
+  return {
+    listName: list?.alliance || list?.name || "",
+    electionLabel: election?.label || "",
+    electionYear: election?.year || "",
+    distrito: latest.district_id || "",
+  };
+}
+
+export type LegislatorVoteRow = {
+  lawId: string;
+  title: string;
+  summary: string;
+  date?: string;
+  voto: string;
+};
+
+export function getLegislatorVoteRows(legislatorId: string): LegislatorVoteRow[] {
+  const lawsById = new Map(getFeaturedLaws().map((l) => [l.id, l]));
+  return getFeaturedVotesForLegislator(legislatorId)
+    .map((vote) => {
+      const law = lawsById.get(vote.law_id);
+      return {
+        lawId: vote.law_id,
+        title: law?.title ?? vote.law_id,
+        summary: law?.summary ?? "",
+        date: law?.date,
+        voto: vote.voto,
+      };
+    })
+    .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+}
+
+/** "Apellido, Nombre" → "Nombre Apellido" para titulares. */
+export function formatLegislatorDisplayName(nombre: string) {
+  const trimmed = nombre.trim();
+  if (!trimmed.includes(",")) return trimmed;
+  const [last, ...rest] = trimmed.split(",");
+  const first = rest.join(",").trim();
+  if (!first) return last.trim();
+  return `${first} ${last.trim()}`.replace(/\s+/g, " ").trim();
+}
+
 export type LegislatorVoteBuckets = {
   aFavor: Array<{ vote: FeaturedVote; law: FeaturedLaw | undefined }>;
   enContra: Array<{ vote: FeaturedVote; law: FeaturedLaw | undefined }>;

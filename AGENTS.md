@@ -15,7 +15,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Datos: `data/raw/` gitignored; `data/processed/` versionado.
 - Deploy: GitHub Pages → `output: "export"`. Para Pages usar `NEXT_PUBLIC_BASE_PATH=/mi-boleta`.
 - Node: preferir nvm 22 (`source ~/.nvm/nvm.sh && nvm use 22`).
-- Plan unificado en `README.md` (fases 0–4 originales + backlog actual).
+- Plan unificado: resumen en `README.md`; sprint desagregado en `SPRINT_PLAN.md` (P0/P1/P2). Kickoff histórico en `.cursor/plans/`.
 - Matching nacional 2019–2025; mismatches → `aliases.csv` / `match_review.csv`.
 - Fotos: columna `foto` desde ArgentinaDatos cuando existe.
 - Hemiciclo por ley desde el acta (`chamber_by_law.json`); hero decorativo.

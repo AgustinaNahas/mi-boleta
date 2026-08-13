@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import { BrandMark } from "@/components/brand-mark";
+import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 
 const inter = Inter({
@@ -19,31 +19,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="es" className={`${inter.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans text-ink">
-        <header className="z-40">
-          <div className="shell cols items-center py-5">
-            <Link
-              href="/"
-              className="col-span-2 inline-flex items-center sm:col-span-3 lg:col-span-4"
-              aria-label="Inicio"
-            >
-              <BrandMark className="h-7 w-10" />
-            </Link>
-            <div className="col-span-2 flex items-center justify-end gap-4 sm:col-span-5 sm:gap-6 lg:col-span-12">
-              <Link
-                href="/metodologia/"
-                className="text-sm font-medium text-ink transition hover:opacity-60"
-              >
-                Metodología
-              </Link>
-              <Link
-                href="/#buscar-proyecto"
-                className="text-sm font-medium text-ink transition hover:opacity-60"
-              >
-                Buscar por proyecto
-              </Link>
-            </div>
-          </div>
-        </header>
+        <SiteHeader />
         <main className="shell flex-1 pb-16">{children}</main>
         <footer className="bg-ink text-white">
           <div className="shell cols gap-y-8 py-10 text-xs leading-relaxed text-white/80">

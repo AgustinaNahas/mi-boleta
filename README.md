@@ -10,7 +10,9 @@ Sin score ideológico: hechos públicos + una selección editorial explícita de
 
 ## Planificación (unificada)
 
-Origen: plan inicial (fases 0–4 del kickoff) + backlog de diseño/datos de este ciclo.
+Origen: plan inicial (fases 0–4 del kickoff) + backlog de este ciclo.
+
+**Sprint plan detallado (desagregado):** [SPRINT_PLAN.md](./SPRINT_PLAN.md) — P0/P1/P2, criterios de hecho, tracking de diseño.
 
 ### Hecho
 
@@ -22,14 +24,27 @@ Origen: plan inicial (fases 0–4 del kickoff) + backlog de diseño/datos de est
 | **3** Producto ciudadano | Wizard + home + metodología | Hecho (UI rediseñada, Inter) |
 | — | Más provincias (no solo CABA/BA) | Hecho |
 | — | Fotos de diputados (URL ArgentinaDatos) | Hecho (cobertura parcial) |
+| — | Hemiciclo por ley + hover foto/nombre/bloque | Hecho |
 
-### Pendiente
+### Pendiente (resumen)
 
-- [x] Pulir `match_review.csv` — resuelto al incluir **suplentes** CNE en el ingest (antes solo titulares)
-- [x] Gráfico tipo **cámara (hemiciclo)** por ley (nómina del acta; posición por bloque de entonces; color = voto)
-- [x] Listas CNE **2019 y 2021** (renovación por mitades) además de 2023/2025
-- [x] Ampliar set de leyes / actas (meta ~15/año 2020–2026; 2020–2023 limitados por cobertura ArgDatos)
-- [ ] Apoyo DINE / resultados si el cruce nombre↔lista no alcanza
+Ver detalle y orden en [SPRINT_PLAN.md](./SPRINT_PLAN.md).
+
+**P0 (este sprint)**
+
+- [ ] **Handles `@` (X/Twitter) de diputados** + mostrarlos en el hover del hemiciclo (y lista electa si aplica)
+- [ ] Cerrar pulido UI local (diff sin commitear) y dejar listo para commit
+- [ ] Mapear interacciones del proto Figma → gaps → implementar lote P0
+
+**P1**
+
+- [ ] Subir cobertura de leyes 2020–2023 (techo realista por actas)
+- [ ] Mejorar / documentar cobertura de fotos
+- [ ] Apoyo DINE / resultados solo si hace falta (hoy matching OK)
+- [ ] Pulido visual hemiciclo vs mock, si queda deuda
+
+**P2**
+
 - [ ] Extensiones del plan original: Senado, votaciones “divididas” automáticas, comparar listas
 
 ### Nota de alcance (importante)
