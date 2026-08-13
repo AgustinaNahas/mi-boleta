@@ -73,14 +73,13 @@ type TipState = {
   y: number;
 };
 
-/** Hemiciclo del recinto actual: posición fija por bloque; color = voto del proyecto. */
+/** Hemiciclo del recinto: color = voto; chips prendidos/apagados por bloque. */
 export function ChamberHemicycle({
   chamber,
   votesByLegislator,
   className = "",
 }: Props) {
   const showVotes = Boolean(votesByLegislator && votesByLegislator.size > 0);
-  const [focusGroup, setFocusGroup] = useState<string | null>(null);
   const [tip, setTip] = useState<TipState | null>(null);
 
   const forces = useMemo(() => {
@@ -94,6 +93,26 @@ export function ChamberHemicycle({
       .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, "es"));
   }, [chamber.seats]);
 
+  // null = todos prendidos; Set = códigos apagados
+  const [offGroups, setOffGroups] = useState<Set<string>>(() => new Set());
+
+  function toggleGroup(code: string) {
+    setOffGroups((prev) => {
+      const next = new Set(prev);
+      if (next.has(code)) next.delete(code);
+      else next.add(code);
+      return next;
+    });
+  }
+
+  function setAllOn() {
+    setOffGroups(new Set());
+  }
+
+  function setAllOff() {
+    setOffGroups(new Set(forces.map((f) => f.code)));
+  }
+
   function updateTip(seat: ChamberSeat, e: MouseEvent<SVGGElement>) {
     const root = e.currentTarget.ownerSVGElement?.parentElement;
     if (!root) return;
@@ -105,28 +124,55 @@ export function ChamberHemicycle({
     });
   }
 
+  const allOn = offGroups.size === 0;
+  const allOff = forces.length > 0 && offGroups.size === forces.length;
+
   return (
     <div className={className}>
-      <div
-        className="mb-4 flex flex-wrap justify-center gap-2"
-        onMouseLeave={() => setFocusGroup(null)}
-      >
+      <div className="mb-3 flex flex-wrap items-center justify-center gap-2">
+        <button
+          type="button"
+          className="text-xs font-medium text-ink-muted underline underline-offset-2 hover:text-ink disabled:opacity-40"
+          onClick={setAllOn}
+          disabled={allOn}
+        >
+          prender todos
+        </button>
+        <span className="text-ink-muted" aria-hidden>
+          ·
+        </span>
+        <button
+          type="button"
+          className="text-xs font-medium text-ink-muted underline underline-offset-2 hover:text-ink disabled:opacity-40"
+          onClick={setAllOff}
+          disabled={allOff}
+        >
+          apagar todos
+        </button>
+      </div>
+
+      <div className="mb-4 flex flex-wrap justify-center gap-2">
         {forces.map((force) => {
-          const active = focusGroup === force.code;
-          const dimmed = focusGroup != null && !active;
+          const on = !offGroups.has(force.code);
           return (
             <button
               key={force.code}
               type="button"
-              className="inline-flex items-center gap-1.5 rounded-full border-2 border-ink bg-white px-3 py-1 text-xs font-medium text-ink transition-opacity"
-              style={{ opacity: dimmed ? 0.35 : 1 }}
-              onMouseEnter={() => setFocusGroup(force.code)}
-              onFocus={() => setFocusGroup(force.code)}
-              onBlur={() => setFocusGroup(null)}
-              aria-pressed={active}
+              className={`inline-flex items-center gap-1.5 rounded-full border-2 px-3 py-1 text-xs font-medium transition ${
+                on
+                  ? "border-ink bg-white text-ink"
+                  : "border-line-soft bg-transparent text-ink-muted opacity-45"
+              }`}
+              onClick={() => toggleGroup(force.code)}
+              aria-pressed={on}
+              title={on ? "Click para apagar" : "Click para prender"}
             >
+              <span
+                className={`h-2 w-2 rounded-full ${on ? "bg-ink" : "border border-ink-muted bg-transparent"}`}
+                aria-hidden
+              />
               <span>{force.label}</span>
-              <span className="tabular-nums text-ink-muted">{force.count}</span>
+              <span className="tabular-nums opacity-70">{force.count}</span>
             </button>
           );
         })}
@@ -146,34 +192,58 @@ export function ChamberHemicycle({
           {chamber.seats.map((seat) => {
             const voto = votesByLegislator?.get(seat.legislator_id);
             const group = seatGroup(seat);
-            const faded = focusGroup != null && group !== focusGroup;
+            const faded = offGroups.has(group);
             const stroke = showVotes ? voteStroke(voto) : "transparent";
+            const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+            const href = seat.legislator_id
+              ? `${basePath}/legislador/${seat.legislator_id}/`
+              : undefined;
             return (
               <g
                 key={`${seat.legislator_id}-${seat.seat_index}`}
-                opacity={faded ? 0.14 : 1}
+                opacity={faded ? 0.08 : 1}
                 className="transition-opacity duration-150"
                 onMouseEnter={(e) => updateTip(seat, e)}
                 onMouseMove={(e) => updateTip(seat, e)}
                 onMouseLeave={() => setTip(null)}
               >
-                {/* Área de hit más grande */}
-                <circle
-                  cx={seat.x}
-                  cy={seat.y}
-                  r={4.5}
-                  fill="transparent"
-                  className="cursor-pointer"
-                />
-                <circle
-                  cx={seat.x}
-                  cy={seat.y}
-                  r={3.1}
-                  fill={showVotes ? voteFill(voto) : "#c8c8c8"}
-                  stroke={stroke}
-                  strokeWidth={stroke !== "transparent" ? 0.45 : 0}
-                  className="pointer-events-none"
-                />
+                {href ? (
+                  <a href={href} aria-label={seat.nombre}>
+                    <circle
+                      cx={seat.x}
+                      cy={seat.y}
+                      r={4.5}
+                      fill="transparent"
+                      className="cursor-pointer"
+                    />
+                    <circle
+                      cx={seat.x}
+                      cy={seat.y}
+                      r={3.1}
+                      fill={showVotes ? voteFill(voto) : "#c8c8c8"}
+                      stroke={stroke}
+                      strokeWidth={stroke !== "transparent" ? 0.45 : 0}
+                      className="pointer-events-none"
+                    />
+                  </a>
+                ) : (
+                  <>
+                    <circle
+                      cx={seat.x}
+                      cy={seat.y}
+                      r={4.5}
+                      fill="transparent"
+                    />
+                    <circle
+                      cx={seat.x}
+                      cy={seat.y}
+                      r={3.1}
+                      fill={showVotes ? voteFill(voto) : "#c8c8c8"}
+                      stroke={stroke}
+                      strokeWidth={stroke !== "transparent" ? 0.45 : 0}
+                    />
+                  </>
+                )}
               </g>
             );
           })}
@@ -217,6 +287,9 @@ export function ChamberHemicycle({
                       true,
                     )}
                   </p>
+                ) : null}
+                {tip.seat.legislator_id ? (
+                  <p className="text-[11px] text-ink-muted">Ver ficha →</p>
                 ) : null}
               </div>
             </div>

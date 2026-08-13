@@ -20,11 +20,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="es" className={`${inter.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans text-ink">
         <header className="z-40">
-          <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-3 px-5 py-5 sm:px-8">
-            <Link href="/" className="inline-flex items-center" aria-label="Inicio">
+          <div className="shell cols items-center py-5">
+            <Link
+              href="/"
+              className="col-span-2 inline-flex items-center sm:col-span-3 lg:col-span-4"
+              aria-label="Inicio"
+            >
               <BrandMark className="h-7 w-10" />
             </Link>
-            <div className="flex items-center gap-4 sm:gap-6">
+            <div className="col-span-2 flex items-center justify-end gap-4 sm:col-span-5 sm:gap-6 lg:col-span-12">
               <Link
                 href="/metodologia/"
                 className="text-sm font-medium text-ink transition hover:opacity-60"
@@ -40,18 +44,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </header>
-        <main className="mx-auto w-full max-w-5xl flex-1 px-5 pb-16 sm:px-8">
-          {children}
-        </main>
+        <main className="shell flex-1 pb-16">{children}</main>
         <footer className="bg-ink text-white">
-          <div className="mx-auto grid w-full max-w-5xl gap-8 px-5 py-10 text-xs leading-relaxed text-white/80 sm:grid-cols-2 sm:px-8">
-            <p>
+          <div className="shell cols gap-y-8 py-10 text-xs leading-relaxed text-white/80">
+            <p className="col-span-4 sm:col-span-4 lg:col-span-8">
               mi-boleta es un proyecto independiente y sin fines de lucro de
               Agustina Nahas y Azul Damadian. No tiene afiliación oficial con
               la Cámara de Diputados de la Nación ni con ningún partido
               político.
             </p>
-            <p>
+            <p className="col-span-4 sm:col-span-4 lg:col-span-8">
               Fuentes: datos públicos de congreso.gob.ar y
               votaciones.hcdn.gob.ar. La información se presenta “tal cual”;
               verificá siempre en el acta oficial.{" "}

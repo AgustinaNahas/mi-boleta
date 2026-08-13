@@ -73,9 +73,9 @@ export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
   }
 
   return (
-    <div className="space-y-8">
-      <div className="grid gap-3 sm:grid-cols-2">
-        <div>
+    <div className="cols gap-y-8">
+      <div className="cols col-span-full gap-y-3">
+        <div className="col-span-4 sm:col-span-4 lg:col-span-8">
           <label htmlFor="featured-law" className="sr-only">
             Proyecto
           </label>
@@ -97,7 +97,7 @@ export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
             ))}
           </select>
         </div>
-        <div>
+        <div className="col-span-4 sm:col-span-4 lg:col-span-8">
           <label htmlFor="featured-district" className="sr-only">
             Distrito
           </label>
@@ -116,7 +116,7 @@ export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
         </div>
       </div>
 
-      <div className="space-y-3">
+      <div className="col-span-full space-y-3">
         <p className="text-sm leading-relaxed text-ink-muted">{law.summary}</p>
         <div className="flex flex-wrap gap-2">
           {["AFIRMATIVO", "NEGATIVO", "ABSTENCION", "AUSENTE", "PRESIDENTE"].map(
@@ -156,7 +156,7 @@ export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
         </p>
       </div>
 
-      <div className="space-y-3">
+      <div className="col-span-full space-y-3">
         <h3 className="text-lg font-semibold tracking-tight text-ink">
           El recinto en esta votación
         </h3>
@@ -170,7 +170,7 @@ export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
           <ChamberHemicycle
             chamber={chamberByLaw[law.id]}
             votesByLegislator={votesByLegislator}
-            className="mx-auto w-full max-w-2xl"
+            className="mx-auto w-full lg:max-w-none"
           />
         ) : (
           <p className="text-sm text-ink-muted">
@@ -179,7 +179,7 @@ export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
         )}
       </div>
 
-      <ul className="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+      <ul className="cols col-span-full gap-y-4">
         {filtered.map((row) => {
           const key = row.voto.toLowerCase();
           const dot =
@@ -193,7 +193,7 @@ export function FeaturedVotesExplorer({ laws, votes, chamberByLaw }: Props) {
           return (
             <li
               key={`${row.legislator_id}-${row.law_id}`}
-              className="flex items-center gap-3"
+              className="col-span-4 flex items-center gap-3 sm:col-span-4 lg:col-span-8"
             >
               <LegislatorAvatar
                 name={row.legislador}

@@ -382,6 +382,19 @@ function lookupMandate(mandatesIndex, legislatorId, displayName, date) {
 }
 
 /** Geometría: N bancas en 8 filas con pasillo central. Cada slot tiene t∈[0,1] izq→der. */
+/**
+ * Separación angular del pasillo central.
+ * Usamos una distancia lineal constante (cuerda) en todas las filas, convertida
+ * a ángulo según el radio: así el pasillo se ve del mismo ancho adentro y afuera.
+ */
+function aisleAngleForRadius(radius, {
+  aisleWidth = 7.8, // distancia centro–centro constante entre mitades
+} = {}) {
+  const r = Math.max(radius, 1);
+  const ratio = Math.min(0.999, aisleWidth / (2 * r));
+  return 2 * Math.asin(ratio);
+}
+
 function hemicycleSeatSlotsForCount(total) {
   const weights = [14, 18, 24, 30, 36, 40, 46, 48];
   const radii = [36, 48, 60, 72, 84, 96, 108, 120];
@@ -413,7 +426,6 @@ function hemicycleSeatSlotsForCount(total) {
 
   const cx = 140;
   const cy = 136;
-  const aisle = 0.1;
   const leftStart = Math.PI - 0.04;
   const rightEnd = 0.04;
   const slots = [];
@@ -434,6 +446,7 @@ function hemicycleSeatSlotsForCount(total) {
     const n = counts[r];
     if (n <= 0) continue;
     const radius = radii[r];
+    const aisle = aisleAngleForRadius(radius);
     const leftN = Math.floor(n / 2);
     const rightN = n - leftN;
     const leftEnd = Math.PI / 2 + aisle / 2;
@@ -623,7 +636,6 @@ function hemicycleSeatSlotsOfficial() {
   const radii = [36, 48, 60, 72, 84, 96, 108, 120];
   const cx = 140;
   const cy = 136;
-  const aisle = 0.1;
   const leftStart = Math.PI - 0.04;
   const rightEnd = 0.04;
   const slots = [
@@ -633,6 +645,7 @@ function hemicycleSeatSlotsOfficial() {
   for (let r = 0; r < rowCounts.length; r++) {
     const n = rowCounts[r];
     const radius = radii[r];
+    const aisle = aisleAngleForRadius(radius);
     const leftN = Math.floor(n / 2);
     const rightN = n - leftN;
     const leftEnd = Math.PI / 2 + aisle / 2;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:35:38.499Z",
+  "generatedAt": "2026-08-12T20:53:45.066Z",
   "viewBox": "0 0 280 155",
   "layout": "hcdn-8-rows-approx",
   "chartGroups": [
@@ -56,8 +56,8 @@
       "chart_group": "UXP",
       "seat_index": 2,
       "row": 1,
-      "x": 105.47,
-      "y": 125.82
+      "x": 105.37,
+      "y": 126.15
     },
     {
       "legislator_id": "HCDN3185",
@@ -69,8 +69,8 @@
       "chart_group": "UXP",
       "seat_index": 3,
       "row": 1,
-      "x": 109,
-      "y": 117.69
+      "x": 108.65,
+      "y": 118.3
     },
     {
       "legislator_id": "HCDN3226",
@@ -82,8 +82,8 @@
       "chart_group": "UXP",
       "seat_index": 4,
       "row": 1,
-      "x": 114.42,
-      "y": 110.67
+      "x": 113.69,
+      "y": 111.43
     },
     {
       "legislator_id": "HCDN3047",
@@ -95,8 +95,8 @@
       "chart_group": "UXP",
       "seat_index": 5,
       "row": 1,
-      "x": 121.38,
-      "y": 105.19
+      "x": 120.19,
+      "y": 105.94
     },
     {
       "legislator_id": "HCDN3028",
@@ -108,8 +108,8 @@
       "chart_group": "UXP",
       "seat_index": 6,
       "row": 1,
-      "x": 129.47,
-      "y": 101.57
+      "x": 127.81,
+      "y": 102.13
     },
     {
       "legislator_id": "HCDN3223",
@@ -121,8 +121,8 @@
       "chart_group": "UXP",
       "seat_index": 7,
       "row": 1,
-      "x": 138.2,
-      "y": 100.04
+      "x": 136.1,
+      "y": 100.21
     },
     {
       "legislator_id": "HCDN3243",
@@ -134,8 +134,8 @@
       "chart_group": "PYT",
       "seat_index": 8,
       "row": 1,
-      "x": 141.8,
-      "y": 100.04
+      "x": 143.9,
+      "y": 100.21
     },
     {
       "legislator_id": "HCDN3050",
@@ -147,8 +147,8 @@
       "chart_group": "PYT",
       "seat_index": 9,
       "row": 1,
-      "x": 150.53,
-      "y": 101.57
+      "x": 152.19,
+      "y": 102.13
     },
     {
       "legislator_id": "HCDN3171",
@@ -160,8 +160,8 @@
       "chart_group": "LLA",
       "seat_index": 10,
       "row": 1,
-      "x": 158.62,
-      "y": 105.19
+      "x": 159.81,
+      "y": 105.94
     },
     {
       "legislator_id": "HCDN3029",
@@ -173,8 +173,8 @@
       "chart_group": "LLA",
       "seat_index": 11,
       "row": 1,
-      "x": 165.58,
-      "y": 110.67
+      "x": 166.31,
+      "y": 111.43
     },
     {
       "legislator_id": "HCDN3157",
@@ -186,8 +186,8 @@
       "chart_group": "LLA",
       "seat_index": 12,
       "row": 1,
-      "x": 171,
-      "y": 117.69
+      "x": 171.35,
+      "y": 118.3
     },
     {
       "legislator_id": "HCDN2354",
@@ -199,8 +199,8 @@
       "chart_group": "LLA",
       "seat_index": 13,
       "row": 1,
-      "x": 174.53,
-      "y": 125.82
+      "x": 174.63,
+      "y": 126.15
     },
     {
       "legislator_id": "HCDN3032",
@@ -238,8 +238,8 @@
       "chart_group": "UXP",
       "seat_index": 16,
       "row": 2,
-      "x": 93.21,
-      "y": 125.29
+      "x": 93.17,
+      "y": 125.47
     },
     {
       "legislator_id": "HCDN3183",
@@ -251,8 +251,8 @@
       "chart_group": "UXP",
       "seat_index": 17,
       "row": 2,
-      "x": 95.98,
-      "y": 116.86
+      "x": 95.83,
+      "y": 117.2
     },
     {
       "legislator_id": "HCDN2831",
@@ -264,8 +264,8 @@
       "chart_group": "UXP",
       "seat_index": 18,
       "row": 2,
-      "x": 100.26,
-      "y": 109.08
+      "x": 99.94,
+      "y": 109.55
     },
     {
       "legislator_id": "HCDN3093",
@@ -277,8 +277,8 @@
       "chart_group": "UXP",
       "seat_index": 19,
       "row": 2,
-      "x": 105.89,
-      "y": 102.23
+      "x": 105.36,
+      "y": 102.77
     },
     {
       "legislator_id": "HCDN3198",
@@ -290,8 +290,8 @@
       "chart_group": "UXP",
       "seat_index": 20,
       "row": 2,
-      "x": 112.69,
-      "y": 96.53
+      "x": 111.92,
+      "y": 97.07
     },
     {
       "legislator_id": "HCDN3174",
@@ -303,8 +303,8 @@
       "chart_group": "UXP",
       "seat_index": 21,
       "row": 2,
-      "x": 120.42,
-      "y": 92.18
+      "x": 119.39,
+      "y": 92.65
     },
     {
       "legislator_id": "HCDN3090",
@@ -316,8 +316,8 @@
       "chart_group": "UXP",
       "seat_index": 22,
       "row": 2,
-      "x": 128.82,
-      "y": 89.32
+      "x": 127.54,
+      "y": 89.64
     },
     {
       "legislator_id": "HCDN3049",
@@ -329,8 +329,8 @@
       "chart_group": "FDC",
       "seat_index": 23,
       "row": 2,
-      "x": 137.6,
-      "y": 88.06
+      "x": 136.1,
+      "y": 88.16
     },
     {
       "legislator_id": "HCDN3079",
@@ -342,8 +342,8 @@
       "chart_group": "FDC",
       "seat_index": 24,
       "row": 2,
-      "x": 142.4,
-      "y": 88.06
+      "x": 143.9,
+      "y": 88.16
     },
     {
       "legislator_id": "HCDN3058",
@@ -355,8 +355,8 @@
       "chart_group": "LLA",
       "seat_index": 25,
       "row": 2,
-      "x": 151.18,
-      "y": 89.32
+      "x": 152.46,
+      "y": 89.64
     },
     {
       "legislator_id": "HCDN3268",
@@ -368,8 +368,8 @@
       "chart_group": "LLA",
       "seat_index": 26,
       "row": 2,
-      "x": 159.58,
-      "y": 92.18
+      "x": 160.61,
+      "y": 92.65
     },
     {
       "legislator_id": "HCDN3201",
@@ -381,8 +381,8 @@
       "chart_group": "LLA",
       "seat_index": 27,
       "row": 2,
-      "x": 167.31,
-      "y": 96.53
+      "x": 168.08,
+      "y": 97.07
     },
     {
       "legislator_id": "HCDN3111",
@@ -394,8 +394,8 @@
       "chart_group": "LLA",
       "seat_index": 28,
       "row": 2,
-      "x": 174.11,
-      "y": 102.23
+      "x": 174.64,
+      "y": 102.77
     },
     {
       "legislator_id": "HCDN3064",
@@ -407,8 +407,8 @@
       "chart_group": "LLA",
       "seat_index": 29,
       "row": 2,
-      "x": 179.74,
-      "y": 109.08
+      "x": 180.06,
+      "y": 109.55
     },
     {
       "legislator_id": "HCDN3088",
@@ -420,8 +420,8 @@
       "chart_group": "LLA",
       "seat_index": 30,
       "row": 2,
-      "x": 184.02,
-      "y": 116.86
+      "x": 184.17,
+      "y": 117.2
     },
     {
       "legislator_id": "HCDN3048",
@@ -433,8 +433,8 @@
       "chart_group": "LLA",
       "seat_index": 31,
       "row": 2,
-      "x": 186.79,
-      "y": 125.29
+      "x": 186.83,
+      "y": 125.47
     },
     {
       "legislator_id": "HCDN3042",
@@ -472,8 +472,8 @@
       "chart_group": "UXP",
       "seat_index": 34,
       "row": 3,
-      "x": 80.91,
-      "y": 125.58
+      "x": 80.9,
+      "y": 125.66
     },
     {
       "legislator_id": "HCDN3085",
@@ -485,8 +485,8 @@
       "chart_group": "UXP",
       "seat_index": 35,
       "row": 3,
-      "x": 82.85,
-      "y": 117.74
+      "x": 82.8,
+      "y": 117.9
     },
     {
       "legislator_id": "HCDN2765",
@@ -498,8 +498,8 @@
       "chart_group": "UXP",
       "seat_index": 36,
       "row": 3,
-      "x": 85.81,
-      "y": 110.23
+      "x": 85.71,
+      "y": 110.46
     },
     {
       "legislator_id": "HCDN2822",
@@ -511,8 +511,8 @@
       "chart_group": "UXP",
       "seat_index": 37,
       "row": 3,
-      "x": 89.76,
-      "y": 103.2
+      "x": 89.58,
+      "y": 103.47
     },
     {
       "legislator_id": "HCDN0732",
@@ -524,8 +524,8 @@
       "chart_group": "UXP",
       "seat_index": 38,
       "row": 3,
-      "x": 94.62,
-      "y": 96.75
+      "x": 94.35,
+      "y": 97.06
     },
     {
       "legislator_id": "HCDN3194",
@@ -537,8 +537,8 @@
       "chart_group": "UXP",
       "seat_index": 39,
       "row": 3,
-      "x": 100.3,
-      "y": 91.01
+      "x": 99.93,
+      "y": 91.34
     },
     {
       "legislator_id": "HCDN3193",
@@ -550,8 +550,8 @@
       "chart_group": "UXP",
       "seat_index": 40,
       "row": 3,
-      "x": 106.69,
-      "y": 86.09
+      "x": 106.22,
+      "y": 86.41
     },
     {
       "legislator_id": "HCDN1514",
@@ -563,8 +563,8 @@
       "chart_group": "UXP",
       "seat_index": 41,
       "row": 3,
-      "x": 113.69,
-      "y": 82.07
+      "x": 113.11,
+      "y": 82.37
     },
     {
       "legislator_id": "HCDN3212",
@@ -576,8 +576,8 @@
       "chart_group": "UXP",
       "seat_index": 42,
       "row": 3,
-      "x": 121.17,
-      "y": 79.03
+      "x": 120.47,
+      "y": 79.27
     },
     {
       "legislator_id": "HCDN3253",
@@ -589,8 +589,8 @@
       "chart_group": "FDC",
       "seat_index": 43,
       "row": 3,
-      "x": 128.99,
-      "y": 77.02
+      "x": 128.18,
+      "y": 77.18
     },
     {
       "legislator_id": "HCDN3101",
@@ -602,8 +602,8 @@
       "chart_group": "FDC",
       "seat_index": 44,
       "row": 3,
-      "x": 137,
-      "y": 76.07
+      "x": 136.1,
+      "y": 76.13
     },
     {
       "legislator_id": "HCDN3057",
@@ -615,8 +615,8 @@
       "chart_group": "FDC",
       "seat_index": 45,
       "row": 3,
-      "x": 143,
-      "y": 76.07
+      "x": 143.9,
+      "y": 76.13
     },
     {
       "legislator_id": "HCDN2955",
@@ -628,8 +628,8 @@
       "chart_group": "FDC",
       "seat_index": 46,
       "row": 3,
-      "x": 151.01,
-      "y": 77.02
+      "x": 151.82,
+      "y": 77.18
     },
     {
       "legislator_id": "HCDN3202",
@@ -641,8 +641,8 @@
       "chart_group": "LLA",
       "seat_index": 47,
       "row": 3,
-      "x": 158.83,
-      "y": 79.03
+      "x": 159.53,
+      "y": 79.27
     },
     {
       "legislator_id": "HCDN3190",
@@ -654,8 +654,8 @@
       "chart_group": "LLA",
       "seat_index": 48,
       "row": 3,
-      "x": 166.31,
-      "y": 82.07
+      "x": 166.89,
+      "y": 82.37
     },
     {
       "legislator_id": "HCDN3044",
@@ -667,8 +667,8 @@
       "chart_group": "LLA",
       "seat_index": 49,
       "row": 3,
-      "x": 173.31,
-      "y": 86.09
+      "x": 173.78,
+      "y": 86.41
     },
     {
       "legislator_id": "HCDN3164",
@@ -680,8 +680,8 @@
       "chart_group": "LLA",
       "seat_index": 50,
       "row": 3,
-      "x": 179.7,
-      "y": 91.01
+      "x": 180.07,
+      "y": 91.34
     },
     {
       "legislator_id": "HCDN3225",
@@ -693,8 +693,8 @@
       "chart_group": "LLA",
       "seat_index": 51,
       "row": 3,
-      "x": 185.38,
-      "y": 96.75
+      "x": 185.65,
+      "y": 97.06
     },
     {
       "legislator_id": "HCDN3254",
@@ -706,8 +706,8 @@
       "chart_group": "LLA",
       "seat_index": 52,
       "row": 3,
-      "x": 190.24,
-      "y": 103.2
+      "x": 190.42,
+      "y": 103.47
     },
     {
       "legislator_id": "HCDN3072",
@@ -719,8 +719,8 @@
       "chart_group": "LLA",
       "seat_index": 53,
       "row": 3,
-      "x": 194.19,
-      "y": 110.23
+      "x": 194.29,
+      "y": 110.46
     },
     {
       "legislator_id": "HCDN3041",
@@ -732,8 +732,8 @@
       "chart_group": "LLA",
       "seat_index": 54,
       "row": 3,
-      "x": 197.15,
-      "y": 117.74
+      "x": 197.2,
+      "y": 117.9
     },
     {
       "legislator_id": "HCDN3024",
@@ -745,8 +745,8 @@
       "chart_group": "LLA",
       "seat_index": 55,
       "row": 3,
-      "x": 199.09,
-      "y": 125.58
+      "x": 199.1,
+      "y": 125.66
     },
     {
       "legislator_id": "HCDN3252",
@@ -785,7 +785,7 @@
       "seat_index": 58,
       "row": 4,
       "x": 68.76,
-      "y": 125.54
+      "y": 125.56
     },
     {
       "legislator_id": "HCDN3199",
@@ -797,8 +797,8 @@
       "chart_group": "UXP",
       "seat_index": 59,
       "row": 4,
-      "x": 70.27,
-      "y": 118.08
+      "x": 70.26,
+      "y": 118.12
     },
     {
       "legislator_id": "HCDN0885",
@@ -810,8 +810,8 @@
       "chart_group": "UXP",
       "seat_index": 60,
       "row": 4,
-      "x": 72.55,
-      "y": 110.82
+      "x": 72.52,
+      "y": 110.88
     },
     {
       "legislator_id": "HCDN3074",
@@ -823,8 +823,8 @@
       "chart_group": "UXP",
       "seat_index": 61,
       "row": 4,
-      "x": 75.58,
-      "y": 103.84
+      "x": 75.54,
+      "y": 103.91
     },
     {
       "legislator_id": "HCDN3053",
@@ -836,8 +836,8 @@
       "chart_group": "UXP",
       "seat_index": 62,
       "row": 4,
-      "x": 79.34,
-      "y": 97.22
+      "x": 79.28,
+      "y": 97.31
     },
     {
       "legislator_id": "HCDN3062",
@@ -849,8 +849,8 @@
       "chart_group": "UXP",
       "seat_index": 63,
       "row": 4,
-      "x": 83.77,
-      "y": 91.03
+      "x": 83.69,
+      "y": 91.13
     },
     {
       "legislator_id": "HCDN3192",
@@ -862,8 +862,8 @@
       "chart_group": "UXP",
       "seat_index": 64,
       "row": 4,
-      "x": 88.83,
-      "y": 85.34
+      "x": 88.73,
+      "y": 85.45
     },
     {
       "legislator_id": "HCDN2775",
@@ -875,8 +875,8 @@
       "chart_group": "UXP",
       "seat_index": 65,
       "row": 4,
-      "x": 94.47,
-      "y": 80.22
+      "x": 94.33,
+      "y": 80.33
     },
     {
       "legislator_id": "HCDN3237",
@@ -888,8 +888,8 @@
       "chart_group": "UXP",
       "seat_index": 66,
       "row": 4,
-      "x": 100.61,
-      "y": 75.73
+      "x": 100.45,
+      "y": 75.84
     },
     {
       "legislator_id": "HCDN2804",
@@ -901,8 +901,8 @@
       "chart_group": "UXP",
       "seat_index": 67,
       "row": 4,
-      "x": 107.19,
-      "y": 71.91
+      "x": 107,
+      "y": 72.01
     },
     {
       "legislator_id": "HCDN1272",
@@ -914,8 +914,8 @@
       "chart_group": "UXP",
       "seat_index": 68,
       "row": 4,
-      "x": 114.14,
-      "y": 68.8
+      "x": 113.92,
+      "y": 68.89
     },
     {
       "legislator_id": "HCDN2379",
@@ -927,8 +927,8 @@
       "chart_group": "FDC",
       "seat_index": 69,
       "row": 4,
-      "x": 121.38,
-      "y": 66.45
+      "x": 121.13,
+      "y": 66.52
     },
     {
       "legislator_id": "HCDN3169",
@@ -940,8 +940,8 @@
       "chart_group": "FDC",
       "seat_index": 70,
       "row": 4,
-      "x": 128.83,
-      "y": 64.87
+      "x": 128.55,
+      "y": 64.92
     },
     {
       "legislator_id": "HCDN1466",
@@ -953,8 +953,8 @@
       "chart_group": "FDC",
       "seat_index": 71,
       "row": 4,
-      "x": 136.4,
-      "y": 64.09
+      "x": 136.1,
+      "y": 64.11
     },
     {
       "legislator_id": "HCDN0788",
@@ -966,8 +966,8 @@
       "chart_group": "FDC",
       "seat_index": 72,
       "row": 4,
-      "x": 143.6,
-      "y": 64.09
+      "x": 143.9,
+      "y": 64.11
     },
     {
       "legislator_id": "HCDN3148",
@@ -979,8 +979,8 @@
       "chart_group": "FDC",
       "seat_index": 73,
       "row": 4,
-      "x": 151.17,
-      "y": 64.87
+      "x": 151.45,
+      "y": 64.92
     },
     {
       "legislator_id": "HCDN3086",
@@ -992,8 +992,8 @@
       "chart_group": "FDC",
       "seat_index": 74,
       "row": 4,
-      "x": 158.62,
-      "y": 66.45
+      "x": 158.87,
+      "y": 66.52
     },
     {
       "legislator_id": "HCDN3139",
@@ -1005,8 +1005,8 @@
       "chart_group": "LLA",
       "seat_index": 75,
       "row": 4,
-      "x": 165.86,
-      "y": 68.8
+      "x": 166.08,
+      "y": 68.89
     },
     {
       "legislator_id": "HCDN3230",
@@ -1018,8 +1018,8 @@
       "chart_group": "LLA",
       "seat_index": 76,
       "row": 4,
-      "x": 172.81,
-      "y": 71.91
+      "x": 173,
+      "y": 72.01
     },
     {
       "legislator_id": "HCDN3188",
@@ -1031,8 +1031,8 @@
       "chart_group": "LLA",
       "seat_index": 77,
       "row": 4,
-      "x": 179.39,
-      "y": 75.73
+      "x": 179.55,
+      "y": 75.84
     },
     {
       "legislator_id": "HCDN3215",
@@ -1044,8 +1044,8 @@
       "chart_group": "LLA",
       "seat_index": 78,
       "row": 4,
-      "x": 185.53,
-      "y": 80.22
+      "x": 185.67,
+      "y": 80.33
     },
     {
       "legislator_id": "HCDN3217",
@@ -1057,8 +1057,8 @@
       "chart_group": "LLA",
       "seat_index": 79,
       "row": 4,
-      "x": 191.17,
-      "y": 85.34
+      "x": 191.27,
+      "y": 85.45
     },
     {
       "legislator_id": "HCDN3248",
@@ -1070,8 +1070,8 @@
       "chart_group": "LLA",
       "seat_index": 80,
       "row": 4,
-      "x": 196.23,
-      "y": 91.03
+      "x": 196.31,
+      "y": 91.13
     },
     {
       "legislator_id": "HCDN3106",
@@ -1083,8 +1083,8 @@
       "chart_group": "LLA",
       "seat_index": 81,
       "row": 4,
-      "x": 200.66,
-      "y": 97.22
+      "x": 200.72,
+      "y": 97.31
     },
     {
       "legislator_id": "HCDN3043",
@@ -1096,8 +1096,8 @@
       "chart_group": "LLA",
       "seat_index": 82,
       "row": 4,
-      "x": 204.42,
-      "y": 103.84
+      "x": 204.46,
+      "y": 103.91
     },
     {
       "legislator_id": "HCDN3211",
@@ -1109,8 +1109,8 @@
       "chart_group": "LLA",
       "seat_index": 83,
       "row": 4,
-      "x": 207.45,
-      "y": 110.82
+      "x": 207.48,
+      "y": 110.88
     },
     {
       "legislator_id": "HCDN3200",
@@ -1122,8 +1122,8 @@
       "chart_group": "LLA",
       "seat_index": 84,
       "row": 4,
-      "x": 209.73,
-      "y": 118.08
+      "x": 209.74,
+      "y": 118.12
     },
     {
       "legislator_id": "HCDN3170",
@@ -1136,7 +1136,7 @@
       "seat_index": 85,
       "row": 4,
       "x": 211.24,
-      "y": 125.54
+      "y": 125.56
     },
     {
       "legislator_id": "HCDN3207",
@@ -1175,7 +1175,7 @@
       "seat_index": 88,
       "row": 5,
       "x": 56.68,
-      "y": 125.35
+      "y": 125.33
     },
     {
       "legislator_id": "HCDN2799",
@@ -1187,8 +1187,8 @@
       "chart_group": "UXP",
       "seat_index": 89,
       "row": 5,
-      "x": 57.92,
-      "y": 118.14
+      "x": 57.93,
+      "y": 118.11
     },
     {
       "legislator_id": "HCDN3168",
@@ -1200,8 +1200,8 @@
       "chart_group": "UXP",
       "seat_index": 90,
       "row": 5,
-      "x": 59.78,
-      "y": 111.07
+      "x": 59.8,
+      "y": 111.02
     },
     {
       "legislator_id": "HCDN2851",
@@ -1213,8 +1213,8 @@
       "chart_group": "UXP",
       "seat_index": 91,
       "row": 5,
-      "x": 62.26,
-      "y": 104.19
+      "x": 62.28,
+      "y": 104.12
     },
     {
       "legislator_id": "HCDN3221",
@@ -1226,8 +1226,8 @@
       "chart_group": "UXP",
       "seat_index": 92,
       "row": 5,
-      "x": 65.32,
-      "y": 97.54
+      "x": 65.36,
+      "y": 97.47
     },
     {
       "legislator_id": "HCDN3206",
@@ -1239,8 +1239,8 @@
       "chart_group": "UXP",
       "seat_index": 93,
       "row": 5,
-      "x": 68.95,
-      "y": 91.19
+      "x": 69,
+      "y": 91.1
     },
     {
       "legislator_id": "HCDN3081",
@@ -1252,8 +1252,8 @@
       "chart_group": "UXP",
       "seat_index": 94,
       "row": 5,
-      "x": 73.12,
-      "y": 85.18
+      "x": 73.19,
+      "y": 85.08
     },
     {
       "legislator_id": "HCDN3224",
@@ -1265,8 +1265,8 @@
       "chart_group": "UXP",
       "seat_index": 95,
       "row": 5,
-      "x": 77.79,
-      "y": 79.56
+      "x": 77.88,
+      "y": 79.45
     },
     {
       "legislator_id": "HCDN2944",
@@ -1278,8 +1278,8 @@
       "chart_group": "UXP",
       "seat_index": 96,
       "row": 5,
-      "x": 82.94,
-      "y": 74.36
+      "x": 83.05,
+      "y": 74.25
     },
     {
       "legislator_id": "HCDN3007",
@@ -1291,8 +1291,8 @@
       "chart_group": "UXP",
       "seat_index": 97,
       "row": 5,
-      "x": 88.52,
-      "y": 69.63
+      "x": 88.65,
+      "y": 69.52
     },
     {
       "legislator_id": "HCDN2789",
@@ -1304,8 +1304,8 @@
       "chart_group": "UXP",
       "seat_index": 98,
       "row": 5,
-      "x": 94.48,
-      "y": 65.4
+      "x": 94.65,
+      "y": 65.3
     },
     {
       "legislator_id": "HCDN3218",
@@ -1317,8 +1317,8 @@
       "chart_group": "UXP",
       "seat_index": 99,
       "row": 5,
-      "x": 100.8,
-      "y": 61.71
+      "x": 100.99,
+      "y": 61.61
     },
     {
       "legislator_id": "HCDN3220",
@@ -1330,8 +1330,8 @@
       "chart_group": "UXP",
       "seat_index": 100,
       "row": 5,
-      "x": 107.41,
-      "y": 58.58
+      "x": 107.62,
+      "y": 58.49
     },
     {
       "legislator_id": "HCDN2787",
@@ -1343,8 +1343,8 @@
       "chart_group": "CC",
       "seat_index": 101,
       "row": 5,
-      "x": 114.27,
-      "y": 56.04
+      "x": 114.5,
+      "y": 55.96
     },
     {
       "legislator_id": "HCDN3166",
@@ -1356,8 +1356,8 @@
       "chart_group": "FDC",
       "seat_index": 102,
       "row": 5,
-      "x": 121.32,
-      "y": 54.1
+      "x": 121.58,
+      "y": 54.04
     },
     {
       "legislator_id": "HCDN2803",
@@ -1369,8 +1369,8 @@
       "chart_group": "FDC",
       "seat_index": 103,
       "row": 5,
-      "x": 128.52,
-      "y": 52.79
+      "x": 128.8,
+      "y": 52.75
     },
     {
       "legislator_id": "HCDN3186",
@@ -1382,8 +1382,8 @@
       "chart_group": "FDC",
       "seat_index": 104,
       "row": 5,
-      "x": 135.8,
-      "y": 52.1
+      "x": 136.1,
+      "y": 52.09
     },
     {
       "legislator_id": "HCDN2983",
@@ -1395,8 +1395,8 @@
       "chart_group": "FDC",
       "seat_index": 105,
       "row": 5,
-      "x": 144.2,
-      "y": 52.1
+      "x": 143.9,
+      "y": 52.09
     },
     {
       "legislator_id": "HCDN3195",
@@ -1408,8 +1408,8 @@
       "chart_group": "FDC",
       "seat_index": 106,
       "row": 5,
-      "x": 151.48,
-      "y": 52.79
+      "x": 151.2,
+      "y": 52.75
     },
     {
       "legislator_id": "HCDN1555",
@@ -1421,8 +1421,8 @@
       "chart_group": "FDC",
       "seat_index": 107,
       "row": 5,
-      "x": 158.68,
-      "y": 54.1
+      "x": 158.42,
+      "y": 54.04
     },
     {
       "legislator_id": "HCDN1512",
@@ -1434,8 +1434,8 @@
       "chart_group": "FDC",
       "seat_index": 108,
       "row": 5,
-      "x": 165.73,
-      "y": 56.04
+      "x": 165.5,
+      "y": 55.96
     },
     {
       "legislator_id": "HCDN3178",
@@ -1447,8 +1447,8 @@
       "chart_group": "IF",
       "seat_index": 109,
       "row": 5,
-      "x": 172.59,
-      "y": 58.58
+      "x": 172.38,
+      "y": 58.49
     },
     {
       "legislator_id": "HCDN3247",
@@ -1460,8 +1460,8 @@
       "chart_group": "LLA",
       "seat_index": 110,
       "row": 5,
-      "x": 179.2,
-      "y": 61.71
+      "x": 179.01,
+      "y": 61.61
     },
     {
       "legislator_id": "HCDN3210",
@@ -1473,8 +1473,8 @@
       "chart_group": "LLA",
       "seat_index": 111,
       "row": 5,
-      "x": 185.52,
-      "y": 65.4
+      "x": 185.35,
+      "y": 65.3
     },
     {
       "legislator_id": "HCDN3232",
@@ -1486,8 +1486,8 @@
       "chart_group": "LLA",
       "seat_index": 112,
       "row": 5,
-      "x": 191.48,
-      "y": 69.63
+      "x": 191.35,
+      "y": 69.52
     },
     {
       "legislator_id": "HCDN3098",
@@ -1499,8 +1499,8 @@
       "chart_group": "LLA",
       "seat_index": 113,
       "row": 5,
-      "x": 197.06,
-      "y": 74.36
+      "x": 196.95,
+      "y": 74.25
     },
     {
       "legislator_id": "HCDN3165",
@@ -1512,8 +1512,8 @@
       "chart_group": "LLA",
       "seat_index": 114,
       "row": 5,
-      "x": 202.21,
-      "y": 79.56
+      "x": 202.12,
+      "y": 79.45
     },
     {
       "legislator_id": "HCDN3092",
@@ -1525,8 +1525,8 @@
       "chart_group": "LLA",
       "seat_index": 115,
       "row": 5,
-      "x": 206.88,
-      "y": 85.18
+      "x": 206.81,
+      "y": 85.08
     },
     {
       "legislator_id": "HCDN3231",
@@ -1538,8 +1538,8 @@
       "chart_group": "LLA",
       "seat_index": 116,
       "row": 5,
-      "x": 211.05,
-      "y": 91.19
+      "x": 211,
+      "y": 91.1
     },
     {
       "legislator_id": "HCDN3084",
@@ -1551,8 +1551,8 @@
       "chart_group": "LLA",
       "seat_index": 117,
       "row": 5,
-      "x": 214.68,
-      "y": 97.54
+      "x": 214.64,
+      "y": 97.47
     },
     {
       "legislator_id": "HCDN3189",
@@ -1564,8 +1564,8 @@
       "chart_group": "LLA",
       "seat_index": 118,
       "row": 5,
-      "x": 217.74,
-      "y": 104.19
+      "x": 217.72,
+      "y": 104.12
     },
     {
       "legislator_id": "HCDN3070",
@@ -1577,8 +1577,8 @@
       "chart_group": "LLA",
       "seat_index": 119,
       "row": 5,
-      "x": 220.22,
-      "y": 111.07
+      "x": 220.2,
+      "y": 111.02
     },
     {
       "legislator_id": "HCDN3172",
@@ -1590,8 +1590,8 @@
       "chart_group": "LLA",
       "seat_index": 120,
       "row": 5,
-      "x": 222.08,
-      "y": 118.14
+      "x": 222.07,
+      "y": 118.11
     },
     {
       "legislator_id": "HCDN3161",
@@ -1604,7 +1604,7 @@
       "seat_index": 121,
       "row": 5,
       "x": 223.32,
-      "y": 125.35
+      "y": 125.33
     },
     {
       "legislator_id": "HCDN3075",
@@ -1643,7 +1643,7 @@
       "seat_index": 124,
       "row": 6,
       "x": 44.67,
-      "y": 124.7
+      "y": 124.66
     },
     {
       "legislator_id": "HCDN3045",
@@ -1655,8 +1655,8 @@
       "chart_group": "UXP",
       "seat_index": 125,
       "row": 6,
-      "x": 45.84,
-      "y": 117.32
+      "x": 45.85,
+      "y": 117.22
     },
     {
       "legislator_id": "HCDN1463",
@@ -1668,8 +1668,8 @@
       "chart_group": "UXP",
       "seat_index": 126,
       "row": 6,
-      "x": 47.58,
-      "y": 110.04
+      "x": 47.61,
+      "y": 109.9
     },
     {
       "legislator_id": "HCDN3241",
@@ -1681,8 +1681,8 @@
       "chart_group": "UXP",
       "seat_index": 127,
       "row": 6,
-      "x": 49.88,
-      "y": 102.92
+      "x": 49.94,
+      "y": 102.75
     },
     {
       "legislator_id": "HCDN3191",
@@ -1694,8 +1694,8 @@
       "chart_group": "UXP",
       "seat_index": 128,
       "row": 6,
-      "x": 52.73,
-      "y": 96.01
+      "x": 52.83,
+      "y": 95.79
     },
     {
       "legislator_id": "HCDN2340",
@@ -1707,8 +1707,8 @@
       "chart_group": "UXP",
       "seat_index": 129,
       "row": 6,
-      "x": 56.11,
-      "y": 89.33
+      "x": 56.24,
+      "y": 89.09
     },
     {
       "legislator_id": "HCDN3012",
@@ -1720,8 +1720,8 @@
       "chart_group": "UXP",
       "seat_index": 130,
       "row": 6,
-      "x": 59.99,
-      "y": 82.94
+      "x": 60.18,
+      "y": 82.67
     },
     {
       "legislator_id": "HCDN0633",
@@ -1733,8 +1733,8 @@
       "chart_group": "UXP",
       "seat_index": 131,
       "row": 6,
-      "x": 64.37,
-      "y": 76.88
+      "x": 64.6,
+      "y": 76.58
     },
     {
       "legislator_id": "HCDN2904",
@@ -1746,8 +1746,8 @@
       "chart_group": "UXP",
       "seat_index": 132,
       "row": 6,
-      "x": 69.2,
-      "y": 71.17
+      "x": 69.49,
+      "y": 70.85
     },
     {
       "legislator_id": "HCDN3158",
@@ -1759,8 +1759,8 @@
       "chart_group": "UXP",
       "seat_index": 133,
       "row": 6,
-      "x": 74.46,
-      "y": 65.85
+      "x": 74.81,
+      "y": 65.53
     },
     {
       "legislator_id": "HCDN2784",
@@ -1772,8 +1772,8 @@
       "chart_group": "UXP",
       "seat_index": 134,
       "row": 6,
-      "x": 80.12,
-      "y": 60.96
+      "x": 80.53,
+      "y": 60.64
     },
     {
       "legislator_id": "HCDN2902",
@@ -1785,8 +1785,8 @@
       "chart_group": "UXP",
       "seat_index": 135,
       "row": 6,
-      "x": 86.15,
-      "y": 56.53
+      "x": 86.62,
+      "y": 56.21
     },
     {
       "legislator_id": "HCDN3208",
@@ -1798,8 +1798,8 @@
       "chart_group": "PSL",
       "seat_index": 136,
       "row": 6,
-      "x": 92.5,
-      "y": 52.58
+      "x": 93.03,
+      "y": 52.27
     },
     {
       "legislator_id": "HCDN3196",
@@ -1811,8 +1811,8 @@
       "chart_group": "LN",
       "seat_index": 137,
       "row": 6,
-      "x": 99.14,
-      "y": 49.13
+      "x": 99.74,
+      "y": 48.85
     },
     {
       "legislator_id": "HCDN2928",
@@ -1824,8 +1824,8 @@
       "chart_group": "DC",
       "seat_index": 138,
       "row": 6,
-      "x": 106.02,
-      "y": 46.21
+      "x": 106.69,
+      "y": 45.96
     },
     {
       "legislator_id": "HCDN3061",
@@ -1837,8 +1837,8 @@
       "chart_group": "COH",
       "seat_index": 139,
       "row": 6,
-      "x": 113.12,
-      "y": 43.84
+      "x": 113.85,
+      "y": 43.63
     },
     {
       "legislator_id": "HCDN3052",
@@ -1850,8 +1850,8 @@
       "chart_group": "ELIJO",
       "seat_index": 140,
       "row": 6,
-      "x": 120.38,
-      "y": 42.03
+      "x": 121.16,
+      "y": 41.87
     },
     {
       "legislator_id": "HCDN3236",
@@ -1863,8 +1863,8 @@
       "chart_group": "ELIJO",
       "seat_index": 141,
       "row": 6,
-      "x": 127.75,
-      "y": 40.78
+      "x": 128.6,
+      "y": 40.68
     },
     {
       "legislator_id": "HCDN3076",
@@ -1876,8 +1876,8 @@
       "chart_group": "ELIJO",
       "seat_index": 142,
       "row": 6,
-      "x": 135.2,
-      "y": 40.12
+      "x": 136.1,
+      "y": 40.08
     },
     {
       "legislator_id": "HCDN3059",
@@ -1889,8 +1889,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 143,
       "row": 6,
-      "x": 144.8,
-      "y": 40.12
+      "x": 143.9,
+      "y": 40.08
     },
     {
       "legislator_id": "HCDN3094",
@@ -1902,8 +1902,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 144,
       "row": 6,
-      "x": 152.25,
-      "y": 40.78
+      "x": 151.4,
+      "y": 40.68
     },
     {
       "legislator_id": "HCDN0022",
@@ -1915,8 +1915,8 @@
       "chart_group": "FDC",
       "seat_index": 145,
       "row": 6,
-      "x": 159.62,
-      "y": 42.03
+      "x": 158.84,
+      "y": 41.87
     },
     {
       "legislator_id": "HCDN3089",
@@ -1928,8 +1928,8 @@
       "chart_group": "FDC",
       "seat_index": 146,
       "row": 6,
-      "x": 166.88,
-      "y": 43.84
+      "x": 166.15,
+      "y": 43.63
     },
     {
       "legislator_id": "HCDN3030",
@@ -1941,8 +1941,8 @@
       "chart_group": "IF",
       "seat_index": 147,
       "row": 6,
-      "x": 173.98,
-      "y": 46.21
+      "x": 173.31,
+      "y": 45.96
     },
     {
       "legislator_id": "HCDN2938",
@@ -1954,8 +1954,8 @@
       "chart_group": "LLA",
       "seat_index": 148,
       "row": 6,
-      "x": 180.86,
-      "y": 49.13
+      "x": 180.26,
+      "y": 48.85
     },
     {
       "legislator_id": "hcdn-matzkin-martin",
@@ -1967,8 +1967,8 @@
       "chart_group": "LLA",
       "seat_index": 149,
       "row": 6,
-      "x": 187.5,
-      "y": 52.58
+      "x": 186.97,
+      "y": 52.27
     },
     {
       "legislator_id": "HCDN3071",
@@ -1980,8 +1980,8 @@
       "chart_group": "LLA",
       "seat_index": 150,
       "row": 6,
-      "x": 193.85,
-      "y": 56.53
+      "x": 193.38,
+      "y": 56.21
     },
     {
       "legislator_id": "HCDN3107",
@@ -1993,8 +1993,8 @@
       "chart_group": "LLA",
       "seat_index": 151,
       "row": 6,
-      "x": 199.88,
-      "y": 60.96
+      "x": 199.47,
+      "y": 60.64
     },
     {
       "legislator_id": "HCDN3246",
@@ -2006,8 +2006,8 @@
       "chart_group": "LLA",
       "seat_index": 152,
       "row": 6,
-      "x": 205.54,
-      "y": 65.85
+      "x": 205.19,
+      "y": 65.53
     },
     {
       "legislator_id": "HCDN3162",
@@ -2019,8 +2019,8 @@
       "chart_group": "LLA",
       "seat_index": 153,
       "row": 6,
-      "x": 210.8,
-      "y": 71.17
+      "x": 210.51,
+      "y": 70.85
     },
     {
       "legislator_id": "HCDN3245",
@@ -2032,8 +2032,8 @@
       "chart_group": "LLA",
       "seat_index": 154,
       "row": 6,
-      "x": 215.63,
-      "y": 76.88
+      "x": 215.4,
+      "y": 76.58
     },
     {
       "legislator_id": "HCDN3095",
@@ -2045,8 +2045,8 @@
       "chart_group": "LLA",
       "seat_index": 155,
       "row": 6,
-      "x": 220.01,
-      "y": 82.94
+      "x": 219.82,
+      "y": 82.67
     },
     {
       "legislator_id": "HCDN3187",
@@ -2058,8 +2058,8 @@
       "chart_group": "LLA",
       "seat_index": 156,
       "row": 6,
-      "x": 223.89,
-      "y": 89.33
+      "x": 223.76,
+      "y": 89.09
     },
     {
       "legislator_id": "HCDN3046",
@@ -2071,8 +2071,8 @@
       "chart_group": "LLA",
       "seat_index": 157,
       "row": 6,
-      "x": 227.27,
-      "y": 96.01
+      "x": 227.17,
+      "y": 95.79
     },
     {
       "legislator_id": "HCDN3103",
@@ -2084,8 +2084,8 @@
       "chart_group": "LLA",
       "seat_index": 158,
       "row": 6,
-      "x": 230.12,
-      "y": 102.92
+      "x": 230.06,
+      "y": 102.75
     },
     {
       "legislator_id": "HCDN3251",
@@ -2097,8 +2097,8 @@
       "chart_group": "LLA",
       "seat_index": 159,
       "row": 6,
-      "x": 232.42,
-      "y": 110.04
+      "x": 232.39,
+      "y": 109.9
     },
     {
       "legislator_id": "HCDN3177",
@@ -2110,8 +2110,8 @@
       "chart_group": "LLA",
       "seat_index": 160,
       "row": 6,
-      "x": 234.16,
-      "y": 117.32
+      "x": 234.15,
+      "y": 117.22
     },
     {
       "legislator_id": "HCDN3203",
@@ -2124,7 +2124,7 @@
       "seat_index": 161,
       "row": 6,
       "x": 235.33,
-      "y": 124.7
+      "y": 124.66
     },
     {
       "legislator_id": "HCDN3181",
@@ -2162,8 +2162,8 @@
       "chart_group": "UXP",
       "seat_index": 164,
       "row": 7,
-      "x": 32.62,
-      "y": 124.43
+      "x": 32.63,
+      "y": 124.37
     },
     {
       "legislator_id": "HCDN3082",
@@ -2175,8 +2175,8 @@
       "chart_group": "UXP",
       "seat_index": 165,
       "row": 7,
-      "x": 33.64,
-      "y": 117.24
+      "x": 33.67,
+      "y": 117.1
     },
     {
       "legislator_id": "HCDN3078",
@@ -2188,8 +2188,8 @@
       "chart_group": "UXP",
       "seat_index": 166,
       "row": 7,
-      "x": 35.15,
-      "y": 110.13
+      "x": 35.19,
+      "y": 109.93
     },
     {
       "legislator_id": "HCDN2905",
@@ -2201,8 +2201,8 @@
       "chart_group": "UXP",
       "seat_index": 167,
       "row": 7,
-      "x": 37.12,
-      "y": 103.13
+      "x": 37.21,
+      "y": 102.87
     },
     {
       "legislator_id": "HCDN2408",
@@ -2214,8 +2214,8 @@
       "chart_group": "UXP",
       "seat_index": 168,
       "row": 7,
-      "x": 39.57,
-      "y": 96.29
+      "x": 39.69,
+      "y": 95.97
     },
     {
       "legislator_id": "HCDN3167",
@@ -2227,8 +2227,8 @@
       "chart_group": "UXP",
       "seat_index": 169,
       "row": 7,
-      "x": 42.46,
-      "y": 89.62
+      "x": 42.64,
+      "y": 89.25
     },
     {
       "legislator_id": "HCDN0912",
@@ -2240,8 +2240,8 @@
       "chart_group": "UXP",
       "seat_index": 170,
       "row": 7,
-      "x": 45.8,
-      "y": 83.17
+      "x": 46.04,
+      "y": 82.75
     },
     {
       "legislator_id": "HCDN3238",
@@ -2253,8 +2253,8 @@
       "chart_group": "UXP",
       "seat_index": 171,
       "row": 7,
-      "x": 49.57,
-      "y": 76.95
+      "x": 49.87,
+      "y": 76.5
     },
     {
       "legislator_id": "HCDN2817",
@@ -2266,8 +2266,8 @@
       "chart_group": "UXP",
       "seat_index": 172,
       "row": 7,
-      "x": 53.75,
-      "y": 71
+      "x": 54.12,
+      "y": 70.51
     },
     {
       "legislator_id": "HCDN3054",
@@ -2279,8 +2279,8 @@
       "chart_group": "UXP",
       "seat_index": 173,
       "row": 7,
-      "x": 58.31,
-      "y": 65.35
+      "x": 58.76,
+      "y": 64.84
     },
     {
       "legislator_id": "HCDN3216",
@@ -2292,8 +2292,8 @@
       "chart_group": "UXP",
       "seat_index": 174,
       "row": 7,
-      "x": 63.25,
-      "y": 60.02
+      "x": 63.78,
+      "y": 59.48
     },
     {
       "legislator_id": "HCDN2421",
@@ -2305,8 +2305,8 @@
       "chart_group": "UXP",
       "seat_index": 175,
       "row": 7,
-      "x": 68.54,
-      "y": 55.03
+      "x": 69.15,
+      "y": 54.49
     },
     {
       "legislator_id": "HCDN1524",
@@ -2318,8 +2318,8 @@
       "chart_group": "UXP",
       "seat_index": 176,
       "row": 7,
-      "x": 74.14,
-      "y": 50.4
+      "x": 74.85,
+      "y": 49.86
     },
     {
       "legislator_id": "HCDN2810",
@@ -2331,8 +2331,8 @@
       "chart_group": "CC",
       "seat_index": 177,
       "row": 7,
-      "x": 80.05,
-      "y": 46.17
+      "x": 80.85,
+      "y": 45.64
     },
     {
       "legislator_id": "HCDN1435",
@@ -2344,8 +2344,8 @@
       "chart_group": "PTS",
       "seat_index": 178,
       "row": 7,
-      "x": 86.23,
-      "y": 42.34
+      "x": 87.12,
+      "y": 41.83
     },
     {
       "legislator_id": "HCDN1383",
@@ -2357,8 +2357,8 @@
       "chart_group": "PTS",
       "seat_index": 179,
       "row": 7,
-      "x": 92.65,
-      "y": 38.93
+      "x": 93.63,
+      "y": 38.46
     },
     {
       "legislator_id": "HCDN2373",
@@ -2370,8 +2370,8 @@
       "chart_group": "PO",
       "seat_index": 180,
       "row": 7,
-      "x": 99.29,
-      "y": 35.97
+      "x": 100.36,
+      "y": 35.54
     },
     {
       "legislator_id": "HCDN3242",
@@ -2383,8 +2383,8 @@
       "chart_group": "PO",
       "seat_index": 181,
       "row": 7,
-      "x": 106.11,
-      "y": 33.46
+      "x": 107.27,
+      "y": 33.08
     },
     {
       "legislator_id": "HCDN3209",
@@ -2396,8 +2396,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 182,
       "row": 7,
-      "x": 113.08,
-      "y": 31.41
+      "x": 114.33,
+      "y": 31.09
     },
     {
       "legislator_id": "HCDN1577",
@@ -2409,8 +2409,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 183,
       "row": 7,
-      "x": 120.17,
-      "y": 29.84
+      "x": 121.52,
+      "y": 29.59
     },
     {
       "legislator_id": "HCDN3080",
@@ -2422,8 +2422,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 184,
       "row": 7,
-      "x": 127.36,
-      "y": 28.74
+      "x": 128.78,
+      "y": 28.58
     },
     {
       "legislator_id": "HCDN3034",
@@ -2435,8 +2435,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 185,
       "row": 7,
-      "x": 134.6,
-      "y": 28.13
+      "x": 136.1,
+      "y": 28.07
     },
     {
       "legislator_id": "HCDN3219",
@@ -2448,8 +2448,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 186,
       "row": 7,
-      "x": 145.4,
-      "y": 28.13
+      "x": 143.9,
+      "y": 28.07
     },
     {
       "legislator_id": "HCDN2910",
@@ -2461,8 +2461,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 187,
       "row": 7,
-      "x": 152.64,
-      "y": 28.74
+      "x": 151.22,
+      "y": 28.58
     },
     {
       "legislator_id": "HCDN2768",
@@ -2474,8 +2474,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 188,
       "row": 7,
-      "x": 159.83,
-      "y": 29.84
+      "x": 158.48,
+      "y": 29.59
     },
     {
       "legislator_id": "HCDN3068",
@@ -2487,8 +2487,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 189,
       "row": 7,
-      "x": 166.92,
-      "y": 31.41
+      "x": 165.67,
+      "y": 31.09
     },
     {
       "legislator_id": "HCDN3073",
@@ -2500,8 +2500,8 @@
       "chart_group": "FDC",
       "seat_index": 190,
       "row": 7,
-      "x": 173.89,
-      "y": 33.46
+      "x": 172.73,
+      "y": 33.08
     },
     {
       "legislator_id": "HCDN3240",
@@ -2513,8 +2513,8 @@
       "chart_group": "IF",
       "seat_index": 191,
       "row": 7,
-      "x": 180.71,
-      "y": 35.97
+      "x": 179.64,
+      "y": 35.54
     },
     {
       "legislator_id": "HCDN3055",
@@ -2526,8 +2526,8 @@
       "chart_group": "IF",
       "seat_index": 192,
       "row": 7,
-      "x": 187.35,
-      "y": 38.93
+      "x": 186.37,
+      "y": 38.46
     },
     {
       "legislator_id": "HCDN3250",
@@ -2539,8 +2539,8 @@
       "chart_group": "LLA",
       "seat_index": 193,
       "row": 7,
-      "x": 193.77,
-      "y": 42.34
+      "x": 192.88,
+      "y": 41.83
     },
     {
       "legislator_id": "HCDN3105",
@@ -2552,8 +2552,8 @@
       "chart_group": "LLA",
       "seat_index": 194,
       "row": 7,
-      "x": 199.95,
-      "y": 46.17
+      "x": 199.15,
+      "y": 45.64
     },
     {
       "legislator_id": "HCDN3160",
@@ -2565,8 +2565,8 @@
       "chart_group": "LLA",
       "seat_index": 195,
       "row": 7,
-      "x": 205.86,
-      "y": 50.4
+      "x": 205.15,
+      "y": 49.86
     },
     {
       "legislator_id": "HCDN3249",
@@ -2578,8 +2578,8 @@
       "chart_group": "LLA",
       "seat_index": 196,
       "row": 7,
-      "x": 211.46,
-      "y": 55.03
+      "x": 210.85,
+      "y": 54.49
     },
     {
       "legislator_id": "HCDN3040",
@@ -2591,8 +2591,8 @@
       "chart_group": "LLA",
       "seat_index": 197,
       "row": 7,
-      "x": 216.75,
-      "y": 60.02
+      "x": 216.22,
+      "y": 59.48
     },
     {
       "legislator_id": "HCDN1385",
@@ -2604,8 +2604,8 @@
       "chart_group": "LLA",
       "seat_index": 198,
       "row": 7,
-      "x": 221.69,
-      "y": 65.35
+      "x": 221.24,
+      "y": 64.84
     },
     {
       "legislator_id": "HCDN3228",
@@ -2617,8 +2617,8 @@
       "chart_group": "LLA",
       "seat_index": 199,
       "row": 7,
-      "x": 226.25,
-      "y": 71
+      "x": 225.88,
+      "y": 70.51
     },
     {
       "legislator_id": "HCDN3051",
@@ -2630,8 +2630,8 @@
       "chart_group": "LLA",
       "seat_index": 200,
       "row": 7,
-      "x": 230.43,
-      "y": 76.95
+      "x": 230.13,
+      "y": 76.5
     },
     {
       "legislator_id": "HCDN3069",
@@ -2643,8 +2643,8 @@
       "chart_group": "LLA",
       "seat_index": 201,
       "row": 7,
-      "x": 234.2,
-      "y": 83.17
+      "x": 233.96,
+      "y": 82.75
     },
     {
       "legislator_id": "HCDN3097",
@@ -2656,8 +2656,8 @@
       "chart_group": "LLA",
       "seat_index": 202,
       "row": 7,
-      "x": 237.54,
-      "y": 89.62
+      "x": 237.36,
+      "y": 89.25
     },
     {
       "legislator_id": "HCDN3159",
@@ -2669,8 +2669,8 @@
       "chart_group": "LLA",
       "seat_index": 203,
       "row": 7,
-      "x": 240.43,
-      "y": 96.29
+      "x": 240.31,
+      "y": 95.97
     },
     {
       "legislator_id": "HCDN3110",
@@ -2682,8 +2682,8 @@
       "chart_group": "LLA",
       "seat_index": 204,
       "row": 7,
-      "x": 242.88,
-      "y": 103.13
+      "x": 242.79,
+      "y": 102.87
     },
     {
       "legislator_id": "HCDN3175",
@@ -2695,8 +2695,8 @@
       "chart_group": "LLA",
       "seat_index": 205,
       "row": 7,
-      "x": 244.85,
-      "y": 110.13
+      "x": 244.81,
+      "y": 109.93
     },
     {
       "legislator_id": "HCDN3229",
@@ -2708,8 +2708,8 @@
       "chart_group": "LLA",
       "seat_index": 206,
       "row": 7,
-      "x": 246.36,
-      "y": 117.24
+      "x": 246.33,
+      "y": 117.1
     },
     {
       "legislator_id": "HCDN3235",
@@ -2721,8 +2721,8 @@
       "chart_group": "LLA",
       "seat_index": 207,
       "row": 7,
-      "x": 247.38,
-      "y": 124.43
+      "x": 247.37,
+      "y": 124.37
     },
     {
       "legislator_id": "HCDN1548",
@@ -2760,8 +2760,8 @@
       "chart_group": "UXP",
       "seat_index": 210,
       "row": 8,
-      "x": 20.65,
-      "y": 123.5
+      "x": 20.66,
+      "y": 123.41
     },
     {
       "legislator_id": "HCDN1455",
@@ -2773,8 +2773,8 @@
       "chart_group": "UXP",
       "seat_index": 211,
       "row": 8,
-      "x": 21.7,
-      "y": 115.84
+      "x": 21.74,
+      "y": 115.66
     },
     {
       "legislator_id": "HCDN3222",
@@ -2786,8 +2786,8 @@
       "chart_group": "UXP",
       "seat_index": 212,
       "row": 8,
-      "x": 23.25,
-      "y": 108.28
+      "x": 23.31,
+      "y": 108.01
     },
     {
       "legislator_id": "HCDN3227",
@@ -2799,8 +2799,8 @@
       "chart_group": "UXP",
       "seat_index": 213,
       "row": 8,
-      "x": 25.27,
-      "y": 100.82
+      "x": 25.38,
+      "y": 100.47
     },
     {
       "legislator_id": "HCDN3083",
@@ -2812,8 +2812,8 @@
       "chart_group": "UXP",
       "seat_index": 214,
       "row": 8,
-      "x": 27.77,
-      "y": 93.51
+      "x": 27.94,
+      "y": 93.09
     },
     {
       "legislator_id": "HCDN2896",
@@ -2825,8 +2825,8 @@
       "chart_group": "UXP",
       "seat_index": 215,
       "row": 8,
-      "x": 30.74,
-      "y": 86.38
+      "x": 30.97,
+      "y": 85.88
     },
     {
       "legislator_id": "HCDN3180",
@@ -2838,8 +2838,8 @@
       "chart_group": "UXP",
       "seat_index": 216,
       "row": 8,
-      "x": 34.16,
-      "y": 79.45
+      "x": 34.46,
+      "y": 78.89
     },
     {
       "legislator_id": "HCDN2825",
@@ -2851,8 +2851,8 @@
       "chart_group": "UXP",
       "seat_index": 217,
       "row": 8,
-      "x": 38.02,
-      "y": 72.76
+      "x": 38.4,
+      "y": 72.14
     },
     {
       "legislator_id": "HCDN3173",
@@ -2864,8 +2864,8 @@
       "chart_group": "UXP",
       "seat_index": 218,
       "row": 8,
-      "x": 42.3,
-      "y": 66.33
+      "x": 42.77,
+      "y": 65.66
     },
     {
       "legislator_id": "HCDN1456",
@@ -2877,8 +2877,8 @@
       "chart_group": "UXP",
       "seat_index": 219,
       "row": 8,
-      "x": 46.98,
-      "y": 60.19
+      "x": 47.56,
+      "y": 59.48
     },
     {
       "legislator_id": "HCDN2429",
@@ -2890,8 +2890,8 @@
       "chart_group": "UXP",
       "seat_index": 220,
       "row": 8,
-      "x": 52.05,
-      "y": 54.36
+      "x": 52.74,
+      "y": 53.63
     },
     {
       "legislator_id": "HCDN2431",
@@ -2903,8 +2903,8 @@
       "chart_group": "UXP",
       "seat_index": 221,
       "row": 8,
-      "x": 57.49,
-      "y": 48.87
+      "x": 58.28,
+      "y": 48.12
     },
     {
       "legislator_id": "HCDN2976",
@@ -2916,8 +2916,8 @@
       "chart_group": "UXP",
       "seat_index": 222,
       "row": 8,
-      "x": 63.26,
-      "y": 43.74
+      "x": 64.18,
+      "y": 42.99
     },
     {
       "legislator_id": "HCDN3077",
@@ -2929,8 +2929,8 @@
       "chart_group": "UXP",
       "seat_index": 223,
       "row": 8,
-      "x": 69.36,
-      "y": 39
+      "x": 70.39,
+      "y": 38.25
     },
     {
       "legislator_id": "HCDN1043",
@@ -2942,8 +2942,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 224,
       "row": 8,
-      "x": 75.74,
-      "y": 34.65
+      "x": 76.9,
+      "y": 33.93
     },
     {
       "legislator_id": "HCDN1500",
@@ -2955,8 +2955,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 225,
       "row": 8,
-      "x": 82.4,
-      "y": 30.73
+      "x": 83.68,
+      "y": 30.04
     },
     {
       "legislator_id": "HCDN3108",
@@ -2968,8 +2968,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 226,
       "row": 8,
-      "x": 89.29,
-      "y": 27.24
+      "x": 90.7,
+      "y": 26.59
     },
     {
       "legislator_id": "HCDN2754",
@@ -2981,8 +2981,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 227,
       "row": 8,
-      "x": 96.39,
-      "y": 24.2
+      "x": 97.93,
+      "y": 23.62
     },
     {
       "legislator_id": "HCDN1404",
@@ -2994,8 +2994,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 228,
       "row": 8,
-      "x": 103.68,
-      "y": 21.63
+      "x": 105.33,
+      "y": 21.12
     },
     {
       "legislator_id": "HCDN0646",
@@ -3007,8 +3007,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 229,
       "row": 8,
-      "x": 111.11,
-      "y": 19.53
+      "x": 112.88,
+      "y": 19.1
     },
     {
       "legislator_id": "HCDN3109",
@@ -3020,8 +3020,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 230,
       "row": 8,
-      "x": 118.66,
-      "y": 17.91
+      "x": 120.55,
+      "y": 17.59
     },
     {
       "legislator_id": "HCDN3182",
@@ -3033,8 +3033,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 231,
       "row": 8,
-      "x": 126.3,
-      "y": 16.78
+      "x": 128.3,
+      "y": 16.57
     },
     {
       "legislator_id": "HCDN3099",
@@ -3046,8 +3046,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 232,
       "row": 8,
-      "x": 134,
-      "y": 16.15
+      "x": 136.1,
+      "y": 16.06
     },
     {
       "legislator_id": "HCDN1447",
@@ -3059,8 +3059,8 @@
       "chart_group": "UNIDOS",
       "seat_index": 233,
       "row": 8,
-      "x": 146,
-      "y": 16.15
+      "x": 143.9,
+      "y": 16.06
     },
     {
       "legislator_id": "HCDN3020",
@@ -3072,8 +3072,8 @@
       "chart_group": "IND",
       "seat_index": 234,
       "row": 8,
-      "x": 153.7,
-      "y": 16.78
+      "x": 151.7,
+      "y": 16.57
     },
     {
       "legislator_id": "HCDN2392",
@@ -3085,8 +3085,8 @@
       "chart_group": "IND",
       "seat_index": 235,
       "row": 8,
-      "x": 161.34,
-      "y": 17.91
+      "x": 159.45,
+      "y": 17.59
     },
     {
       "legislator_id": "HCDN3197",
@@ -3098,8 +3098,8 @@
       "chart_group": "IND",
       "seat_index": 236,
       "row": 8,
-      "x": 168.89,
-      "y": 19.53
+      "x": 167.12,
+      "y": 19.1
     },
     {
       "legislator_id": "HCDN3204",
@@ -3111,8 +3111,8 @@
       "chart_group": "IF",
       "seat_index": 237,
       "row": 8,
-      "x": 176.32,
-      "y": 21.63
+      "x": 174.67,
+      "y": 21.12
     },
     {
       "legislator_id": "HCDN3100",
@@ -3124,8 +3124,8 @@
       "chart_group": "IF",
       "seat_index": 238,
       "row": 8,
-      "x": 183.61,
-      "y": 24.2
+      "x": 182.07,
+      "y": 23.62
     },
     {
       "legislator_id": "HCDN3036",
@@ -3137,8 +3137,8 @@
       "chart_group": "IF",
       "seat_index": 239,
       "row": 8,
-      "x": 190.71,
-      "y": 27.24
+      "x": 189.3,
+      "y": 26.59
     },
     {
       "legislator_id": "HCDN3031",
@@ -3150,8 +3150,8 @@
       "chart_group": "IF",
       "seat_index": 240,
       "row": 8,
-      "x": 197.6,
-      "y": 30.73
+      "x": 196.32,
+      "y": 30.04
     },
     {
       "legislator_id": "HCDN3038",
@@ -3163,8 +3163,8 @@
       "chart_group": "IF",
       "seat_index": 241,
       "row": 8,
-      "x": 204.26,
-      "y": 34.65
+      "x": 203.1,
+      "y": 33.93
     },
     {
       "legislator_id": "HCDN3233",
@@ -3176,8 +3176,8 @@
       "chart_group": "LLA",
       "seat_index": 242,
       "row": 8,
-      "x": 210.64,
-      "y": 39
+      "x": 209.61,
+      "y": 38.25
     },
     {
       "legislator_id": "HCDN3039",
@@ -3189,8 +3189,8 @@
       "chart_group": "LLA",
       "seat_index": 243,
       "row": 8,
-      "x": 216.74,
-      "y": 43.74
+      "x": 215.82,
+      "y": 42.99
     },
     {
       "legislator_id": "HCDN3065",
@@ -3202,8 +3202,8 @@
       "chart_group": "LLA",
       "seat_index": 244,
       "row": 8,
-      "x": 222.51,
-      "y": 48.87
+      "x": 221.72,
+      "y": 48.12
     },
     {
       "legislator_id": "HCDN3163",
@@ -3215,8 +3215,8 @@
       "chart_group": "LLA",
       "seat_index": 245,
       "row": 8,
-      "x": 227.95,
-      "y": 54.36
+      "x": 227.26,
+      "y": 53.63
     },
     {
       "legislator_id": "HCDN3213",
@@ -3228,8 +3228,8 @@
       "chart_group": "LLA",
       "seat_index": 246,
       "row": 8,
-      "x": 233.02,
-      "y": 60.19
+      "x": 232.44,
+      "y": 59.48
     },
     {
       "legislator_id": "HCDN3184",
@@ -3241,8 +3241,8 @@
       "chart_group": "LLA",
       "seat_index": 247,
       "row": 8,
-      "x": 237.7,
-      "y": 66.33
+      "x": 237.23,
+      "y": 65.66
     },
     {
       "legislator_id": "HCDN2924",
@@ -3254,8 +3254,8 @@
       "chart_group": "LLA",
       "seat_index": 248,
       "row": 8,
-      "x": 241.98,
-      "y": 72.76
+      "x": 241.6,
+      "y": 72.14
     },
     {
       "legislator_id": "HCDN3142",
@@ -3267,8 +3267,8 @@
       "chart_group": "LLA",
       "seat_index": 249,
       "row": 8,
-      "x": 245.84,
-      "y": 79.45
+      "x": 245.54,
+      "y": 78.89
     },
     {
       "legislator_id": "HCDN3102",
@@ -3280,8 +3280,8 @@
       "chart_group": "LLA",
       "seat_index": 250,
       "row": 8,
-      "x": 249.26,
-      "y": 86.38
+      "x": 249.03,
+      "y": 85.88
     },
     {
       "legislator_id": "HCDN3239",
@@ -3293,8 +3293,8 @@
       "chart_group": "LLA",
       "seat_index": 251,
       "row": 8,
-      "x": 252.23,
-      "y": 93.51
+      "x": 252.06,
+      "y": 93.09
     },
     {
       "legislator_id": "HCDN3037",
@@ -3306,8 +3306,8 @@
       "chart_group": "LLA",
       "seat_index": 252,
       "row": 8,
-      "x": 254.73,
-      "y": 100.82
+      "x": 254.62,
+      "y": 100.47
     },
     {
       "legislator_id": "HCDN3179",
@@ -3319,8 +3319,8 @@
       "chart_group": "LLA",
       "seat_index": 253,
       "row": 8,
-      "x": 256.75,
-      "y": 108.28
+      "x": 256.69,
+      "y": 108.01
     },
     {
       "legislator_id": "HCDN3091",
@@ -3332,8 +3332,8 @@
       "chart_group": "LLA",
       "seat_index": 254,
       "row": 8,
-      "x": 258.3,
-      "y": 115.84
+      "x": 258.26,
+      "y": 115.66
     },
     {
       "legislator_id": "HCDN3214",
@@ -3345,8 +3345,8 @@
       "chart_group": "LLA",
       "seat_index": 255,
       "row": 8,
-      "x": 259.35,
-      "y": 123.5
+      "x": 259.34,
+      "y": 123.41
     },
     {
       "legislator_id": "HCDN2900",

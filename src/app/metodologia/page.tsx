@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 
 export default function MetodologiaPage() {
   return (
-    <article className="mx-auto max-w-2xl space-y-12 pt-4 sm:pt-8">
-      <header className="space-y-4">
+    <article className="cols gap-y-12 pt-4 sm:pt-8">
+      <header className="col-span-4 space-y-4 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <p className="text-sm text-ink-muted">
           <Link href="/" className="underline underline-offset-2 hover:text-ink">
             Inicio
@@ -26,7 +26,7 @@ export default function MetodologiaPage() {
         </p>
       </header>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">
           Qué es (y qué no)
         </h2>
@@ -47,7 +47,7 @@ export default function MetodologiaPage() {
         </p>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">Fuentes</h2>
         <ul className="list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink-muted sm:text-base">
           <li>
@@ -67,7 +67,7 @@ export default function MetodologiaPage() {
         </ul>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">
           Flujo: boleta → banca → voto
         </h2>
@@ -84,7 +84,7 @@ export default function MetodologiaPage() {
         </ol>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">
           Matching de nombres
         </h2>
@@ -108,7 +108,7 @@ export default function MetodologiaPage() {
         </p>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">
           Selección editorial de leyes
         </h2>
@@ -123,7 +123,7 @@ export default function MetodologiaPage() {
         </p>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">
           Alcance del piloto
         </h2>
@@ -137,7 +137,7 @@ export default function MetodologiaPage() {
         </p>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">
           Hemiciclo del recinto
         </h2>
@@ -156,7 +156,7 @@ export default function MetodologiaPage() {
         </p>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">Fotos</h2>
         <p className="text-sm leading-relaxed text-ink-muted sm:text-base">
           Cuando ArgentinaDatos publica una URL de foto para el legislador, la
@@ -166,7 +166,7 @@ export default function MetodologiaPage() {
         </p>
       </section>
 
-      <section className="space-y-3">
+      <section className="col-span-4 space-y-3 sm:col-span-8 lg:col-span-10 lg:col-start-4">
         <h2 className="text-2xl font-bold tracking-tight text-ink">
           Cómo verificar
         </h2>

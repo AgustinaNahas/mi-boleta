@@ -176,3 +176,67 @@ export function getChamberSeats(): ChamberData {
 export function getChamberByLaw(): ChamberByLaw {
   return readProcessedJson<ChamberByLaw>("chamber_by_law.json");
 }
+
+export function getLegislatorById(id: string): Legislator | undefined {
+  return getLegislators().find((l) => l.id === id);
+}
+
+export function getFeaturedVotesForLegislator(legislatorId: string): FeaturedVote[] {
+  return getFeaturedVotes().filter((v) => v.legislator_id === legislatorId);
+}
+
+/** IDs con al menos un voto en el set editorial (para páginas estáticas). */
+export function getLegislatorIdsWithFeaturedVotes(): string[] {
+  const ids = new Set<string>();
+  for (const v of getFeaturedVotes()) {
+    if (v.legislator_id) ids.add(v.legislator_id);
+  }
+  return [...ids].sort();
+}
+
+export function getFeaturedLawById(id: string): FeaturedLaw | undefined {
+  return getFeaturedLaws().find((l) => l.id === id);
+}
+
+export type LegislatorVoteBuckets = {
+  aFavor: Array<{ vote: FeaturedVote; law: FeaturedLaw | undefined }>;
+  enContra: Array<{ vote: FeaturedVote; law: FeaturedLaw | undefined }>;
+  abstencion: Array<{ vote: FeaturedVote; law: FeaturedLaw | undefined }>;
+  ausente: Array<{ vote: FeaturedVote; law: FeaturedLaw | undefined }>;
+  otros: Array<{ vote: FeaturedVote; law: FeaturedLaw | undefined }>;
+};
+
+export function getLegislatorVoteBuckets(
+  legislatorId: string,
+): LegislatorVoteBuckets {
+  const lawsById = new Map(getFeaturedLaws().map((l) => [l.id, l]));
+  const buckets: LegislatorVoteBuckets = {
+    aFavor: [],
+    enContra: [],
+    abstencion: [],
+    ausente: [],
+    otros: [],
+  };
+
+  for (const vote of getFeaturedVotesForLegislator(legislatorId)) {
+    const row = { vote, law: lawsById.get(vote.law_id) };
+    const key = vote.voto.toLowerCase();
+    if (key === "afirmativo") buckets.aFavor.push(row);
+    else if (key === "negativo") buckets.enContra.push(row);
+    else if (key === "abstencion") buckets.abstencion.push(row);
+    else if (key === "ausente") buckets.ausente.push(row);
+    else buckets.otros.push(row);
+  }
+
+  const byDateDesc = (
+    a: { law: FeaturedLaw | undefined },
+    b: { law: FeaturedLaw | undefined },
+  ) => (b.law?.date ?? "").localeCompare(a.law?.date ?? "");
+
+  buckets.aFavor.sort(byDateDesc);
+  buckets.enContra.sort(byDateDesc);
+  buckets.abstencion.sort(byDateDesc);
+  buckets.ausente.sort(byDateDesc);
+  buckets.otros.sort(byDateDesc);
+  return buckets;
+}
