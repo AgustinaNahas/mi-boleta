@@ -3,11 +3,15 @@
 import { useMemo, useState, type MouseEvent } from "react";
 import type { ChamberData, ChamberSeat } from "@/lib/data";
 
+export type VoteFilter = "AFIRMATIVO" | "NEGATIVO" | "ABSTENCION" | "AUSENTE";
+
 type Props = {
   chamber: ChamberData;
   /** legislator_id → voto normalizado (AFIRMATIVO, etc.) */
   votesByLegislator?: Map<string, string>;
   className?: string;
+  voteFilter?: VoteFilter | null;
+  onVoteFilterChange?: (filter: VoteFilter | null) => void;
 };
 
 /** Etiquetas del mapa de bancas (suprabloques del gráfico HCDN). */
@@ -73,26 +77,57 @@ type TipState = {
   y: number;
 };
 
+const VOTE_TOGGLE: Record<
+  VoteFilter,
+  { pill: string; knobOff: string }
+> = {
+  AFIRMATIVO: { pill: "bg-afirmativo", knobOff: "bg-afirmativo" },
+  NEGATIVO: { pill: "bg-negativo", knobOff: "bg-negativo" },
+  AUSENTE: { pill: "bg-ink", knobOff: "border border-ink bg-white" },
+  ABSTENCION: { pill: "bg-[#9a9a9a]", knobOff: "bg-abstencion" },
+};
+
 function VoteCount({
   count,
   label,
-  dotClass,
+  tone,
+  active,
+  dimmed,
+  onClick,
 }: {
   count: number;
   label: string;
-  dotClass: string;
+  tone: VoteFilter;
+  active: boolean;
+  dimmed: boolean;
+  onClick: () => void;
 }) {
+  const style = VOTE_TOGGLE[tone];
   return (
-    <span className="group/count relative inline-flex cursor-default items-center gap-1.5">
-      {count}
-      <span className={`h-4 w-4 rounded-full ${dotClass}`} aria-hidden />
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={`group/count relative inline-flex h-8 cursor-pointer items-center gap-1.5 rounded-full pl-2.5 pr-1.5 transition-[background-color,color,opacity,transform] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+        active ? `${style.pill} text-white` : "bg-transparent text-ink"
+      } ${dimmed ? "opacity-35" : "opacity-100"}`}
+    >
+      <span className="min-w-[1.25ch] text-left tabular-nums">{count}</span>
+      <span
+        className={`h-5 w-5 shrink-0 rounded-full transition-[background-color,border-color,transform,box-shadow] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+          active
+            ? "scale-100 border-transparent bg-white shadow-sm"
+            : `scale-90 ${style.knobOff}`
+        }`}
+        aria-hidden
+      />
       <span
         role="tooltip"
         className="pointer-events-none absolute top-[calc(100%+0.35rem)] left-1/2 z-20 -translate-x-1/2 rounded-md bg-ink px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 transition-opacity duration-150 group-hover/count:opacity-100"
       >
         {label}
       </span>
-    </span>
+    </button>
   );
 }
 
@@ -101,6 +136,8 @@ export function ChamberHemicycle({
   chamber,
   votesByLegislator,
   className = "",
+  voteFilter = null,
+  onVoteFilterChange,
 }: Props) {
   const showVotes = Boolean(votesByLegislator && votesByLegislator.size > 0);
   const [tip, setTip] = useState<TipState | null>(null);
@@ -250,26 +287,26 @@ export function ChamberHemicycle({
 
       {showVotes ? (
         <div className="mt-4 flex flex-wrap items-center justify-center gap-6 text-base font-semibold tabular-nums text-ink">
-          <VoteCount
-            count={counts.AFIRMATIVO}
-            label="afirmativo"
-            dotClass="bg-afirmativo"
-          />
-          <VoteCount
-            count={counts.NEGATIVO}
-            label="negativo"
-            dotClass="bg-negativo"
-          />
-          <VoteCount
-            count={counts.AUSENTE}
-            label="ausente"
-            dotClass="border border-ink bg-white"
-          />
-          <VoteCount
-            count={counts.ABSTENCION}
-            label="abstención"
-            dotClass="bg-abstencion"
-          />
+          {(
+            [
+              ["AFIRMATIVO", counts.AFIRMATIVO, "afirmativo"],
+              ["NEGATIVO", counts.NEGATIVO, "negativo"],
+              ["AUSENTE", counts.AUSENTE, "ausente"],
+              ["ABSTENCION", counts.ABSTENCION, "abstención"],
+            ] as const
+          ).map(([key, count, label]) => (
+            <VoteCount
+              key={key}
+              count={count}
+              label={label}
+              tone={key}
+              active={voteFilter === key}
+              dimmed={voteFilter != null && voteFilter !== key}
+              onClick={() =>
+                onVoteFilterChange?.(voteFilter === key ? null : key)
+              }
+            />
+          ))}
         </div>
       ) : null}
     </div>

@@ -44,3 +44,5 @@ next-env.d.ts
 # descargas oficiales pesadas (los processed sí se versionan)
 /data/raw/*
 !/data/raw/.gitkeep
+
+.history/

@@ -30,7 +30,7 @@ export async function generateMetadata({
   const rawName = legislator?.nombre ?? votes[0]?.legislador ?? id;
   const name = formatLegislatorDisplayName(rawName);
   return {
-    title: `Qué votó ${name} · mi-boleta`,
+    title: `¿Qué votó ${name} · mi-boleta`,
     description: `Cómo votó ${name} en las leyes destacadas de mi-boleta.`,
   };
 }
@@ -68,7 +68,7 @@ export default async function LegisladorPage({ params }: PageProps) {
           <LegislatorAvatar name={name} foto={foto} size="lg" />
           <div className="min-w-0 space-y-3">
             <h1 className="max-w-[18ch] text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
-              Qué #@%$&amp; votaste {name}?
+            ¿Qué #@%$&amp; votaste? {name}?
             </h1>
             <div className="space-y-1 text-sm text-ink-muted sm:text-base">
               {listLine ? <p>{listLine}</p> : null}

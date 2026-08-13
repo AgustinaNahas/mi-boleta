@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
 import type { LegislatorVoteRow } from "@/lib/data";
 import { clampSummary } from "@/components/law-tooltip";
 
@@ -35,17 +34,28 @@ function votePillLabel(voto: string) {
   return `voto ${key}`;
 }
 
+function isProceduralLaw(row: LegislatorVoteRow) {
+  const hay = `${row.title} ${row.summary}`.toUpperCase();
+  return (
+    hay.includes("APARTAMIENTO") ||
+    hay.includes("MOCIÓN") ||
+    hay.includes("MOCION")
+  );
+}
+
 export function LegislatorVotesPanel({ votes }: Props) {
   const [query, setQuery] = useState("");
+  const [showAllVotes, setShowAllVotes] = useState(false);
 
   const filtered = useMemo(() => {
     const q = normalize(query);
-    if (!q) return votes;
     return votes.filter((row) => {
+      if (!showAllVotes && isProceduralLaw(row)) return false;
+      if (!q) return true;
       const hay = normalize(`${row.title} ${row.summary} ${row.date ?? ""}`);
       return hay.includes(q);
     });
-  }, [votes, query]);
+  }, [votes, query, showAllVotes]);
 
   return (
     <div className="space-y-8">
@@ -91,21 +101,39 @@ export function LegislatorVotesPanel({ votes }: Props) {
             </button>
           ) : null}
         </div>
-        <p className="text-center text-sm italic text-ink-muted">
-          <a
-            href="#proyectos"
-            className="underline underline-offset-2 hover:text-ink"
+        <div
+          className="inline-flex rounded-full border border-ink text-xs font-medium"
+          role="group"
+          aria-label="Filtro de votaciones"
+        >
+          <button
+            type="button"
+            className={`cursor-pointer rounded-full px-3 py-1.5 ${
+              !showAllVotes ? "bg-ink text-white" : "text-ink"
+            }`}
+            onClick={() => setShowAllVotes(false)}
+            aria-pressed={!showAllVotes}
           >
-            ver proyectos
-          </a>
-        </p>
+            Leyes principales
+          </button>
+          <button
+            type="button"
+            className={`cursor-pointer rounded-full px-3 py-1.5 ${
+              showAllVotes ? "bg-ink text-white" : "text-ink"
+            }`}
+            onClick={() => setShowAllVotes(true)}
+            aria-pressed={showAllVotes}
+          >
+            Todas las votaciones
+          </button>
+        </div>
       </div>
 
-      <ul id="proyectos" className="divide-y divide-line-soft border-y border-line-soft">
+      <ul className="divide-y divide-line-soft border-y border-line-soft">
         {filtered.map((row) => (
           <li key={row.lawId}>
-            <Link
-              href={`/?ley=${encodeURIComponent(row.lawId)}`}
+            <a
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/?ley=${encodeURIComponent(row.lawId)}`}
               className="grid cursor-pointer grid-cols-1 items-start gap-3 py-5 sm:grid-cols-[minmax(10rem,0.9fr)_minmax(0,1.4fr)_auto] sm:gap-6"
             >
               <p className="text-base font-bold leading-snug text-ink sm:text-lg">
@@ -117,7 +145,7 @@ export function LegislatorVotesPanel({ votes }: Props) {
               <span className={votePillClass(row.voto)}>
                 {votePillLabel(row.voto)}
               </span>
-            </Link>
+            </a>
           </li>
         ))}
       </ul>
@@ -126,7 +154,9 @@ export function LegislatorVotesPanel({ votes }: Props) {
         <p className="text-sm text-ink-muted">
           {votes.length === 0
             ? "No hay votos destacados cargados para esta persona."
-            : "No hay proyectos que coincidan con la búsqueda."}
+            : query
+              ? "No hay proyectos que coincidan con la búsqueda."
+              : "No hay leyes principales en este set. Probá “Todas las votaciones”."}
         </p>
       ) : null}
     </div>

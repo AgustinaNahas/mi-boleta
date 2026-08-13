@@ -13,7 +13,10 @@ import type {
 } from "@/lib/data";
 import { clampSummary } from "@/components/law-tooltip";
 import { LegislatorAvatar } from "@/components/legislator-avatar";
-import { ChamberHemicycle } from "@/components/chamber-hemicycle";
+import {
+  ChamberHemicycle,
+  type VoteFilter,
+} from "@/components/chamber-hemicycle";
 
 type VoteKey = "AFIRMATIVO" | "NEGATIVO" | "ABSTENCION" | "AUSENTE";
 
@@ -88,6 +91,71 @@ function formatLawDate(date?: string) {
     month: "long",
     year: "numeric",
   });
+}
+
+type LawTableRow =
+  | { kind: "law"; law: FeaturedLaw }
+  | { kind: "divider"; date: string; added: number; removed: number };
+
+function buildLawTableRows(
+  laws: FeaturedLaw[],
+  elected: CandidateWithSeat[],
+): LawTableRow[] {
+  const rows: LawTableRow[] = [];
+  for (let i = 0; i < laws.length; i++) {
+    const law = laws[i];
+    if (i > 0) {
+      const newer = laws[i - 1];
+      const inNewer = elected.filter((p) => personInOffice(p, newer.date));
+      const inOlder = elected.filter((p) => personInOffice(p, law.date));
+      if (inNewer.length !== inOlder.length) {
+        const newerIds = new Set(inNewer.map((p) => p.id));
+        const olderIds = new Set(inOlder.map((p) => p.id));
+        const addedPeople = inNewer.filter((p) => !olderIds.has(p.id));
+        const removedPeople = inOlder.filter((p) => !newerIds.has(p.id));
+        const addedStarts = addedPeople
+          .map((p) => p.mandato_inicio)
+          .filter(Boolean)
+          .sort();
+        const removedEnds = removedPeople
+          .map((p) => p.mandato_fin)
+          .filter(Boolean)
+          .sort();
+        const eventDate =
+          addedStarts[addedStarts.length - 1] ||
+          removedEnds[removedEnds.length - 1] ||
+          newer.date ||
+          "";
+        rows.push({
+          kind: "divider",
+          date: eventDate,
+          added: addedPeople.length,
+          removed: removedPeople.length,
+        });
+      }
+    }
+    rows.push({ kind: "law", law });
+  }
+  return rows;
+}
+
+function dividerCopy(row: Extract<LawTableRow, { kind: "divider" }>) {
+  const when = formatLawDate(row.date);
+  if (row.added > 0 && row.removed === 0) {
+    const who =
+      row.added === 1
+        ? "se suma 1 diputado/a de esta lista"
+        : `se suman ${row.added} diputados/as de esta lista`;
+    return { title: "Renovación de la Cámara", detail: `${when} · ${who}` };
+  }
+  if (row.removed > 0 && row.added === 0) {
+    const who =
+      row.removed === 1
+        ? "sale 1 diputado/a de esta lista"
+        : `salen ${row.removed} diputados/as de esta lista`;
+    return { title: "Cambio de composición", detail: `${when} · ${who}` };
+  }
+  return { title: "Renovación de la Cámara", detail: when };
 }
 
 function isProceduralLaw(law: FeaturedLaw) {
@@ -271,6 +339,7 @@ export function ElegirWizard({
   const [selectedLawId, setSelectedLawId] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
   const [showAllVotes, setShowAllVotes] = useState(false);
+  const [voteFilter, setVoteFilter] = useState<VoteFilter | null>(null);
 
   const availableLists = useMemo(() => {
     if (!districtId || !electionId) return [];
@@ -314,6 +383,11 @@ export function ElegirWizard({
     if (showAllVotes) return listLaws;
     return listLaws.filter((law) => !isProceduralLaw(law));
   }, [listLaws, showAllVotes]);
+
+  const listTableRows = useMemo(
+    () => buildLawTableRows(visibleListLaws, elected),
+    [visibleListLaws, elected],
+  );
 
   const votesByLaw = useMemo(() => {
     const map = new Map<string, Map<string, FeaturedVote>>();
@@ -410,6 +484,18 @@ export function ElegirWizard({
       );
   }, [lawVoteRows]);
 
+  const visibleLawVotesByForce = useMemo(() => {
+    if (!voteFilter) return lawVotesByForce;
+    return lawVotesByForce
+      .map(({ force, members }) => ({
+        force,
+        members: members.filter(
+          (row) => row.voto.toUpperCase() === voteFilter,
+        ),
+      }))
+      .filter(({ members }) => members.length > 0);
+  }, [lawVotesByForce, voteFilter]);
+
   const listReady = Boolean(selectedList);
   const lawReady = Boolean(selectedLaw);
   const hydratedRef = useRef(false);
@@ -449,7 +535,6 @@ export function ElegirWizard({
 
   useEffect(() => {
     applyFromSearch(window.location.search);
-    hydratedRef.current = true;
 
     function onPopState() {
       skipUrlWriteRef.current = true;
@@ -462,7 +547,11 @@ export function ElegirWizard({
   }, []);
 
   useEffect(() => {
-    if (!hydratedRef.current) return;
+    // El primer sync corre con estado vacío: no pisar ?ley= / ?lista= de la URL.
+    if (!hydratedRef.current) {
+      hydratedRef.current = true;
+      return;
+    }
     if (skipUrlWriteRef.current) {
       skipUrlWriteRef.current = false;
       return;
@@ -479,6 +568,10 @@ export function ElegirWizard({
       window.dispatchEvent(new Event("mb:urlchange"));
     }
   }, [selectedLawId, listId]);
+
+  useEffect(() => {
+    setVoteFilter(null);
+  }, [selectedLawId]);
 
   useEffect(() => {
     if (!selectedLawId && !listId) return;
@@ -680,14 +773,14 @@ export function ElegirWizard({
       </section>
 
       {listReady && selectedList ? (
-        <section className="space-y-10 pt-24">
+        <section className="space-y-24 pt-24">
           <div className="cols gap-y-6">
             <div className="col-span-4 space-y-8 sm:col-span-8 lg:col-span-14 lg:col-start-2">
               <h2
                 ref={listMainRef}
                 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl"
               >
-                ¿Qué votaron los que voté?
+                ¿Qué #@%$&amp; votaron (y qué no) los que voté?
               </h2>
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
                 <div className="space-y-3">
@@ -802,7 +895,22 @@ export function ElegirWizard({
               </p>
             ) : (
               <ul className="divide-y divide-line-soft border-y border-line-soft">
-                {visibleListLaws.map((law) => {
+                {listTableRows.map((row) => {
+                  if (row.kind === "divider") {
+                    const copy = dividerCopy(row);
+                    return (
+                      <li
+                        key={`divider-${row.date}-${row.added}-${row.removed}`}
+                        className="bg-ink px-4 py-2.5 text-center"
+                      >
+                        <p className="text-xs font-semibold tracking-wide text-white">
+                          {copy.title}
+                        </p>
+                        <p className="text-[11px] text-white/75">{copy.detail}</p>
+                      </li>
+                    );
+                  }
+                  const { law } = row;
                   const counts = countVotesForPeople(
                     elected,
                     law,
@@ -977,6 +1085,8 @@ export function ElegirWizard({
                 <ChamberHemicycle
                   chamber={chamberByLaw[selectedLaw.id]}
                   votesByLegislator={lawVotesByLegislator}
+                  voteFilter={voteFilter}
+                  onVoteFilterChange={setVoteFilter}
                   className="w-full"
                 />
               ) : (
@@ -988,7 +1098,7 @@ export function ElegirWizard({
           </div>
 
           <div className="space-y-8">
-            {lawVotesByForce.map(({ force, members }) => (
+            {visibleLawVotesByForce.map(({ force, members }) => (
               <section key={force} className="space-y-3">
                 <h4 className="text-base font-bold tracking-tight text-ink">
                   {force}

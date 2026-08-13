@@ -28,7 +28,7 @@ export default function HomePage() {
         <div className="cols items-stretch gap-y-8">
           <div className="col-span-4 flex min-w-0 flex-col justify-center space-y-5 sm:col-span-8 lg:col-span-8">
             <h1 className="rise max-w-[14ch] text-5xl font-bold leading-[1.02] tracking-tight text-ink sm:text-6xl lg:text-[88px]">
-              Qué #@%$&amp; votaron?
+            ¿Qué #@%$&amp; votaron?
             </h1>
             <p className="rise rise-delay-1 max-w-md text-base leading-relaxed text-ink-muted sm:text-lg">
               Elegí la lista que votaste y mirá quiénes entraron — y cómo

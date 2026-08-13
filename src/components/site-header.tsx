@@ -46,12 +46,6 @@ export function SiteHeader() {
           >
             Metodología
           </Link>
-          <Link
-            href="/#buscar-proyecto"
-            className="text-sm font-medium text-ink transition hover:opacity-60"
-          >
-            Buscar por proyecto
-          </Link>
         </div>
       </div>
     </header>
